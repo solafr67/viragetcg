@@ -423,15 +423,24 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
   .odds div{grid-template-columns:84px 1fr 44px}
 }
 /* ---------- Marché & défis ---------- */
-.mk{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:18px}
-.mk-it{display:flex;flex-direction:column;gap:10px;text-align:center;min-width:0}
+#v-marche .head-row{align-items:center}
+.mk-tabs{margin-top:0;align-self:center}
+#v-marche[data-tab=day] .mk-pane,#v-marche[data-tab=ventes] #mk-day,#v-marche[data-tab=ventes] #trades,#v-marche[data-tab=echanges] #mk-day,#v-marche[data-tab=echanges] #pmarket{display:none}
+.mk-day{background:radial-gradient(120% 90% at 50% 0%,rgba(245,196,81,.10),transparent 60%),linear-gradient(180deg,var(--panel),rgba(21,32,57,.6))}
+.mk-hd{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.mk-hd h3{font-size:26px}.mk-hd p{margin:4px 0 0;color:var(--mute);font-size:14px}
+.mk-hd #mk-cd{color:var(--fg);font-weight:600;white-space:nowrap}
+.mk{display:grid;grid-template-columns:repeat(4,minmax(0,210px));justify-content:center;gap:28px 24px}
+@media(max-width:760px){.mk{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 14px}}
+.mk-it{display:grid;gap:10px;min-width:0;align-content:start}
 .mk-it .card{--w:100%}
-.mk-it .btn{padding:9px 10px}
-.mk-no{color:var(--mute);font-size:13px;font-weight:600}
-.craft{display:flex;flex-direction:column;margin-top:6px}
-.craft-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 0;border-top:1px solid var(--line)}
-.craft-row:first-child{border-top:0}
-.craft-row small{display:block;color:var(--mute);margin-top:2px}
+.mk-ft{display:flex;align-items:center;justify-content:space-between;gap:8px;min-width:0}
+.mk-r{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c);display:flex;align-items:center;gap:6px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mk-r::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c);flex:none;box-shadow:0 0 8px var(--c)}
+.mk-it .btn{width:100%;padding:10px 12px}
+.mk-st{display:flex;align-items:center;justify-content:center;gap:6px;min-height:42px;border-radius:12px;border:1px dashed var(--line);color:var(--mute);font-size:13px;font-weight:600}
+.mk-st.ok{border-style:solid;border-color:rgba(52,211,153,.45);color:var(--r1)}
+.mk-it.done .card{filter:saturate(.55) brightness(.8)}
 .defis{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:14px}
 .defi{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px;align-items:flex-start;min-width:0}
 .defi.won{background:linear-gradient(135deg,rgba(52,211,153,.14),var(--panel) 60%)}
@@ -582,19 +591,20 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
   </section>
 
   <!-- MARCHÉ -->
-  <section class="view" id="v-marche" hidden>
+  <section class="view" id="v-marche" data-tab="day" hidden>
     <div class="head-row">
       <div><div class="eyebrow">Transferts</div><h1>Marché</h1></div>
-      <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-start"><span style="color:var(--mute);font-size:13px">L'offre change chaque jour à minuit.</span><button type="button" class="btn ghost" data-act="mk-roll" id="mk-roll">Renouveler l'offre · <span class="coin sm"></span> 250</button></div>
+      <div class="seg mk-tabs" id="mk-tabs" role="tablist" aria-label="Rubriques du marché" hidden><button type="button" role="tab" data-act="mkt" data-t="day">Offre du jour</button><button type="button" role="tab" data-act="mkt" data-t="ventes">Ventes</button><button type="button" role="tab" data-act="mkt" data-t="echanges">Échanges</button></div>
     </div>
-    <div class="mk" id="mk-grid"></div>
-    <div class="panel">
-      <h3 style="font-size:22px">Atelier d'échange</h3>
-      <p style="color:var(--mute);margin:6px 0 0;font-size:14px">Les doublons partent en premier, puis tes cartes les moins bien notées. Tes titulaires et favorites gardent toujours un exemplaire. Pour vendre une carte précise, ouvre-la dans ta collection.</p>
-      <div class="craft" id="mk-craft"></div>
+    <div class="panel mk-day" id="mk-day">
+      <div class="mk-hd">
+        <div><div class="eyebrow">Boutique</div><h3>Offre du jour</h3><p>Huit cartes à prix fixe, chacune achetable une fois. <span id="mk-cd" class="num"></span></p></div>
+        <button type="button" class="btn ghost" data-act="mk-roll" id="mk-roll">Nouvelle offre · <span class="coin sm"></span> 250</button>
+      </div>
+      <div class="mk" id="mk-grid"></div>
     </div>
-    <div class="panel" id="pmarket" style="margin-top:24px" hidden></div>
-    <div class="panel" id="trades" style="margin-top:24px" hidden></div>
+    <div class="panel mk-pane" id="pmarket" hidden></div>
+    <div class="panel mk-pane" id="trades" hidden></div>
   </section>
 
   <!-- PROFIL -->
@@ -3180,16 +3190,18 @@ function mktFill(roll){
   [1,1,1,2,2,3,3,r()<.12?5:4].forEach(t=>{const pool=BYR[t].filter(p=>!S.owned[p.id]&&!items.includes(p.id)),src=pool.length?pool:BYR[t].filter(p=>!items.includes(p.id));items.push(src[r()*src.length|0].id)});
   S.mkt={day:today(),roll,items,sold:{}};
 }
-function craftable(t){const keep=new Set([...Object.values(S.squad),...S.favs]),out=[];
-  owned().filter(p=>p.r===t).sort((a,b)=>((S.owned[b.id]>1)-(S.owned[a.id]>1))||a.ovr-b.ovr||(a.id<b.id?-1:a.id>b.id?1:0)).forEach(p=>{const n=S.owned[p.id]-(keep.has(p.id)?1:0);for(let k=0;k<n;k++)out.push(p)});return out}
+let MKT='day';try{MKT=localStorage.getItem('virage-mkt')||'day'}catch(e){}
+function mkTab(t){if(t)MKT=t;if(!NET)MKT='day';if(!['day','ventes','echanges'].includes(MKT))MKT='day';try{localStorage.setItem('virage-mkt',MKT)}catch(e){}
+  const v=$('#v-marche');v.dataset.tab=MKT;$('#mk-tabs').hidden=!NET;document.querySelectorAll('#mk-tabs button').forEach(b=>{const on=b.dataset.t===MKT;b.setAttribute('aria-pressed',on);b.setAttribute('aria-selected',on)})}
+function mkClock(){const el=$('#mk-cd');if(!el)return;const n=new Date(),m=new Date(n);m.setHours(24,0,0,0);const s=Math.max(0,(m-n)/1000|0),h=s/3600|0,mn=(s%3600)/60|0;el.textContent=`Nouvelle offre dans ${h?h+' h ':''}${String(mn).padStart(h?2:1,'0')} min.`}
+setInterval(()=>{if(!$('#v-marche').hidden)mkClock()},30000);
 function market(){
   if(NET){if(!S.mkt||!Array.isArray(S.mkt.items))S.mkt={day:'',roll:0,items:[],sold:{}};if(!S.mkt.sold)S.mkt.sold={}}
   else if(!S.mkt||S.mkt.day!==today()||!Array.isArray(S.mkt.items)||!S.mkt.items.length||!S.mkt.sold)mktFill(0);
   $('#mk-roll').disabled=S.coins<250;
-  $('#mk-grid').innerHTML=S.mkt.items.map((id,i)=>{const p=BY[id];if(!p)return'';const pr=priceOf(p),can=S.coins>=pr;
-    return `<div class="mk-it">${cardHTML(p,{attrs:''})}${S.mkt.sold[i]?'<span class="mis-ok">Achetée</span>':S.owned[id]?'<span class="mk-no">Déjà dans ta collection</span>':`<button type="button" class="btn ${can?'gold':'ghost'}" data-act="buy" data-i="${i}"${can?'':' disabled'}><span class="coin sm"></span> ${fmt(pr)}</button>`}</div>`}).join('');
-  $('#mk-craft').innerHTML=[0,1,2,3,4].map(t=>{const n=craftable(t).length;
-    return `<div class="craft-row"><div><strong>Donne 5 <span style="color:${RAR[t].c}">${RAR[t].n}</span>, reçois 1 <span style="color:${RAR[t+1].c}">${RAR[t+1].n}</span></strong><small class="num">${Math.min(n,5)} / 5 cartes disponibles</small></div><button type="button" class="btn ${n>=5?'gold':'ghost'}" data-act="craft" data-t="${t}"${n>=5?'':' disabled'}>Échanger</button></div>`}).join('');
+  mkTab();mkClock();
+  $('#mk-grid').innerHTML=S.mkt.items.map((id,i)=>{const p=BY[id];if(!p)return'';const pr=priceOf(p),can=S.coins>=pr,sold=S.mkt.sold[i],has=!sold&&S.owned[id];
+    return `<div class="mk-it${sold||has?' done':''}">${cardHTML(p,{attrs:`data-act="card" data-id="${p.id}"`})}<div class="mk-ft"><span class="mk-r" style="--c:${RAR[p.r].c}">${RAR[p.r].n}</span></div>${sold?'<span class="mk-st ok">✓ Achetée</span>':has?'<span class="mk-st">Déjà dans ta collection</span>':`<button type="button" class="btn ${can?'gold':'ghost'}" data-act="buy" data-i="${i}"${can?'':' disabled'} aria-label="Acheter ${p.full} pour ${fmt(pr)} pièces"><span class="coin sm"></span> ${fmt(pr)}</button>`}</div>`}).join('');
 }
 let MCUR={club:'',di:null},mbusy=false,mskip=false;
 const msleep=ms=>new Promise(r=>setTimeout(r,(mskip||RM)?0:ms));
@@ -3288,7 +3300,6 @@ function autoFill(){
   SLOTS.forEach((s,i)=>{if(S.squad[i])return;const p=o.find(p=>!used.has(p.id)&&okSlot(p,s));if(p){S.squad[i]=p.id;used.add(p.id)}});
 }
 
-function craftDone(p,t){SFX.play('burst');setTimeout(()=>SFX.play('r'+p.r),250);modal(`<div class="detail">${cardHTML(p,{attrs:''})}<div class="info"><span class="tagr" style="--c:${RAR[p.r].c}">${RAR[p.r].n}</span><h2>${p.full}</h2><p style="margin:0;color:var(--mute)">Reçue en échange de 5 cartes ${RAR[t].n}.</p><button type="button" class="btn gold" data-act="close">Continuer</button></div></div>`)}
 function srv(name,args,ok){NET.call(name,args).then(o=>{if(o&&o.state)NET.apply(o.state);ok&&ok(o)}).catch(e=>{SFX.play('error');toast(NET.msg(e));NET.refresh&&NET.refresh()})}
 function applyState(st,quiet){
   NET.defis=st.defis||[];NET.bank=st.bank||null;NET.matches=st.matches||0;NET.skew=(st.now||Date.now())-Date.now();
@@ -3352,9 +3363,9 @@ const RANGES=['moins de 75','75 à 79','80 à 84','85 à 88','89 à 92','93 et p
 const TUTO=[
  {ic:'⚽',t:'Bienvenue dans Virage',h:()=>`<p>Collectionne les <b>${fmt(P.length)} joueurs</b> des cinq grands championnats européens, plus quelques légendes. Chaque carte a une rareté qui dépend de la note du joueur :</p><div class="rlist">${RAR.map((r,i)=>`<span style="--c:${r.c}">${r.n}<small>${RANGES[i]}</small></span>`).join('')}</div>`},
  {ic:'🎁',t:'Ouvre des boosters',h:()=>`<ul><li>Chaque booster contient <b>5 cartes</b>.</li><li>Tu reçois <b>un booster gratuit toutes les 10 minutes</b>, jusqu'à 10 en stock : reviens régulièrement.</li><li>Garanties : une <b>Épique</b> ou mieux au moins tous les 10 boosters, une <b>Légendaire</b> ou mieux au moins tous les 150.</li><li>Avec tes pièces : booster Élite (une Rare minimum) ou booster d'un championnat précis.</li></ul>`},
- {ic:'📚',t:'Complète ta collection',h:()=>`<ul><li>La <b>Collection</b> montre toutes les cartes, même celles que tu n'as pas : ouvre-les pour voir leurs détails.</li><li>En mode <b>Albums</b>, complète tous les joueurs d'un club pour encaisser une prime, puis tous les clubs d'un championnat pour <b>10 000 pièces</b>.</li><li>Tes doublons servent à l'<b>Atelier</b> (5 cartes contre 1 de la rareté au-dessus) ou à la vente.</li></ul>`},
+ {ic:'📚',t:'Complète ta collection',h:()=>`<ul><li>La <b>Collection</b> montre toutes les cartes, même celles que tu n'as pas : ouvre-les pour voir leurs détails.</li><li>En mode <b>Albums</b>, complète tous les joueurs d'un club pour encaisser une prime, puis tous les clubs d'un championnat pour <b>10 000 pièces</b>.</li><li>Tes doublons se vendent aux autres joueurs, s'échangent, ou se revendent rapidement à la banque.</li></ul>`},
  {ic:'🏟️',t:'Compose ton onze et joue',h:()=>`<ul><li>Dans <b>Effectif</b>, choisis ta formation et aligne 11 joueurs. Des joueurs du même club, du même championnat ou de la même nationalité renforcent ton <b>collectif</b>.</li><li>Dans <b>Matchs</b> : la tournée des 96 clubs, trois défis renouvelés chaque lundi, et des matchs contre les onzes des autres joueurs avec un classement mensuel.</li></ul>`},
- {ic:'🤝',t:'Échange avec les autres',h:()=>`<ul><li>Le <b>Marché</b> propose chaque jour 8 cartes à acheter avec tes pièces.</li><li>Avec un compte gratuit (onglet <b>Profil</b>) : ta partie est sauvegardée et protégée, tu peux vendre et échanger avec les autres joueurs, et la cloche 🔔 te prévient de tes ventes et de tes cartes en envie.</li><li>Le bouton 🔊 coupe ou remet le son.</li></ul>`}
+ {ic:'🤝',t:'Échange avec les autres',h:()=>`<ul><li>Le <b>Marché</b> propose chaque jour 8 cartes à acheter avec tes pièces, et deux onglets pour vendre et échanger avec les autres joueurs.</li><li>Avec un compte gratuit (onglet <b>Profil</b>) : ta partie est sauvegardée et protégée, tu peux vendre et échanger avec les autres joueurs, et la cloche 🔔 te prévient de tes ventes et de tes cartes en envie.</li><li>Le bouton 🔊 coupe ou remet le son.</li></ul>`}
 ];
 let TI=0;
 function tuto(i){
@@ -3368,7 +3379,7 @@ const FAQ=[
  ['Comment avoir des boosters gratuits ?',()=>'Un booster gratuit arrive toutes les 10 minutes, même quand tu n\'es pas sur le site. Tu peux en stocker 10 : au-delà, le compteur s\'arrête jusqu\'à ce que tu en ouvres un.'],
  ['Que sont les garanties Épique et Légendaire ?',()=>'Si tu ouvres 9 boosters sans Épique (ou mieux), le 10e en contient forcément une. De même, après 149 boosters sans Légendaire (ou mieux), le 150e en contient une. Chaque compteur repart à zéro dès que tu obtiens la rareté, même par chance.'],
  ['Comment gagner des pièces ?',()=>'Missions du jour, matchs (surtout la première victoire contre chaque club), défis de la semaine, matchs contre d\'autres joueurs, albums complétés, passages de niveau, et ventes de cartes. Certaines sources sont plafonnées chaque jour pour garder une économie saine.'],
- ['À quoi servent les doublons ?',()=>'À l\'Atelier du Marché : 5 cartes d\'une rareté contre 1 carte de la rareté au-dessus (tes doublons partent en premier). Tu peux aussi les vendre aux autres joueurs, les échanger, ou les vendre rapidement à la banque.'],
+ ['À quoi servent les doublons ?',()=>'Tu peux les vendre aux autres joueurs (onglet Ventes du Marché), les proposer en échange (onglet Échanges), ou les revendre rapidement à la banque depuis la fiche de la carte. Le tri « doublons d\'abord » de la Collection les regroupe.'],
  ['Qu\'est-ce que le collectif ?',()=>'Un bonus de ton onze qui monte quand tes joueurs partagent un club, un championnat ou une nationalité. Chaque tranche de 20 points de collectif ajoute 1 point à ta note en match. Aligner un joueur hors de son poste habituel coûte un peu de note.'],
  ['Comment marchent les matchs contre les joueurs ?',()=>'Ton onze affronte celui d\'un autre joueur tel qu\'il l\'a composé. Victoire : 3 points de saison, nul : 1 point. Le classement de saison repart à zéro chaque mois et les meilleurs reçoivent des pièces le 1er du mois. Ton onze sert aussi de défense quand on te défie.'],
  ['Comment vendre ou échanger une carte ?',()=>'Il faut un compte, le niveau 5 et 2 jours d\'ancienneté (protection contre les comptes multiples). Pour vendre : ouvre la carte dans ta Collection et fixe ton prix. Pour échanger : section Échanges du Marché. Les ventes et les pièces échangées sont taxées à 10 %.'],
@@ -3553,13 +3564,8 @@ document.addEventListener('click',e=>{
   else if(a==='buy'){const i=+el.dataset.i,p=BY[S.mkt.items[i]];if(!p||S.mkt.sold[i]||S.owned[p.id])return;const pr=priceOf(p);if(S.coins<pr){toast('Pas assez de pièces');return}
     if(NET){srv('shop_buy',{p_i:i},()=>toast(`${p.short} rejoint ta collection`));return}
     S.coins-=pr;S.owned[p.id]=1;S.mkt.sold[i]=1;gainXp(XP.action);save();renderAll();toast(`${p.short} rejoint ta collection`)}
+  else if(a==='mkt'){SFX.play('tap');mkTab(el.dataset.t);if(NET&&NET.marketTab)NET.marketTab(MKT)}
   else if(a==='mk-roll'){if(S.coins<250){toast('Pas assez de pièces');return}if(NET){srv('shop_reroll',{});return}S.coins-=250;mktFill((S.mkt.roll||0)+1);save();renderAll()}
-  else if(a==='craft'){const t=+el.dataset.t,l=craftable(t).slice(0,5);if(l.length<5)return;
-    modal(`<h2 style="font-size:30px;padding-right:40px">Échange</h2><p style="color:var(--mute);margin:6px 0 0">Tu donnes ces 5 cartes ${RAR[t].n} et tu reçois 1 carte ${RAR[t+1].n} au hasard. L'échange est définitif.</p><div class="pick">${l.map(p=>cardHTML(p,{attrs:''})).join('')}</div><div class="row" style="margin-top:16px"><button type="button" class="btn gold" data-act="craft-go" data-t="${t}">Confirmer l'échange</button><button type="button" class="btn ghost" data-act="close">Annuler</button></div>`)}
-  else if(a==='craft-go'){const t=+el.dataset.t,l=craftable(t).slice(0,5);if(l.length<5){closeModal();return}
-    if(NET){el.disabled=true;srv('craft',{p_tier:t},o=>{const p=BY[o.card];if(p)craftDone(p,t)});return}
-    l.forEach(p=>{if(--S.owned[p.id]<=0)delete S.owned[p.id]});const pool=BYR[t+1].filter(p=>!S.owned[p.id]),src=pool.length?pool:BYR[t+1],p=src[Math.random()*src.length|0];
-    S.owned[p.id]=(S.owned[p.id]||0)+1;gainXp(XP.action);save();renderAll();craftDone(p,t)}
   else if(a==='sell'){const p=BY[id];if(!p||!S.owned[id])return;
     if(!el.dataset.arm){el.dataset.arm='1';el.textContent=`Confirmer la vente · ${fmt(RAR[p.r].sell)} pièces`;return}
     if(NET){srv('bank_sell',{p_card:id},o=>{closeModal();toast(`${p.short} vendu : +${fmt(o.gain)} pièces`)});return}
@@ -3603,7 +3609,7 @@ $('#f-sort').addEventListener('change',e=>{F.sort=e.target.value;collection()});
 setInterval(freeUI,1000);
 
 $('#lgpacks').innerHTML=Object.keys(LGP).map(l=>{const g=LGP[l];return `<button type="button" class="lgp" data-act="open" data-k="${g[0]}" style="--a:${g[2]};--b:${g[3]}"><b>${l}</b><small>5 cartes · ${g[1]}</small><span class="lgp-c"><span class="coin sm"></span> 750</span></button>`}).join('');
-window.VGAME={get:()=>S,toast,closeModal,detail,help,
+window.VGAME={get:()=>S,mkTab:t=>{mkTab(t);return MKT},toast,closeModal,detail,help,
   cardBig:id=>BY[id]?cardHTML(BY[id],{attrs:''}):'',sfx:n=>SFX.play(n),
   pvp:pv=>playMatch(null,null,pv),hasTeam:()=>!!myTeam(),teamOvr:()=>{const t=myTeam();return t?t.r.ovr:0},
   online(api){NET=api;api.apply=applyState},
@@ -3690,23 +3696,45 @@ body.gated{overflow:hidden}
 .ol-lb .ol-nm{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:700}
 .ol-lb .ol-nm small{display:block;font-weight:500;color:var(--mute);font-size:12px}
 .ol-lb .ol-sc{font-weight:800;text-align:right}
-.tr-list{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:10px}
-.tr-of{border:1px solid var(--line);border-radius:14px;padding:12px;background:rgba(255,255,255,.03);display:grid;gap:10px}
-.tr-of.can{border-color:rgba(52,211,153,.55)}
-.tr-sw{display:flex;align-items:flex-start;gap:12px;flex-wrap:wrap}
-.tr-c{width:84px;flex:none}.tr-c .card{--w:100%}
-.tr-c small{display:block;margin-top:6px;font-size:12px;color:var(--mute);line-height:1.25;overflow-wrap:anywhere}
-.tr-ar{font-family:var(--disp);font-size:28px;color:var(--gold);align-self:center}
+.tr-list{margin:12px 0 0;padding:0;list-style:none;display:grid;gap:12px}
+.tr-of{border:1px solid var(--line);border-radius:16px;padding:14px;background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.015));display:grid;gap:12px;min-width:0}
+.tr-of.can{border-color:rgba(52,211,153,.5);box-shadow:inset 0 0 0 1px rgba(52,211,153,.12)}
+.tr-hd{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--mute);min-width:0}
+.tr-hd b{color:var(--fg);font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tr-ok{margin-left:auto;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--r1);border:1px solid rgba(52,211,153,.45);border-radius:99px;padding:3px 9px;white-space:nowrap}
+.av{width:24px;height:24px;border-radius:50%;flex:none;display:inline-grid;place-items:center;font-size:12px;font-weight:800;color:#0A1020;background:linear-gradient(135deg,var(--cyan),#8B5CF6)}
+.tr-sw{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:10px;justify-items:center}
+.tr-side{display:grid;gap:6px;justify-items:center;min-width:0;width:100%}
+.tr-side>small{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.tr-side.in>small{color:var(--r1)}
+.tr-c{width:min(110px,100%);min-width:0}.tr-c .card{--w:100%}
+.tr-c small{display:block;margin-top:6px;font-size:12px;color:var(--mute);line-height:1.3;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tr-c small b{color:var(--fg);font-weight:700}
+.tr-ar{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:18px;color:var(--gold);border:1px solid rgba(245,196,81,.4);background:rgba(245,196,81,.08)}
+.tr-new{border:1px solid var(--line);border-radius:16px;padding:16px;background:rgba(255,255,255,.025)}
+.tr-of .btn{width:100%}
+.pm-tk{display:grid;gap:8px}
+.pm-pr{display:flex;align-items:center;gap:6px;flex-wrap:wrap}.pm-pr b{font-size:19px;font-weight:800}
+.deal{font-size:11px;font-weight:700;border-radius:99px;padding:2px 7px;margin-left:auto;white-space:nowrap}
+.deal.good{color:var(--r1);background:rgba(52,211,153,.12)}.deal.bad{color:#FF9AA5;background:rgba(255,59,78,.12)}.deal.mid{color:var(--mute);background:rgba(255,255,255,.06)}
+.pm-sel{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--mute);min-width:0}.pm-sel span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pm-sel .av{width:18px;height:18px;font-size:10px}
+.pm-mine-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:14px;margin-top:10px}
+.pm-mi{display:grid;gap:6px;align-content:start}.pm-mi .card{--w:100%}.pm-mi small{font-size:12px;color:var(--mute);display:flex;justify-content:space-between;gap:6px}.pm-mi .btn{padding:7px 10px;font-size:13px}
+.tr-mine{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.mk-sub{display:flex;align-items:baseline;gap:10px;margin:26px 0 0;font-size:16px}.mk-sub small{color:var(--mute);font-size:13px;font-weight:500}
 .tr-res{display:grid;gap:6px;margin-top:6px}
 .tr-res button{display:flex;gap:8px;justify-content:space-between;text-align:left;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:10px;padding:8px 10px;cursor:pointer;color:var(--fg);font:inherit;font-size:14px}
 .tr-res button small{color:var(--mute)}
-.tr-hist{font-size:13px;color:var(--mute);margin:6px 0 0;padding-left:18px}
+.tr-hist{font-size:13px;color:var(--mute);margin:8px 0 0;padding:0;list-style:none;display:grid}
+.tr-hist li{padding:9px 0;border-top:1px solid var(--line)}.tr-hist li:first-child{border-top:0}
 .pm-f{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr) auto;gap:10px;margin-top:12px;align-items:center}
 @media(max-width:640px){.pm-f{grid-template-columns:minmax(0,1fr)}}
-.pm-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:16px;margin-top:14px}
-.pm-it{display:grid;gap:8px;align-content:start}.pm-it .card{--w:100%}
+.pm-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:22px 18px;margin-top:18px}
+@media(max-width:640px){.pm-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 12px}}
+.pm-it{display:grid;gap:10px;align-content:start;min-width:0}.pm-it .card{--w:100%}
 .pm-it .pm-p{display:flex;justify-content:space-between;gap:6px;font-size:12px;color:var(--mute)}
-.pm-it .btn{padding:10px 12px}
+.pm-it .btn{padding:10px 12px;width:100%}
 .pm-mine{display:grid;gap:8px;margin-top:10px}
 .pm-row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:14px}
 .pm-row small{color:var(--mute)}
@@ -3733,7 +3761,7 @@ body.gated{overflow:hidden}
 .pv-op small{color:var(--mute);font-size:12px}
 .pv-op .f{font-family:var(--disp);font-size:28px}
 .pv-op .btn{grid-column:1/-1;padding:10px}
-.tr-co{font-size:12px;color:var(--gold);font-weight:700;margin-top:4px}
+.tr-co{font-size:13px;color:var(--gold);font-weight:700;text-align:center;border:1px dashed rgba(245,196,81,.4);border-radius:10px;padding:7px 10px}
 #ol-cap{min-height:0}
 .bell{position:relative;border:1px solid var(--line);background:var(--panel);border-radius:999px;width:40px;height:40px;display:grid;place-items:center;cursor:pointer;font-size:17px;flex:none;margin-right:8px;padding:0}
 .bell:hover{border-color:var(--mute)}
@@ -4055,7 +4083,9 @@ box.addEventListener('click',async e=>{
 
 /* ---------- éléments communs ---------- */
 const nm=id=>{const i=G.info(id);return i?i.name:'carte inconnue'};
-const mini=id=>{const i=G.info(id);return i?`<div class="tr-c">${G.card(id)}<small style="color:${i.c}">${esc(i.name)} · ${i.ovr}<br>${esc(i.rn)}</small></div>`:''};
+const mini=id=>{const i=G.info(id);return i?`<div class="tr-c">${G.card(id)}<small title="${esc(i.full||i.name)}"><b>${esc(i.name)}</b></small><small style="color:${i.c};margin-top:0">${esc(i.rn)} · ${i.ovr}</small></div>`:''};
+const side=(lab,id,inn)=>`<div class="tr-side${inn?' in':''}"><small>${lab}</small>${mini(id)}</div>`;
+const avt=n=>`<span class="av" aria-hidden="true">${esc(String(n||'?').trim().charAt(0).toUpperCase()||'?')}</span>`;
 const dt=t=>new Date(t).toLocaleDateString('fr-FR',{day:'numeric',month:'short'});
 const left=t=>{const h=Math.max(0,Math.round((new Date(t)-Date.now())/3600000));return h>=24?`encore ${Math.round(h/24)} j`:`encore ${h} h`};
 const isMarket=()=>!document.getElementById('v-marche').hidden;
@@ -4108,7 +4138,7 @@ function cardExtra(id){
 }
 api.cardExtra=cardExtra;
 function goMarket(q){
-  M.q=q||'';M.wish=false;T.q='';
+  M.q=q||'';M.wish=false;T.q='';if(G.mkTab)G.mkTab('ventes');
   const n=document.querySelector('.nav [data-v=marche]');if(n)n.click();
   setTimeout(()=>{const i=document.getElementById('pm-q');if(i)i.value=M.q;loadMarket();const mb=document.getElementById('pmarket');if(mb)mb.scrollIntoView({block:'start',behavior:'smooth'})},50);
 }
@@ -4128,8 +4158,8 @@ async function loadMarket(){
 function drawMarket(){
   if(!MB)return;MB.hidden=!sb;if(!sb)return;
   if(!user||!G.isOnline()){MB.innerHTML=`<div class="eyebrow">Entre joueurs</div><h3>Ventes entre joueurs</h3><p class="ol-msg">Connecte-toi pour acheter et vendre des cartes contre des pièces.</p><button type="button" class="btn gold" data-act="nav" data-v="profil">Me connecter</button>`;return}
-  MB.innerHTML=`<div class="ol-top"><div><div class="eyebrow">Entre joueurs</div><h3>Ventes entre joueurs</h3></div><button type="button" class="btn ghost" data-pm="refresh">Actualiser</button></div>
-   <p class="ol-msg" style="margin-top:8px">Achète les cartes mises en vente par les autres joueurs. Le vendeur reçoit le prix moins 10 % de taxe, qui disparaît de l'économie. Pour vendre, ouvre une carte dans ta Collection.</p>
+  MB.innerHTML=`<div class="ol-top"><div><div class="eyebrow">Entre joueurs</div><h3>Ventes</h3></div><button type="button" class="btn ghost" data-pm="refresh">Actualiser</button></div>
+   <p class="ol-msg" style="margin-top:8px">Les cartes mises en vente par les autres joueurs. Pour vendre une des tiennes, ouvre-la dans ta Collection et fixe ton prix (le vendeur reçoit le prix moins 10 %).</p>
    <div data-gate>${gateHTML()}</div>
    <div class="pm-f"><input id="pm-q" placeholder="Joueur ou club" value="${esc(M.q)}" aria-label="Rechercher"><select id="pm-r" aria-label="Rareté"><option value="-1">Toutes raretés</option>${RARN.map((n,i)=>`<option value="${i}"${M.r===i?' selected':''}>${n}</option>`).join('')}</select><select id="pm-s" aria-label="Tri"><option value="recent">Plus récentes</option><option value="prix"${M.sort==='prix'?' selected':''}>Prix croissant</option><option value="note"${M.sort==='note'?' selected':''}>Meilleure note</option></select><label class="pm-w"><input type="checkbox" id="pm-wish"${M.wish?' checked':''}> ♥ Mes envies</label></div>
    <div id="pm-list"></div><div id="pm-mine"></div>`;
@@ -4142,14 +4172,15 @@ function drawList(){
   if(!M.open.length){el.innerHTML=`<p class="ol-msg" style="margin-top:12px">${M.wish?"Aucune de tes envies n'est en vente pour l'instant. Tu seras prévenu par la cloche dès qu'une annonce arrive.":'Aucune carte en vente pour ces critères.'}</p>`;return}
   const coins=G.get().coins;
   el.innerHTML=`<div class="pm-grid">${M.open.map(l=>{const can=coins>=l.price&&!M.gate,arm=M.arm===l.id;
-    return `<div class="pm-it">${G.card(l.card)}<div class="pm-p"><span>${esc(l.pseudo)}</span><span>${left(l.expires_at)}</span></div>${l.avg?`<div class="pm-p"><span>Moyenne des ventes</span><span class="num">${fmt(l.avg)}</span></div>`:''}<button type="button" class="btn ${can?'gold':'ghost'}" data-pm="buy" data-id="${esc(l.id)}"${can&&!M.busy?'':' disabled'}><span class="coin sm"></span> ${arm?'Confirmer · ':''}${fmt(l.price)}</button></div>`}).join('')}</div>`;
+    const d=l.avg?Math.round((l.price-l.avg)/l.avg*100):null,deal=d==null?'':d<=-5?`<span class="deal good" title="Moyenne des ventes : ${fmt(l.avg)}">${d} %</span>`:d>=10?`<span class="deal bad" title="Moyenne des ventes : ${fmt(l.avg)}">+${d} %</span>`:`<span class="deal mid" title="Moyenne des ventes : ${fmt(l.avg)}">prix moyen</span>`;
+    return `<div class="pm-it">${G.card(l.card)}<div class="pm-tk"><div class="pm-pr"><span class="coin sm"></span><b class="num">${fmt(l.price)}</b>${deal}</div><div class="pm-sel">${avt(l.pseudo)}<span>${esc(l.pseudo)} · ${left(l.expires_at)}</span></div><button type="button" class="btn ${can?'gold':'ghost'}" data-pm="buy" data-id="${esc(l.id)}"${can&&!M.busy?'':' disabled'}>${arm?'Confirmer l\'achat':can?'Acheter':M.gate?'Bientôt disponible':'Pièces insuffisantes'}</button></div></div>`}).join('')}</div>`;
 }
 function drawMine(){
   const el=MB&&MB.querySelector('#pm-mine');if(!el)return;
   const open=M.mine.filter(l=>l.status==='open'),done=M.mine.filter(l=>l.status!=='open');
   const lab={sold:l=>`vendue à ${esc(l.buyer||'un joueur')} : +${fmt(l.price-Math.max(1,Math.ceil(l.price*.1)))} pièces`,cancelled:()=>'retirée',expired:()=>'expirée, carte rendue'};
-  el.innerHTML=(open.length?`<div style="margin-top:20px"><strong>Mes annonces (${open.length} / 10)</strong><div class="pm-mine">${open.map(l=>`<div class="pm-row"><span>${esc(nm(l.card))} · <b class="num">${fmt(l.price)}</b> <small>${left(l.expires_at)}</small></span><button type="button" class="btn ghost" data-pm="cancel" data-id="${esc(l.id)}"${M.busy?' disabled':''}>Retirer</button></div>`).join('')}</div></div>`:'')
-    +(done.length||M.bought.length?`<div style="margin-top:18px"><strong>Historique</strong><ul class="tr-hist">${done.map(l=>`<li>${dt(l.closed_at||l.created_at)} · ${esc(nm(l.card))} ${lab[l.status](l)}</li>`).join('')}${M.bought.map(b=>`<li>${dt(b.closed_at)} · ${esc(nm(b.card))} achetée à ${esc(b.seller)} pour ${fmt(b.price)} pièces</li>`).join('')}</ul></div>`:'');
+  el.innerHTML=(open.length?`<div class="mk-sub"><strong>Mes annonces</strong><small class="num">${open.length} / 10</small></div><div class="pm-mine-g">${open.map(l=>`<div class="pm-mi">${G.card(l.card)}<small><b class="num" style="color:var(--fg)">${fmt(l.price)}</b><span>${left(l.expires_at)}</span></small><button type="button" class="btn ghost" data-pm="cancel" data-id="${esc(l.id)}"${M.busy?' disabled':''}>Retirer</button></div>`).join('')}</div>`:'')
+    +(done.length||M.bought.length?`<div><div class="mk-sub"><strong>Historique</strong></div><ul class="tr-hist">${done.map(l=>`<li>${dt(l.closed_at||l.created_at)} · ${esc(nm(l.card))} ${lab[l.status](l)}</li>`).join('')}${M.bought.map(b=>`<li>${dt(b.closed_at)} · ${esc(nm(b.card))} achetée à ${esc(b.seller)} pour ${fmt(b.price)} pièces</li>`).join('')}</ul></div>`:'');
 }
 if(MB){
   MB.addEventListener('click',async e=>{
@@ -4180,7 +4211,7 @@ function resHTML(){return T.res.map(id=>{const i=G.info(id);return `<button type
 function pvHTML(){
   if(!T.give&&!T.want)return'';
   const warn=T.give&&G.count(T.give)===1&&G.inSquad(T.give)?`<p class="ol-msg warn">C'est ton dernier exemplaire de ${esc(nm(T.give))} et un titulaire : il quittera ton onze.</p>`:'';
-  return `<div class="tr-sw">${T.give?mini(T.give):'<div class="tr-c"></div>'}<span class="tr-ar">⇄</span>${T.want?mini(T.want):'<div class="tr-c"></div>'}</div>${warn}`;
+  return `<div class="tr-sw">${T.give?side('Tu donnes',T.give):'<div class="tr-side"></div>'}<span class="tr-ar">⇄</span>${T.want?side('Tu reçois',T.want,1):'<div class="tr-side"></div>'}</div>${warn}`;
 }
 function drawTrades(){
   if(!TB)return;TB.hidden=!sb;if(!sb)return;
@@ -4192,7 +4223,7 @@ function drawTrades(){
   <p class="ol-msg" style="margin-top:8px">Propose une de tes cartes contre celle d'un autre joueur, même si tu n'en as qu'un exemplaire, avec des pièces en plus si tu veux. Ta carte est mise de côté dès la publication et l'échange se fait d'un coup, des deux côtés.</p>
   <div data-gate>${gateHTML()}</div>
   <div class="ol-grid">
-   <div><strong>Publier une offre</strong>
+   <div class="tr-new"><strong>Publier une offre</strong>
     <form class="ol-form" id="tr-f" style="margin-top:10px" novalidate>
      <label>Je donne<select id="tr-give">${mine.length?`<option value="">Choisir une carte…</option>`+mine.map(id=>{const i=G.info(id);return `<option value="${esc(id)}"${id===T.give?' selected':''}>${esc(i.name)} · ${i.ovr} · ${esc(i.rn)} (×${G.count(id)})${G.inSquad(id)?' · titulaire':''}</option>`}).join(''):'<option value="">Aucune carte pour l\'instant</option>'}</select></label>
      <label>Je cherche<input id="tr-q" value="${esc(T.q)}" placeholder="Nom d'un joueur" autocomplete="off"></label>
@@ -4206,10 +4237,10 @@ function drawTrades(){
     </form></div>
    <div><div class="ol-top"><strong>Offres ouvertes</strong><div class="ol-tabs" style="margin:0"><button type="button" class="chip" data-tr="f" data-f="all" aria-pressed="${T.f==='all'}">Toutes</button><button type="button" class="chip" data-tr="f" data-f="can" aria-pressed="${T.f==='can'}">Que je peux faire</button></div></div>
     ${T.loaded?(list.length?`<ul class="tr-list">${list.map(r=>{const ok=can(r),last=ok&&G.count(r.want)===1,arm=T.arm===r.id;
-      return `<li class="tr-of${ok?' can':''}"><div class="ol-st">${esc(r.pseudo||'Joueur')} · ${dt(r.created_at)}</div><div class="tr-sw">${mini(r.give)}<span class="tr-ar">⇄</span>${mini(r.want)}</div>${coinsTxt(r)}${ok?`${last?`<span class="ol-msg warn">Tu donnes ton seul exemplaire de ${esc(nm(r.want))}${G.inSquad(r.want)?', qui est titulaire':''}.</span>`:''}<button type="button" class="btn gold" data-tr="accept" data-id="${esc(r.id)}"${T.busy?' disabled':''}>${arm?'Confirmer l\'échange':'Échanger'}</button>`:`<span class="ol-msg">${M.gate?'Échanges pas encore ouverts pour ton compte.':G.count(r.want)<1?`Il te faut ${esc(nm(r.want))} pour accepter.`:`Il te faut ${fmt(r.want_coins)} pièces pour accepter.`}</span>`}</li>`}).join('')}</ul>`:`<p class="ol-msg">${T.f==='can'?"Aucune offre ne correspond à tes cartes pour l'instant.":"Aucune offre ouverte. Publie la première."}</p>`):'<p class="ol-msg">Chargement…</p>'}
+      return `<li class="tr-of${ok?' can':''}"><div class="tr-hd">${avt(r.pseudo)}<b>${esc(r.pseudo||'Joueur')}</b><span>· ${dt(r.created_at)}</span>${ok?'<span class="tr-ok">Possible</span>':''}</div><div class="tr-sw">${side('Tu reçois',r.give,1)}<span class="tr-ar">⇄</span>${side('Tu donnes',r.want)}</div>${coinsTxt(r)}${ok?`${last?`<span class="ol-msg warn">Tu donnes ton seul exemplaire de ${esc(nm(r.want))}${G.inSquad(r.want)?', qui est titulaire':''}.</span>`:''}<button type="button" class="btn gold" data-tr="accept" data-id="${esc(r.id)}"${T.busy?' disabled':''}>${arm?'Confirmer l\'échange':'Échanger'}</button>`:`<span class="ol-msg">${M.gate?'Échanges pas encore ouverts pour ton compte.':G.count(r.want)<1?`Il te faut ${esc(nm(r.want))} pour accepter.`:`Il te faut ${fmt(r.want_coins)} pièces pour accepter.`}</span>`}</li>`}).join('')}</ul>`:`<p class="ol-msg">${T.f==='can'?"Aucune offre ne correspond à tes cartes pour l'instant.":"Aucune offre ouverte. Publie la première."}</p>`):'<p class="ol-msg">Chargement…</p>'}
    </div></div>
-  ${T.mine.length?`<div style="margin-top:18px"><strong>Mes offres en cours (${T.mine.length} / 5)</strong><ul class="tr-list">${T.mine.map(r=>`<li class="tr-of"><div class="tr-sw">${mini(r.give)}<span class="tr-ar">⇄</span>${mini(r.want)}</div>${coinsTxt(r)}<button type="button" class="btn ghost" data-tr="cancel" data-id="${esc(r.id)}"${T.busy?' disabled':''}>Annuler et récupérer ma carte</button></li>`).join('')}</ul></div>`:''}
-  ${T.hist.length?`<div style="margin-top:18px"><strong>Derniers échanges</strong><ul class="tr-hist">${T.hist.map(h=>`<li>${dt(h.done_at)} · avec ${esc(h.pseudo||'un joueur')} : tu as reçu ${esc(nm(h.got))} contre ${esc(nm(h.gave))}</li>`).join('')}</ul></div>`:''}`;
+  ${T.mine.length?`<div><div class="mk-sub"><strong>Mes offres en cours</strong><small class="num">${T.mine.length} / 5</small></div><ul class="tr-list tr-mine">${T.mine.map(r=>`<li class="tr-of"><div class="tr-sw">${side('Tu donnes',r.give)}<span class="tr-ar">⇄</span>${side('Tu reçois',r.want,1)}</div>${coinsTxt(r)}<button type="button" class="btn ghost" data-tr="cancel" data-id="${esc(r.id)}"${T.busy?' disabled':''}>Annuler et récupérer ma carte</button></li>`).join('')}</ul></div>`:''}
+  ${T.hist.length?`<div><div class="mk-sub"><strong>Derniers échanges</strong></div><ul class="tr-hist">${T.hist.map(h=>`<li>${dt(h.done_at)} · avec ${esc(h.pseudo||'un joueur')} : tu as reçu ${esc(nm(h.got))} contre ${esc(nm(h.gave))}</li>`).join('')}</ul></div>`:''}`;
 }
 const tm=(t,k)=>{T.msg=t;T.mk=k||'';const m=document.getElementById('tr-m');if(m){m.textContent=t;m.className='ol-msg '+T.mk}};
 async function tAct(fn){
