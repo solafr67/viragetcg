@@ -138,6 +138,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
 .nm.m{font-size:11.5cqw;top:89.5cqw}
 .nm.s{font-size:9.6cqw;top:90.5cqw}
 .nm.xs{font-size:7.6cqw;top:91.5cqw}
+.cnt{left:2cqw;bottom:1.2cqw;font-size:5.6cqw;line-height:1;padding:1cqw 2.2cqw;border-radius:99px;background:rgba(0,0,0,.55);color:rgba(255,255,255,.9);font-weight:700;letter-spacing:.02em;z-index:3}
 .club{left:5cqw;right:5cqw;top:103.5cqw;text-align:center;font-size:5.6cqw;color:rgba(255,255,255,.66);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .stats{left:7cqw;right:7cqw;bottom:6.5cqw;display:grid;grid-template-columns:repeat(3,1fr);border-top:.5cqw solid color-mix(in srgb,var(--rc) 55%,transparent);padding-top:3cqw}
 .stats span{display:flex;flex-direction:column;align-items:center;font-size:5cqw;letter-spacing:.1em;color:rgba(255,255,255,.6);font-weight:600}
@@ -528,7 +529,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
       <select id="f-lg" aria-label="Championnat"><option value="">Tous les championnats</option></select>
       <select id="f-club" aria-label="Club"><option value="">Tous les clubs</option></select>
       <select id="f-grp" aria-label="Position"><option value="">Toutes les positions</option><option value="G">Gardiens</option><option value="DEF">Défenseurs</option><option value="MIL">Milieux</option><option value="ATT">Attaquants</option></select>
-      <select id="f-sort" aria-label="Tri"><option value="">Tri : meilleure note</option><option value="name">Tri : nom</option><option value="club">Tri : club</option><option value="own">Tri : possédées d'abord</option></select>
+      <select id="f-sort" aria-label="Tri"><option value="">Tri : meilleure note</option><option value="name">Tri : nom</option><option value="club">Tri : club</option><option value="own">Tri : possédées d'abord</option><option value="dup">Tri : doublons d'abord</option></select>
       <label class="chk"><input type="checkbox" id="f-own"> Possédées seulement</label>
       <label class="chk" id="f-wish-l" hidden><input type="checkbox" id="f-wish"> Mes envies</label>
     </div>
@@ -2974,7 +2975,7 @@ function art(p){
 function cardHTML(p,o={}){
   const n=p.short.length,ns=n<=9?'':n<=12?' m':n<=15?' s':' xs';
   const cls='card r'+p.r+(o.locked?' locked':' tilt')+(o.mini?' mini':'');
-  return `<div class="${cls}" role="button" tabindex="0" ${o.attrs||`data-act="card" data-id="${p.id}"`} aria-label="${p.full}, ${RAR[p.r].n}, note ${o.locked?'inconnue, non débloquée':p.ovr}"><span class="card-in"><span class="fx"></span><span class="ovr num">${o.locked?'?':p.ovr}</span><span class="pos">${p.pos}</span><span class="nat"><i style="background:${FLAG[p.nat]||'#475569'}"></i>${p.nat}</span><span class="art">${art(p)}</span>${p.r===5?'<span class="bdg">Mythique</span>':''}<span class="nm${ns}">${p.short}</span><span class="club">${p.club} · ${p.lg}</span><span class="stats"><span><b class="num">${p.att}</b>ATT</span><span><b class="num">${p.def}</b>DEF</span><span><b class="num">${p.vit}</b>VIT</span></span><span class="shine"></span></span></div>`;
+  return `<div class="${cls}" role="button" tabindex="0" ${o.attrs||`data-act="card" data-id="${p.id}"`} aria-label="${p.full}, ${RAR[p.r].n}, note ${o.locked?'inconnue, non débloquée':p.ovr}"><span class="card-in"><span class="fx"></span><span class="ovr num">${o.locked?'?':p.ovr}</span><span class="pos">${p.pos}</span><span class="nat"><i style="background:${FLAG[p.nat]||'#475569'}"></i>${p.nat}</span><span class="art">${art(p)}</span>${p.r===5?'<span class="bdg">Mythique</span>':''}<span class="nm${ns}">${p.short}</span><span class="club">${p.club} · ${p.lg}</span><span class="stats"><span><b class="num">${p.att}</b>ATT</span><span><b class="num">${p.def}</b>DEF</span><span><b class="num">${p.vit}</b>VIT</span></span>${o.cnt&&!o.locked&&S.owned[p.id]>1?`<span class="cnt num" title="${S.owned[p.id]} exemplaires">×${S.owned[p.id]}</span>`:''}<span class="shine"></span></span></div>`;
 }
 
 /* ---------- Inclinaison 3D ---------- */
@@ -3032,8 +3033,9 @@ function collection(){
   if(F.sort==='name')list.sort((a,b)=>a.short.localeCompare(b.short,'fr'));
   else if(F.sort==='club')list.sort((a,b)=>a.club.localeCompare(b.club,'fr')||b.ovr-a.ovr);
   else if(F.sort==='own')list.sort((a,b)=>(S.owned[b.id]?1:0)-(S.owned[a.id]?1:0));
+  else if(F.sort==='dup')list.sort((a,b)=>(S.owned[b.id]|0)-(S.owned[a.id]|0)||b.ovr-a.ovr);
   const sig=[F.sort,F.r,F.lg,F.club,F.grp,q,F.own].join('|');if(sig!==F.sig){F.sig=sig;F.n=60}
-  $('#grid').innerHTML=list.length?list.slice(0,F.n).map(p=>cardHTML(p,{locked:!S.owned[p.id]})).join('')+(list.length>F.n?`<div class="more"><span class="num">${Math.min(F.n,list.length)} sur ${list.length} cartes affichées</span><button type="button" class="btn ghost" data-act="more">Afficher 120 cartes de plus</button></div>`:''):`<div class="empty" style="grid-column:1/-1;margin:0">Aucune carte ne correspond à ces filtres.</div>`;
+  $('#grid').innerHTML=list.length?list.slice(0,F.n).map(p=>cardHTML(p,{locked:!S.owned[p.id],cnt:1})).join('')+(list.length>F.n?`<div class="more"><span class="num">${Math.min(F.n,list.length)} sur ${list.length} cartes affichées</span><button type="button" class="btn ghost" data-act="more">Afficher 120 cartes de plus</button></div>`:''):`<div class="empty" style="grid-column:1/-1;margin:0">Aucune carte ne correspond à ces filtres.</div>`;
 }
 const BACK4=[['DG','DEF',13,64],['DC','DEF',38,69],['DC','DEF',62,69],['DD','DEF',87,64],['G','G',50,89]];
 const FORMS={
