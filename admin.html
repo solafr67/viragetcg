@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Virage TCG · Administration</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Outfit:wght@400;500;600;700&display=swap">
+<style>
+:root{color-scheme:dark;--bg:#0F172A;--panel:#152039;--line:#2A3859;--fg:#E8EEFB;--mute:#8D9BBB;--gold:#F5C451;--ok:#34D399;--bad:#FF3B4E;--cyan:#3CE0F0;
+  --disp:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--body:"Outfit",system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 var(--body);padding:24px max(16px,env(safe-area-inset-right,0px)) 48px max(16px,env(safe-area-inset-left,0px))}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:20px}
+h1,h2,h3{font-family:var(--disp);text-transform:uppercase;letter-spacing:.02em;margin:0;line-height:1}
+h1{font-size:clamp(32px,5vw,48px)}h2{font-size:24px}h3{font-size:18px}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);font-weight:600}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;min-width:0}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.btn{border:0;border-radius:10px;padding:10px 16px;font:inherit;font-weight:700;cursor:pointer;color:var(--fg);background:rgba(255,255,255,.07);border:1px solid var(--line)}
+.btn.gold{background:var(--gold);color:#261A02;border-color:transparent}
+.btn.bad{background:rgba(255,59,78,.14);border-color:rgba(255,59,78,.5);color:#FF9AA5}
+.btn:disabled{opacity:.5;cursor:default}
+input,textarea{width:100%;background:#1B2947;border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--fg);font:inherit}
+label{display:grid;gap:4px;font-size:13px;color:var(--mute);font-weight:600}
+.kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.kpi{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:12px;padding:12px}
+.kpi b{display:block;font-family:var(--disp);font-size:30px;font-variant-numeric:tabular-nums}
+.kpi span{font-size:12px;color:var(--mute);text-transform:uppercase;letter-spacing:.08em}
+.grid2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:20px;align-items:start}
+@media(max-width:900px){.grid2{grid-template-columns:minmax(0,1fr)}}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+th{text-align:left;color:var(--mute);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em;padding:6px 8px;border-bottom:1px solid var(--line)}
+td{padding:7px 8px;border-bottom:1px solid rgba(42,56,89,.6);white-space:nowrap}
+tr.pick{cursor:pointer}tr.pick:hover td{background:rgba(255,255,255,.04)}tr.on td{background:rgba(245,196,81,.10)}
+.pos{color:var(--ok)}.neg{color:#FF9AA5}
+.tag{display:inline-block;padding:2px 8px;border-radius:99px;font-size:11px;font-weight:700;border:1px solid currentColor}
+.tag.bad{color:#FF9AA5}.tag.ok{color:var(--ok)}
+.msg{font-size:13px;color:var(--mute);min-height:18px}.msg.err{color:#FF9AA5}.msg.ok{color:var(--ok)}
+.sub{color:var(--mute);font-size:13px}
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="row" style="justify-content:space-between">
+    <div><div class="eyebrow">Virage TCG</div><h1>Administration</h1></div>
+    <div class="row"><a class="btn" href="index.html">Retour au jeu</a><button class="btn" id="out" hidden>Se déconnecter</button></div>
+  </header>
+
+  <section class="panel" id="login" hidden>
+    <h2>Connexion</h2>
+    <p class="sub">Connecte-toi avec un compte déclaré administrateur dans Supabase (voir le guide d'installation).</p>
+    <form id="lf" class="row" style="align-items:end;max-width:640px" novalidate>
+      <label style="flex:1 1 220px">E-mail<input type="email" name="email" autocomplete="email" required></label>
+      <label style="flex:1 1 180px">Mot de passe<input type="password" name="pw" autocomplete="current-password" required></label>
+      <button class="btn gold" type="submit">Entrer</button>
+    </form>
+    <p class="msg" id="lm"></p>
+  </section>
+
+  <section id="app" hidden>
+    <div class="panel">
+      <div class="row" style="justify-content:space-between"><h2>Vue d'ensemble</h2><button class="btn" id="reload">Actualiser</button></div>
+      <div class="kpis" id="kpis" style="margin-top:14px"></div>
+      <h3 style="margin-top:18px">Pièces créées et détruites (7 jours)</h3>
+      <p class="sub" style="margin:4px 0 8px">Un flux positif crée des pièces (missions, matchs, ventes à la banque…), un flux négatif en retire (boosters, taxes…). Si les créations dépassent largement les retraits, les prix vont monter.</p>
+      <div class="tbl"><table id="flux"></table></div>
+    </div>
+
+    <div class="grid2" style="margin-top:20px">
+      <div class="panel">
+        <h2>Joueurs</h2>
+        <form id="sf" class="row" style="margin-top:12px" novalidate><input id="q" placeholder="Pseudo ou e-mail" style="flex:1 1 200px"><button class="btn gold" type="submit">Chercher</button></form>
+        <div class="tbl" style="margin-top:12px"><table id="players"></table></div>
+      </div>
+      <div class="panel" id="detail"><p class="sub">Choisis un joueur dans la liste pour voir sa fiche.</p></div>
+    </div>
+  </section>
+  <p class="msg" id="gm"></p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.99.0/dist/umd/supabase.js"></script>
+<script>
+(()=>{
+'use strict';
+const SB_URL='https://vjzrsnnpjofgveusbbcg.supabase.co';
+const SB_KEY='sb_publishable_v7ZQPUSJU8sR2fXWb7mPrg_xTYI9WUT';
+const $=s=>document.querySelector(s);
+const esc=t=>String(t==null?'':t).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt=n=>Number(n||0).toLocaleString('fr-FR');
+const dt=t=>t?new Date(t).toLocaleString('fr-FR',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):'';
+const KIND={booster:'Booster acheté',mission:'Mission',niveau:'Niveau gagné',match:'Match (club)',match_joueur:'Match (joueur)',defi:'Défi',boutique:'Boutique',boutique_renouvellement:'Renouvellement boutique',
+  vente_banque:'Vente rapide',achat_joueur:'Achat à un joueur',vente_joueur:'Vente à un joueur',echange_depot:'Échange : dépôt',echange_pieces:'Échange : pièces',echange_annule:'Échange annulé',
+  album:'Album',saison:'Saison',admin:'Ajustement admin',suspension:'Suspension',reactivation:'Réactivation'};
+let sb=null,cur=null;
+try{sb=window.supabase.createClient(SB_URL,SB_KEY)}catch(e){$('#gm').textContent='Service Supabase injoignable.';return}
+const call=async(n,a)=>{const r=await sb.rpc(n,a||{});if(r.error)throw r.error;return r.data};
+const err=e=>{const m=(e&&e.message)||String(e);return m==='interdit'?"Ce compte n'est pas administrateur.":m};
+
+async function boot(){
+  const {data}=await sb.auth.getSession();
+  if(!data.session){$('#login').hidden=false;$('#app').hidden=true;$('#out').hidden=true;return}
+  $('#out').hidden=false;
+  let ok=false;try{ok=await call('am_admin')}catch(e){}
+  if(!ok){$('#login').hidden=false;$('#app').hidden=true;$('#lm').textContent="Ce compte n'est pas administrateur.";$('#lm').className='msg err';return}
+  $('#login').hidden=true;$('#app').hidden=false;
+  stats();find('');
+}
+async function stats(){
+  try{
+    const s=await call('admin_stats');
+    $('#kpis').innerHTML=[[s.joueurs,'Joueurs'],[s.actifs_7j,'Actifs (7 j)'],[s.suspendus,'Suspendus'],[s.pieces_en_circulation,'Pièces en circulation'],[s.annonces_ouvertes,'Annonces ouvertes'],[s.ventes_7j,'Ventes (7 j)'],[s.echanges_7j,'Échanges (7 j)']]
+      .map(k=>`<div class="kpi"><b>${fmt(k[0])}</b><span>${k[1]}</span></div>`).join('');
+    const tot=s.flux_7j.reduce((a,f)=>a+Number(f.total),0);
+    $('#flux').innerHTML=`<tr><th>Origine</th><th>Opérations</th><th>Total</th></tr>`+s.flux_7j.map(f=>`<tr><td>${esc(KIND[f.kind]||f.kind)}</td><td>${fmt(f.n)}</td><td class="${f.total>=0?'pos':'neg'}">${f.total>0?'+':''}${fmt(f.total)}</td></tr>`).join('')
+      +`<tr><td><b>Solde net</b></td><td></td><td class="${tot>=0?'pos':'neg'}"><b>${tot>0?'+':''}${fmt(tot)}</b></td></tr>`;
+  }catch(e){$('#gm').textContent=err(e);$('#gm').className='msg err'}
+}
+async function find(q){
+  try{
+    const l=await call('admin_find',{p_q:q});
+    $('#players').innerHTML=`<tr><th>Pseudo</th><th>E-mail</th><th>Pièces</th><th>Cartes</th><th>Inscrit</th><th></th></tr>`+l.map(p=>`<tr class="pick${cur===p.id?' on':''}" data-id="${esc(p.id)}"><td><b>${esc(p.pseudo)}</b></td><td>${esc(p.email)}</td><td>${fmt(p.coins)}</td><td>${fmt(p.cards)}</td><td>${dt(p.created_at)}</td><td>${p.banned?'<span class="tag bad">Suspendu</span>':''}</td></tr>`).join('');
+  }catch(e){$('#players').innerHTML=`<tr><td class="neg">${esc(err(e))}</td></tr>`}
+}
+async function detail(id){
+  cur=id;document.querySelectorAll('tr.pick').forEach(r=>r.classList.toggle('on',r.dataset.id===id));
+  $('#detail').innerHTML='<p class="sub">Chargement…</p>';
+  try{
+    const d=await call('admin_player',{p_id:id}),p=d.profil,s=d.state||{},owned=s.owned||{};
+    const copies=Object.values(owned).reduce((a,b)=>a+b,0);
+    $('#detail').innerHTML=`<div class="row" style="justify-content:space-between"><div><div class="eyebrow">${esc(p.email)}</div><h2>${esc(p.pseudo)}</h2></div>${p.banned?'<span class="tag bad">Suspendu</span>':'<span class="tag ok">Actif</span>'}</div>
+      <div class="kpis" style="margin-top:12px"><div class="kpi"><b>${fmt(s.coins)}</b><span>Pièces</span></div><div class="kpi"><b>${fmt(Object.keys(owned).length)}</b><span>Cartes uniques</span></div><div class="kpi"><b>${fmt(copies)}</b><span>Exemplaires</span></div><div class="kpi"><b>${fmt(s.packs)}</b><span>Boosters</span></div><div class="kpi"><b>${fmt(p.elo)}</b><span>Elo</span></div></div>
+      <p class="sub">Inscrit le ${dt(p.inscription)} · ${s.rec?`${s.rec.w} V · ${s.rec.d} N · ${s.rec.l} D`:''}</p>
+      <div class="split">
+        <form class="panel" id="af" style="display:grid;gap:8px" novalidate><h3>Ajuster les pièces</h3><label>Montant (négatif pour retirer)<input name="d" type="number" step="10" required></label><label>Motif (visible par le joueur)<input name="r" maxlength="120" required></label><button class="btn gold" type="submit">Appliquer</button></form>
+        <form class="panel" id="bf" style="display:grid;gap:8px" novalidate><h3>${p.banned?'Réactiver le compte':'Suspendre le compte'}</h3><label>Motif<input name="r" maxlength="120" required></label><p class="sub" style="margin:0">${p.banned?'Le joueur retrouve l\'accès à sa partie.':'Le joueur ne peut plus jouer ; ses annonces et offres sont retirées et ses cartes lui sont rendues.'}</p><button class="btn ${p.banned?'gold':'bad'}" type="submit" data-on="${p.banned?0:1}">${p.banned?'Réactiver':'Suspendre'}</button></form>
+      </div>
+      <p class="msg" id="dm"></p>
+      <h3 style="margin-top:16px">Partenaires de transactions</h3>
+      <p class="sub" style="margin:4px 0 8px">Des échanges répétés avec le même pseudo peuvent révéler des comptes multiples.</p>
+      <div class="tbl"><table>${d.partenaires.length?`<tr><th>Pseudo</th><th>Transactions</th></tr>`+d.partenaires.map(x=>`<tr><td>${esc(x.pseudo)}</td><td>${fmt(x.n)}</td></tr>`).join(''):'<tr><td class="sub">Aucune</td></tr>'}</table></div>
+      <h3 style="margin-top:16px">Journal des pièces</h3>
+      <div class="tbl" style="max-height:360px;overflow:auto"><table><tr><th>Date</th><th>Opération</th><th>Montant</th><th>Détail</th></tr>${d.journal.map(j=>`<tr><td>${dt(j.at)}</td><td>${esc(KIND[j.kind]||j.kind)}</td><td class="${j.delta>=0?'pos':'neg'}">${j.delta>0?'+':''}${fmt(j.delta)}</td><td>${esc(j.ref)}</td></tr>`).join('')}</table></div>
+      <h3 style="margin-top:16px">Annonces et échanges récents</h3>
+      <div class="tbl"><table><tr><th>Type</th><th>Carte</th><th>Prix / pièces</th><th>Statut</th><th>Date</th></tr>
+        ${d.annonces.map(a=>`<tr><td>Vente</td><td>${esc(a.card)}</td><td>${fmt(a.price)}</td><td>${esc(a.status)}</td><td>${dt(a.created_at)}</td></tr>`).join('')}
+        ${d.echanges.map(t=>`<tr><td>Échange${t.mine?'':' (reçu)'}</td><td>${esc(t.give)} → ${esc(t.want)}</td><td>${t.give_coins?'+'+fmt(t.give_coins):t.want_coins?'−'+fmt(t.want_coins):''}</td><td>${esc(t.status)}</td><td>${dt(t.created_at)}</td></tr>`).join('')}</table></div>`;
+  }catch(e){$('#detail').innerHTML=`<p class="msg err">${esc(err(e))}</p>`}
+}
+document.addEventListener('submit',async e=>{
+  e.preventDefault();const f=e.target;
+  if(f.id==='lf'){const r=await sb.auth.signInWithPassword({email:f.email.value.trim(),password:f.pw.value});
+    if(r.error){$('#lm').textContent='Identifiants incorrects.';$('#lm').className='msg err';return}boot()}
+  else if(f.id==='sf')find($('#q').value.trim());
+  else if(f.id==='af'){const dlt=parseInt(f.d.value,10),r=f.r.value.trim();if(!dlt||!r){$('#dm').textContent='Montant et motif obligatoires.';return}
+    try{await call('admin_coins',{p_id:cur,p_delta:dlt,p_reason:r});await detail(cur);stats();find($('#q').value.trim());$('#dm').textContent='Ajustement appliqué.';$('#dm').className='msg ok'}catch(x){$('#dm').textContent=err(x);$('#dm').className='msg err'}}
+  else if(f.id==='bf'){const r=f.r.value.trim();if(!r){$('#dm').textContent='Indique un motif.';return}
+    const on=f.querySelector('button').dataset.on==='1';
+    try{await call('admin_ban',{p_id:cur,p_on:on,p_reason:r});await detail(cur);stats();find($('#q').value.trim())}catch(x){$('#dm').textContent=err(x);$('#dm').className='msg err'}}
+});
+document.addEventListener('click',e=>{
+  const tr=e.target.closest('tr.pick');if(tr)return detail(tr.dataset.id);
+  if(e.target.id==='reload'){stats();find($('#q').value.trim());if(cur)detail(cur)}
+  if(e.target.id==='out')sb.auth.signOut().then(boot);
+});
+boot();
+})();
+</script>
+</body>
+</html>
