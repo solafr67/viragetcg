@@ -334,6 +334,16 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
 .alb b{display:block;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .alb small{color:var(--mute);font-size:12px}.alb .prog{margin:4px 0}.alb .btn{padding:8px 12px;font-size:13px}
 .alb-lg{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:12px;padding:12px;border-radius:12px;border:1px dashed var(--line);font-size:14px}
+.lgboard{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:6px}
+.lgt{display:grid;gap:6px;text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;cursor:pointer;font:inherit;color:var(--fg);transition:border-color .15s,transform .15s}
+.lgt:hover{transform:translateY(-2px);border-color:var(--mute)}
+.lgt[aria-pressed=true]{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
+.lgt strong{font-size:14px;white-space:nowrap}
+@media(max-width:640px){.lgboard{display:flex;overflow-x:auto;gap:8px;padding-bottom:4px;scrollbar-width:thin}.lgt{flex:0 0 140px;padding:10px 12px}}.lgt .prog{margin:0}.lgt .num{font-size:12px;color:var(--mute)}
+.seg{display:inline-flex;align-self:flex-start;justify-self:start;width:max-content;gap:4px;padding:4px;border:1px solid var(--line);border-radius:12px;background:var(--panel);margin-top:14px}
+.seg button{border:0;background:transparent;color:var(--mute);font:inherit;font-weight:700;padding:8px 18px;border-radius:9px;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--gold);color:#261A02}
+#col-albums{margin-top:16px}
 .lgbar{display:grid;grid-template-columns:120px 1fr 80px;gap:10px;align-items:center;font-size:13px;margin-top:10px}
 .lgbar .prog{margin:0}.lgbar span:last-child{text-align:right;color:var(--mute)}
 #sv-in{width:100%;margin:10px 0;background:var(--bg-deep);border:1px solid var(--line);color:var(--fg);border-radius:10px;padding:10px;font:inherit;font-size:12px;resize:vertical}
@@ -451,6 +461,9 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
       <div><div class="eyebrow">Classeur</div><h1>Ma collection</h1></div>
       <div class="done"><strong class="num" id="done-n">0 / 0</strong> <span style="color:var(--mute)">cartes débloquées</span><div class="prog"><i id="done-bar" style="width:0"></i></div></div>
     </div>
+    <div class="lgboard" id="p-lg"></div>
+    <div class="seg" role="group" aria-label="Affichage"><button type="button" data-act="cview" data-v="cards" aria-pressed="true">Cartes</button><button type="button" data-act="cview" data-v="albums" aria-pressed="false">Albums</button></div>
+    <div id="col-cards">
     <div class="chips" id="chips"></div>
     <div class="tools">
       <input type="search" id="f-q" placeholder="Rechercher un joueur ou un club" aria-label="Rechercher">
@@ -461,6 +474,11 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
       <label class="chk"><input type="checkbox" id="f-own"> Possédées seulement</label>
     </div>
     <div class="grid" id="grid"></div>
+    </div>
+    <div id="col-albums" hidden>
+      <p style="color:var(--mute);font-size:14px;margin:0">Complète un club pour encaisser sa prime, puis tous les clubs d'un championnat pour la grande prime de 10 000 pièces.</p>
+      <div id="p-alb"></div>
+    </div>
   </section>
 
   <!-- EFFECTIF -->
@@ -527,14 +545,9 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
       <div class="panel">
         <div class="lvl"><div class="ring num" id="p-ring">1</div><div style="min-width:0"><div class="eyebrow">Niveau de manager</div><div id="p-xp" style="font-weight:600"></div><div style="color:var(--mute);font-size:13px">+300 pièces à chaque niveau gagné</div></div></div>
         <div class="kv" id="p-kv"></div>
-        <div style="margin-top:18px;border-top:1px solid var(--line);padding-top:16px">
-          <strong>Images des cartes</strong>
-          <p style="color:var(--mute);font-size:13px;margin:4px 0 12px">Importe plusieurs fichiers d'un coup. Chaque image va sur la carte dont le nom correspond au nom du fichier, par exemple <span style="color:var(--fg)">mbappe.jpg</span> ou <span style="color:var(--fg)">kylian-mbappe.png</span>.</p>
-          <label class="btn ghost">Importer mes images<input type="file" accept="image/*" multiple hidden id="img-bulk"></label>
-        </div>
-        <div style="margin-top:18px;border-top:1px solid var(--line);padding-top:16px">
-          <strong>Transférer ma partie</strong>
-          <p style="color:var(--mute);font-size:13px;margin:4px 0 12px">Copie ton code de sauvegarde, puis colle-le dans un autre navigateur ou une autre version du jeu.</p>
+        <div id="sv-box" style="margin-top:18px;border-top:1px solid var(--line);padding-top:16px">
+          <strong>Transférer ma partie hors ligne</strong>
+          <p style="color:var(--mute);font-size:13px;margin:4px 0 12px">Pour la partie jouée sans compte : copie ton code de sauvegarde, puis colle-le dans un autre navigateur. Avec un compte, ta partie te suit automatiquement.</p>
           <button type="button" class="btn ghost" data-act="exp">Copier mon code</button>
           <textarea id="sv-in" rows="2" placeholder="Colle un code de sauvegarde ici" aria-label="Code de sauvegarde"></textarea>
           <button type="button" class="btn ghost" data-act="imp">Charger ce code</button>
@@ -544,11 +557,6 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
       <div class="panel">
         <h3 style="font-size:22px">Cartes favorites</h3>
         <div id="p-favs"></div>
-        <h3 style="font-size:22px;margin-top:26px">Progression par championnat</h3>
-        <div id="p-lg"></div>
-        <h3 style="font-size:22px;margin-top:26px">Albums de clubs</h3>
-        <p style="color:var(--mute);font-size:13px;margin:4px 0 0">Complète un club pour encaisser sa prime, puis tous les clubs d'un championnat pour la grande prime de 10 000 pièces.</p>
-        <div id="p-alb"></div>
       </div>
     </div>
   </section>
@@ -2874,7 +2882,7 @@ const fresh=()=>({coins:1500,xp:0,owned:{},favs:[],squad:{},packs:0,free:{n:2,t:
 let S=fresh(),NET=null;
 try{const j=JSON.parse(localStorage.getItem(KEY));if(j&&typeof j==='object')S=Object.assign(fresh(),j)}catch(e){}
 if(!S.free||typeof S.free.n!=='number'||typeof S.free.t!=='number')S.free={n:2,t:Date.now()};
-let IMG={};try{IMG=JSON.parse(localStorage.getItem('virage-img-v1'))||{}}catch(e){}
+let IMG={};try{localStorage.removeItem('virage-img-v1')}catch(e){}
 const saveImg=()=>{try{localStorage.setItem('virage-img-v1',JSON.stringify(IMG));return true}catch(e){return false}};
 const save=()=>{if(NET){NET.sync&&NET.sync();return}try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}};
 const nowMs=()=>Date.now()+(NET&&NET.skew||0);
@@ -3003,6 +3011,7 @@ function squad(){
   squadExtra(xi);
 }
 function profile(){
+  $('#sv-box').hidden=!!NET;$('#reset').hidden=!!NET;
   const o=owned(),lv=level(),into=S.xp%XPL;
   $('#p-ring').textContent=lv;$('#p-ring').style.setProperty('--p',(into/XPL*100)+'%');
   $('#p-xp').textContent=`${into} / ${XPL} XP vers le niveau ${lv+1}`;
@@ -3012,19 +3021,18 @@ function profile(){
   $('#p-favs').innerHTML=f.length?`<div class="favs">${f.map(p=>cardHTML(p)).join('')}</div>`:`<div class="empty">Ouvre une carte de ta collection et marque-la comme favorite pour l'épingler ici.</div>`;
 }
 function leagueBars(){
-  $('#p-lg').innerHTML=LEAGUES.map(l=>{const all=P.filter(p=>p.lg===l),n=all.filter(p=>S.owned[p.id]).length;
-    return `<div class="lgbar"><strong>${l}</strong><span class="prog"><i style="width:${n/all.length*100}%"></i></span><span class="num">${n} / ${all.length}</span></div>`}).join('');
+  $('#p-lg').innerHTML=LEAGUES.map(l=>{const all=P.filter(p=>p.lg===l),n=all.filter(p=>S.owned[p.id]).length,on=CV==='albums'?ALG===l:F.lg===l;
+    return `<button type="button" class="lgt" data-act="clg" data-l="${l}" aria-pressed="${on}"><strong>${l}</strong><span class="prog"><i style="width:${n/all.length*100}%"></i></span><span class="num">${n} / ${all.length}</span></button>`}).join('');
 }
 
 /* ---------- Albums ---------- */
-const ALB_LG=['Premier League','LaLiga','Serie A','Bundesliga','Ligue 1'];let ALG='Premier League';
+const ALB_LG=['Premier League','LaLiga','Serie A','Bundesliga','Ligue 1'];let ALG='Premier League',CV='cards';
 const albClubs=l=>Object.keys(CLUBS).filter(c=>CLUBS[c][0]===l&&P.some(p=>p.club===c));
 const albOf=c=>{const all=P.filter(p=>p.club===c);return{n:all.length,have:all.filter(p=>S.owned[p.id]).length}};
 const albGain=c=>400+40*albOf(c).n;
 function albums(){
   const A=S.albums||{},cl=albClubs(ALG),got=cl.filter(c=>A[c]).length,lgKey='lg:'+ALG;
-  $('#p-alb').innerHTML=`<div class="chips" style="margin-top:12px">${ALB_LG.map(l=>`<button type="button" class="chip" data-act="alg" data-l="${l}" aria-pressed="${l===ALG}">${l}<small class="num">${albClubs(l).filter(c=>A[c]).length}/${albClubs(l).length}</small></button>`).join('')}</div>
-   <div class="alb-lg"><span>Album ${ALG} : <b class="num">${got} / ${cl.length}</b> clubs complétés</span>${A[lgKey]?'<span class="mis-ok">Grande prime encaissée</span>':got===cl.length?`<button type="button" class="btn gold" data-act="alb" data-k="${lgKey}"><span class="coin sm"></span> 10 000</button>`:'<small style="color:var(--mute)">Grande prime : 10 000 pièces</small>'}</div>
+  $('#p-alb').innerHTML=`<div class="alb-lg"><span>Album ${ALG} : <b class="num">${got} / ${cl.length}</b> clubs complétés</span>${A[lgKey]?'<span class="mis-ok">Grande prime encaissée</span>':got===cl.length?`<button type="button" class="btn gold" data-act="alb" data-k="${lgKey}"><span class="coin sm"></span> 10 000</button>`:'<small style="color:var(--mute)">Grande prime : 10 000 pièces</small>'}</div>
    <div class="albs">${cl.map(c=>({c,...albOf(c)})).sort((a,b)=>(!!A[a.c])-(!!A[b.c])||b.have/b.n-a.have/a.n||a.c.localeCompare(b.c,'fr')).map(x=>{const done=x.have>=x.n,g=A[x.c],k=CLUBS[x.c];
      return `<div class="alb${g?' got':done?' ready':''}"><i class="badge" style="--c1:${k[1]};--c2:${k[2]}"></i><div style="min-width:0"><b>${x.c}</b><span class="prog"><i style="width:${x.have/x.n*100}%"></i></span><small class="num">${x.have} / ${x.n}</small></div>${g?'<span class="mis-ok">Encaissé</span>':done?`<button type="button" class="btn gold" data-act="alb" data-k="${x.c}">+${fmt(400+40*x.n)}</button>`:''}</div>`}).join('')}</div>`;
 }
@@ -3180,7 +3188,7 @@ function modal(html){$('#sheet').innerHTML=`<button type="button" class="x" data
 function closeModal(){$('#modal').hidden=true;$('#sheet').innerHTML=''}
 function detail(id){
   const p=BY[id],r=RAR[p.r],fav=S.favs.includes(id);
-  modal(`<div class="detail">${cardHTML(p,{attrs:''})}<div class="info"><span class="tagr" style="--c:${r.c}">${r.n}</span><h2>${p.full}</h2><dl><dt>Club</dt><dd>${p.club}</dd><dt>Championnat</dt><dd>${p.lg}</dd><dt>Poste</dt><dd>${p.pos}</dd><dt>Tirée</dt><dd>${S.owned[id]} fois</dd><dt>Valeur de revente</dt><dd><span class="coin sm"></span> ${fmt(r.sell)}</dd>${CREDITS[id]?`<dt>Photo</dt><dd>${String(CREDITS[id]).replace(/[<>&]/g,'')}</dd>`:''}</dl><button type="button" class="btn ${fav?'ghost':'gold'}" data-act="fav" data-id="${id}">${fav?'★ Retirer des favorites':'☆ Ajouter aux favorites'}</button><label class="btn ghost">${IMG[id]?'Changer mon image':'Mettre ma propre image'}<input type="file" accept="image/*" hidden id="img-up" data-img="${id}"></label>${IMG[id]?`<button type="button" class="btn ghost" data-act="noimg" data-id="${id}">Retirer mon image</button>`:''}${NET&&NET.detailExtra?NET.detailExtra(id):''}<button type="button" class="btn danger" data-act="sell" data-id="${id}">${NET?'Vente rapide':'Vendre'} · ${fmt(r.sell)} pièces</button></div></div>`);
+  modal(`<div class="detail">${cardHTML(p,{attrs:''})}<div class="info"><span class="tagr" style="--c:${r.c}">${r.n}</span><h2>${p.full}</h2><dl><dt>Club</dt><dd>${p.club}</dd><dt>Championnat</dt><dd>${p.lg}</dd><dt>Poste</dt><dd>${p.pos}</dd><dt>Tirée</dt><dd>${S.owned[id]} fois</dd><dt>Valeur de revente</dt><dd><span class="coin sm"></span> ${fmt(r.sell)}</dd>${CREDITS[id]?`<dt>Photo</dt><dd>${String(CREDITS[id]).replace(/[<>&]/g,'')}</dd>`:''}</dl><button type="button" class="btn ${fav?'ghost':'gold'}" data-act="fav" data-id="${id}">${fav?'★ Retirer des favorites':'☆ Ajouter aux favorites'}</button>${NET&&NET.detailExtra?NET.detailExtra(id):''}<button type="button" class="btn danger" data-act="sell" data-id="${id}">${NET?'Vente rapide':'Vendre'} · ${fmt(r.sell)} pièces</button></div></div>`);
 }
 function picker(i){
   const s=SLOTS[i],used=new Set(Object.entries(S.squad).filter(([k])=>+k!==i).map(([,v])=>v));
@@ -3318,7 +3326,12 @@ document.addEventListener('click',e=>{
   else if(a==='mis'&&NET){const k=el.dataset.k,m=MIS.find(x=>x[0]===k);srv('claim_mission',{p_key:k},()=>toast(`Mission accomplie : +${m?m[3]:''} pièces`))}
   else if(a==='mis'){misDay();const m=MIS.find(x=>x[0]===el.dataset.k);if(m&&!S.mis.c[m[0]]&&(S.mis.p[m[0]]||0)>=m[2]){S.mis.c[m[0]]=1;S.coins+=m[3];save();hud();missions();toast(`Mission accomplie : +${m[3]} pièces`)}}
   else if(a==='form'){if(FORMS[el.dataset.k]&&el.dataset.k!==S.form)setForm(el.dataset.k)}
-  else if(a==='alg'){ALG=el.dataset.l;albums()}
+  else if(a==='alg'){ALG=el.dataset.l;albums();leagueBars()}
+  else if(a==='cview'){CV=el.dataset.v;$('#col-cards').hidden=CV!=='cards';$('#col-albums').hidden=CV!=='albums';document.querySelectorAll('[data-act=cview]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===CV));leagueBars()}
+  else if(a==='clg'){const l=el.dataset.l;
+    if(CV==='albums'){if(ALB_LG.includes(l)){ALG=l;albums()}}
+    else{F.lg=F.lg===l?'':l;$('#f-lg').value=F.lg;collection()}
+    leagueBars()}
   else if(a==='alb'){const k=el.dataset.k;if(S.albums[k])return;
     if(NET){el.disabled=true;srv('claim_album',{p_key:k},o=>toast(`Album ${k.replace('lg:','')} complété : +${fmt(o.gain)} pièces`));return}
     let gain;if(k.startsWith('lg:')){const l=k.slice(3);if(!albClubs(l).every(c=>S.albums[c]))return;gain=10000}
@@ -3370,24 +3383,11 @@ function matchFile(name){
   const k=slug(name.replace(/\.[^.]+$/,''));if(!k)return null;
   return P.find(p=>p.id===k)||P.find(p=>slug(p.short)===k)||P.find(p=>p.id.endsWith('-'+k))||null;
 }
-document.addEventListener('change',async e=>{
-  const t=e.target,files=t.files?[...t.files]:[];if(!files.length)return;
-  if(t.dataset&&t.dataset.img){
-    const id=t.dataset.img;
-    try{IMG[id]=await thumb(files[0]);if(!saveImg()){delete IMG[id];toast('Stockage plein : image non enregistrée')}}catch(x){toast('Image illisible')}
-    renderAll();detail(id);
-  }else if(t.id==='img-bulk'){
-    let ok=0,miss=0;
-    for(const f of files){const p=matchFile(f.name);if(!p){miss++;continue}
-      try{IMG[p.id]=await thumb(f);if(!saveImg()){delete IMG[p.id];toast('Stockage plein : import interrompu');break}ok++}catch(x){miss++}}
-    t.value='';renderAll();toast(`${ok} image${ok>1?'s':''} associée${ok>1?'s':''}${miss?` · ${miss} fichier${miss>1?'s':''} sans carte correspondante`:''}`);
-  }
-});
 $('#f-lg').insertAdjacentHTML('beforeend',LEAGUES.map(l=>`<option>${l}</option>`).join(''));
 $('#f-q').addEventListener('input',e=>{F.q=e.target.value;collection()});
 $('#f-club').insertAdjacentHTML('beforeend',LEAGUES.map(l=>`<optgroup label="${l}">${Object.keys(CLUBS).filter(c=>CLUBS[c][0]===l&&P.some(p=>p.club===c)).sort((a,b)=>a.localeCompare(b,'fr')).map(c=>`<option>${c}</option>`).join('')}</optgroup>`).join(''));
 $('#f-club').addEventListener('change',e=>{F.club=e.target.value;collection()});
-$('#f-lg').addEventListener('change',e=>{F.lg=e.target.value;collection()});
+$('#f-lg').addEventListener('change',e=>{F.lg=e.target.value;collection();leagueBars()});
 $('#f-grp').addEventListener('change',e=>{F.grp=e.target.value;collection()});
 $('#f-own').addEventListener('change',e=>{F.own=e.target.checked;collection()});
 $('#f-sort').addEventListener('change',e=>{F.sort=e.target.value;collection()});
