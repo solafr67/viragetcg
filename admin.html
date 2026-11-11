@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <title>Virage TCG · Administration</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Outfit:wght@400;500;600;700&display=swap">
@@ -69,6 +70,9 @@ tr.pick{cursor:pointer}tr.pick:hover td{background:rgba(255,255,255,.04)}tr.on t
       <h3 style="margin-top:18px">Pièces créées et détruites (7 jours)</h3>
       <p class="sub" style="margin:4px 0 8px">Un flux positif crée des pièces (missions, matchs, ventes à la banque…), un flux négatif en retire (boosters, taxes…). Si les créations dépassent largement les retraits, les prix vont monter.</p>
       <div class="tbl"><table id="flux"></table></div>
+      <h3 style="margin-top:18px">Pseudos à vérifier</h3>
+      <p class="sub" style="margin:4px 0 8px">Pseudos qui ne passent pas le filtre actuel (comptes créés avant sa mise en place). Clique pour ouvrir la fiche et renommer.</p>
+      <div class="tbl"><table id="flag"></table></div>
     </div>
 
     <div class="grid2" style="margin-top:20px">
@@ -95,7 +99,7 @@ const fmt=n=>Number(n||0).toLocaleString('fr-FR');
 const dt=t=>t?new Date(t).toLocaleString('fr-FR',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):'';
 const KIND={booster:'Booster acheté',mission:'Mission',niveau:'Niveau gagné',match:'Match (club)',match_joueur:'Match (joueur)',defi:'Défi',boutique:'Boutique',boutique_renouvellement:'Renouvellement boutique',
   vente_banque:'Vente rapide',achat_joueur:'Achat à un joueur',vente_joueur:'Vente à un joueur',echange_depot:'Échange : dépôt',echange_pieces:'Échange : pièces',echange_annule:'Échange annulé',
-  album:'Album',saison:'Saison',admin:'Ajustement admin',suspension:'Suspension',reactivation:'Réactivation'};
+  album:'Album',saison:'Saison',renommage:'Changement de pseudo',admin:'Ajustement admin',suspension:'Suspension',reactivation:'Réactivation'};
 let sb=null,cur=null;
 try{sb=window.supabase.createClient(SB_URL,SB_KEY)}catch(e){$('#gm').textContent='Service Supabase injoignable.';return}
 const call=async(n,a)=>{const r=await sb.rpc(n,a||{});if(r.error)throw r.error;return r.data};
@@ -113,6 +117,7 @@ async function boot(){
 async function stats(){
   try{
     const s=await call('admin_stats');
+    try{const fl=await call('admin_flagged');$('#flag').innerHTML=fl.length?fl.map(f=>`<tr class="pick" data-id="${esc(f.id)}"><td><b>${esc(f.pseudo)}</b></td></tr>`).join(''):'<tr><td class="sub">Aucun pseudo suspect.</td></tr>'}catch(e){}
     $('#kpis').innerHTML=[[s.joueurs,'Joueurs'],[s.actifs_7j,'Actifs (7 j)'],[s.suspendus,'Suspendus'],[s.pieces_en_circulation,'Pièces en circulation'],[s.annonces_ouvertes,'Annonces ouvertes'],[s.ventes_7j,'Ventes (7 j)'],[s.echanges_7j,'Échanges (7 j)']]
       .map(k=>`<div class="kpi"><b>${fmt(k[0])}</b><span>${k[1]}</span></div>`).join('');
     const tot=s.flux_7j.reduce((a,f)=>a+Number(f.total),0);
@@ -137,6 +142,7 @@ async function detail(id){
       <p class="sub">Inscrit le ${dt(p.inscription)} · ${s.rec?`${s.rec.w} V · ${s.rec.d} N · ${s.rec.l} D`:''}</p>
       <div class="split">
         <form class="panel" id="af" style="display:grid;gap:8px" novalidate><h3>Ajuster les pièces</h3><label>Montant (négatif pour retirer)<input name="d" type="number" step="10" required></label><label>Motif (visible par le joueur)<input name="r" maxlength="120" required></label><button class="btn gold" type="submit">Appliquer</button></form>
+        <form class="panel" id="rf" style="display:grid;gap:8px" novalidate><h3>Renommer</h3><label>Nouveau pseudo<input name="p" maxlength="16" value="Joueur${Math.floor(Math.random()*9000+1000)}" required></label><label>Motif (visible par le joueur)<input name="r" maxlength="120" value="Pseudo inapproprié" required></label><button class="btn gold" type="submit">Renommer</button></form>
         <form class="panel" id="bf" style="display:grid;gap:8px" novalidate><h3>${p.banned?'Réactiver le compte':'Suspendre le compte'}</h3><label>Motif<input name="r" maxlength="120" required></label><p class="sub" style="margin:0">${p.banned?'Le joueur retrouve l\'accès à sa partie.':'Le joueur ne peut plus jouer ; ses annonces et offres sont retirées et ses cartes lui sont rendues.'}</p><button class="btn ${p.banned?'gold':'bad'}" type="submit" data-on="${p.banned?0:1}">${p.banned?'Réactiver':'Suspendre'}</button></form>
       </div>
       <p class="msg" id="dm"></p>
@@ -158,6 +164,9 @@ document.addEventListener('submit',async e=>{
   else if(f.id==='sf')find($('#q').value.trim());
   else if(f.id==='af'){const dlt=parseInt(f.d.value,10),r=f.r.value.trim();if(!dlt||!r){$('#dm').textContent='Montant et motif obligatoires.';return}
     try{await call('admin_coins',{p_id:cur,p_delta:dlt,p_reason:r});await detail(cur);stats();find($('#q').value.trim());$('#dm').textContent='Ajustement appliqué.';$('#dm').className='msg ok'}catch(x){$('#dm').textContent=err(x);$('#dm').className='msg err'}}
+  else if(f.id==='rf'){const np=f.p.value.trim(),r=f.r.value.trim();
+    try{await call('admin_rename',{p_id:cur,p_pseudo:np,p_reason:r});await detail(cur);stats();find($('#q').value.trim());$('#dm').textContent='Joueur renommé et prévenu.';$('#dm').className='msg ok'}
+    catch(x){const m=(x&&x.message)||'';$('#dm').textContent=m==='pseudo_pris'?'Ce pseudo est déjà pris.':m==='pseudo_interdit'?'Ce pseudo ne passe pas le filtre.':m==='pseudo_format'?'3 à 16 caractères (lettres, chiffres, _ . -).':err(x);$('#dm').className='msg err'}}
   else if(f.id==='bf'){const r=f.r.value.trim();if(!r){$('#dm').textContent='Indique un motif.';return}
     const on=f.querySelector('button').dataset.on==='1';
     try{await call('admin_ban',{p_id:cur,p_on:on,p_reason:r});await detail(cur);stats();find($('#q').value.trim())}catch(x){$('#dm').textContent=err(x);$('#dm').className='msg err'}}

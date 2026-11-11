@@ -5,6 +5,22 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Virage TCG</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Outfit:wght@400;500;600;700&display=swap">
+<meta name="description" content="Collectionne les 2 236 joueurs du Top 5 européen : ouvre des boosters, complète tes albums, échange avec les autres joueurs et défie leurs onzes. Gratuit, dans le navigateur.">
+<meta name="theme-color" content="#0F172A">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Virage TCG">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Virage TCG · cartes à collectionner de football">
+<meta property="og:description" content="Les 2 236 joueurs du Top 5 européen. Ouvre des boosters, complète tes albums, défie les autres joueurs. Gratuit.">
+<meta property="og:image" content="og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Virage TCG : cartes de footballeurs avec leurs raretés">
+<meta name="twitter:card" content="summary_large_image">
 <style>
 [hidden]{display:none!important}
 body{margin:0}
@@ -51,6 +67,24 @@ h1,h2,h3{font-family:var(--disp);text-transform:uppercase;letter-spacing:.02em;m
 .snd{border:1px solid var(--line);background:var(--panel);border-radius:999px;width:40px;height:40px;display:grid;place-items:center;cursor:pointer;font-size:16px;flex:none;margin-right:8px;padding:0;color:var(--fg)}
 .snd:hover{border-color:var(--mute)}.snd.off{opacity:.55}
 @media(max-width:480px){.snd,.bell{width:36px!important;height:36px!important;margin-right:6px!important}}
+.btn.pulse{animation:tpulse 1.2s ease-in-out 2}
+@keyframes tpulse{50%{box-shadow:0 0 0 6px rgba(245,196,81,.35),0 6px 22px rgba(245,196,81,.28)}}
+.tuto{display:grid;gap:14px;max-width:520px}
+.tuto .ic{font-size:44px;line-height:1}
+.tuto h2{font-size:clamp(28px,6vw,38px)}
+.tuto p{margin:0;color:#C9D3EA;line-height:1.55}
+.tuto ul{margin:0;padding-left:18px;color:#C9D3EA;line-height:1.55;display:grid;gap:4px}
+.tuto b{color:var(--fg)}
+.tuto .dots{display:flex;gap:6px}.tuto .dots i{width:8px;height:8px;border-radius:50%;background:var(--line)}.tuto .dots i.on{background:var(--gold);width:22px;border-radius:4px}
+.tuto .nav2{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.rlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px}
+.rlist span{display:flex;justify-content:space-between;gap:8px;border:1px solid var(--c);color:var(--c);border-radius:10px;padding:6px 10px;font-size:13px;font-weight:700;background:color-mix(in srgb,var(--c) 10%,transparent)}
+.faq{display:grid;gap:8px;max-width:640px}
+.faq details{border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:rgba(255,255,255,.02)}
+.faq summary{cursor:pointer;font-weight:700}
+.faq details p{margin:8px 0 2px;color:#C9D3EA;line-height:1.55;font-size:14px}
+.foot{display:flex;justify-content:space-between;gap:10px 18px;flex-wrap:wrap;align-items:center;border-top:1px solid var(--line);margin-top:40px;padding-top:18px;font-size:13px;color:var(--mute)}
+.foot nav{display:flex;gap:6px 16px;flex-wrap:wrap}.foot a,.foot button{color:var(--mute);background:none;border:0;padding:0;font:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:3px}.foot a:hover,.foot button:hover{color:var(--fg)}
 .wallet.bump{animation:bump .5s}
 @keyframes bump{40%{transform:scale(1.12);border-color:var(--gold)}}
 main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
@@ -550,6 +584,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
       <div class="panel">
         <div class="lvl"><div class="ring num" id="p-ring">1</div><div style="min-width:0"><div class="eyebrow">Niveau de manager</div><div id="p-xp" style="font-weight:600"></div><div style="color:var(--mute);font-size:13px">+300 pièces à chaque niveau gagné</div></div></div>
         <div class="kv" id="p-kv"></div>
+        <div class="row" style="margin-top:16px"><button type="button" class="btn ghost" data-act="help">Aide et règles du jeu</button><button type="button" class="btn ghost" data-act="tuto">Revoir le tutoriel</button></div>
         <div id="sv-box" style="margin-top:18px;border-top:1px solid var(--line);padding-top:16px">
           <strong>Transférer ma partie hors ligne</strong>
           <p style="color:var(--mute);font-size:13px;margin:4px 0 12px">Pour la partie jouée sans compte : copie ton code de sauvegarde, puis colle-le dans un autre navigateur. Avec un compte, ta partie te suit automatiquement.</p>
@@ -565,6 +600,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
       </div>
     </div>
   </section>
+<footer class="foot"><span>Virage TCG · jeu de fans non officiel, gratuit</span><nav><button type="button" data-act="help">Aide</button><a href="legal.html#mentions">Mentions légales</a><a href="legal.html#confidentialite">Confidentialité</a><a href="legal.html#conditions">Conditions</a></nav></footer>
 </main>
 
 <div class="mt" id="mt" hidden></div>
@@ -3268,6 +3304,39 @@ const SFX=(()=>{
   return{play,get on(){return on},toggle(){on=!on;try{localStorage.setItem('virage-son',on?'1':'0')}catch(e){}if(on)play('tap');return on}};
 })();
 
+/* ---------- Tutoriel et aide ---------- */
+const RANGES=['moins de 75','75 à 79','80 à 84','85 à 88','89 à 92','93 et plus'];
+const TUTO=[
+ {ic:'⚽',t:'Bienvenue dans Virage',h:()=>`<p>Collectionne les <b>${fmt(P.length)} joueurs</b> des cinq grands championnats européens, plus quelques légendes. Chaque carte a une rareté qui dépend de la note du joueur :</p><div class="rlist">${RAR.map((r,i)=>`<span style="--c:${r.c}">${r.n}<small>${RANGES[i]}</small></span>`).join('')}</div>`},
+ {ic:'🎁',t:'Ouvre des boosters',h:()=>`<ul><li>Chaque booster contient <b>5 cartes</b>.</li><li>Tu reçois <b>un booster gratuit toutes les 10 minutes</b>, jusqu'à 10 en stock : reviens régulièrement.</li><li>Garanties : une <b>Épique</b> ou mieux au moins tous les 10 boosters, une <b>Légendaire</b> ou mieux au moins tous les 150.</li><li>Avec tes pièces : booster Élite (une Rare minimum) ou booster d'un championnat précis.</li></ul>`},
+ {ic:'📚',t:'Complète ta collection',h:()=>`<ul><li>La <b>Collection</b> montre toutes les cartes, même celles que tu n'as pas : ouvre-les pour voir leurs détails.</li><li>En mode <b>Albums</b>, complète tous les joueurs d'un club pour encaisser une prime, puis tous les clubs d'un championnat pour <b>10 000 pièces</b>.</li><li>Tes doublons servent à l'<b>Atelier</b> (5 cartes contre 1 de la rareté au-dessus) ou à la vente.</li></ul>`},
+ {ic:'🏟️',t:'Compose ton onze et joue',h:()=>`<ul><li>Dans <b>Effectif</b>, choisis ta formation et aligne 11 joueurs. Des joueurs du même club, du même championnat ou de la même nationalité renforcent ton <b>collectif</b>.</li><li>Dans <b>Matchs</b> : la tournée des 96 clubs, trois défis renouvelés chaque lundi, et des matchs contre les onzes des autres joueurs avec un classement mensuel.</li></ul>`},
+ {ic:'🤝',t:'Échange avec les autres',h:()=>`<ul><li>Le <b>Marché</b> propose chaque jour 8 cartes à acheter avec tes pièces.</li><li>Avec un compte gratuit (onglet <b>Profil</b>) : ta partie est sauvegardée et protégée, tu peux vendre et échanger avec les autres joueurs, et la cloche 🔔 te prévient de tes ventes et de tes cartes en envie.</li><li>Le bouton 🔊 coupe ou remet le son.</li></ul>`}
+];
+let TI=0;
+function tuto(i){
+  TI=Math.max(0,Math.min(TUTO.length-1,i));const st=TUTO[TI],last=TI===TUTO.length-1;
+  try{localStorage.setItem('virage-tuto','1')}catch(e){}
+  modal(`<div class="tuto"><div class="dots" aria-hidden="true">${TUTO.map((_,k)=>`<i class="${k===TI?'on':''}"></i>`).join('')}</div><div class="ic" aria-hidden="true">${st.ic}</div><h2>${st.t}</h2>${st.h()}
+    <div class="nav2"><button type="button" class="btn ghost" data-act="${TI?'tuto-go':'close'}" data-i="${TI-1}">${TI?'← Précédent':'Passer'}</button><span style="color:var(--mute);font-size:13px">${TI+1} / ${TUTO.length}</span>${last?`<button type="button" class="btn gold" data-act="tuto-end">Ouvrir mon premier booster</button>`:`<button type="button" class="btn gold" data-act="tuto-go" data-i="${TI+1}">Suivant →</button>`}</div></div>`);
+}
+const FAQ=[
+ ['Comment est choisie la rareté d\'une carte ?',()=>`Elle dépend uniquement de la note du joueur : ${RAR.map((r,i)=>`${r.n} (${RANGES[i]})`).join(', ')}. Les chances de tirage par carte sont de ${RAR.map(r=>String(r.p).replace('.',',')+' %').join(', ')}.`],
+ ['Comment avoir des boosters gratuits ?',()=>'Un booster gratuit arrive toutes les 10 minutes, même quand tu n\'es pas sur le site. Tu peux en stocker 10 : au-delà, le compteur s\'arrête jusqu\'à ce que tu en ouvres un.'],
+ ['Que sont les garanties Épique et Légendaire ?',()=>'Si tu ouvres 9 boosters sans Épique (ou mieux), le 10e en contient forcément une. De même, après 149 boosters sans Légendaire (ou mieux), le 150e en contient une. Chaque compteur repart à zéro dès que tu obtiens la rareté, même par chance.'],
+ ['Comment gagner des pièces ?',()=>'Missions du jour, matchs (surtout la première victoire contre chaque club), défis de la semaine, matchs contre d\'autres joueurs, albums complétés, passages de niveau, et ventes de cartes. Certaines sources sont plafonnées chaque jour pour garder une économie saine.'],
+ ['À quoi servent les doublons ?',()=>'À l\'Atelier du Marché : 5 cartes d\'une rareté contre 1 carte de la rareté au-dessus (tes doublons partent en premier). Tu peux aussi les vendre aux autres joueurs, les échanger, ou les vendre rapidement à la banque.'],
+ ['Qu\'est-ce que le collectif ?',()=>'Un bonus de ton onze qui monte quand tes joueurs partagent un club, un championnat ou une nationalité. Chaque tranche de 20 points de collectif ajoute 1 point à ta note en match. Aligner un joueur hors de son poste habituel coûte un peu de note.'],
+ ['Comment marchent les matchs contre les joueurs ?',()=>'Ton onze affronte celui d\'un autre joueur tel qu\'il l\'a composé. Victoire : 3 points de saison, nul : 1 point. Le classement de saison repart à zéro chaque mois et les meilleurs reçoivent des pièces le 1er du mois. Ton onze sert aussi de défense quand on te défie.'],
+ ['Comment vendre ou échanger une carte ?',()=>'Il faut un compte, le niveau 5 et 2 jours d\'ancienneté (protection contre les comptes multiples). Pour vendre : ouvre la carte dans ta Collection et fixe ton prix. Pour échanger : section Échanges du Marché. Les ventes et les pièces échangées sont taxées à 10 %.'],
+ ['À quoi servent les envies ?',()=>'Ouvre une carte que tu n\'as pas et ajoute-la à tes envies : la cloche 🔔 te prévient dès qu\'un joueur la met en vente ou la propose en échange.'],
+ ['Pourquoi créer un compte ?',()=>'Sans compte, ta partie est seulement dans ce navigateur. Avec un compte gratuit, elle est sauvegardée sur le serveur, protégée contre la triche, accessible depuis n\'importe quel appareil, et tu accèdes au classement, au marché entre joueurs, aux échanges et aux matchs contre les autres.'],
+ ['Les notes sont-elles officielles ?',()=>'Non. Virage est un jeu de fans non officiel : les notes et statistiques sont des estimations propres au jeu.']
+];
+function help(){
+  modal(`<div class="faq"><h2 style="font-size:32px;padding-right:40px">Aide et règles du jeu</h2>${FAQ.map(f=>`<details><summary>${f[0]}</summary><p>${f[1]()}</p></details>`).join('')}<div class="row" style="margin-top:6px"><button type="button" class="btn gold" data-act="tuto">Revoir le tutoriel</button></div></div>`);
+}
+
 /* ---------- Toast ---------- */
 let tt;function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(()=>t.classList.remove('show'),2400)}
 
@@ -3375,6 +3444,10 @@ document.addEventListener('click',e=>{
   else if(a==='card')detail(id);
   else if(a==='fav'){SFX.play('fav');const i=S.favs.indexOf(id);i<0?S.favs.push(id):S.favs.splice(i,1);save();profile();detail(id)}
   else if(a==='close')closeModal();
+  else if(a==='tuto'){SFX.play('tap');tuto(0)}
+  else if(a==='tuto-go'){SFX.play('tap');tuto(+el.dataset.i)}
+  else if(a==='tuto-end'){closeModal();go('boutique',true);SFX.play('coin');setTimeout(()=>{const b=$('#buy-free');if(b){b.scrollIntoView({block:'center',behavior:RM?'auto':'smooth'});b.classList.add('pulse');setTimeout(()=>b.classList.remove('pulse'),2400)}},200)}
+  else if(a==='help'){SFX.play('tap');help()}
   else if(a==='rar'){F.r=+el.dataset.r;collection()}
   else if(a==='more'){F.n+=120;collection()}
   else if(a==='slot')picker(+el.dataset.s);
@@ -3454,7 +3527,8 @@ $('#f-sort').addEventListener('change',e=>{F.sort=e.target.value;collection()});
 setInterval(freeUI,1000);
 
 $('#lgpacks').innerHTML=Object.keys(LGP).map(l=>{const g=LGP[l];return `<button type="button" class="lgp" data-act="open" data-k="${g[0]}" style="--a:${g[2]};--b:${g[3]}"><b>${l}</b><small>5 cartes · ${g[1]}</small><span><span class="coin sm"></span> 750</span></button>`}).join('');
-window.VGAME={get:()=>S,toast,closeModal,detail,sfx:n=>SFX.play(n),
+window.VGAME={get:()=>S,toast,closeModal,detail,help,
+  cardBig:id=>BY[id]?cardHTML(BY[id],{attrs:''}):'',sfx:n=>SFX.play(n),
   pvp:pv=>playMatch(null,null,pv),hasTeam:()=>!!myTeam(),teamOvr:()=>{const t=myTeam();return t?t.r.ovr:0},
   online(api){NET=api;api.apply=applyState},
   offline(){NET=null;S=fresh();try{const j=JSON.parse(localStorage.getItem(KEY));if(j&&typeof j==='object')S=Object.assign(fresh(),j)}catch(e){}sane();closeModal();renderAll()},
@@ -3479,6 +3553,7 @@ window.VGAME={get:()=>S,toast,closeModal,detail,sfx:n=>SFX.play(n),
     return{level:Math.min(1000,level()),cards:o.length,value:o.reduce((a,p)=>a+RAR[p.r].sell,0),best_ovr:Math.min(99,b),wins:Math.min(100000,S.rec.w|0)}},
   onSave(){}};
 renderAll();go(location.hash.slice(1));
+try{if(localStorage.getItem('virage-tuto')!=='1'&&!location.hash)setTimeout(()=>{if($('#modal').hidden&&$('#stage').hidden)tuto(0)},700)}catch(e){}
 if(!SFX.on){const b=$('#snd');b.textContent='🔇';b.classList.add('off');b.setAttribute('aria-label','Activer le son')}
 })();
 </script>
@@ -3557,6 +3632,7 @@ st.textContent=`
 #online details{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}
 #online summary{cursor:pointer;font-weight:700}
 #online details p{font-size:13px;color:var(--mute);line-height:1.55;margin:8px 0}
+#online a{color:var(--gold)}
 .ol-danger{display:grid;gap:8px;margin-top:10px}
 .ol-danger input{width:100%;background:#1B2947;border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--fg);font:inherit}
 .ol-gate{border:1px solid var(--gold);background:rgba(245,196,81,.08);border-radius:12px;padding:10px 12px;font-size:13px;margin-top:10px}
@@ -3614,13 +3690,17 @@ const ERR={
   compte_suspendu:"Ce compte est suspendu. Contacte l'administrateur du jeu.",
   adversaire_indisponible:"Cet adversaire n'est plus disponible (onze incomplet ou compte suspendu).",
   album_incomplet:"Il manque encore des cartes pour cet album.",album_inconnu:'Album inconnu.',aucune_carte:'Aucune carte disponible.',
-  interdit:'Accès réservé aux administrateurs.',trop_denvies:'Tu as déjà 60 cartes en envie.',
+  interdit:'Accès réservé aux administrateurs.',
+  pseudo_interdit:"Ce pseudo n'est pas autorisé (insulte, propos haineux ou nom réservé).",pseudo_pris:'Ce pseudo est déjà pris.',
+  pseudo_format:'Pseudo : 3 à 16 caractères (lettres, chiffres, _ . -).',trop_denvies:'Tu as déjà 60 cartes en envie.',
   'captcha verification process failed':'Vérification anti-robot échouée : réessaie.'
 };
 function msgOf(e){
   const m=(e&&e.message)||String(e);
   const gate=/^acces_marche:(\d+):(\d+)/.exec(m);
   if(gate)return `Les ventes et échanges s'ouvrent au niveau ${gate[1]}, ${gate[2]} jours après l'inscription (protection contre les comptes multiples).`;
+  const ren=/^renommage_trop_tot:(.+)$/.exec(m);
+  if(ren)return `Tu pourras changer de pseudo à nouveau à partir du ${ren[1]}.`;
   const lim=/^prix_hors_limites:(\d+):(\d+)/.exec(m);
   if(lim)return `Le prix doit être entre ${fmt(lim[1])} et ${fmt(lim[2])} pièces.`;
   if(ERR[m])return ERR[m];
@@ -3671,6 +3751,7 @@ const nfmt=n=>{const b=n.body||{},c=x=>esc(nm(x));
     case 'expiree':return `Annonce expirée : ${c(b.card)} revient dans ta collection`;
     case 'envie_vente':return `♥ ${c(b.card)} est en vente par ${esc(b.by||'un joueur')} à ${fmt(b.price)} pièces`;
     case 'envie_echange':return `♥ ${esc(b.by||'Un joueur')} propose ${c(b.card)} en échange de ${c(b.want)}`;
+    case 'renomme':return `Ton pseudo « ${esc(b.old)} » a été remplacé par « ${esc(b.new)} » par l'administrateur${b.reason?` (${esc(b.reason)})`:''}.`;
     case 'admin':return `Ajustement de l'administrateur : ${b.delta>0?'+':''}${fmt(b.delta)} pièces${b.reason?` (${esc(b.reason)})`:''}`;
     default:return esc(n.kind)}};
 /* ---------- cloche des notifications ---------- */
@@ -3722,12 +3803,14 @@ function draw(){
     left=`<strong>Nouveau mot de passe</strong><form class="ol-form" id="ol-rec" style="margin-top:10px"><label>Mot de passe<input type="password" name="pw" autocomplete="new-password" minlength="6" required></label><button class="btn gold" type="submit">Enregistrer</button><p class="ol-msg" id="ol-m"></p></form>`}
   else if(user){
     left=`<p style="margin:12px 0 4px">Connecté en tant que <strong>${esc(pseudo||'…')}</strong></p><p style="margin:0 0 12px;color:var(--mute);font-size:13px">${esc(user.email||'')}</p>
+      <form class="ol-form" id="ol-ren" style="margin:0 0 12px" novalidate><label>Changer de pseudo (une fois tous les 30 jours)<span class="row" style="flex-wrap:nowrap"><input name="ps" maxlength="16" value="${esc(pseudo)}" autocomplete="nickname" style="min-width:0"><button class="btn ghost" type="submit">Valider</button></span></label></form>
       <div class="row"><button type="button" class="btn ghost" data-ol="out">Se déconnecter</button>${isAdmin?'<a class="btn ghost" href="admin.html">Administration</a>':''}</div>
       <div class="ol-note">Ta partie en ligne est gardée et vérifiée par le serveur : pièces et cartes ne peuvent pas être modifiées depuis le navigateur. Ta partie hors ligne reste sur cet appareil et revient quand tu te déconnectes.</div>
       <p class="ol-msg" id="ol-m"></p>
       <details><summary>Mes données personnelles</summary>
         <p>Le jeu enregistre ton adresse e-mail (pour te connecter), ton pseudo (visible dans le classement et le marché), ta partie (cartes, pièces, matchs, annonces, échanges) et un journal de tes mouvements de pièces (pour repérer la triche). Rien n'est revendu ni partagé. Les données sont hébergées par Supabase.</p>
         <p>Tu peux télécharger toutes tes données ou supprimer ton compte à tout moment. La suppression est immédiate et définitive : partie, annonces, offres et journal sont effacés.</p>
+        <p><a href="legal.html#confidentialite" target="_blank" rel="noopener">Lire la politique de confidentialité complète</a></p>
         <div class="row"><button type="button" class="btn ghost" data-ol="export">Télécharger mes données</button></div>
         <div class="ol-danger">${delArm?`<label style="font-size:13px;color:var(--mute)">Pour confirmer, écris ton pseudo<input id="ol-del" autocomplete="off"></label><div class="row"><button type="button" class="btn danger" data-ol="del-go">Supprimer définitivement</button><button type="button" class="btn ghost" data-ol="del-no">Annuler</button></div>`:'<button type="button" class="btn danger" data-ol="del">Supprimer mon compte</button>'}</div>
       </details>`}
@@ -3742,7 +3825,8 @@ function draw(){
         ${mode==='in'?`<button type="button" class="btn ghost" data-ol="forgot">Mot de passe oublié</button>`:''}
         <p class="ol-msg" id="ol-m"></p>
       </form>
-      <p class="ol-msg">En ligne, ta partie est protégée contre la triche et tu accèdes au classement, aux ventes et aux échanges entre joueurs.</p>`}
+      <p class="ol-msg">En ligne, ta partie est protégée contre la triche et tu accèdes au classement, aux ventes et aux échanges entre joueurs.</p>
+      ${mode==='up'?`<p class="ol-msg">En créant un compte, tu acceptes les <a href="legal.html#conditions" target="_blank" rel="noopener">conditions d'utilisation</a> et la <a href="legal.html#confidentialite" target="_blank" rel="noopener">politique de confidentialité</a>.</p>`:''}`}
   box.innerHTML=head+`<div class="ol-grid"><div>${left}</div><div><div class="ol-tabs">${Object.keys(LB).map(k=>`<button type="button" class="chip" data-ol="lb" data-k="${k}" aria-pressed="${lbKey===k}">${LB[k][0]}</button>`).join('')}</div><div id="ol-lb"></div></div></div>`;
   if(user)setStatus(status||'Partie en ligne sécurisée',statusK);
   drawLB();capRender();
@@ -3809,6 +3893,11 @@ async function init(){
 box.addEventListener('submit',async e=>{
   e.preventDefault();const f=e.target,v=n=>f.elements[n]?f.elements[n].value.trim():'';
   const btn=f.querySelector('button[type=submit]');
+  if(f.id==='ol-ren'){
+    const ps=f.elements.ps.value.trim();if(ps===pseudo)return;btn.disabled=true;
+    try{const o=await api.call('rename_me',{p_pseudo:ps});pseudo=o.pseudo;G.toast(`Tu t'appelles maintenant ${pseudo}`);draw();loadLB()}
+    catch(x){msg(msgOf(x),'err');btn.disabled=false}
+    return}
   if(f.id==='ol-rec'){
     btn.disabled=true;const r=await sb.auth.updateUser({password:f.elements.pw.value});btn.disabled=false;
     if(r.error)return msg(msgOf(r.error),'err');
@@ -3820,9 +3909,9 @@ box.addEventListener('submit',async e=>{
     if(mode==='up'){
       const ps=v('pseudo');
       if(!PSEUDO.test(ps))throw{message:'Pseudo : 3 à 16 caractères (lettres, chiffres, _ . -).'};
-      const free=await sb.rpc('pseudo_libre',{p:ps});
-      if(free.error)throw free.error;
-      if(!free.data)throw{message:'Ce pseudo est déjà pris.'};
+      const ck=await sb.rpc('pseudo_check',{p:ps});
+      if(ck.error)throw ck.error;
+      if(ck.data!=='ok')throw{message:'pseudo_'+ck.data};
       if(CAPTCHA_SITEKEY&&!capTok)throw{message:'Coche la vérification anti-robot.'};
       const r=await sb.auth.signUp({email,password:pw,options:Object.assign({data:{pseudo:ps},emailRedirectTo:location.origin+location.pathname},capOpt())});capReset();
       if(r.error)throw r.error;
