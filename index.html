@@ -3582,6 +3582,18 @@ const wait=ms=>new Promise(r=>setTimeout(r,ms));
 const st=document.createElement('style');
 st.textContent=`
 #online h3,#trades h3,#pmarket h3{font-size:22px}
+#gate{position:fixed;inset:0;z-index:150;overflow:auto;background:radial-gradient(800px 500px at 80% 0%,rgba(245,196,81,.16),transparent 60%),radial-gradient(700px 500px at 0% 100%,rgba(60,224,240,.10),transparent 60%),var(--bg);padding:max(24px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) 32px max(16px,env(safe-area-inset-left,0px))}
+#gate[hidden]{display:none}
+body.gated{overflow:hidden}
+.gate-in{max-width:480px;margin:0 auto;display:grid;gap:16px;padding-top:4vh}
+.gate-brand{font-family:var(--disp);font-weight:900;font-size:clamp(64px,16vw,96px);line-height:.9;letter-spacing:.02em;color:var(--fg)}
+.gate-brand span{color:var(--gold)}.gate-brand small{font-size:22px;letter-spacing:.3em;color:var(--mute);margin-left:10px}
+.gate-tag{margin:0;color:#C9D3EA;font-size:16px;line-height:1.55}
+.gate-box #online{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px}
+#gate .ol-lbcol,#gate .ol-top{display:none}
+#gate .ol-grid{grid-template-columns:minmax(0,1fr);margin-top:0}
+#gate .ol-form{max-width:none}
+.gate-legal{text-align:center;font-size:13px;color:var(--mute);margin:0}.gate-legal a{color:var(--mute)}
 .ol-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap}
 .ol-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:24px;margin-top:14px;align-items:start}
 @media(max-width:900px){.ol-grid{grid-template-columns:minmax(0,1fr)}}
@@ -3710,9 +3722,22 @@ function msgOf(e){
   return m;
 }
 
+/* ---------- accès réservé aux comptes ---------- */
+const gate=document.createElement('div');gate.id='gate';gate.setAttribute('role','dialog');gate.setAttribute('aria-modal','true');gate.setAttribute('aria-label','Connexion à Virage TCG');
+gate.innerHTML=`<div class="gate-in"><div class="gate-brand">VIR<span>A</span>GE<small>TCG</small></div>
+  <p class="gate-tag">Le jeu de cartes à collectionner du Top 5 européen. Crée ton compte gratuit pour jouer : ta collection est sauvegardée, protégée et te suit sur tous tes appareils.</p>
+  <div class="gate-box" id="gate-slot"></div>
+  <p class="gate-legal"><a href="legal.html#mentions">Mentions légales</a> · <a href="legal.html#confidentialite">Confidentialité</a> · <a href="legal.html#conditions">Conditions d'utilisation</a></p></div>`;
+document.body.appendChild(gate);
+const boxHome=box.parentNode,boxNext=box.nextSibling;
+function setGate(on){
+  if(on){gate.hidden=false;document.body.classList.add('gated');if(box.parentNode!==gate.querySelector('#gate-slot'))gate.querySelector('#gate-slot').appendChild(box);box.hidden=false}
+  else{gate.hidden=true;document.body.classList.remove('gated');if(box.parentNode!==boxHome)boxHome.insertBefore(box,boxNext)}
+}
+
 /* ---------- état ---------- */
 let lbSeason='';
-let sb=null,user=null,pseudo='',mode='in',lbKey='saison',lbRows=null,lbErr='',recovery=false,status='',statusK='';
+let sb=null,user=null,pseudo='',mode=(()=>{try{return localStorage.getItem('virage-compte')?'in':'up'}catch(e){return 'up'}})(),lbKey='saison',lbRows=null,lbErr='',recovery=false,status='',statusK='';
 const api={defis:[],skew:0,matches:0,bank:null,base:null,
   async call(name,args){if(name!=='set_squad'&&name!=='set_fav')await flush();const r=await sb.rpc(name,args||{});if(r.error)throw r.error;return r.data},
   msg:msgOf,
@@ -3796,7 +3821,7 @@ function setStatus(t,k){status=t;statusK=k;const el=$('#ol-st');if(el)el.innerHT
 /* ---------- panneau compte + classement ---------- */
 const LB={saison:['Saison',r=>fmt(r.pts)+' pts'],value:['Valeur du classeur',r=>fmt(r.value)],cards:['Cartes uniques',r=>fmt(r.cards)],level:['Niveau',r=>'Niv. '+r.level],wins:['Victoires',r=>fmt(r.wins)]};
 function draw(){
-  if(!sb){box.innerHTML=`<h3>Compte en ligne</h3><p class="ol-msg${status?' err':''}">${status?esc(status):'Chargement du service…'}</p>`;return}
+  if(!sb){box.innerHTML=`<h3>Compte en ligne</h3><p class="ol-msg${status?' err':''}">${status?esc(status):'Chargement…'}</p>${status?'<button type="button" class="btn gold" onclick="location.reload()">Réessayer</button>':''}`;return}
   const head=`<div class="ol-top"><div><div class="eyebrow">En ligne</div><h3>Compte &amp; classement</h3></div>${user?`<div class="ol-st" id="ol-st"></div>`:''}</div>`;
   let left;
   if(recovery){
@@ -3827,7 +3852,7 @@ function draw(){
       </form>
       <p class="ol-msg">En ligne, ta partie est protégée contre la triche et tu accèdes au classement, aux ventes et aux échanges entre joueurs.</p>
       ${mode==='up'?`<p class="ol-msg">En créant un compte, tu acceptes les <a href="legal.html#conditions" target="_blank" rel="noopener">conditions d'utilisation</a> et la <a href="legal.html#confidentialite" target="_blank" rel="noopener">politique de confidentialité</a>.</p>`:''}`}
-  box.innerHTML=head+`<div class="ol-grid"><div>${left}</div><div><div class="ol-tabs">${Object.keys(LB).map(k=>`<button type="button" class="chip" data-ol="lb" data-k="${k}" aria-pressed="${lbKey===k}">${LB[k][0]}</button>`).join('')}</div><div id="ol-lb"></div></div></div>`;
+  box.innerHTML=head+`<div class="ol-grid"><div>${left}</div><div class="ol-lbcol"><div class="ol-tabs">${Object.keys(LB).map(k=>`<button type="button" class="chip" data-ol="lb" data-k="${k}" aria-pressed="${lbKey===k}">${LB[k][0]}</button>`).join('')}</div><div id="ol-lb"></div></div></div>`;
   if(user)setStatus(status||'Partie en ligne sécurisée',statusK);
   drawLB();capRender();
 }
@@ -3861,6 +3886,7 @@ async function loadLB(){
 async function onUser(u){
   user=u;pseudo='';status='';statusK='';
   if(!u){
+    setGate(true);
     if(G.isOnline())G.offline();
     T.loaded=false;M.loaded=false;isAdmin=false;act=null;PV.data=null;unread=0;bellClose();bellBadge();draw();drawTrades();drawMarket();drawPvp();loadLB();return}
   mode='in';draw();
@@ -3869,6 +3895,7 @@ async function onUser(u){
   try{
     const o=await sb.rpc('game_state');if(o.error)throw o.error;
     G.online(api);api.apply(o.data.state);isAdmin=!!o.data.admin;status='Partie en ligne sécurisée';statusK='';
+    setGate(false);try{localStorage.setItem('virage-compte','1')}catch(e){}
     bellMake();bellBadge();setTimeout(()=>news(o.data.news),600);act=null;
   }catch(e){status=msgOf(e);statusK='e'}
   draw();loadLB();drawPvp();bellBadge();
@@ -3879,7 +3906,7 @@ async function init(){
   try{
     await new Promise((ok,ko)=>{const s=document.createElement('script');s.src=LIB;s.onload=ok;s.onerror=ko;document.head.appendChild(s)});
     sb=window.supabase.createClient(SB_URL,SB_KEY,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});
-  }catch(e){sb=null;status='Le service en ligne est injoignable. Tu joues hors ligne sur cet appareil.';box.hidden=false;draw();return}
+  }catch(e){sb=null;status='Le service est momentanément injoignable. Vérifie ta connexion puis recharge la page.';setGate(true);draw();return}
   box.hidden=false;
   sb.auth.onAuthStateChange((ev)=>{
     if(ev==='PASSWORD_RECOVERY'){recovery=true;draw();const n=document.querySelector('.nav [data-v=profil]');if(n)n.click();return}
@@ -4186,6 +4213,7 @@ const vmt=document.getElementById('v-match');
 if(vmt)new MutationObserver(()=>{if(!vmt.hidden&&user&&G.isOnline())loadPvp()}).observe(vmt,{attributes:true,attributeFilter:['hidden']});
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&user&&G.isOnline())refresh()});
 let tick=0;setInterval(()=>{if(!user||!G.isOnline()||document.hidden)return;tick++;refresh();if(isMarket()&&tick%2===0){loadMarket();loadTrades()}},60000);
+setGate(true);draw();
 init();
 })();
 
