@@ -85,7 +85,7 @@ Ils sont regroupés dans la fonction `v_cfg` de `supabase-securite.sql` :
 | `pvp_cap` / `pvp_same` | 10 / 3 | matchs entre joueurs récompensés par jour / contre le même joueur |
 | `trade_min_level` / `trade_min_days` | 5 / 2 | niveau et ancienneté requis pour vendre et échanger |
 
-**Départ et niveaux.** Un nouveau compte commence avec 0 pièce et 10 boosters gratuits. Passer du niveau L au niveau L+1 demande 150 × L XP (niveau 5 = 1 500 XP, niveau 10 = 6 750 XP). Atteindre le niveau L rapporte 50 × L pièces (1 000 maximum). XP gagnée : nouvelle carte 10, doublon d'un booster payant 3, victoire 20, nul ou défaite 5, achat en boutique ou atelier 10. Ces valeurs sont dans `g_xp`, `v_level`, `open_pack` et `play_match`.
+**Départ et niveaux.** Un nouveau compte commence avec 0 pièce et 10 boosters gratuits. Passer du niveau L au niveau L+1 demande 150 × L XP (niveau 5 = 1 500 XP, niveau 10 = 6 750 XP). Atteindre le niveau L rapporte 50 × L pièces (1 000 maximum). XP gagnée : nouvelle carte 10, doublon d'un booster payant 3, victoire 20, nul ou défaite 5, achat dans l’offre du jour 10. Ces valeurs sont dans `g_xp`, `v_level`, `open_pack` et `play_match`.
 
 Pour changer une valeur : modifie-la dans le script et relance-le. Regarde l'onglet « Pièces créées et détruites » de l'administration après quelques semaines. Si les créations dépassent nettement les retraits, baisse `bank_cap` ou monte `tax`.
 
