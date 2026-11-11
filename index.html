@@ -472,6 +472,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
       <select id="f-grp" aria-label="Position"><option value="">Toutes les positions</option><option value="G">Gardiens</option><option value="DEF">Défenseurs</option><option value="MIL">Milieux</option><option value="ATT">Attaquants</option></select>
       <select id="f-sort" aria-label="Tri"><option value="">Tri : meilleure note</option><option value="name">Tri : nom</option><option value="club">Tri : club</option><option value="own">Tri : possédées d'abord</option></select>
       <label class="chk"><input type="checkbox" id="f-own"> Possédées seulement</label>
+      <label class="chk" id="f-wish-l" hidden><input type="checkbox" id="f-wish"> Mes envies</label>
     </div>
     <div class="grid" id="grid"></div>
     </div>
@@ -2865,7 +2866,7 @@ function draw(r,lg){
   const pool=BYR[r];return pool[Math.random()*pool.length|0];
 }
 const packHTML=pk=>`<div class="pack${pk.cls}" style="${pk.style||''}"><span class="p-sheen"></span><span class="p-t" style="${pk.fs?`font-size:calc(var(--pw)*${pk.fs})`:''}">${pk.name}</span><span class="p-s">${pk.sub||'Europe'}</span><span class="p-d"><i></i><i></i><i></i><i></i><i></i></span><span class="p-n">5 cartes</span></div>`;
-const PITY=10;
+const PITY=10,PITY_LEG=150;
 const MIS=[['open','Ouvre 3 boosters',3,300],['new','Obtiens 5 nouvelles cartes',5,300],['rare','Tire une Rare ou mieux',1,200],['win','Gagne 2 matchs',2,400]];
 const today=()=>{const d=new Date();return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate()};
 function misDay(){if(NET){if(!S.mis||!S.mis.p||!S.mis.c)S.mis={day:'',p:{},c:{}};return}if(!S.mis||S.mis.day!==today()||!S.mis.p||!S.mis.c)S.mis={day:today(),p:{},c:{}}}
@@ -2878,7 +2879,7 @@ function missions(){
 
 /* ---------- État ---------- */
 const KEY='virage-tcg-v1';
-const fresh=()=>({coins:1500,xp:0,owned:{},favs:[],squad:{},packs:0,free:{n:2,t:Date.now()},last:[],pity:0,form:'433',beaten:{},rec:{w:0,d:0,l:0},mis:{day:'',p:{},c:{}},mkt:{day:'',items:[],sold:{},roll:0},defi:{wk:'',done:{}},albums:{}});
+const fresh=()=>({coins:1500,xp:0,owned:{},favs:[],squad:{},packs:0,free:{n:2,t:Date.now()},last:[],pity:0,form:'433',beaten:{},rec:{w:0,d:0,l:0},mis:{day:'',p:{},c:{}},mkt:{day:'',items:[],sold:{},roll:0},defi:{wk:'',done:{}},albums:{},pity_leg:0,wishes:[]});
 let S=fresh(),NET=null;
 try{const j=JSON.parse(localStorage.getItem(KEY));if(j&&typeof j==='object')S=Object.assign(fresh(),j)}catch(e){}
 if(!S.free||typeof S.free.n!=='number'||typeof S.free.t!=='number')S.free={n:2,t:Date.now()};
@@ -2941,7 +2942,8 @@ function shop(){
   $('#odds').innerHTML=RAR.map(r=>`<div style="--c:${r.c}"><span>${r.n}</span><span class="bar"><i style="width:${Math.max(Math.sqrt(r.p/50)*100,5)}%"></i></span><span class="num">${String(r.p).replace('.',',')} %</span></div>`).join('');
   const l=(S.last||[]).map(id=>BY[id]).filter(Boolean);
   $('#last').innerHTML=l.length?`<div class="strip">${l.map(p=>cardHTML(p)).join('')}</div>`:`<div class="empty">Aucun booster ouvert pour l'instant. Tu démarres avec 2 boosters gratuits et 1 500 pièces.</div>`;
-  $('#pity').textContent=S.pity>=PITY-1?'Épique ou mieux garantie dans le prochain booster.':`Épique ou mieux garantie d'ici ${PITY-S.pity} boosters.`;
+  const pl=S.pity_leg|0;
+  $('#pity').textContent=(S.pity>=PITY-1?'Épique ou mieux garantie dans le prochain booster.':`Épique ou mieux garantie d'ici ${PITY-S.pity} boosters.`)+' '+(pl>=PITY_LEG-1?'Légendaire ou mieux garantie dans le prochain booster.':`Légendaire ou mieux garantie d'ici ${PITY_LEG-pl} boosters.`);
   missions();
   freeUI();
 }
@@ -2955,10 +2957,11 @@ function freeUI(){
 const F={r:-1,lg:'',club:'',grp:'',q:'',own:false,sort:'',n:60,sig:''};
 function collection(){
   const own=owned().length;
+  $('#f-wish-l').hidden=!NET;if(!NET&&F.wish){F.wish=false;$('#f-wish').checked=false}
   $('#done-n').textContent=`${own} / ${P.length}`;$('#done-bar').style.width=(own/P.length*100)+'%';
   $('#chips').innerHTML=`<button type="button" class="chip" data-act="rar" data-r="-1" aria-pressed="${F.r===-1}">Toutes</button>`+RAR.map((r,i)=>`<button type="button" class="chip" style="--c:${r.c}" data-act="rar" data-r="${i}" aria-pressed="${F.r===i}"><i></i>${r.n}<small class="num">${BYR[i].filter(p=>S.owned[p.id]).length}/${BYR[i].length}</small></button>`).join('');
   const q=norm(F.q.trim());
-  const list=P.filter(p=>(F.r<0||p.r===F.r)&&(!F.lg||p.lg===F.lg)&&(!F.club||p.club===F.club)&&(!F.grp||p.grp===F.grp)&&(!q||p.key.includes(q))&&(!F.own||S.owned[p.id]));
+  const list=P.filter(p=>(F.r<0||p.r===F.r)&&(!F.lg||p.lg===F.lg)&&(!F.club||p.club===F.club)&&(!F.grp||p.grp===F.grp)&&(!q||p.key.includes(q))&&(!F.own||S.owned[p.id])&&(!F.wish||S.wishes.includes(p.id)));
   if(F.sort==='name')list.sort((a,b)=>a.short.localeCompare(b.short,'fr'));
   else if(F.sort==='club')list.sort((a,b)=>a.club.localeCompare(b.club,'fr')||b.ovr-a.ovr);
   else if(F.sort==='own')list.sort((a,b)=>(S.owned[b.id]?1:0)-(S.owned[a.id]?1:0));
@@ -2980,7 +2983,7 @@ function sane(){
   if(!S.rec||typeof S.rec.w!=='number')S.rec={w:0,d:0,l:0};
   if(!Array.isArray(S.favs))S.favs=[];if(!Array.isArray(S.last))S.last=[];
   if(!S.free||typeof S.free.n!=='number'||typeof S.free.t!=='number')S.free={n:2,t:Date.now()};
-  S.pity=+S.pity||0;S.coins=+S.coins||0;S.xp=+S.xp||0;S.packs=+S.packs||0;
+  S.pity=+S.pity||0;S.pity_leg=+S.pity_leg||0;if(!Array.isArray(S.wishes))S.wishes=[];S.coins=+S.coins||0;S.xp=+S.xp||0;S.packs=+S.packs||0;
 }
 sane();
 function chemOf(ps){let c=0;for(let i=0;i<ps.length;i++)for(let j=i+1;j<ps.length;j++){const a=ps[i],b=ps[j];if(a.club===b.club)c+=3;else if(a.lg===b.lg)c+=1;if(a.nat===b.nat)c+=2}return Math.min(100,Math.round(c*.75))}
@@ -3187,8 +3190,8 @@ addEventListener('hashchange',()=>go(location.hash.slice(1)));
 function modal(html){$('#sheet').innerHTML=`<button type="button" class="x" data-act="close" aria-label="Fermer">×</button>`+html;$('#modal').hidden=false}
 function closeModal(){$('#modal').hidden=true;$('#sheet').innerHTML=''}
 function detail(id){
-  const p=BY[id],r=RAR[p.r],fav=S.favs.includes(id);
-  modal(`<div class="detail">${cardHTML(p,{attrs:''})}<div class="info"><span class="tagr" style="--c:${r.c}">${r.n}</span><h2>${p.full}</h2><dl><dt>Club</dt><dd>${p.club}</dd><dt>Championnat</dt><dd>${p.lg}</dd><dt>Poste</dt><dd>${p.pos}</dd><dt>Tirée</dt><dd>${S.owned[id]} fois</dd><dt>Valeur de revente</dt><dd><span class="coin sm"></span> ${fmt(r.sell)}</dd>${CREDITS[id]?`<dt>Photo</dt><dd>${String(CREDITS[id]).replace(/[<>&]/g,'')}</dd>`:''}</dl><button type="button" class="btn ${fav?'ghost':'gold'}" data-act="fav" data-id="${id}">${fav?'★ Retirer des favorites':'☆ Ajouter aux favorites'}</button>${NET&&NET.detailExtra?NET.detailExtra(id):''}<button type="button" class="btn danger" data-act="sell" data-id="${id}">${NET?'Vente rapide':'Vendre'} · ${fmt(r.sell)} pièces</button></div></div>`);
+  const p=BY[id],r=RAR[p.r],fav=S.favs.includes(id),own=S.owned[id]|0;
+  modal(`<div class="detail">${cardHTML(p,{attrs:''})}<div class="info"><span class="tagr" style="--c:${r.c}">${r.n}</span><h2>${p.full}</h2><dl><dt>Club</dt><dd>${p.club}</dd><dt>Championnat</dt><dd>${p.lg}</dd><dt>Poste</dt><dd>${p.pos}</dd><dt>${own?'Tirée':'Collection'}</dt><dd>${own?own+' fois':'Pas encore obtenue'}</dd><dt>Valeur de revente</dt><dd><span class="coin sm"></span> ${fmt(r.sell)}</dd><dt>Prix en boutique</dt><dd><span class="coin sm"></span> ${fmt(priceOf(p))}</dd>${CREDITS[id]?`<dt>Photo</dt><dd>${String(CREDITS[id]).replace(/[<>&]/g,'')}</dd>`:''}</dl>${own?`<button type="button" class="btn ${fav?'ghost':'gold'}" data-act="fav" data-id="${id}">${fav?'★ Retirer des favorites':'☆ Ajouter aux favorites'}</button>${NET&&NET.detailExtra?NET.detailExtra(id):''}<button type="button" class="btn danger" data-act="sell" data-id="${id}">${NET?'Vente rapide':'Vendre'} · ${fmt(r.sell)} pièces</button>`:NET&&NET.cardExtra?NET.cardExtra(id):`<p style="color:var(--mute);margin:0;font-size:14px">Ouvre des boosters ou passe par la boutique du jour pour l'obtenir.</p>`}</div></div>`);
 }
 function picker(i){
   const s=SLOTS[i],used=new Set(Object.entries(S.squad).filter(([k])=>+k!==i).map(([,v])=>v));
@@ -3256,11 +3259,11 @@ async function openPack(kind,free){
   const lv0=level();
   if(free){if(S.free.n>=FREE_MAX)S.free.t=Date.now();S.free.n--}else S.coins-=pk.cost;
   S.packs++;
-  const pityHit=S.pity>=PITY-1;
-  for(let i=0;i<5;i++){const p=draw(roll(i===4?Math.max(pk.min,pityHit?3:0):0),pk.lg);
+  const pityHit=S.pity>=PITY-1,legHit=(S.pity_leg|0)>=PITY_LEG-1;
+  for(let i=0;i<5;i++){const p=draw(roll(i===4?Math.max(pk.min,pityHit?3:0,legHit?4:0):0),pk.lg);
     const isNew=!S.owned[p.id];S.owned[p.id]=(S.owned[p.id]||0)+1;S.xp+=isNew?25:10;
     if(isNew)news++;else refund+=RAR[p.r].sell;res.push({p,isNew})}
-  S.pity=res.some(x=>x.p.r>=3)?0:S.pity+1;bump('open',1);bump('new',news);if(res.some(x=>x.p.r>=2))bump('rare',1);
+  S.pity=res.some(x=>x.p.r>=3)?0:S.pity+1;S.pity_leg=res.some(x=>x.p.r>=4)?0:(S.pity_leg|0)+1;bump('open',1);bump('new',news);if(res.some(x=>x.p.r>=2))bump('rare',1);
   res.sort((a,b)=>a.p.r-b.p.r||a.p.ovr-b.p.ovr);
   ups=level()-lv0;S.coins+=refund+ups*300;S.last=res.map(x=>x.p.id);save();
   $('#coins').textContent=fmt(S.coins-refund-ups*300);
@@ -3313,7 +3316,7 @@ document.addEventListener('click',e=>{
   else if(a==='stage-col'){closeStage();go('collection',true)}
   else if(a==='free')openPack('std',true);
   else if(a==='noimg'){delete IMG[id];saveImg();renderAll();detail(id)}
-  else if(a==='card'){if(S.owned[id])detail(id);else toast('Carte pas encore débloquée')}
+  else if(a==='card')detail(id);
   else if(a==='fav'){const i=S.favs.indexOf(id);i<0?S.favs.push(id):S.favs.splice(i,1);save();profile();detail(id)}
   else if(a==='close')closeModal();
   else if(a==='rar'){F.r=+el.dataset.r;collection()}
@@ -3390,6 +3393,7 @@ $('#f-club').addEventListener('change',e=>{F.club=e.target.value;collection()});
 $('#f-lg').addEventListener('change',e=>{F.lg=e.target.value;collection();leagueBars()});
 $('#f-grp').addEventListener('change',e=>{F.grp=e.target.value;collection()});
 $('#f-own').addEventListener('change',e=>{F.own=e.target.checked;collection()});
+$('#f-wish').addEventListener('change',e=>{F.wish=e.target.checked;collection()});
 $('#f-sort').addEventListener('change',e=>{F.sort=e.target.value;collection()});
 setInterval(freeUI,1000);
 
@@ -3477,7 +3481,7 @@ st.textContent=`
 .tr-res button{display:flex;gap:8px;justify-content:space-between;text-align:left;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:10px;padding:8px 10px;cursor:pointer;color:var(--fg);font:inherit;font-size:14px}
 .tr-res button small{color:var(--mute)}
 .tr-hist{font-size:13px;color:var(--mute);margin:6px 0 0;padding-left:18px}
-.pm-f{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr);gap:10px;margin-top:12px}
+.pm-f{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr) auto;gap:10px;margin-top:12px;align-items:center}
 @media(max-width:640px){.pm-f{grid-template-columns:minmax(0,1fr)}}
 .pm-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:16px;margin-top:14px}
 .pm-it{display:grid;gap:8px;align-content:start}.pm-it .card{--w:100%}
@@ -3510,6 +3514,19 @@ st.textContent=`
 .pv-op .btn{grid-column:1/-1;padding:10px}
 .tr-co{font-size:12px;color:var(--gold);font-weight:700;margin-top:4px}
 #ol-cap{min-height:0}
+.bell{position:relative;border:1px solid var(--line);background:var(--panel);border-radius:999px;width:40px;height:40px;display:grid;place-items:center;cursor:pointer;font-size:17px;flex:none;margin-right:8px;padding:0}
+.bell:hover{border-color:var(--mute)}
+.bell-n{position:absolute;top:-4px;right:-4px;min-width:18px;height:18px;padding:0 5px;border-radius:9px;background:var(--r5);color:#fff;font-size:11px;font-weight:800;display:grid;place-items:center;line-height:1}
+.bell-pop{position:fixed;z-index:80;top:calc(env(safe-area-inset-top,0px) + 66px);right:max(16px,env(safe-area-inset-right,0px));width:min(380px,calc(100vw - 32px));max-height:min(70vh,560px);overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.bell-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:6px}.bell-h small{color:var(--mute);font-size:12px}
+.ol-act li.new{background:rgba(245,196,81,.07);border-left-color:var(--gold)}
+.ol-act li[data-q]{cursor:pointer}.ol-act li[data-q]:hover{background:rgba(255,255,255,.05)}
+.ol-act li.envie_vente,.ol-act li.envie_echange{border-left-color:#F472B6}
+.ce{display:grid;gap:10px;border-top:1px solid var(--line);padding-top:12px;margin-top:2px}
+.ce-k{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.ce-k div{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:12px;color:var(--mute)}
+.ce-k b{display:block;color:var(--fg);font-size:16px;font-variant-numeric:tabular-nums}
+.pm-w{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--mute);white-space:nowrap}
 `;
 document.head.appendChild(st);
 
@@ -3540,7 +3557,7 @@ const ERR={
   compte_suspendu:"Ce compte est suspendu. Contacte l'administrateur du jeu.",
   adversaire_indisponible:"Cet adversaire n'est plus disponible (onze incomplet ou compte suspendu).",
   album_incomplet:"Il manque encore des cartes pour cet album.",album_inconnu:'Album inconnu.',aucune_carte:'Aucune carte disponible.',
-  interdit:'Accès réservé aux administrateurs.',
+  interdit:'Accès réservé aux administrateurs.',trop_denvies:'Tu as déjà 60 cartes en envie.',
   'captcha verification process failed':'Vérification anti-robot échouée : réessaie.'
 };
 function msgOf(e){
@@ -3595,19 +3612,47 @@ const nfmt=n=>{const b=n.body||{},c=x=>esc(nm(x));
     case 'defense':return `${esc(b.by)} a affronté ton onze : ${b.res==='w'?'victoire':b.res==='l'?'défaite':'match nul'} ${b.a}–${b.b}${b.elo?` (Elo ${b.elo>0?'+':''}${b.elo})`:''}`;
     case 'saison':return `Saison ${esc(b.season)} terminée : ${b.rank}${b.rank===1?'re':'e'} place, +${fmt(b.gain)} pièces`;
     case 'expiree':return `Annonce expirée : ${c(b.card)} revient dans ta collection`;
+    case 'envie_vente':return `♥ ${c(b.card)} est en vente par ${esc(b.by||'un joueur')} à ${fmt(b.price)} pièces`;
+    case 'envie_echange':return `♥ ${esc(b.by||'Un joueur')} propose ${c(b.card)} en échange de ${c(b.want)}`;
     case 'admin':return `Ajustement de l'administrateur : ${b.delta>0?'+':''}${fmt(b.delta)} pièces${b.reason?` (${esc(b.reason)})`:''}`;
     default:return esc(n.kind)}};
+/* ---------- cloche des notifications ---------- */
+const NK='virage-notif-vu';let unread=0,bellOpen=false;
+const plain=h=>h.replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>');
 function news(list){
-  if(!list||!list.length)return;
-  list.forEach((n,i)=>setTimeout(()=>G.toast(nfmt(n).replace(/<[^>]+>/g,'').replace(/&amp;/g,'&').replace(/&#39;/g,"'").replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>')),i*2600));
-  act=null;if(!document.getElementById('v-profil').hidden)loadAct();
+  list=list||[];unread=list.length;bellBadge();
+  let last=0;try{last=+localStorage.getItem(NK)||0}catch(e){}
+  const fresh=list.filter(n=>n.id>last);
+  fresh.slice(-3).forEach((n,i)=>setTimeout(()=>G.toast('🔔 '+plain(nfmt(n))),i*2600));
+  if(fresh.length){try{localStorage.setItem(NK,String(Math.max(...fresh.map(n=>n.id))))}catch(e){}}
+  if(bellOpen)loadAct();
 }
+let bell=null,bellPop=null;
+function bellMake(){
+  if(bell)return;
+  const w=document.getElementById('wallet');if(!w)return;
+  bell=document.createElement('button');bell.type='button';bell.className='bell';bell.setAttribute('aria-label','Notifications');bell.innerHTML='<span aria-hidden="true">🔔</span><b class="bell-n" hidden></b>';
+  w.parentNode.insertBefore(bell,w);
+  bellPop=document.createElement('div');bellPop.className='bell-pop';bellPop.hidden=true;bellPop.setAttribute('role','dialog');bellPop.setAttribute('aria-label','Notifications');
+  document.body.appendChild(bellPop);
+  bell.addEventListener('click',e=>{e.stopPropagation();bellOpen?bellClose():bellShow()});
+  document.addEventListener('click',e=>{if(bellOpen&&!bellPop.contains(e.target))bellClose()});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&bellOpen)bellClose()});
+  bellPop.addEventListener('click',e=>{const it=e.target.closest('[data-q]');if(!it)return;bellClose();goMarket(it.dataset.q)});
+}
+function bellBadge(){if(!bell)return;bell.hidden=!(user&&G.isOnline());const n=bell.querySelector('.bell-n');n.hidden=!unread;n.textContent=unread>9?'9+':unread}
+async function bellShow(){
+  bellOpen=true;bellPop.hidden=false;act=null;bellPop.innerHTML=actHTML();await loadAct();
+  if(unread){unread=0;bellBadge();try{await api.call('notices_read')}catch(e){}}
+}
+function bellClose(){bellOpen=false;if(bellPop)bellPop.hidden=true}
 async function loadAct(){
   if(!user||!G.isOnline())return;
   try{act=await api.call('activity')}catch(e){act=[]}
-  const el=$('#ol-act');if(el)el.innerHTML=actHTML();
+  if(bellOpen&&bellPop)bellPop.innerHTML=actHTML();
 }
-const actHTML=()=>act==null?'<p class="ol-msg">Chargement…</p>':act.length?`<ul class="ol-act">${act.map(n=>`<li class="${esc(n.kind)}">${nfmt(n)}<small>${new Date(n.created_at).toLocaleString('fr-FR',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}</small></li>`).join('')}</ul>`:'<p class="ol-msg">Rien pour le moment : tes ventes, échanges et défenses apparaîtront ici.</p>';
+const actHTML=()=>`<div class="bell-h"><strong>Notifications</strong><small>Ventes, échanges, envies, matchs</small></div>`+(act==null?'<p class="ol-msg">Chargement…</p>':act.length?`<ul class="ol-act">${act.map(n=>{const q=(n.kind==='envie_vente'||n.kind==='envie_echange')&&n.body?nm(n.body.card):'';
+  return `<li class="${esc(n.kind)}${n.seen?'':' new'}"${q?` data-q="${esc(q)}" tabindex="0"`:''}>${nfmt(n)}<small>${new Date(n.created_at).toLocaleString('fr-FR',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}${q?' · voir dans le marché':''}</small></li>`}).join('')}</ul>`:'<p class="ol-msg">Rien pour le moment. Tes ventes, échanges, envies et matchs apparaîtront ici.</p>');
 function setStatus(t,k){status=t;statusK=k;const el=$('#ol-st');if(el)el.innerHTML=`<i class="ol-dot${k?' '+k:''}"></i><span>${esc(t)}</span>`}
 
 /* ---------- panneau compte + classement ---------- */
@@ -3623,7 +3668,6 @@ function draw(){
       <div class="row"><button type="button" class="btn ghost" data-ol="out">Se déconnecter</button>${isAdmin?'<a class="btn ghost" href="admin.html">Administration</a>':''}</div>
       <div class="ol-note">Ta partie en ligne est gardée et vérifiée par le serveur : pièces et cartes ne peuvent pas être modifiées depuis le navigateur. Ta partie hors ligne reste sur cet appareil et revient quand tu te déconnectes.</div>
       <p class="ol-msg" id="ol-m"></p>
-      <strong style="display:block;margin-top:16px">Activité récente</strong><div id="ol-act">${actHTML()}</div>
       <details><summary>Mes données personnelles</summary>
         <p>Le jeu enregistre ton adresse e-mail (pour te connecter), ton pseudo (visible dans le classement et le marché), ta partie (cartes, pièces, matchs, annonces, échanges) et un journal de tes mouvements de pièces (pour repérer la triche). Rien n'est revendu ni partagé. Les données sont hébergées par Supabase.</p>
         <p>Tu peux télécharger toutes tes données ou supprimer ton compte à tout moment. La suppression est immédiate et définitive : partie, annonces, offres et journal sont effacés.</p>
@@ -3677,16 +3721,16 @@ async function onUser(u){
   user=u;pseudo='';status='';statusK='';
   if(!u){
     if(G.isOnline())G.offline();
-    T.loaded=false;M.loaded=false;isAdmin=false;act=null;PV.data=null;draw();drawTrades();drawMarket();drawPvp();loadLB();return}
+    T.loaded=false;M.loaded=false;isAdmin=false;act=null;PV.data=null;unread=0;bellClose();bellBadge();draw();drawTrades();drawMarket();drawPvp();loadLB();return}
   mode='in';draw();
   const p=await sb.from('profiles').select('pseudo').eq('id',u.id).maybeSingle();
   if(p.data)pseudo=p.data.pseudo;
   try{
     const o=await sb.rpc('game_state');if(o.error)throw o.error;
     G.online(api);api.apply(o.data.state);isAdmin=!!o.data.admin;status='Partie en ligne sécurisée';statusK='';
-    setTimeout(()=>news(o.data.news),600);act=null;
+    bellMake();bellBadge();setTimeout(()=>news(o.data.news),600);act=null;
   }catch(e){status=msgOf(e);statusK='e'}
-  draw();loadLB();loadAct();drawPvp();
+  draw();loadLB();drawPvp();bellBadge();
   if(G.isOnline()&&!document.getElementById('v-match').hidden)loadPvp();
   if(G.isOnline()&&!document.getElementById('v-marche').hidden){loadTrades();loadMarket()}else{drawTrades();drawMarket()}
 }
@@ -3784,6 +3828,12 @@ function sellForm(id){
 }
 document.addEventListener('click',async e=>{
   const el=e.target.closest('[data-net]');if(!el||!user)return;
+  if(el.dataset.net==='wish'){
+    const id=el.dataset.id,on=el.dataset.on==='1';el.disabled=true;
+    try{const o=await api.call('wish_set',{p_card:id,p_on:on});api.apply(o.state);G.toast(on?`♥ ${nm(id)} ajouté à tes envies`:`${nm(id)} retiré de tes envies`);G.detail(id)}
+    catch(x){G.toast(msgOf(x));el.disabled=false}
+    return}
+  if(el.dataset.net==='go'){G.closeModal();goMarket(el.dataset.q);return}
   if(el.dataset.net==='list'){
     const id=el.dataset.id,price=parseInt((document.getElementById('pm-price')||{}).value,10);
     if(!price){G.toast('Indique un prix.');return}
@@ -3793,15 +3843,36 @@ document.addEventListener('click',async e=>{
   }
 });
 
+/* ---------- fiche d'une carte non possédée ---------- */
+function cardExtra(id){
+  if(!user)return '<p class="ol-msg">Connecte-toi pour voir son prix chez les joueurs et l\'ajouter à tes envies.</p>';
+  const w=(G.get().wishes||[]).includes(id);
+  setTimeout(async()=>{
+    try{const m=await api.call('card_market',{p_card:id});const el=document.getElementById('ce-k');if(!el)return;
+      el.innerHTML=[[m.n?fmt(m.avg):'–','Prix moyen des ventes'+(m.n?` (${m.n})`:'')],[m.open?fmt(m.cheapest):'–',m.open?`Annonce la moins chère (${m.open})`:'Aucune annonce'],[fmt(m.trades),'Offres d\'échange'],[fmt(m.wishers),'Joueurs qui la veulent'],[fmt(m.owners),'Joueurs qui l\'ont'],[m.n?`${fmt(m.min)}–${fmt(m.max)}`:'–','Fourchette des ventes']].map(k=>`<div><b>${k[0]}</b>${k[1]}</div>`).join('');
+      const go=document.getElementById('ce-go');if(go)go.hidden=!(m.open||m.trades)}
+    catch(e){const el=document.getElementById('ce-k');if(el)el.innerHTML=`<p class="ol-msg err">${esc(msgOf(e))}</p>`}},0);
+  return `<div class="ce"><strong>Chez les joueurs</strong><div class="ce-k" id="ce-k"><p class="ol-msg">Chargement…</p></div>
+    <button type="button" class="btn ${w?'ghost':'gold'}" data-net="wish" data-id="${esc(id)}" data-on="${w?0:1}">${w?'♥ Retirer de mes envies':'♡ Ajouter à mes envies'}</button>
+    <small style="color:var(--mute);font-size:12px">${w?'Tu seras prévenu dès qu\'elle est mise en vente ou proposée en échange.':'Ajoute-la à tes envies pour être prévenu dès qu\'un joueur la vend ou la propose en échange.'}</small>
+    <button type="button" class="btn ghost" id="ce-go" data-net="go" data-q="${esc(nm(id))}" hidden>Voir les offres dans le marché</button></div>`;
+}
+api.cardExtra=cardExtra;
+function goMarket(q){
+  M.q=q||'';M.wish=false;T.q='';
+  const n=document.querySelector('.nav [data-v=marche]');if(n)n.click();
+  setTimeout(()=>{const i=document.getElementById('pm-q');if(i)i.value=M.q;loadMarket();const mb=document.getElementById('pmarket');if(mb)mb.scrollIntoView({block:'start',behavior:'smooth'})},50);
+}
+
 /* ---------- marché entre joueurs ---------- */
 const MB=document.getElementById('pmarket');
 const gateHTML=()=>M.gate?`<div class="ol-gate">Les ventes et échanges s'ouvrent au <b>niveau ${M.gate.level}</b> et <b>${M.gate.days} jours</b> après l'inscription. C'est une protection contre les comptes créés en série pour transférer des boosters gratuits.</div>`:'';
 function drawGate(){document.querySelectorAll('[data-gate]').forEach(e=>e.innerHTML=gateHTML())}
-const M={gate:null,open:[],mine:[],bought:[],loaded:false,q:'',r:-1,sort:'recent',busy:false,arm:'',err:''};
+const M={wish:false,gate:null,open:[],mine:[],bought:[],loaded:false,q:'',r:-1,sort:'recent',busy:false,arm:'',err:''};
 let qT=null;
 async function loadMarket(){
   if(!MB||!user||!G.isOnline())return;
-  try{const o=await api.call('market_list',{p_q:M.q,p_r:M.r,p_sort:M.sort});M.open=o.open;M.mine=o.mine;M.bought=o.bought;M.gate=o.gate||null;M.err='';drawGate()}
+  try{const o=await api.call('market_list',{p_q:M.q,p_r:M.r,p_sort:M.sort,p_wish:M.wish});M.open=o.open;M.mine=o.mine;M.bought=o.bought;M.gate=o.gate||null;M.err='';drawGate()}
   catch(e){M.err=msgOf(e)}
   M.loaded=true;drawList();drawMine();
 }
@@ -3811,7 +3882,7 @@ function drawMarket(){
   MB.innerHTML=`<div class="ol-top"><div><div class="eyebrow">Entre joueurs</div><h3>Ventes entre joueurs</h3></div><button type="button" class="btn ghost" data-pm="refresh">Actualiser</button></div>
    <p class="ol-msg" style="margin-top:8px">Achète les cartes mises en vente par les autres joueurs. Le vendeur reçoit le prix moins 10 % de taxe, qui disparaît de l'économie. Pour vendre, ouvre une carte dans ta Collection.</p>
    <div data-gate>${gateHTML()}</div>
-   <div class="pm-f"><input id="pm-q" placeholder="Joueur ou club" value="${esc(M.q)}" aria-label="Rechercher"><select id="pm-r" aria-label="Rareté"><option value="-1">Toutes raretés</option>${RARN.map((n,i)=>`<option value="${i}"${M.r===i?' selected':''}>${n}</option>`).join('')}</select><select id="pm-s" aria-label="Tri"><option value="recent">Plus récentes</option><option value="prix"${M.sort==='prix'?' selected':''}>Prix croissant</option><option value="note"${M.sort==='note'?' selected':''}>Meilleure note</option></select></div>
+   <div class="pm-f"><input id="pm-q" placeholder="Joueur ou club" value="${esc(M.q)}" aria-label="Rechercher"><select id="pm-r" aria-label="Rareté"><option value="-1">Toutes raretés</option>${RARN.map((n,i)=>`<option value="${i}"${M.r===i?' selected':''}>${n}</option>`).join('')}</select><select id="pm-s" aria-label="Tri"><option value="recent">Plus récentes</option><option value="prix"${M.sort==='prix'?' selected':''}>Prix croissant</option><option value="note"${M.sort==='note'?' selected':''}>Meilleure note</option></select><label class="pm-w"><input type="checkbox" id="pm-wish"${M.wish?' checked':''}> ♥ Mes envies</label></div>
    <div id="pm-list"></div><div id="pm-mine"></div>`;
   drawList();drawMine();
 }
@@ -3819,7 +3890,7 @@ function drawList(){
   const el=MB&&MB.querySelector('#pm-list');if(!el)return;
   if(M.err){el.innerHTML=`<p class="ol-msg err">${esc(M.err)}</p>`;return}
   if(!M.loaded){el.innerHTML='<p class="ol-msg">Chargement…</p>';return}
-  if(!M.open.length){el.innerHTML='<p class="ol-msg" style="margin-top:12px">Aucune carte en vente pour ces critères.</p>';return}
+  if(!M.open.length){el.innerHTML=`<p class="ol-msg" style="margin-top:12px">${M.wish?"Aucune de tes envies n'est en vente pour l'instant. Tu seras prévenu par la cloche dès qu'une annonce arrive.":'Aucune carte en vente pour ces critères.'}</p>`;return}
   const coins=G.get().coins;
   el.innerHTML=`<div class="pm-grid">${M.open.map(l=>{const can=coins>=l.price&&!M.gate,arm=M.arm===l.id;
     return `<div class="pm-it">${G.card(l.card)}<div class="pm-p"><span>${esc(l.pseudo)}</span><span>${left(l.expires_at)}</span></div>${l.avg?`<div class="pm-p"><span>Moyenne des ventes</span><span class="num">${fmt(l.avg)}</span></div>`:''}<button type="button" class="btn ${can?'gold':'ghost'}" data-pm="buy" data-id="${esc(l.id)}"${can&&!M.busy?'':' disabled'}><span class="coin sm"></span> ${arm?'Confirmer · ':''}${fmt(l.price)}</button></div>`}).join('')}</div>`;
@@ -3844,7 +3915,7 @@ if(MB){
     M.busy=false;M.arm='';await loadMarket();
   });
   MB.addEventListener('input',e=>{if(e.target.id!=='pm-q')return;M.q=e.target.value;clearTimeout(qT);qT=setTimeout(loadMarket,350)});
-  MB.addEventListener('change',e=>{if(e.target.id==='pm-r'){M.r=+e.target.value;loadMarket()}else if(e.target.id==='pm-s'){M.sort=e.target.value;loadMarket()}});
+  MB.addEventListener('change',e=>{if(e.target.id==='pm-wish'){M.wish=e.target.checked;loadMarket();return}if(e.target.id==='pm-r'){M.r=+e.target.value;loadMarket()}else if(e.target.id==='pm-s'){M.sort=e.target.value;loadMarket()}});
 }
 
 /* ---------- échanges carte contre carte ---------- */
@@ -3964,11 +4035,11 @@ api.afterMatch=pv=>{if(pv)loadPvp()};
 const vm=document.getElementById('v-marche');
 if(vm)new MutationObserver(()=>{if(!vm.hidden&&user&&G.isOnline()){drawMarket();drawTrades();loadMarket();loadTrades()}}).observe(vm,{attributes:true,attributeFilter:['hidden']});
 const vp=document.getElementById('v-profil');
-if(vp)new MutationObserver(()=>{if(!vp.hidden&&sb){loadLB();if(user&&G.isOnline())loadAct()}}).observe(vp,{attributes:true,attributeFilter:['hidden']});
+if(vp)new MutationObserver(()=>{if(!vp.hidden&&sb)loadLB()}).observe(vp,{attributes:true,attributeFilter:['hidden']});
 const vmt=document.getElementById('v-match');
 if(vmt)new MutationObserver(()=>{if(!vmt.hidden&&user&&G.isOnline())loadPvp()}).observe(vmt,{attributes:true,attributeFilter:['hidden']});
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&user&&G.isOnline())refresh()});
-setInterval(()=>{if(!user||!G.isOnline()||document.hidden)return;refresh();if(isMarket()){loadMarket();loadTrades()}},120000);
+let tick=0;setInterval(()=>{if(!user||!G.isOnline()||document.hidden)return;tick++;refresh();if(isMarket()&&tick%2===0){loadMarket();loadTrades()}},60000);
 init();
 })();
 
