@@ -602,7 +602,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
     <div class="prof">
       <div class="panel" id="online" style="grid-column:1/-1" hidden></div>
       <div class="panel">
-        <div class="lvl"><div class="ring num" id="p-ring">1</div><div style="min-width:0"><div class="eyebrow">Niveau de manager</div><div id="p-xp" style="font-weight:600"></div><div style="color:var(--mute);font-size:13px">+300 pièces à chaque niveau gagné</div></div></div>
+        <div class="lvl"><div class="ring num" id="p-ring">1</div><div style="min-width:0"><div class="eyebrow">Niveau de manager</div><div id="p-xp" style="font-weight:600"></div><div style="color:var(--mute);font-size:13px">Chaque niveau rapporte 50 pièces × le niveau atteint</div></div></div>
         <div class="kv" id="p-kv"></div>
         <div class="row" style="margin-top:16px"><button type="button" class="btn ghost" data-act="help">Aide et règles du jeu</button><button type="button" class="btn ghost" data-act="tuto">Revoir le tutoriel</button></div>
         <div id="sv-box" style="margin-top:18px;border-top:1px solid var(--line);padding-top:16px">
@@ -2939,7 +2939,7 @@ function missions(){
 
 /* ---------- État ---------- */
 const KEY='virage-tcg-v1';
-const fresh=()=>({coins:1500,xp:0,owned:{},favs:[],squad:{},packs:0,free:{n:2,t:Date.now()},last:[],pity:0,form:'433',beaten:{},rec:{w:0,d:0,l:0},mis:{day:'',p:{},c:{}},mkt:{day:'',items:[],sold:{},roll:0},defi:{wk:'',done:{}},albums:{},pity_leg:0,wishes:[]});
+const fresh=()=>({coins:0,xp:0,owned:{},favs:[],squad:{},packs:0,free:{n:10,t:Date.now()},last:[],pity:0,form:'433',beaten:{},rec:{w:0,d:0,l:0},mis:{day:'',p:{},c:{}},mkt:{day:'',items:[],sold:{},roll:0},defi:{wk:'',done:{}},albums:{},pity_leg:0,wishes:[]});
 let S=fresh(),NET=null;
 try{const j=JSON.parse(localStorage.getItem(KEY));if(j&&typeof j==='object')S=Object.assign(fresh(),j)}catch(e){}
 if(!S.free||typeof S.free.n!=='number'||typeof S.free.t!=='number')S.free={n:2,t:Date.now()};
@@ -2954,8 +2954,10 @@ function accrue(){
   const k=Math.floor((now-f.t)/FREE_MS);
   if(k>0){f.n=Math.min(FREE_MAX,f.n+k);f.t=f.n>=FREE_MAX?now:f.t+k*FREE_MS;save()}
 }
-const XPL=250,level=()=>1+Math.floor(S.xp/XPL);
-function gainXp(n){const l=level();S.xp+=n;const u=level()-l;S.coins+=u*300;return u}
+const XP={nouv:10,doub:3,win:20,autre:5,action:10};
+const xpAt=L=>75*L*(L-1),lvAt=x=>{let l=Math.max(1,Math.floor((1+Math.sqrt(1+x/18.75))/2));while(xpAt(l+1)<=x)l++;while(l>1&&xpAt(l)>x)l--;return l},level=()=>lvAt(S.xp);
+const lvGain=(a,b)=>{let g=0;for(let L=a+1;L<=b;L++)g+=Math.min(1000,50*L);return g},upc=u=>u>0?lvGain(level()-u,level()):0;
+function gainXp(n){const l=level();S.xp+=n;const u=level()-l;S.coins+=lvGain(l,l+u);return u}
 const owned=()=>P.filter(p=>S.owned[p.id]);
 
 /* ---------- Carte ---------- */
@@ -3006,7 +3008,7 @@ function hud(){
 function shop(){
   $('#odds').innerHTML=RAR.map(r=>`<div style="--c:${r.c}"><span>${r.n}</span><span class="bar"><i style="width:${Math.max(Math.sqrt(r.p/50)*100,5)}%"></i></span><span class="num">${String(r.p).replace('.',',')} %</span></div>`).join('');
   const l=(S.last||[]).map(id=>BY[id]).filter(Boolean);
-  $('#last').innerHTML=l.length?`<div class="strip">${l.map(p=>cardHTML(p)).join('')}</div>`:`<div class="empty">Aucun booster ouvert pour l'instant. Tu démarres avec 2 boosters gratuits et 1 500 pièces.</div>`;
+  $('#last').innerHTML=l.length?`<div class="strip">${l.map(p=>cardHTML(p)).join('')}</div>`:`<div class="empty">Aucun booster ouvert pour l'instant. Tu démarres avec 10 boosters gratuits. Les pièces se gagnent ensuite en jouant.</div>`;
   const pl=S.pity_leg|0;
   $('#pity').textContent=(S.pity>=PITY-1?'Épique ou mieux garantie dans le prochain booster.':`Épique ou mieux garantie d'ici ${PITY-S.pity} boosters.`)+' '+(pl>=PITY_LEG-1?'Légendaire ou mieux garantie dans le prochain booster.':`Légendaire ou mieux garantie d'ici ${PITY_LEG-pl} boosters.`);
   missions();
@@ -3080,7 +3082,7 @@ function squad(){
 }
 function profile(){
   $('#sv-box').hidden=!!NET;$('#reset').hidden=!!NET;
-  const o=owned(),lv=level(),into=S.xp%XPL;
+  const o=owned(),lv=level(),into=S.xp-xpAt(lv),XPL=xpAt(lv+1)-xpAt(lv);
   $('#p-ring').textContent=lv;$('#p-ring').style.setProperty('--p',(into/XPL*100)+'%');
   $('#p-xp').textContent=`${into} / ${XPL} XP vers le niveau ${lv+1}`;
   const best=o.slice().sort((a,b)=>b.ovr-a.ovr)[0],val=o.reduce((a,p)=>a+RAR[p.r].sell,0);
@@ -3228,11 +3230,11 @@ async function playMatch(club,di,pv){
   S.rec[res]++;if(res==='w'){S.beaten[club]=1;bump('win',1)}
   if(di!=null&&res==='w'){const d=defis()[di];S.defi.done[di]=1;S.coins+=d.gain;extra=` · défi réussi <b>+${fmt(d.gain)}</b>`;
     if(d.card){const pool=BYR[3].filter(p=>!S.owned[p.id]),src=pool.length?pool:BYR[3],c=src[Math.random()*src.length|0];S.owned[c.id]=(S.owned[c.id]||0)+1;S.defi.done[di]=c.id;wonId=c.id}}
-  S.xp+=res==='w'?40:15;ups=level()-lv0;S.coins+=gain+ups*300;save();
+  S.xp+=res==='w'?XP.win:XP.autre;ups=level()-lv0;S.coins+=gain+upc(ups);save();
   }
   ev(90,'','Coup de sifflet final.');SFX.play('whistle');setTimeout(()=>SFX.play(res==='w'?'win':res==='l'?'lose':'draw'),700);if(wonId&&BY[wonId])setTimeout(()=>SFX.play('r'+BY[wonId].r),1500);if(ups)setTimeout(()=>SFX.play('level'),1500);
   $('#mt-skip').hidden=true;
-  $('#mt-end').innerHTML=`<h2 style="color:${res==='w'?'var(--gold)':res==='l'?'#FF9AA5':'var(--fg)'}">${res==='w'?'Victoire':res==='l'?'Défaite':'Match nul'}</h2><p style="margin:0;color:var(--mute)">${first?'Première victoire contre '+lab+' · ':''}<b style="color:var(--fg)">+${gain}</b> pièces${ups?` · niveau ${level()} atteint <b style="color:var(--fg)">+${ups*300}</b>`:''}${extra}</p>${wonId&&BY[wonId]?`<div class="mt-won"><small>Carte gagnée · ${RAR[BY[wonId].r].n}</small>${cardHTML(BY[wonId],{attrs:''})}<b>${BY[wonId].full}</b></div>`:''}<div class="row" style="justify-content:center"><button type="button" class="btn gold" data-act="replay">${di!=null&&res==='w'?'Rejouer ce club':'Rejouer'}</button><button type="button" class="btn ghost" data-act="mt-close">Choisir un autre club</button></div>`;
+  $('#mt-end').innerHTML=`<h2 style="color:${res==='w'?'var(--gold)':res==='l'?'#FF9AA5':'var(--fg)'}">${res==='w'?'Victoire':res==='l'?'Défaite':'Match nul'}</h2><p style="margin:0;color:var(--mute)">${first?'Première victoire contre '+lab+' · ':''}<b style="color:var(--fg)">+${gain}</b> pièces${ups?` · niveau ${level()} atteint <b style="color:var(--fg)">+${fmt(upc(ups))}</b>`:''}${extra}</p>${wonId&&BY[wonId]?`<div class="mt-won"><small>Carte gagnée · ${RAR[BY[wonId].r].n}</small>${cardHTML(BY[wonId],{attrs:''})}<b>${BY[wonId].full}</b></div>`:''}<div class="row" style="justify-content:center"><button type="button" class="btn gold" data-act="replay">${di!=null&&res==='w'?'Rejouer ce club':'Rejouer'}</button><button type="button" class="btn ghost" data-act="mt-close">Choisir un autre club</button></div>`;
   $('#mt-end').hidden=false;renderAll();mbusy=false;if(NET&&NET.afterMatch)NET.afterMatch(!!pv);
 }
 const enc=o=>'VTCG1.'+btoa(unescape(encodeURIComponent(JSON.stringify(o))));
@@ -3412,7 +3414,7 @@ function rollLocal(kind,free){
   S.packs++;
   const pityHit=S.pity>=PITY-1,legHit=(S.pity_leg|0)>=PITY_LEG-1;
   for(let i=0;i<5;i++){const p=draw(roll(i===4?Math.max(pk.min,pityHit?3:0,legHit?4:0):0),pk.lg);
-    const isNew=!S.owned[p.id];S.owned[p.id]=(S.owned[p.id]||0)+1;S.xp+=isNew?25:(free?0:10);
+    const isNew=!S.owned[p.id];S.owned[p.id]=(S.owned[p.id]||0)+1;S.xp+=isNew?XP.nouv:(free?0:XP.doub);
     if(isNew)news++;else refund+=RAR[p.r].sell;res.push({p,isNew})}
   S.pity=res.some(x=>x.p.r>=3)?0:S.pity+1;S.pity_leg=res.some(x=>x.p.r>=4)?0:(S.pity_leg|0)+1;
   bump('open',1);bump('new',news);if(res.some(x=>x.p.r>=2))bump('rare',1);
@@ -3431,13 +3433,13 @@ async function openPack(kind,free,n){
     const cards=n>1?out.packs.flat():out.cards;n=n>1?out.packs.length:1;
     res=cards.map(c=>({p:BY[c.id],isNew:c.new})).filter(x=>x.p);ups=out.ups;news=res.filter(x=>x.isNew).length;
     NET.apply(out.state,true);
-    $('#coins').textContent=fmt(S.coins-ups*300);
+    $('#coins').textContent=fmt(S.coins-upc(ups));
   }else{
     const lv0=level();
     for(let k=0;k<n;k++){const o=rollLocal(kind,free);res=res.concat(o.res);refund+=o.refund;news+=o.news}
-    ups=level()-lv0;S.coins+=refund+ups*300;
+    ups=level()-lv0;S.coins+=refund+upc(ups);
     S.last=res.slice().sort((a,b)=>b.p.r-a.p.r||b.p.ovr-a.p.ovr).slice(0,5).map(x=>x.p.id);save();
-    $('#coins').textContent=fmt(S.coins-refund-ups*300);
+    $('#coins').textContent=fmt(S.coins-refund-upc(ups));
   }
   res.sort((a,b)=>a.p.r-b.p.r||a.p.ovr-b.p.ovr);
   if(!free)SFX.play('spend');shownCoins=+String($('#coins').textContent).replace(/\D/g,'')||S.coins;
@@ -3492,7 +3494,7 @@ async function openPack(kind,free,n){
   const cnt=[0,0,0,0,0,0];res.forEach(x=>cnt[x.p.r]++);
   const tally=multi?`<p class="st-tally">${[5,4,3,2,1,0].filter(r=>cnt[r]).map(r=>`<span style="--c:${RAR[r].c}"><b class="num">${cnt[r]}</b> ${RAR[r].n}</span>`).join('')}</p>`:'';
   const again=Math.min(QTY,10),againCost=pk.cost*again;
-  sum.innerHTML=`<p>${multi?`<b>${n}</b> boosters · `:''}<b>${news}</b> nouvelle${news>1?'s':''} carte${news>1?'s':''}${refund?` · doublons revendus <b>+${fmt(refund)}</b> pièces`:''}${ups?` · niveau ${level()} atteint <b>+${ups*300}</b>`:''}</p>${tally}<div class="row" style="justify-content:center">${S.free.n>0?`<button type="button" class="btn gold" data-act="free">Ouvrir ${Math.min(QTY,S.free.n)>1?Math.min(QTY,S.free.n)+' gratuits':'un gratuit'} · ${S.free.n} en stock</button>`:''}<button type="button" class="btn ${S.free.n>0?'ghost':'gold'}" data-act="again" data-k="${kind}"${S.coins<againCost?' disabled':''}>Rouvrir${again>1?' ×'+again:''} · ${fmt(againCost)} pièces</button><button type="button" class="btn ghost" data-act="stage-col">Voir la collection</button><button type="button" class="btn ghost" data-act="stage-close">Fermer</button></div>`;
+  sum.innerHTML=`<p>${multi?`<b>${n}</b> boosters · `:''}<b>${news}</b> nouvelle${news>1?'s':''} carte${news>1?'s':''}${refund?` · doublons revendus <b>+${fmt(refund)}</b> pièces`:''}${ups?` · niveau ${level()} atteint <b>+${fmt(upc(ups))}</b>`:''}</p>${tally}<div class="row" style="justify-content:center">${S.free.n>0?`<button type="button" class="btn gold" data-act="free">Ouvrir ${Math.min(QTY,S.free.n)>1?Math.min(QTY,S.free.n)+' gratuits':'un gratuit'} · ${S.free.n} en stock</button>`:''}<button type="button" class="btn ${S.free.n>0?'ghost':'gold'}" data-act="again" data-k="${kind}"${S.coins<againCost?' disabled':''}>Rouvrir${again>1?' ×'+again:''} · ${fmt(againCost)} pièces</button><button type="button" class="btn ghost" data-act="stage-col">Voir la collection</button><button type="button" class="btn ghost" data-act="stage-close">Fermer</button></div>`;
   sum.hidden=false;renderAll();busy=false;if(ups)setTimeout(()=>SFX.play('level'),350);
 }
 function closeStage(){$('#stage').hidden=true;$('#st-row').innerHTML='';parts=[]}
@@ -3548,14 +3550,14 @@ document.addEventListener('click',e=>{
   else if(a==='defi')playMatch(defis()[+el.dataset.i].club,+el.dataset.i);
   else if(a==='buy'){const i=+el.dataset.i,p=BY[S.mkt.items[i]];if(!p||S.mkt.sold[i]||S.owned[p.id])return;const pr=priceOf(p);if(S.coins<pr){toast('Pas assez de pièces');return}
     if(NET){srv('shop_buy',{p_i:i},()=>toast(`${p.short} rejoint ta collection`));return}
-    S.coins-=pr;S.owned[p.id]=1;S.mkt.sold[i]=1;gainXp(25);save();renderAll();toast(`${p.short} rejoint ta collection`)}
+    S.coins-=pr;S.owned[p.id]=1;S.mkt.sold[i]=1;gainXp(XP.action);save();renderAll();toast(`${p.short} rejoint ta collection`)}
   else if(a==='mk-roll'){if(S.coins<250){toast('Pas assez de pièces');return}if(NET){srv('shop_reroll',{});return}S.coins-=250;mktFill((S.mkt.roll||0)+1);save();renderAll()}
   else if(a==='craft'){const t=+el.dataset.t,l=craftable(t).slice(0,5);if(l.length<5)return;
     modal(`<h2 style="font-size:30px;padding-right:40px">Échange</h2><p style="color:var(--mute);margin:6px 0 0">Tu donnes ces 5 cartes ${RAR[t].n} et tu reçois 1 carte ${RAR[t+1].n} au hasard. L'échange est définitif.</p><div class="pick">${l.map(p=>cardHTML(p,{attrs:''})).join('')}</div><div class="row" style="margin-top:16px"><button type="button" class="btn gold" data-act="craft-go" data-t="${t}">Confirmer l'échange</button><button type="button" class="btn ghost" data-act="close">Annuler</button></div>`)}
   else if(a==='craft-go'){const t=+el.dataset.t,l=craftable(t).slice(0,5);if(l.length<5){closeModal();return}
     if(NET){el.disabled=true;srv('craft',{p_tier:t},o=>{const p=BY[o.card];if(p)craftDone(p,t)});return}
     l.forEach(p=>{if(--S.owned[p.id]<=0)delete S.owned[p.id]});const pool=BYR[t+1].filter(p=>!S.owned[p.id]),src=pool.length?pool:BYR[t+1],p=src[Math.random()*src.length|0];
-    S.owned[p.id]=(S.owned[p.id]||0)+1;gainXp(25);save();renderAll();craftDone(p,t)}
+    S.owned[p.id]=(S.owned[p.id]||0)+1;gainXp(XP.action);save();renderAll();craftDone(p,t)}
   else if(a==='sell'){const p=BY[id];if(!p||!S.owned[id])return;
     if(!el.dataset.arm){el.dataset.arm='1';el.textContent=`Confirmer la vente · ${fmt(RAR[p.r].sell)} pièces`;return}
     if(NET){srv('bank_sell',{p_card:id},o=>{closeModal();toast(`${p.short} vendu : +${fmt(o.gain)} pièces`)});return}
