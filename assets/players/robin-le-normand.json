@@ -1,0 +1,90 @@
+{
+  "joueur": "Robin Le Normand",
+  "fichier": "robin-le-normand.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Robin_Le_Normand",
+  "titre_page": "Robin Le Normand",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Robin_Le_Normand_2122.jpg/960px-Robin_Le_Normand_2122.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Robin_Le_Normand_2122.jpg",
+  "auteur": "Basara001",
+  "credit": "Own work",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-10-18 05:50:10",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Robin Le Normand 2122",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Robin Le Normand|Self-published work",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Le Normand with <a href=\"//commons.wikimedia.org/w/index.php?title=Real_Sociedad&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Real Sociedad (page does not exist)\">Real Sociedad</a> in 2022",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2023-10-18",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Basara001&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Basara001 (page does not exist)\">Basara001</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

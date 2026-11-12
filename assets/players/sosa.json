@@ -1,0 +1,96 @@
+{
+  "joueur": "Sosa",
+  "fichier": "sosa.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Jos%C3%A9_Sosa",
+  "titre_page": "José Sosa",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Jose_Sosa_-_Switzerland_vs._Argentina%2C_29th_February_2012.jpg/960px-Jose_Sosa_-_Switzerland_vs._Argentina%2C_29th_February_2012.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Jose_Sosa_-_Switzerland_vs._Argentina,_29th_February_2012.jpg",
+  "auteur": "Fanny Schertzer",
+  "credit": "Travail personnel",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2012-03-03 11:48:00",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Jose Sosa - Switzerland vs. Argentina, 29th February 2012",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "José Ernesto Sosa|GFDL|License migration redundant|Self-published work|Files with derivative versions|All media supported by Wikimedia CH|Switzerland - Argentina, 29 February 2012|Files by Inisheer|Files by Victor|Switzerland - Argentina, 29 February 2012 - Supported by Wikimedia CH",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<table lang=\"fr\" dir=\"ltr\" cellspacing=\"8\" cellpadding=\"0\" style=\"width:100%; clear:both; margin:0.5em auto; background-color:var(--background-color-neutral-subtle, #f8f9fa); color:inherit; border:2px solid #66A7CC\">\n<tbody><tr>\n<td style=\"width:60px\"><span typeof=\"mw:File\"><span title=\"Wikimédia CH\"><img alt=\"Wikimédia CH\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/WikimediaCHLogo.svg/60px-WikimediaCHLogo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"60\" height=\"66\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/WikimediaCHLogo.svg/120px-WikimediaCHLogo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"491\" data-file-height=\"539\"></span></span>\n</td>\n<td style=\"text-align:center;\">La réalisation de ce document a été parrainée par <b><a href=\"https://meta.wikimedia.org/wiki/Wikimedia_CH\" class=\"extiw\" title=\"m:Wikimedia CH\">Wikimédia Suisse</a></b>. <b><small>(<a rel=\"nofollow\" class=\"external text\" href=\"https://www.wikimedia.ch\">Proposez un projet !</a>)</small></b><br>\n<p>Pour voir tous les fichiers concernés, consultez la catégorie <a href=\"//commons.wikimedia.org/wiki/Category:Supported_by_Wikimedia_CH\" title=\"Category:Supported by Wikimedia CH\">Supported by Wikimedia CH</a>.\n</p>\n<hr>\n<div lang=\"\"><span style=\"font-size:small;line-height:1.4\" class=\"plainlinks noprint\"><a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/ar\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/ar\"><bdi class=\"language lang-ar\" lang=\"ar\">العربية</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/bn\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/bn\"><bdi class=\"language lang-bn\" lang=\"bn\">বাংলা</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/cs\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/cs\"><bdi class=\"language lang-cs\" lang=\"cs\">čeština</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/de\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/de\"><bdi class=\"language lang-de\" lang=\"de\">Deutsch</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/en\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/en\"><bdi class=\"language lang-en\" lang=\"en\">English</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/eo\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/eo\"><bdi class=\"language lang-eo\" lang=\"eo\">Esperanto</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/es\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/es\"><bdi class=\"language lang-es\" lang=\"es\">español</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/fr\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/fr\"><bdi class=\"language lang-fr\" lang=\"fr\">français</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/gl\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/gl\"><bdi class=\"language lang-gl\" lang=\"gl\">galego</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/hi\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/hi\"><bdi class=\"language lang-hi\" lang=\"hi\">हिन्दी</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/hu\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/hu\"><bdi class=\"language lang-hu\" lang=\"hu\">magyar</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/it\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/it\"><bdi class=\"language lang-it\" lang=\"it\">italiano</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/ja\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/ja\"><bdi class=\"language lang-ja\" lang=\"ja\">日本語</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/mk\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/mk\"><bdi class=\"language lang-mk\" lang=\"mk\">македонски</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/nl\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/nl\"><bdi class=\"language lang-nl\" lang=\"nl\">Nederlands</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/pt-br\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/pt-br\"><bdi class=\"language lang-pt-br\" lang=\"pt-br\">português do Brasil</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/rm\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/rm\"><bdi class=\"language lang-rm\" lang=\"rm\">rumantsch</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/ru\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/ru\"><bdi class=\"language lang-ru\" lang=\"ru\">русский</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/scn\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/scn\"><bdi class=\"language lang-scn\" lang=\"scn\">sicilianu</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/sl\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/sl\"><bdi class=\"language lang-sl\" lang=\"sl\">slovenščina</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/ta\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/ta\"><bdi class=\"language lang-ta\" lang=\"ta\">தமிழ்</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/uk\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/uk\"><bdi class=\"language lang-uk\" lang=\"uk\">українська</bdi></a> <b>∙</b> <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/zh\" href=\"https://commons.wikimedia.org/wiki/Template:Supported_by_Wikimedia_CH/zh\"><bdi class=\"language lang-zh\" lang=\"zh\">中文</bdi></a> <b>∙</b> <small class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/w/index.php?title=Template:Supported_by_Wikimedia_CH/lang&amp;action=edit\" href=\"https://commons.wikimedia.org/w/index.php?title=Template:Supported_by_Wikimedia_CH/lang&amp;action=edit\">+/−</a></small></span></div>\n</td></tr></tbody></table>\nSwitzerland vs. Argentina, 29th February 2012",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2012-02-29 22:52:51",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Inisheer\" title=\"User:Inisheer\">Fanny Schertzer</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

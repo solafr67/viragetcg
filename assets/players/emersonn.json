@@ -1,0 +1,90 @@
+{
+  "joueur": "Emersonn",
+  "fichier": "emersonn.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Emersonn",
+  "titre_page": "Emersonn",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Emersonn_220826.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Emersonn_220826.jpg",
+  "auteur": "COYB123",
+  "credit": "Own work",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-08-22 16:59:33",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Emersonn 220826",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Self-published work|Ipswich Town v Sunderland, 22 August 2026|Emersonn Correia da Silva",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Emersonn",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2026-08-22 17:44:37",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:COYB123&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:COYB123 (page does not exist)\">COYB123</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,91 @@
+{
+  "joueur": "Anthony Caci",
+  "fichier": "anthony-caci.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/%C3%89quipe_de_France_de_football_aux_Jeux_olympiques_d%27%C3%A9t%C3%A9_de_2020",
+  "titre_page": "Équipe de France de football aux Jeux olympiques d'été de 2020",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_France_%281974%E2%80%932020%29.svg/960px-Flag_of_France_%281974%E2%80%932020%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_France_(1974%E2%80%932020).svg",
+  "auteur": "This graphic was drawn by SKopp.",
+  "credit": "https://web.archive.org/web/*/http://www.diplomatie.gouv.fr/de/frankreich_3/frankreich-entdecken_244/portrat-frankreichs_247/die-symbole-der-franzosischen-republik_260/trikolore-die-nationalfahne_114.html",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-03-02 02:55:48",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of France (1974–2020)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "SVG flags of Clipperton Island|SVG flags of Saint-Pierre and Miquelon|Location not applicable|PD shape|Flags of Mayotte|With insignia|SVG flags of France - aspect ratio of 3:2|Valid SVG created with Text Editor:Flags|SVG simplified flags●Zero|SVG simplified flags-stripes only|SVG national flag of France (1974–2020)|National flag of France (1974–2020)",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://fr.wikipedia.org/wiki/Drapeau_de_la_France\" class=\"extiw\" title=\"fr:Drapeau de la France\">Drapeau de la France</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2005-09-27",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://web.archive.org/web/*/http://www.diplomatie.gouv.fr/de/frankreich_3/frankreich-entdecken_244/portrat-frankreichs_247/die-symbole-der-franzosischen-republik_260/trikolore-die-nationalfahne_114.html\">https://web.archive.org/web/*/http://www.diplomatie.gouv.fr/de/frankreich_3/frankreich-entdecken_244/portrat-frankreichs_247/die-symbole-der-franzosischen-republik_260/trikolore-die-nationalfahne_114.html</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "This graphic was drawn by <a href=\"//commons.wikimedia.org/wiki/User:SKopp\" title=\"User:SKopp\">SKopp</a>.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

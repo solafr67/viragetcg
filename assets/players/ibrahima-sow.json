@@ -1,0 +1,91 @@
+{
+  "joueur": "Ibrahima Sow",
+  "fichier": "ibrahima-sow.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Championnat_de_Lettonie_de_football_2021",
+  "titre_page": "Championnat de Lettonie de football 2021",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Logo_virsliga.svg/960px-Logo_virsliga.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Logo_virsliga.svg",
+  "auteur": "Latvijas futbola Virslīga",
+  "credit": "Source: [1]",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2019-07-17 10:55:16",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Logo virsliga",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "PD shape|Virslīga|Association football logos of Latvia|PD textlogo|SVG text logos|Valid SVG created with Other tools|PD-shape missing SDC copyright status",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Latvijas futbola Virslīgas logo",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2019-04-05",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "Source: <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://optibetvirsliga.lv/properties\">[1]</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Latvijas futbola Virslīga",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

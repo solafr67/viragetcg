@@ -1,0 +1,82 @@
+{
+  "joueur": "Enrico Delprato",
+  "fichier": "enrico-delprato.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Parma_Calcio_1913",
+  "titre_page": "Parma Calcio 1913",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_Parma_Calcio_1913_%28adozione_2016%29.svg/960px-Logo_Parma_Calcio_1913_%28adozione_2016%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Logo_Parma_Calcio_1913_(adozione_2016).svg",
+  "auteur": "Parma Calcio 1913",
+  "credit": "Parma Calcio 1913",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-03-26 10:41:42",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Logo Parma Calcio 1913 (adozione 2016)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "With trademark|PD textlogo|SVG text logos|SVG association football logos of Italy|TOO-Italy|Parma Calcio 1913 logos",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Parma Calcio 1913 logo from 2016",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "Parma Calcio 1913",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "Parma Calcio 1913",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,96 @@
+{
+  "joueur": "Justin Bijlow",
+  "fichier": "justin-bijlow.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Justin_Bijlow",
+  "titre_page": "Justin Bijlow",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Go_Ahead_Eagles_-_Feyenoord_-_53679350950_%28Justin_Bijlow%29.jpg/960px-Go_Ahead_Eagles_-_Feyenoord_-_53679350950_%28Justin_Bijlow%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Go_Ahead_Eagles_-_Feyenoord_-_53679350950_(Justin_Bijlow).jpg",
+  "auteur": "Carlo Bruil Fotografie",
+  "credit": "https://www.flickr.com/photos/131306819@N08/53679350950/",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-05-07 16:52:29",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Go Ahead Eagles - Feyenoord - 53679350950 (Justin Bijlow)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Justin Bijlow|Association football goalkeeper gloves|Extracted images|Gloves in the Netherlands|Men wearing gray association football jerseys|Photographs by Carlo Bruil|Men wearing gloves|Go Ahead Eagles v Feyenoord, 25 April 2024",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Deventer, donderdag 25 April 2024, seizoen 2023 / 2024 , competitiewedstrijd tussen Go Ahead Eagles en Feyenoord, einduitslag 1-3 (1-2)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2024-04-25 21:32:13",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/131306819@N08/53679350950/\">https://www.flickr.com/photos/131306819@N08/53679350950/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Carlo Bruil Fotografie",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

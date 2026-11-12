@@ -1,0 +1,96 @@
+{
+  "joueur": "Antonino Gallo",
+  "fichier": "antonino-gallo.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Antonino_Gallo",
+  "titre_page": "Antonino Gallo",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Antonino_Gallo_-_2023.jpg/960px-Antonino_Gallo_-_2023.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Antonino_Gallo_-_2023.jpg",
+  "auteur": "SonoGrazy",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-05-24 19:17:24",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Antonino Gallo - 2023",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Self-published work|Extracted images|AC Milan vs US Lecce, April 23, 2023|Antonino Gallo",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Antonino Gallo al Lecce durante la partita contro il Milan del 23 aprile 2023 allo stadio Giuseppe Meazza.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2023-04-23",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:SonoGrazy\" title=\"User:SonoGrazy\">SonoGrazy</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

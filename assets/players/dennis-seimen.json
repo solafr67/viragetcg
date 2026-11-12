@@ -1,0 +1,96 @@
+{
+  "joueur": "Dennis Seimen",
+  "fichier": "dennis-seimen.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Dennis_Seimen",
+  "titre_page": "Dennis Seimen",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Dennis_Seimen_%282024%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Dennis_Seimen_(2024).jpg",
+  "auteur": "FriederRöcklerII",
+  "credit": "Travail personnel",
+  "licence": "CC0",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-04-12 20:59:34",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Dennis Seimen (2024)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Men's association football goalkeepers from Germany|CC-Zero|Self-published work|Births in Heilbronn|Men's association football players of SC Paderborn 07|Men's association football players of VfB Stuttgart",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Seimen warming up before Stuttgart's Champions League match against Juventus.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2024-10-22",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:FriederR%C3%B6cklerII\" title=\"User:FriederRöcklerII\">FriederRöcklerII</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Zero, Public Domain Dedication",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

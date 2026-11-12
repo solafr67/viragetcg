@@ -1,0 +1,96 @@
+{
+  "joueur": "Pontus Almqvist",
+  "fichier": "pontus-almqvist.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Pontus_Almqvist",
+  "titre_page": "Pontus Almqvist",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Pontus_Almqvist_2021.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Pontus_Almqvist_2021.jpg",
+  "auteur": "Артем Гусев",
+  "credit": "https://www.soccer.ru/galery/1249806/photo/897922",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2021-04-05 17:15:46",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Pontus Almqvist 2021",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|License migration redundant|Pontus Almqvist|Items with VRTS permission confirmed|Photos from soccer.ru|FC Rostov vs. FC Spartak Moscow, 4 April 2021",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Pontus Almqvist with FC Rostov in a game against FC Spartak Moscow.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2021-04-04",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.soccer.ru/galery/1249806/photo/897922\">https://www.soccer.ru/galery/1249806/photo/897922</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Артем Гусев",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,101 @@
+{
+  "joueur": "Lucas Boyé",
+  "fichier": "lucas-boye.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Lucas_Boy%C3%A9",
+  "titre_page": "Lucas Boyé",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Lucas_boye_celtic_aek.jpg/960px-Lucas_boye_celtic_aek.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Lucas_boye_celtic_aek.jpg",
+  "auteur": "Savvasg21",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2018-08-20 16:43:01",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Lucas boye celtic aek",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|Taken with Nikon D3200|License migration redundant|Self-published work|Uploaded with MTC!|Lucas Boyé",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "lucas boye celtic aek",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2018-08-08",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/User:Savvasg21\" class=\"extiw\" title=\"w:User:Savvasg21\">Savvasg21</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/User:Savvasg21\" class=\"extiw\" title=\"w:User:Savvasg21\">Savvasg21</a> sur <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"w:\">Wikipédia anglais</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,90 @@
+{
+  "joueur": "Mauro Vigorito",
+  "fichier": "mauro-vigorito.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Mauro_Vigorito",
+  "titre_page": "Mauro Vigorito",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Mauro_Vigorito.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Mauro_Vigorito.jpg",
+  "auteur": "Matteo Brama",
+  "credit": "Immagine consegnatami direttamente dall'autore; archivio di sue fotografie come fonte qui",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2019-03-20 14:46:35",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Mauro Vigorito",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Mauro Vigorito|Extracted images|Bologna FC v Vicenza Calcio, 27 February 2015",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Initial 11 players for Vicenza Calcio, Bologna vs Vicenza, 2014-15 Serie B",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2015-02-27 21:00:57",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "Immagine consegnatami direttamente dall'autore; archivio di sue fotografie come fonte <a rel=\"nofollow\" class=\"external text\" href=\"http://sportbloggers.it/author/il-gatito/\">qui</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.facebook.com/pages/Matteo-Brama/53042079192\">Matteo Brama</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

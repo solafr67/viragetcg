@@ -1,0 +1,91 @@
+{
+  "joueur": "Törnqvist",
+  "fichier": "tornqvist.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Noel_T%C3%B6rnqvist",
+  "titre_page": "Noel Törnqvist",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sweden_%E2%80%93_Moldova_%28U21%29%2C_13_October_2023_20_%28Noel_T%C3%B6rnqvist%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Sweden_%E2%80%93_Moldova_(U21),_13_October_2023_20_(Noel_T%C3%B6rnqvist).jpg",
+  "auteur": "aikioniemiss",
+  "credit": "https://www.flickr.com/photos/198658015@N03/53256863327/",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-10-26 17:10:22",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Sweden – Moldova (U21), 13 October 2023 20 (Noel Törnqvist)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "PD US|Extracted images|PD-US missing SDC copyright status|Sweden U21 v Moldova U21, 13 October 2023|Noel Törnqvist",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Sweden U21 4–0 Moldova U21 – UEFA European Under-21 Championship Qualifying game",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2023-10-13 17:58:09",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/198658015@N03/53256863327/\">https://www.flickr.com/photos/198658015@N03/53256863327/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "aikioniemiss",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

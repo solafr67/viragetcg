@@ -1,0 +1,91 @@
+{
+  "joueur": "Cucho Hernández",
+  "fichier": "cucho-hernandez.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Cucho_Hern%C3%A1ndez",
+  "titre_page": "Cucho Hernández",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Cucho_Hern%C3%A1ndez%2C_Colombia_NT_presidential_send-off%2C_Jun_2026.jpg/960px-Cucho_Hern%C3%A1ndez%2C_Colombia_NT_presidential_send-off%2C_Jun_2026.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Cucho_Hern%C3%A1ndez,_Colombia_NT_presidential_send-off,_Jun_2026.jpg",
+  "auteur": "Fotografía oficial de la Presidencia de Colombia",
+  "credit": "20260604 Despedida del Señor Presidente a Selección Colombiana Fútbol - Ovidio González 11",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-07-09 09:36:57",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Cucho Hernández, Colombia NT presidential send-off, Jun 2026",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Cucho Hernández|Extracted images|Flickr images missing SDC copyright status|Flickr images reviewed by FlickreviewR 2|PD-author-FlickrPDM|Files from the Fotografía oficial de la Presidencia de Colombia Flickr stream|2026 FIFA World Cup presidential send-off of Colombia national football team",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/fr:Cucho_Hern%C3%A1ndez\" class=\"extiw\" title=\"w:fr:Cucho Hernández\">Cucho Hernández</a>, footballeur colombien, lors des adieux présidentiels de l'équipe nationale de Colombie, avant son voyage pour la <a href=\"https://en.wikipedia.org/wiki/fr:Coupe_du_monde_de_football_2026\" class=\"extiw\" title=\"w:fr:Coupe du monde de football 2026\">Coupe du Monde de la FIFA 2026</a>.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2026-06-04",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/197399771@N06/55313483592/in/album-72177720334024702\">20260604 Despedida del Señor Presidente a Selección Colombiana Fútbol - Ovidio González 11</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/197399771@N06/\">Fotografía oficial de la Presidencia de Colombia</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

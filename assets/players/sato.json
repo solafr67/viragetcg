@@ -1,0 +1,111 @@
+{
+  "joueur": "Sato",
+  "fichier": "sato.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Ry%C5%ABji_Sat%C5%8D",
+  "titre_page": "Ryūji Satō",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Ry%C5%ABji_Sat%C5%8D_20191401.jpg/960px-Ry%C5%ABji_Sat%C5%8D_20191401.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Ry%C5%ABji_Sat%C5%8D_20191401.jpg",
+  "auteur": "EL Loko",
+  "credit": "Travail personnel",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "restrictions": "personality",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2019-02-10 12:09:04",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Ryūji Satō 20191401",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|Personality rights warning|Ryūji Satō|License migration redundant|Self-published work|Referees by Lokomotive74|United Arab Emirates v Thailand, 14 January 2019",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "24.245033",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSLongitude": {
+      "value": "55.717083",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Ryūji Satō at the Asian Cup 2019",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2019-01",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Lokomotive74\" title=\"User:Lokomotive74\">EL Loko</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "personality",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

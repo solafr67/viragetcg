@@ -1,0 +1,96 @@
+{
+  "joueur": "Arkadiusz Milik",
+  "fichier": "arkadiusz-milik.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Arkadiusz_Milik",
+  "titre_page": "Arkadiusz Milik",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/FC_Salzburg_gegen_SSC_Napoli_%28UEFA_Euroleague_Achtelfinalr%C3%BCckspiel_14._M%C3%A4rz_2019%29_21.jpg/960px-FC_Salzburg_gegen_SSC_Napoli_%28UEFA_Euroleague_Achtelfinalr%C3%BCckspiel_14._M%C3%A4rz_2019%29_21.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:FC_Salzburg_gegen_SSC_Napoli_(UEFA_Euroleague_Achtelfinalr%C3%BCckspiel_14._M%C3%A4rz_2019)_21.jpg",
+  "auteur": "Werner100359",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2019-03-15 12:09:12",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "FC Salzburg gegen SSC Napoli (UEFA Euroleague Achtelfinalrückspiel 14. März 2019) 21",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Arkadiusz Milik|Self-published work|Austria photographs taken on 2019-03-14|FC Salzburg vs SSC Napoli 14-03-2019",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Euroleague round of 16 2nd leg",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2019-03-14 19:08:48",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Werner100359\" title=\"User:Werner100359\">Werner100359</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,96 @@
+{
+  "joueur": "Marcus Tavernier",
+  "fichier": "marcus-tavernier.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Marcus_Tavernier",
+  "titre_page": "Marcus Tavernier",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Marcus_Tavernier_2022.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Marcus_Tavernier_2022.jpg",
+  "auteur": "AFC Bournemouth",
+  "credit": "YouTube : It's every kids dream to play in the Premier League Marcus Tavernier signs (Temps : 2m16s) – Voir/enregistrer des versions archivées sur archive.org",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-08-06 13:38:58",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Marcus Tavernier 2022",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Players of Middlesbrough FC|Players of AFC Bournemouth|Players of Milton Keynes Dons FC|License review needed|YouTube review needed|Men's association football midfielders from England|Images from YouTube|Still images of YouTube videos",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Marcus Tavernier in interview with AFC Bournemouth club media on his first day with the club.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2022-08-06 15:37:21",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<bdi lang=\"fr\" dir=\"ltr\"><a href=\"//commons.wikimedia.org/wiki/Commons:YouTube_files\" title=\"Commons:YouTube files\">YouTube</a> : <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=IyCEFG3RdrQ&amp;t=2m16s\"><bdi lang=\"\">It's every kids dream to play in the Premier League Marcus Tavernier signs</bdi></a> (Temps : 2m16s) – Voir/enregistrer des versions archivées sur <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/*/https://www.youtube.com/watch?v=IyCEFG3RdrQ\">archive.org</a></bdi>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "AFC Bournemouth",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

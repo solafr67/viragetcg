@@ -1,0 +1,82 @@
+{
+  "joueur": "Krattenmacher",
+  "fichier": "krattenmacher.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/FC_Schalke_04_II",
+  "titre_page": "FC Schalke 04 II",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/FC_Schalke_04_Logo.svg/960px-FC_Schalke_04_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:FC_Schalke_04_Logo.svg",
+  "auteur": "FC Schalke 04",
+  "credit": "schalke04.de",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2020-04-25 13:18:15",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "FC Schalke 04 Logo",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "SVG association football logos of Germany|With trademark|PD textlogo|SVG text logos|Valid SVG created with Other tools:Text logos|FC Schalke 04 logos",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Logo des <a href=\"https://de.wikipedia.org/wiki/FC_Schalke_04\" class=\"extiw\" title=\"de:FC Schalke 04\">FC Schalke 04</a>",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "schalke04.de",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "FC Schalke 04",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

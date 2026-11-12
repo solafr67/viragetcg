@@ -1,0 +1,96 @@
+{
+  "joueur": "Rodrygo",
+  "fichier": "rodrygo.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Rodrygo",
+  "titre_page": "Rodrygo",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Rodrygo_2023_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Rodrygo_2023_(cropped).jpg",
+  "auteur": "Junta de Andalucía",
+  "credit": "https://www.flickr.com/photos/juntainforma/52879244560/",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-06-18 13:33:04",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Rodrygo 2023 (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Rodrygo Goes|Copa del Rey (association football) 2022-2023 final|Extracted images",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "El presidente de la Junta de Andalucía, Juanma Moreno, ha acompañado \n<p>esta noche al Rey Felipe VI en la celebración de la Final de la Copa del \nRey en el Estadio de La Cartuja de Sevilla que están disputando el Real \nMadrid CF y el CA Osasuna.\n</p><p>Esta final es muestra del compromiso tanto del Gobierno andaluz como de la Real Federación Española de Fútbol con la protección del medio \nambiente y es que será una Copa del Rey sostenible, ya que en ella se \nmedirá la huella de carbono y se pondrán en marcha medidas para mitigar el impacto medioambiental de este evento.\n</p><p>Para ello se ha procedido a repartir bolsas de reciclaje a los \nasistentes, se han utilizado materiales sostenibles y sea fomentado el \ntransporte público a través de lanzaderas para que los asistentes puedan \nacceder a las inmediaciones del estadio sin tener la necesidad de usar \nsus vehículos particulares.\n</p><p>Además, cabe destacar que la Final de la Copa es el primer partido en \nEspaña en el que se va a neutralizar la cantidad de dióxido de carbono \ngenerada con la plantación de nueve mil árboles para mitigar la huella \nde carbono, compensando las 2.225 toneladas de CO2, que fueron emitidas el pasado año, lo que supone cuatro árboles por cada tonelada de dióxido de carbono.\n</p><p>————-\n</p>\nFotografía oficial de la Junta de Andalucía, se pone a disposición solamente para su publicación por las organizaciones de noticias y/o para la impresión de uso personal por parte del sujeto (s) de la fotografía. La fotografía no puede ser manipulada de ninguna manera y no se puede utilizar en materiales comerciales o políticos, los anuncios, productos, promociones que de alguna manera sugieran aprobación o respaldo de la Junta de Andalucía.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2023-05-06 22:17:30",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/juntainforma/52879244560/\">https://www.flickr.com/photos/juntainforma/52879244560/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Junta de Andalucía",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

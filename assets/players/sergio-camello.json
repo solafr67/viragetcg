@@ -1,0 +1,103 @@
+{
+  "joueur": "Sergio Camello",
+  "fichier": "sergio-camello.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/2019_MLS_All-Star_Game",
+  "titre_page": "2019 MLS All-Star Game",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Orlando_city_soccer_stadium.jpg/960px-Orlando_city_soccer_stadium.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Orlando_city_soccer_stadium.jpg",
+  "auteur": "Steveo89",
+  "credit": "Own work",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2017-08-28 23:08:50",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Orlando city soccer stadium",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Taken with DJI FC300X|Aerial photographs of Florida|March 2017 in Florida|Self-published work|Files with coordinates missing SDC location of creation|United States photographs taken on 2017-03-25|Inter&Co Stadium",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "28.541112",
+      "source": "commons-desc-page"
+    },
+    "GPSLongitude": {
+      "value": "-81.389167",
+      "source": "commons-desc-page"
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Orlando City Soccer Stadium aerial shot taken during the inaugural season of the stadium.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "Taken on 25 March 2017",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Steveo89&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Steveo89 (page does not exist)\">Steveo89</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

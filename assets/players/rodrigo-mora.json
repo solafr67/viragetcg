@@ -1,0 +1,96 @@
+{
+  "joueur": "Rodrigo Mora",
+  "fichier": "rodrigo-mora.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Rodrigo_Mora_(football,_1987)",
+  "titre_page": "Rodrigo Mora (football, 1987)",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Rodrigo_Mora.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Rodrigo_Mora.jpg",
+  "auteur": "jikatu (Jimmy Baikovicius from Montevideo, Uruguay)",
+  "credit": "https://www.flickr.com/photos/jikatu/7237917920/",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2013-02-07 15:04:18",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Rodrigo Mora",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Rodrigo Mora|Flickr images reviewed by trusted users|Files from Jimmy Baikovicius Flickr stream",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Uruguayan football player Rodrigo Mora, during a uruguayan derby while playing for Peñarol, at the Estadio Centenario.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2012-05-20",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/jikatu/7237917920/\">https://www.flickr.com/photos/jikatu/7237917920/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/jikatu/\">jikatu</a> (Jimmy Baikovicius from Montevideo, Uruguay)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

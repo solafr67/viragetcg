@@ -1,0 +1,86 @@
+{
+  "joueur": "Mattia Liberali",
+  "fichier": "mattia-liberali.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Como_1907",
+  "titre_page": "Como 1907",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Calcio_Como_-_logo_%28Italy%2C_2019-%29.svg/960px-Calcio_Como_-_logo_%28Italy%2C_2019-%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Calcio_Como_-_logo_(Italy,_2019-).svg",
+  "auteur": "Como 1907 srl",
+  "credit": "https://www.corrieredicomo.it/como-1907-la-societa-ha-presentato-il-nuovo-logo/",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-07-11 20:40:32",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Calcio Como - logo (Italy, 2019-)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "With trademark|PD textlogo|SVG text logos|SVG logos of Como 1907",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Como 1907 logo, 2019",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2019-07-25",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.corrieredicomo.it/como-1907-la-societa-ha-presentato-il-nuovo-logo/\">https://www.corrieredicomo.it/como-1907-la-societa-ha-presentato-il-nuovo-logo/</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "Como 1907 srl",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

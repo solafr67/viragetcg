@@ -1,0 +1,101 @@
+{
+  "joueur": "Nico Elvedi",
+  "fichier": "nico-elvedi.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Nico_Elvedi",
+  "titre_page": "Nico Elvedi",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Wales-Switzerland_match_at_Euro_2020_in_Baku_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Wales-Switzerland_match_at_Euro_2020_in_Baku_(cropped).jpg",
+  "auteur": "\n\n\n\nService de presse du Président de la République d'Azerbaïdjan\n",
+  "credit": "president.az",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2021-06-16 23:27:47",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Wales-Switzerland match at Euro 2020 in Baku (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Nico Elvedi|Extracted images|President.az, 2021|2020 UEFA European Championship Match 2, Wales v Switzerland|Presidential Press and Information Office of Azerbaijan",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Wales-Switzerland match at Euro 2020 in Baku",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2021-06-12 17:18:17",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://president.az/articles/52097/images\">president.az</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<table class=\"layouttemplate sourcetemplate\" style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; box-sizing: border-box; padding: 0; border-spacing: 8px; background-color: var(--background-color-neutral-subtle, #f6f7f5); color: var(--color-base, #202122); border: var(--border-subtle, 1px solid #555555);\" dir=\"ltr\" lang=\"fr\">\n<tbody><tr>\n<td style=\"text-align:center;\"><figure class=\"mw-halign-left mw-image-border\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:The_Presidential_Press_and_Information_Office_of_Azerbaijan_(official_logo).png\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/The_Presidential_Press_and_Information_Office_of_Azerbaijan_%28official_logo%29.png/120px-The_Presidential_Press_and_Information_Office_of_Azerbaijan_%28official_logo%29.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"70\" height=\"52\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/The_Presidential_Press_and_Information_Office_of_Azerbaijan_%28official_logo%29.png/250px-The_Presidential_Press_and_Information_Office_of_Azerbaijan_%28official_logo%29.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"395\" data-file-height=\"295\"></a><figcaption></figcaption></figure>\n</td>\n<td><b>Service de presse du Président de la République d'Azerbaïdjan</b>\n</td></tr></tbody></table>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://president.az/\">President.az</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

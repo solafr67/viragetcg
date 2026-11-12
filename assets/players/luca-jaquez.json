@@ -1,0 +1,96 @@
+{
+  "joueur": "Luca Jaquez",
+  "fichier": "luca-jaquez.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Adrian_Bajrami",
+  "titre_page": "Adrian Bajrami",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Pe%C3%B1arol_0-1_Benfica_-_Final_Intercontinental_Sub_20_-_220821-3424-jikatu_%28Adrian_Bajrami%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Pe%C3%B1arol_0-1_Benfica_-_Final_Intercontinental_Sub_20_-_220821-3424-jikatu_(Adrian_Bajrami).jpg",
+  "auteur": "jikatu",
+  "credit": "https://www.flickr.com/photos/7221539@N06/52313473853/",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-08-27 14:53:08",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Peñarol 0-1 Benfica - Final Intercontinental Sub 20 - 220821-3424-jikatu (Adrian Bajrami)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "2022 Under-20 Intercontinental Cup|Adrian Bajrami|Extracted images|Files from Jimmy Baikovicius Flickr stream",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Estadio: Centenario\n<p>Árbitro: Derlis López (Paraguay). Asistentes: Roberto Cañete y José Villagra (Paraguay).\nVAR: Germán Delfino y Maximiliano Del Yesso (Argentina).\n</p><p>PEÑAROL\nRandall Rodríguez\nJoaquín Ferreira, Matías González, Agustín Rodríguez, Mathías De Ritis\nNicolás Rossi, Damián García, Santiago Homenchenko, Máximo Alonso\nBraulio Guisolfo, Óscar Cruz.\nD.T. Juan Manuel Olivera.\nCamera: NIKON D810\nLens: 150-600 mm f/5-6.3\nFocal Length: 360 mm\nExposure: ¹⁄₅₀₀ sec at f/8,0\n</p>\nISO: ISO 1600",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2022-08-21 18:20:50",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/7221539@N06/52313473853/\">https://www.flickr.com/photos/7221539@N06/52313473853/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "jikatu",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

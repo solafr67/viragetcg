@@ -1,0 +1,96 @@
+{
+  "joueur": "João Mário",
+  "fichier": "joao-mario.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Jo%C3%A3o_M%C3%A1rio",
+  "titre_page": "João Mário",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Jo%C3%A3o_M%C3%A1rio_%2804.08.2021%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Jo%C3%A3o_M%C3%A1rio_(04.08.2021).jpg",
+  "auteur": "Антон Зайцев",
+  "credit": "https://www.soccer.ru/galery/1272428/photo/915904",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2021-08-12 09:20:50",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "João Mário (04.08.2021)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|João Mário|License migration redundant|Items with VRTS permission confirmed|Photos from soccer.ru|FC Spartak Moscow vs. SL Benfica, 4 August 2021",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/Jo%C3%A3o_M%C3%A1rio_(footballer,_born_January_1993)\" class=\"extiw\" title=\"w:João Mário (footballer, born January 1993)\">João Mário</a> with <a href=\"https://en.wikipedia.org/wiki/S.L._Benfica\" class=\"extiw\" title=\"w:S.L. Benfica\">SL Benfica</a> in a game against FC Spartak Moscow",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2021-08-05",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.soccer.ru/galery/1272428/photo/915904\">https://www.soccer.ru/galery/1272428/photo/915904</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Антон Зайцев",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

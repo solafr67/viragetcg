@@ -1,0 +1,90 @@
+{
+  "joueur": "Sergi Canós",
+  "fichier": "sergi-canos.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Sergi_Can%C3%B3s",
+  "titre_page": "Sergi Canós",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/2012_2013_-_Sergi_Can%C3%B3s_-_Flickr_-_Castroquini-FCB.jpg/960px-2012_2013_-_Sergi_Can%C3%B3s_-_Flickr_-_Castroquini-FCB.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:2012_2013_-_Sergi_Can%C3%B3s_-_Flickr_-_Castroquini-FCB.jpg",
+  "auteur": "Castroquini-FCB",
+  "credit": "2012 2013 - Sergi Canós",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2013-05-10 18:23:43",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "2012 2013 - Sergi Canós - Flickr - Castroquini-FCB",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Sergi Canós|Flickr images reviewed by FlickreviewR|Import by User:Slick-o-bot/Players of FC Barcelona|Flickr images missing SDC published in",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Foto realizada por Javier Segura (@castroquini)",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2012-10-06 12:58",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/66746408@N03/8059794468/\">2012 2013 - Sergi Canós</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/66746408@N03\">Castroquini-FCB</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

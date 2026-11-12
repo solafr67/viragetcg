@@ -1,0 +1,76 @@
+{
+  "joueur": "Álex Valle",
+  "fichier": "alex-valle.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/%C3%81lex_Valle",
+  "titre_page": "Álex Valle",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Alex_Valle_ACCI_FCBARCELONA_Turisme_Catalunya_gira_pretemporada.jpg/960px-Alex_Valle_ACCI_FCBARCELONA_Turisme_Catalunya_gira_pretemporada.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Alex_Valle_ACCI_FCBARCELONA_Turisme_Catalunya_gira_pretemporada.jpg",
+  "auteur": "Govern de Catalunya",
+  "credit": "https://govern.cat/salapremsa/audiovisual/imatge/2/470076",
+  "licence": "Attribution",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-09-16 18:26:07",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Alex Valle ACCI FCBARCELONA Turisme Catalunya gira pretemporada",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Attribution only license|Attribution-govern|Álex Valle",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Álex Valle, jugador del FC Barcelona, participa en la gira de pretemporada als Estats Units.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2024-08-05",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://govern.cat/salapremsa/audiovisual/imatge/2/470076\">https://govern.cat/salapremsa/audiovisual/imatge/2/470076</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Govern de Catalunya",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Attribution",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "<i>Govern de Catalunya</i>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

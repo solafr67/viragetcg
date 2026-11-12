@@ -1,0 +1,101 @@
+{
+  "joueur": "Sam Beukema",
+  "fichier": "sam-beukema.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Sam_Beukema",
+  "titre_page": "Sam Beukema",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Sam_Beukema_La_Gazzetta_dello_Sport_2025.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Sam_Beukema_La_Gazzetta_dello_Sport_2025.png",
+  "auteur": "La Gazzetta dello Sport",
+  "credit": "YouTube : A tu per tu con Sam BEUKEMA | La Coppa Italia, il no a Slot e la vita a Bologna 🌷🏆 (Temps : 17s) – Voir/enregistrer des versions archivées sur archive.org",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-08-31 13:15:24",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Sam Beukema La Gazzetta dello Sport 2025",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "La Gazzetta dello Sport|License review needed|YouTube review needed|Interviews in Italy|Images from YouTube|Sam Beukema|Still images of YouTube videos",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Dutch association football player Sam Beukema interviewed by La Gazzetta dello Sport in 2025",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2025-05-31",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<bdi lang=\"fr\" dir=\"ltr\"><a href=\"//commons.wikimedia.org/wiki/Commons:YouTube_files\" title=\"Commons:YouTube files\">YouTube</a> : <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=H8rlJCOMLfQ&amp;t=17s\"><bdi lang=\"\">A tu per tu con Sam BEUKEMA | La Coppa Italia, il no a Slot e la vita a Bologna 🌷🏆</bdi></a> (Temps : 17s) – Voir/enregistrer des versions archivées sur <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/*/https://www.youtube.com/watch?v=H8rlJCOMLfQ\">archive.org</a></bdi>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "La Gazzetta dello Sport",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "La Gazzetta dello Sport",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

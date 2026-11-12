@@ -1,0 +1,95 @@
+{
+  "joueur": "Wojciech Szczęsny",
+  "fichier": "wojciech-szczesny.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Wojciech_Szcz%C4%99sny",
+  "titre_page": "Wojciech Szczęsny",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Wojciech_Szcz%C4%99sny.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Wojciech_Szcz%C4%99sny.png",
+  "auteur": "La Gazzetta dello Sport",
+  "credit": "YouTube: https://www.youtube.com/watch?v=d5n8QfnM8s4 – View/save archived versions on archive.org",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-02-15 18:52:45",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Wojciech Szczęsny",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Media from YouTube|Wojciech Szczęsny",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Wojciech Szczęsny in 2025",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2025-01-29",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<bdi lang=\"en\" dir=\"ltr\"><a href=\"//commons.wikimedia.org/wiki/Commons:YouTube_files\" title=\"Commons:YouTube files\">YouTube</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=d5n8QfnM8s4\"><bdi lang=\"\">https://www.youtube.com/watch?v=d5n8QfnM8s4</bdi></a> – View/save archived versions on <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/*/https://www.youtube.com/watch?v=d5n8QfnM8s4\">archive.org</a></bdi>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "La Gazzetta dello Sport",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 3.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "La Gazzetta dello Sport",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/3.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

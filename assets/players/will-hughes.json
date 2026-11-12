@@ -1,0 +1,90 @@
+{
+  "joueur": "Will Hughes",
+  "fichier": "will-hughes.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Will_Hughes",
+  "titre_page": "Will Hughes",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Will_Hughes.jpg/960px-Will_Hughes.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Will_Hughes.jpg",
+  "auteur": "Matlock-Photo from Derbyshire, England",
+  "credit": "Matlock Town vs Derby County XI 26-07-11 052\n\nUploaded by Kafuffle",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2011-12-12 23:15:49",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Will Hughes",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Taken with Canon EOS 500D|Will Hughes|Flickr images reviewed by File Upload Bot (Magnus Manske)|Flickr images missing SDC creator",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Matlock Town vs Derby County XI 26-07-11 052",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2011-07-25 19:44",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/matlock-photo/5976764275/\">Matlock Town vs Derby County XI 26-07-11 052</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Kafuffle\" title=\"User:Kafuffle\">Kafuffle</a></li></ul>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/27687446@N07\">Matlock-Photo</a> from Derbyshire, England",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

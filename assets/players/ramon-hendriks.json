@@ -1,0 +1,90 @@
+{
+  "joueur": "Ramon Hendriks",
+  "fichier": "ramon-hendriks.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Ramon_Hendriks",
+  "titre_page": "Ramon Hendriks",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/FC_Red_Bull_Salzburg_versus_Feyenoord_Rotterdam_%28Testspiel_12._Juli_2019%29_20_%28cropped%29.jpg/960px-FC_Red_Bull_Salzburg_versus_Feyenoord_Rotterdam_%28Testspiel_12._Juli_2019%29_20_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:FC_Red_Bull_Salzburg_versus_Feyenoord_Rotterdam_(Testspiel_12._Juli_2019)_20_(cropped).jpg",
+  "auteur": "Werner100359",
+  "credit": "Own work",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-11-20 13:30:35",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "FC Red Bull Salzburg versus Feyenoord Rotterdam (Testspiel 12. Juli 2019) 20 (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Ramon Hendriks|Jordy Wehrmann|Self-published work|Extracted images|Austria photographs taken on 2019-07-12|FC Red Bull Salzburg gegen Feyenoord Rotterdam (Testspiel 12. Juli 2019)|Wouter Burger",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Preseason match in Leogang",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2019-07-12 19:05:58",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Werner100359\" title=\"User:Werner100359\">Werner100359</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

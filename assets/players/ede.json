@@ -1,0 +1,91 @@
+{
+  "joueur": "Ede",
+  "fichier": "ede.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Frank_Wels",
+  "titre_page": "Frank Wels",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Nederlands_elftal_komt_het_veld_op%2C_WK_1934.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Nederlands_elftal_komt_het_veld_op,_WK_1934.jpg",
+  "auteur": "Auteur inconnuUnknown author",
+  "credit": "Nationaal Archief",
+  "licence": "No restrictions",
+  "licence_url": "https://www.flickr.com/commons/usage/",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2010-06-21 18:49:48",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Nederlands elftal komt het veld op, WK 1934",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Frank Wels|Puck van Heel|Files from Flickr's 'The Commons'|Template Unknown (author)|1934 FIFA World Cup Match, Switzerland v Netherlands",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "De spelers van het Nederlands elftal betreden het speelveld. Voorop Puck van Heel, gevolgd door Frank Wels en Sjef van Run. Nederland - Zwitserland (2-3), gespeeld op 27 mei 1934 in het San Siro-stadion in Milaan tijdens de Wereldkampioenschappen in Italië.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "1934-05-27",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/nationaalarchief/4681264833/\">Nationaal Archief</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Auteur inconnu<span style=\"display: none;\">Unknown author</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "No restrictions",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "No known copyright restrictions",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://www.flickr.com/commons/usage/",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

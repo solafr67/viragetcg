@@ -1,0 +1,96 @@
+{
+  "joueur": "Jay Idzes",
+  "fichier": "jay-idzes.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Jay_Idzes",
+  "titre_page": "Jay Idzes",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Jay_Idzes_-_Go_Ahead_Eagles_-_FC_Volendam_-_52915157035_%28cropped%2C_2023%29.jpg/960px-Jay_Idzes_-_Go_Ahead_Eagles_-_FC_Volendam_-_52915157035_%28cropped%2C_2023%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Jay_Idzes_-_Go_Ahead_Eagles_-_FC_Volendam_-_52915157035_(cropped,_2023).jpg",
+  "auteur": "Carlo Bruil Fotografie",
+  "credit": "https://www.flickr.com/photos/131306819@N08/52915157035/",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-07-28 22:01:58",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Jay Idzes - Go Ahead Eagles - FC Volendam - 52915157035 (cropped, 2023)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Jay Idzes|Extracted images|Go Ahead Eagles v FC Volendam, 21 May 2023|Photographs by Carlo Bruil",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Deventer, Sunday 21 May 2023, seizoen 2022 / 2023 , wedstrijd tussen Go Ahead Eagles en FC Volendam, einduitslag 3-0 (1-0)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2023-05-21",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/131306819@N08/52915157035/\">https://www.flickr.com/photos/131306819@N08/52915157035/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Carlo Bruil Fotografie",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

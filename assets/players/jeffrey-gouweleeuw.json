@@ -1,0 +1,90 @@
+{
+  "joueur": "Jeffrey Gouweleeuw",
+  "fichier": "jeffrey-gouweleeuw.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Heinz_van_Haaren",
+  "titre_page": "Heinz van Haaren",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Heinz_van_Haaren_%281968%29.jpg/960px-Heinz_van_Haaren_%281968%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Heinz_van_Haaren_(1968).jpg",
+  "auteur": "Jack de Nijs for Anefo",
+  "credit": "Nationaal Archief",
+  "licence": "CC0",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2014-08-28 15:38:28",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Heinz van Haaren (1968)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "CC-Zero|Heinz van Haaren|Images from Anefo|Extracted images|Photographs by Jack de Nijs (flat list)|1968 photographs by Jack de Nijs|Ajax v MSV Duisburg, 20 March 1968",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Ajax tegen MSV Duisburg 1-1. Heinz van Haaren\n<ul><li>20 maart 1968</li></ul>",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "1968-03-20",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://proxy.handle.net/10648/ab3a1e8a-d0b4-102d-bcf8-003048976d84\">Nationaal Archief</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/Category:Jack_de_Nijs\" title=\"Category:Jack de Nijs\">Jack de Nijs</a> for <a href=\"//commons.wikimedia.org/wiki/Category:Anefo\" title=\"Category:Anefo\">Anefo</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Zero, Public Domain Dedication",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

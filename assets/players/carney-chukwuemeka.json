@@ -1,0 +1,96 @@
+{
+  "joueur": "Carney Chukwuemeka",
+  "fichier": "carney-chukwuemeka.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/%C3%89quipe_d%27Autriche_de_football_%C3%A0_la_Coupe_du_monde_2026",
+  "titre_page": "Équipe d'Autriche de football à la Coupe du monde 2026",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/960px-Flag_of_Austria.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_Austria.svg",
+  "auteur": "Bundesministerium für Landesverteidigung",
+  "credit": "Dekorationen, Insignien und Hoheitszeichen in Verbindung mit / in conjunction with Grundsätzliche Bestimmungen über Verwendung des Hoheitszeichens sowie über die Fahnenordnung des Österreichischen Bundesheeres. Erlass vom 14. Mai 2018, GZ S93592/3-MFW/2018.",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-04-12 14:12:34",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of Austria",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "PD Austria|With insignia|Files with derivative versions|SVG flags of Austria - aspect ratio of 3:2|SVG national flag of Austria|Upload protected files|SVG simplified flags●Zero|Valid SVG created with Text Editor code|SVG civil and merchant ensigns",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://fr.wikipedia.org/wiki/Drapeau_de_l%27Autriche\" class=\"extiw\" title=\"fr:Drapeau de l'Autriche\">Drapeau de l'Autriche</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2018-05-14",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.bundesheer.at/abzeichen/dekorationen.shtml\"><i>Dekorationen, Insignien und Hoheitszeichen</i></a> in Verbindung mit / in conjunction with <a rel=\"nofollow\" class=\"external text\" href=\"http://www.bundesheer.at/abzeichen/pdf/hoheitszeichen.pdf\"><i>Grundsätzliche Bestimmungen über Verwendung des Hoheitszeichens sowie über die Fahnenordnung des Österreichischen Bundesheeres. Erlass vom 14. Mai 2018, GZ S93592/3-MFW/2018</i></a>.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"https://de.wikipedia.org/wiki/Bundesministerium_f%C3%BCr_Landesverteidigung\" class=\"extiw\" title=\"de:Bundesministerium für Landesverteidigung\">Bundesministerium für Landesverteidigung</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "<i>Ce fichier est dans le <b><a href=\"https://fr.wikipedia.org/wiki/domaine_public\" class=\"extiw\" title=\"fr:domaine public\">domaine public</a></b> selon la loi autrichienne car il fait partie d’une loi, ordonnance ou décret officiel émis par une autorité fédérale ou d’État, ou car il est principalement d’usage officiel. (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Bundesnormen&amp;Dokumentnummer=NOR12024408\">§7 UrhG</a>)</i>\n<div class=\"center\">\n<p><small>Au téléverseur : <b>Veuillez indiquer l’auteur du fichier et son lieu de première publication.</b></small>\n</p>\n</div>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

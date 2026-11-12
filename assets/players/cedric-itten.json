@@ -1,0 +1,111 @@
+{
+  "joueur": "Cedric Itten",
+  "fichier": "cedric-itten.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Cedric_Itten",
+  "titre_page": "Cedric Itten",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/YB_ist_zum_17._Mal_in_der_Klubgeschichte_Schweizer_Meister%21_%28Cedric_Itten%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:YB_ist_zum_17._Mal_in_der_Klubgeschichte_Schweizer_Meister!_(Cedric_Itten).jpg",
+  "auteur": "Pierre.berendes",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-06-19 14:09:55",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "YB ist zum 17. Mal in der Klubgeschichte Schweizer Meister! (Cedric Itten)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Meschack Elia|Loris Benito|Fabian Lustenberger|Anthony Racioppi|Noah Persson|Self-published work|Extracted images|Files with coordinates missing SDC location of creation|Saidy Janko|Ebrima Colley|Mohamed Ali Camara|Jaouen Hadjam|David von Ballmoos|Anel Husić|Aurèle Amenda|Cedric Itten|Cheikh Niasse|Darian Males|Dario Marzino|Enrico Schirinzi|Filip Ugrinić|Fred Stulens|Joel Mvuka|Joël Magnin|Joël Monteiro|Kastriot Imeri|Lewin Blum|Malik Deme|Sadin Crnovrsanin|Sandro Lauper|Servette FC v BSC Young Boys, 20 May 2024|Severin Feuz|Silvère Ganvoula|Simon Nüssli|Thomas Breitenmoser|Łukasz Łakomy|Christoph Born|Stephan Flückiger|Thomas Ringgenberg|Zoltán Kádár (Romanian footballer)",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "46.176893",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSLongitude": {
+      "value": "6.127905",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "BSC Young Boys  / YB ist zum 17. Mal in der Klubgeschichte Schweizer Meister!",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2024-05-20 19:59:51",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pierre.berendes&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pierre.berendes (page does not exist)\">Pierre.berendes</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

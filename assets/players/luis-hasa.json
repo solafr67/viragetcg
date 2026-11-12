@@ -1,0 +1,91 @@
+{
+  "joueur": "Luis Hasa",
+  "fichier": "luis-hasa.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/%C3%89quipe_d%27Italie_des_moins_de_18_ans_de_football",
+  "titre_page": "Équipe d'Italie des moins de 18 ans de football",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Logo_Italy_National_Football_Team_-_2023.svg/960px-Logo_Italy_National_Football_Team_-_2023.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Logo_Italy_National_Football_Team_-_2023.svg",
+  "auteur": "Independent Ideas for Federazione Italiana Giuoco Calcio",
+  "credit": "https://www.figc.it/",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-05-02 13:42:06",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Logo Italy National Football Team - 2023",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "With trademark|PD textlogo|SVG text logos|TOO-Italy|SVG logos of Italy national association football team",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "This is the logo of the Italy male national football teams, controlled by the Italian Football Federation.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2023-01-02",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.figc.it/\">https://www.figc.it/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://independentideas.it/project/figc-restyle-logo/\">Independent Ideas</a> for Federazione Italiana Giuoco Calcio",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

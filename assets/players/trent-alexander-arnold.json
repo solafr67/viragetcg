@@ -1,0 +1,90 @@
+{
+  "joueur": "Trent Alexander-Arnold",
+  "fichier": "trent-alexander-arnold.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Trent_Alexander-Arnold",
+  "titre_page": "Trent Alexander-Arnold",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Trent_Alexander-Arnold_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Trent_Alexander-Arnold_2018_(cropped).jpg",
+  "auteur": "Антон Зайцев",
+  "credit": "https://www.soccer.ru/galery/1055080/photo/732855",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-06-13 14:58:49",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Trent Alexander-Arnold 2018 (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|2018 FIFA World Cup Match 30, England v Panama|License migration redundant|Trent Alexander-Arnold|Items with VRTS permission confirmed|Extracted images|Photos from soccer.ru",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "English footballer Trent Alexander-Arnold on 24 June 2018, during the 2018 FIFA World Cup group stage match between England and Panama.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2018-06-24",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.soccer.ru/galery/1055080/photo/732855\">https://www.soccer.ru/galery/1055080/photo/732855</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "Антон Зайцев",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

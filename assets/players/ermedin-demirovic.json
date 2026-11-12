@@ -1,0 +1,96 @@
+{
+  "joueur": "Ermedin Demirović",
+  "fichier": "ermedin-demirovic.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/%C3%89quipe_de_Bosnie-Herz%C3%A9govine_de_football_%C3%A0_la_Coupe_du_monde_2026",
+  "titre_page": "Équipe de Bosnie-Herzégovine de football à la Coupe du monde 2026",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/960px-Flag_of_Bosnia_and_Herzegovina.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina.svg",
+  "auteur": "Mladen Kolobarić",
+  "credit": "Travail personnel.\n\nBASED ON THIS CONSTRUCTION SHEET:\n\n\n\t\t\n\t\t\t\n\t\t\t\n\t\t\n",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2013-03-12 19:52:28",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of Bosnia and Herzegovina",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "PD shape|With insignia|Flags with five-pointed stars|SVG national flag of Bosnia and Herzegovina|Valid SVG created with Inkscape:Flags|SVG flags of Bosnia and Herzegovina - aspect ratio of 2:1|PD-BH-exempt (flags)",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/Flag_of_Bosnia_and_Herzegovina\" class=\"extiw\" title=\"en:Flag of Bosnia and Herzegovina\">Flag of Bosnia and Herzegovina</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "<b>1998-present</b>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<p><span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>.\n<br>\nBASED ON THIS CONSTRUCTION SHEET:\n</p>\n<ul class=\"gallery mw-gallery-traditional\">\n\t\t<li class=\"gallerybox\" style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px; height: 150px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina_(construction_sheet).svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Bosnia_and_Herzegovina_%28construction_sheet%29.svg/120px-Flag_of_Bosnia_and_Herzegovina_%28construction_sheet%29.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Bosnia_and_Herzegovina_%28construction_sheet%29.svg/250px-Flag_of_Bosnia_and_Herzegovina_%28construction_sheet%29.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1290\" data-file-height=\"690\"></a></span></div>\n\t\t\t<div class=\"gallerytext\"></div>\n\t\t</li>\n</ul>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Mladen Kolobarić",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "<b>This work is not an object of copyright</b> according to the <a rel=\"nofollow\" class=\"external text\" href=\"http://www.wipo.int/wipolex/en/text.jsp?file_id=227216\">Law of Copyright and Related Rights</a> in <b>Bosnia and Herzegovina</b> from 2010 (<a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/Bosnia_and_Herzegovina\" title=\"Commons:Copyright rules by territory/Bosnia and Herzegovina\">details</a>).\n<ol><li>Copyright protection shall not extend to:\n<dl><dd>a) ideas, concepts, procedures, work methods, mathematical operations, principles or discoveries,</dd>\n<dd>b) official texts in the domain of legislation, administration and judiciary (laws, regulations, decisions, reports, minutes, judgments and alike),</dd>\n<dd>c) political speeches and speeches made at court hearings,</dd>\n<dd>d) daily news or miscellaneous information having the character of mere items of press information,</dd>\n<dd>e) folk literary and artistic creations.</dd></dl></li>\n<li>The translations of the texts and speeches referred to in items b) and c) of paragraph (1) of this Article shall be copyrighted, unless they are published as official texts.</li></ol>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

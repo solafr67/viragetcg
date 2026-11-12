@@ -1,0 +1,116 @@
+{
+  "joueur": "Mensah",
+  "fichier": "mensah.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/John_Mensah",
+  "titre_page": "John Mensah",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Entrainement_SRFC_St-Malo_2013_%2870bis%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Entrainement_SRFC_St-Malo_2013_(70bis).jpg",
+  "auteur": "S. Plaine",
+  "credit": "Cette image a été extraite d'un autre fichier",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2015-03-25 21:23:08",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Entrainement SRFC St-Malo 2013 (70bis)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "John Mensah|Self-published work|Extracted images|Files with coordinates missing SDC location of creation|Files by Buff/Football|Files by Buff/Fujifilm FinePix F480|Files by Buff/Portrait|Files by Buff/2013 photographs|Entrainement SRFC Saint-Malo 2013",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "48.641452",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSLongitude": {
+      "value": "-2.005629",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Photo prise lors d'un entraînement du <a href=\"https://fr.wikipedia.org/wiki/Stade_rennais_football_club\" class=\"extiw\" title=\"fr:Stade rennais football club\">Stade rennais</a> au stade de Marville de <a href=\"https://fr.wikipedia.org/wiki/Saint-Malo\" class=\"extiw\" title=\"fr:Saint-Malo\">Saint-Malo</a> le 3 mai 2013. <a href=\"https://fr.wikipedia.org/wiki/John_Mensah\" class=\"extiw\" title=\"fr:John Mensah\">John Mensah</a> répond aux sollicitations des supporters.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2013-05-01 17:36:50",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "Cette image a été extraite d'un autre fichier",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Buff\" title=\"User:Buff\">S. Plaine</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "<div style=\"border:1px solid green; background-color:#eaeeed;\">\n<table cellpadding=\"3px\">\n<tbody><tr>\n<td valign=\"top\" colspan=\"2\">\n<p>Cette image a été créée par <a href=\"//commons.wikimedia.org/wiki/User:Buff\" title=\"User:Buff\">S. Plaine</a>. Elle est protégée par le droit d'auteur est <u>n'est pas</u> dans le <a href=\"https://en.wikipedia.org/wiki/Domaine_public_(propri%C3%A9t%C3%A9_intellectuelle)\" class=\"extiw\" title=\"w:Domaine public (propriété intellectuelle)\">domaine public</a>. Elle peut néanmoins être réutilisée librement par tous, dans la mesure où les termes de la licence ci-dessous sont respectés.\n</p>\n<ul><li><b>Les instructions qui doivent être suivies pour respecter les termes de la licence sont :</b></li></ul>\n<dl><dd>- Le crédit suivant doit être apposé à l'image : <b>Photo : S. Plaine / CC-BY-SA-4.0</b> ou, de façon alternative, <b>\"© S. Plaine / CC-BY-SA-4.0\"</b>. S'il n'est pas possible d'ajouter ce crédit à l'image réutilisée, merci de me contacter.</dd>\n<dd>- Vous n'avez pas l'autorisation de modifier la licence de l'image.</dd></dl>\n<ul><li><b>De façon optionnelle, mais fortement appréciée :</b></li></ul>\n<dl><dd>- Me contacter lorsque vous réutilisez l'image en question.</dd></dl>\n<p>Merci de m'envoyer un message via ma page de discussion, ou à spam@gmail.com <small>(où le mot <i>\"spam\"</i> est remplacé par <i>\"commons.buff\"</i>)</small>, si vous souhaitez me poser des questions à propos de cette image et de sa réutilisation.\n</p>\n<hr>\n</td>\n</tr>\n</tbody></table>\n</div>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

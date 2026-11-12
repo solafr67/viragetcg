@@ -1,0 +1,90 @@
+{
+  "joueur": "Carrera",
+  "fichier": "carrera.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Massimo_Carrera",
+  "titre_page": "Massimo Carrera",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Zenspb-SM_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Zenspb-SM_(1).jpg",
+  "auteur": "Кирилл Венедиктов",
+  "credit": "soccer.ru",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2018-09-16 18:47:58",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Zenspb-SM (1)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|License migration redundant|Massimo Carrera|Items with VRTS permission confirmed|Photos from soccer.ru|FC Zenit Saint Petersburg vs. FC Spartak Moscow 16 September 2018",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Massimo Carrera",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2018-09-16 21:16:14",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.soccer.ru/galery/1066855/photo/746969\">soccer.ru</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "Кирилл Венедиктов",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

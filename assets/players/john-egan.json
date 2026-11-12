@@ -1,0 +1,106 @@
+{
+  "joueur": "John Egan",
+  "fichier": "john-egan.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/John_Egan_(football)",
+  "titre_page": "John Egan (football)",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/John_Egan%2C_Gillingham_FC_footballer%2C_November_2014.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:John_Egan,_Gillingham_FC_footballer,_November_2014.jpg",
+  "auteur": "joshjdss",
+  "credit": "https://www.flickr.com/photos/109430286@N06/18428902061/ (Cropped from original)",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2017-03-06 13:37:33",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "John Egan, Gillingham FC footballer, November 2014",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "John Egan (association football player)|Images with extracted images|Flickr images reviewed by trusted users|Flickr images missing SDC creator|Flickr images missing SDC source of file|Photographs taken on 2014-11-29|Gillingham v Port Vale, 29 November 2014|Files uploaded with For the Common Good",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "John Egan, football player of Gillingham FC, celebrating a goal in a match versus Port Vale on 29 November 2014.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "Prise le 29 novembre 2014",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/109430286@N06/18428902061/\">https://www.flickr.com/photos/109430286@N06/18428902061/</a> (Cropped from original)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/109430286@N06/\">joshjdss</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "<table id=\"FlickrReview\" class=\"layouttemplate\" style=\"width:100%; margin:0.5em auto; background: var(--background-color-success-subtle, #eeffee); color: inherit; padding: 5px; border: 1px solid var(--border-color-base, #aaaa88);\" lang=\"fr\" dir=\"ltr\">\n\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/60px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"48\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Checked_copyright_icon.svg/120px-Checked_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"160\" data-file-height=\"153\"></span></span>\n</td>\n<td><span class=\"mw-translate-fuzzy\">Cette image, qui provient de <a href=\"https://fr.wikipedia.org/wiki/Flickr\" class=\"extiw\" title=\"fr:Flickr\">Flickr</a>, a été vérifiée le 7 mars 2017 par l'<a href=\"//commons.wikimedia.org/wiki/Commons:Administrateurs\" class=\"mw-redirect\" title=\"Commons:Administrateurs\">administrateur</a> ou l'utilisateur de confiance (<i><a href=\"//commons.wikimedia.org/wiki/Commons:Flickr_images/reviewers\" class=\"mw-redirect\" title=\"Commons:Flickr images/reviewers\">trusted user</a></i>) <b><a href=\"//commons.wikimedia.org/wiki/User:Magog_the_Ogre\" title=\"User:Magog the Ogre\">Magog the Ogre</a></b>, qui a confirmé qu'à cette date, elle était publiée sur Flickr sous cette licence.</span>\n</td>\n<td><figure class=\"mw-halign-right\" typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/60px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"50\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Flickr_dots.svg/120px-Flickr_dots.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></span><figcaption></figcaption></figure>\n</td></tr></tbody></table>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/109430286@N06/\">joshjdss</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

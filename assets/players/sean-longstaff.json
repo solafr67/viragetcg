@@ -1,0 +1,103 @@
+{
+  "joueur": "Sean Longstaff",
+  "fichier": "sean-longstaff.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Sean_Longstaff",
+  "titre_page": "Sean Longstaff",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Sean_Longstaff_2021-08-07_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Sean_Longstaff_2021-08-07_1.jpg",
+  "auteur": "Mattythewhite",
+  "credit": "Own work",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2021-08-10 23:42:06",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Sean Longstaff 2021-08-07 1",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Taken with Sony DSC-HX50|Sean Longstaff|Self-published work|Photos by User:Mattythewhite|21st-century portrait photographs of standing men at three-quarter length|2021 portrait photographs of men|Newcastle United v Norwich City, 7 August 2021|Men of the United Kingdom in 2021|23-year-old human males",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "54.975556",
+      "source": "commons-desc-page"
+    },
+    "GPSLongitude": {
+      "value": "-1.621667",
+      "source": "commons-desc-page"
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/Sean_Longstaff\" class=\"extiw\" title=\"en:Sean Longstaff\">Sean Longstaff</a> playing for <a href=\"https://en.wikipedia.org/wiki/Newcastle_United_F.C.\" class=\"extiw\" title=\"en:Newcastle United F.C.\">Newcastle United</a> against <a href=\"https://en.wikipedia.org/wiki/Norwich_City_F.C.\" class=\"extiw\" title=\"en:Norwich City F.C.\">Norwich City</a> at <a href=\"https://en.wikipedia.org/wiki/St_James%27_Park\" class=\"extiw\" title=\"en:St James' Park\">St James' Park</a>, <a href=\"https://en.wikipedia.org/wiki/Newcastle_upon_Tyne\" class=\"extiw\" title=\"en:Newcastle upon Tyne\">Newcastle upon Tyne</a> on 7 August 2021",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2021-08-07 14:09:07",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mattythewhite\" title=\"User:Mattythewhite\">Mattythewhite</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

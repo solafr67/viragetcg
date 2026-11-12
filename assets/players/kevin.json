@@ -1,0 +1,91 @@
+{
+  "joueur": "Kevin",
+  "fichier": "kevin.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/1979_en_football",
+  "titre_page": "1979 en football",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Kevin_keegan_panini_card_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Kevin_keegan_panini_card_(cropped).jpg",
+  "auteur": "Auteur inconnuUnknown author",
+  "credit": "Here",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-08-01 14:51:11",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Kevin keegan panini card (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "1980 UEFA European Championship|PD Italy (20 years after creation)|Kevin Keegan|Panini association football cards|Works copyrighted in the U.S.|Extracted images|Template Unknown (author)|Deletion requests July 2026",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "#125 card.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "1980",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.ebay.com/itm/EUROPA-80-PANINI-ENGLAND-STICKERS-KEVIN-KEEGAN-UNUSED-125/284060171494?hash=item42234e3ce6:g:zdIAAOSww3BfmXOU\">Here</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Auteur inconnu<span style=\"display: none;\">Unknown author</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,86 @@
+{
+  "joueur": "Alisson Santos",
+  "fichier": "alisson-santos.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/SSC_Napoli",
+  "titre_page": "SSC Napoli",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/SSC_Napoli_2025_%28white_and_azure%29.svg/960px-SSC_Napoli_2025_%28white_and_azure%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:SSC_Napoli_2025_(white_and_azure).svg",
+  "auteur": "Logo:  SSC Napoli S.p.A.\nUpload:  The White Lion",
+  "credit": "Own work",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-07-22 21:59:26",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "SSC Napoli 2025 (white and azure)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "With trademark|PD textlogo|SVG text logos|TOO-Italy|SVG logos of SSC Napoli",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "SSC Napoli 2025 (white and azure)",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2025-07-20",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<ul><li><b>Logo: </b> SSC Napoli S.p.A.</li>\n<li><b>Upload: </b> <a href=\"//commons.wikimedia.org/wiki/User:The_White_Lion\" title=\"User:The White Lion\">The White Lion</a></li></ul>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

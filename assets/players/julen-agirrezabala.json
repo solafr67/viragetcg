@@ -1,0 +1,90 @@
+{
+  "joueur": "Julen Agirrezabala",
+  "fichier": "julen-agirrezabala.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/2022_Supercopa_de_Espa%C3%B1a_final",
+  "titre_page": "2022 Supercopa de España final",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/bd/King_Fahd_Int._Stadium-_Opening_Arabian_Gulf_Cup_2014.jpg/960px-King_Fahd_Int._Stadium-_Opening_Arabian_Gulf_Cup_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://en.wikipedia.org/wiki/File:King_Fahd_Int._Stadium-_Opening_Arabian_Gulf_Cup_2014.jpg",
+  "auteur": "على المزارقه\n",
+  "credit": "Own work \n",
+  "licence": "CC-BY-SA-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-12-26 04:32:20",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "King Fahd Int. Stadium- Opening Arabian Gulf Cup 2014",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "All free media|Self-published work|Wikipedia images using freedom of panorama|Files deleted on Wikimedia Commons|All free in US media|Wikipedia files not suitable for Commons|Creative Commons Attribution-ShareAlike 4.0 files|Wikipedia files tagged as own work",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<ul><li>Opening The 22nd Arabian Gulf Cup, Saudi Arabia vs Qatar in King Fahd International Stadium, Riyadh, Saudi Arabia. (13 November 2014)</li>\n<li>افتتاح ملعب دورة كأس الخليج العربي الـ22 ، السعودية واجه قطر في ملعب الملك فهد الدولي بالعاصمة السعودية الرياض (13 نوفمبر 2014)</li>\n<li>ガルフカップ2014, サウジアラビア 1 - 1 カタール, キング・ファハド国際スタジアム, リヤド, サウジアラビア (13-11-2014)</li></ul>",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<p>Own work \n</p>",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "<p>2014-11-13 19:08:58\n</p>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<p><a href=\"https://commons.wikimedia.org/wiki/User:%D8%B9%D9%84%D9%89_%D8%A7%D9%84%D9%85%D8%B2%D8%A7%D8%B1%D9%82%D9%87\" class=\"extiw\" title=\"c:User:على المزارقه\">على المزارقه</a>\n</p>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC-BY-SA-4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-ShareAlike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

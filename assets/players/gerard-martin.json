@@ -1,0 +1,96 @@
+{
+  "joueur": "Gerard Martín",
+  "fichier": "gerard-martin.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Gerard_Mart%C3%ADn",
+  "titre_page": "Gerard Martín",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/2025_04_26_Final_de_la_Copa_del_Rey_-_54482387776_-_Gerard_Mart%C3%ADn.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:2025_04_26_Final_de_la_Copa_del_Rey_-_54482387776_-_Gerard_Mart%C3%ADn.jpg",
+  "auteur": "Junta de Andalucía",
+  "credit": "https://www.flickr.com/photos/juntainforma/54482387776/",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-07-23 21:10:19",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "2025 04 26 Final de la Copa del Rey - 54482387776 - Gerard Martín",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Extracted images|2025 Copa del Rey final|Gerard Martín",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "El presidente de la Junta de Andalucía, Juanma Moreno, ha acompañado a Su Majestad el Rey Felipe VI en la final de la Copa del Rey de Fútbol disputada entre el F.C Barcelona y el Real Madrid C.F en el Estadio La Cartuja de Sevilla.\n<p>Éste es el sexto año consecutivo que La Cartuja acoge la Final de la Copa del Rey y en esta ocasión lo hace tras una ampliación y una reforma que ha permitido que estrene césped, gradas y nuevas instalaciones.\n</p><p>Tras estas obras el Estadio La Cartuja cuenta con un aforo total de 70.000 plazas, lo que lo convierte en el tercer estadio mayor de este país, después del Camp Nou y del Santiago Bernabéu en Barcelona y en Madrid, respectivamente.\n</p><p>Sevilla añade con este gran estadio razones sobradas para consolidar su atractivo como sede de la Copa del Rey y de otros campeonatos nacionales e internacionales y para seguir siendo la casa de la selección española de fútbol.\n</p><p>Así, la capital andaluza vuelve a demostrar su gran capacidad para organizar eventos del más alto nivel con las mejores infraestructuras y con amplias posibilidades de alojamiento y actividades para quienes visitan Sevilla y Andalucía.\n</p><p>En 2024 Andalucía acogió hasta 250 eventos deportivos y este 2025 va camino de repetir estas cifras que, además de promocionar el deporte, la consolidan como polo de atracción turístico y cultural, generando empleo y un importante retorno económico.\n</p><p>————-\n</p>\nFotografía oficial de la Junta de Andalucía, se pone a disposición solamente para su publicación por las organizaciones de noticias y/o para la impresión de uso personal por parte del sujeto (s) de la fotografía. La fotografía no puede ser manipulada de ninguna manera y no se puede utilizar en materiales comerciales o políticos, los anuncios, productos, promociones que de alguna manera sugieran aprobación o respaldo de la Junta de Andalucía. Así que como se debe citar como fuente de la misma Junta de Andalucía.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2025-04-26 20:56:47",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/juntainforma/54482387776/\">https://www.flickr.com/photos/juntainforma/54482387776/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Junta de Andalucía",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

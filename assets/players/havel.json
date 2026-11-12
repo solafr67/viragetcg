@@ -1,0 +1,96 @@
+{
+  "joueur": "Havel",
+  "fichier": "havel.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Steffen_Freund",
+  "titre_page": "Steffen Freund",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/2017083205410_2017-03-24_Fussball_U21_Deutschland_vs_England_-_Sven_-_1D_X_II_-_0218_-_AK8I3031_mod.jpg/960px-2017083205410_2017-03-24_Fussball_U21_Deutschland_vs_England_-_Sven_-_1D_X_II_-_0218_-_AK8I3031_mod.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:2017083205410_2017-03-24_Fussball_U21_Deutschland_vs_England_-_Sven_-_1D_X_II_-_0218_-_AK8I3031_mod.jpg",
+  "auteur": "Sven Mandel",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2017-03-26 17:49:30",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "2017083205410 2017-03-24 Fussball U21 Deutschland vs England - Sven - 1D X II - 0218 - AK8I3031 mod",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Steffen Freund|2017-03-24 Germany vs England U21 football match|Items with ticket accreditation|Files by User:Svema from de.wikipedia/People|Eurosport microphones|Photographs by Sven Mandel in 2017-03",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<p>Football U21 Germany vs England (1:0) \n</p><p>Team Germany\n</p><p>12\tJulian Pollersbeck (1. FC Kaiserslautern)\n1  Marvin Schwäbe (Dynamo Dresden)\n23 Odisseas Vlachodimos (Panathinaikos Athen)\n16 Kevin Akpoguma (Fortuna Düsseldorf)\n3  Yannick Gerhardt (VfL Wolfsburg)\n5  Matthias Ginter (Borussia Dortmund)\n22 Benjamin Henrichs (Bayer 04 Leverkusen)\n15 Marc-Oliver Kempf (SC Freiburg)\n4  Niklas Stark (Hertha BSC)\n13 Jeremy Toljan (1899 Hoffenheim)\n2  Mitchell Weiser (Hertha BSC)\n18 Nadiem Amiri (1899 Hoffenheim)\n10 Maximilian Arnold (VfL Wolfsburg)\n25 Hany Mukhtar (Brøndby IF)\n7  Max Meyer (FC Schalke 04)\n19 Janik Haberer (SC Freiburg)\n21 Gideon Jung (Hamburger SV)\n20 Levin Öztunali (1. FSV Mainz 05)\n17 Maximilian Philipp (SC Freiburg)\n9  Davie Selke (RB Leipzig)\n27 Thilo Kehrer (FC Schalke 04)\n</p><p>Team England\n</p><p>1  Jordan Pickford (Sunderland)\n2  Mason Holgate (Everton)\n13 Angus Gunn (Manchester City)\n21 Christian Walton (Brighton)\n16 Kortney Hause (Wolverhampton)\n5  Jack Stephens (Southampton)\n15 Rob Holding (Arsenal)\n12 Joe Gomez (Liverpool)\n3  Ben Chilwell (Leicester City)\n6  Alfie Mawson (Swansea City)\n22 Sam McQueen (Southampton)\n4  Nathaniel Chalobah (Chelsea)\n14 Will Hughes (Derby County)\n20 Ruben Loftus-Cheek (Chelsea)\n10 Lewis Baker (Vitesse Arnheim)\n18 John Swift (Reading)\n23 Jack Grealish (Aston Villa)\n8  Harry Winks (Hotspur)\n19 Cauley Woodrow (Fulham)\n9  Tammy Abraham (Bristol City)\n17 Solly March (Brighton)\n11 Jacob Murphy (Norwich)\n</p>\nduring Fussball U21 Deutschland vs England at Brita-Arena, Wiesbaden, Hessen, Germany on 2017-03-24, Photo: Sven Mandel",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2017-03-24 20:54:10",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Sven Mandel",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

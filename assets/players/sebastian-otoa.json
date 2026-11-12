@@ -1,0 +1,86 @@
+{
+  "joueur": "Sebastian Otoa",
+  "fichier": "sebastian-otoa.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Denmark_national_under-21_football_team",
+  "titre_page": "Denmark national under-21 football team",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Dansk_boldspil_union_logo.svg/960px-Dansk_boldspil_union_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Dansk_boldspil_union_logo.svg",
+  "auteur": "Thorvald Bindesbøll (1846–1908) and Saatchi & Saatchi (1999)",
+  "credit": "www.dbu.dk",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2021-08-21 23:30:22",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Dansk boldspil union logo",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "With trademark|Danish Football Association|Logos of member associations of FIFA|PD textlogo|SVG text logos|D in logos|SVG association football logos of Denmark",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<p><bdi lang=\"en\">The logo of <bdi lang=\"\"><a href=\"https://en.wikipedia.org/wiki/en:Danish_Football_Association\" class=\"extiw\" title=\"w:en:Danish Football Association\"><span title=\"sports governing body organizing association football in Denmark\">Danish Football Association</span></a> – sports governing body organizing association football in Denmark</bdi></bdi>\n</p><p>As per <a rel=\"nofollow\" class=\"external text\" href=\"http://www.kb-boldklub.dk/om-kb/profil/kbs-logo/\">KBs logo</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dbukoebenhavn.dk/om-os/historie/gode-historier/korte-historier/nr-1-10/6/\">Carlsberg betaler</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://www.carlsberg.com/da-dk/fremskridt-siden-1847/artikel-2019-logo-tilbage-til-original/\">Nyt design trækker Carlsberg-logo tilbage til originalen</a> and 'En del af det største' by Lars Berendt (2017; ISBN: 9788711565896), chapter 13 (Drømmeduo), it is presumed that the original logo of the Danish Football Association (DBU) was designed and created by <a href=\"https://en.wikipedia.org/wiki/Thorvald_Bindesb%C3%B8ll\" class=\"extiw\" title=\"en:Thorvald Bindesbøll\">Thorvald Bindesbøll</a> around 1900. The logo has had several aesthetic improvements throughout the years with latest adjustments being implemented in 1999 by the advertising agency Saatchi &amp; Saatchi as part of DBU's new design guidelines and visual identity implementation throughout the central part of the national organization.\n</p>\nAs per 'Dansk Boldspil-Union Designmanual 2.0' (2013), section under \"DBUs logo - jura\", <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dbu.dk/presse/retningslinjer/kommercielle/\">Kommercielle retningslinjer</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://www.rettigheder.dk/soeg?t=Dansk+Boldspil+Union+1889\">rettigheder.dk Resultater</a>, the logo of DBU is trademarked (EU varemærke), and hence protected under the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.retsinformation.dk/eli/lta/2019/88\">Danish Trademark Act</a>.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "circa 1900<div style=\"display: none;\">date QS:P,+1900-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "www.dbu.dk",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/Thorvald_Bindesb%C3%B8ll\" class=\"extiw\" title=\"en:Thorvald Bindesbøll\">Thorvald Bindesbøll</a> (1846–1908) and Saatchi &amp; Saatchi (1999)",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

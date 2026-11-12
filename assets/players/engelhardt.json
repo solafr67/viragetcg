@@ -1,0 +1,96 @@
+{
+  "joueur": "Engelhardt",
+  "fichier": "engelhardt.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Marco_Engelhardt",
+  "titre_page": "Marco Engelhardt",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Marco_Engelhardt%2C_2010-01.JPG?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Marco_Engelhardt,_2010-01.JPG",
+  "auteur": "Euku:⇄",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2010-01-16 18:58:23",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Marco Engelhardt, 2010-01",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|Taken with Fujifilm FinePix S6500fd|CC-BY-SA-3.0,2.5,2.0,1.0|License migration redundant|Marco Engelhardt|Self-published work",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://de.wikipedia.org/wiki/Marco_Engelhardt\" class=\"extiw\" title=\"de:Marco Engelhardt\">Marco Engelhardt</a> beim Fußballspiel <a href=\"https://de.wikipedia.org/wiki/Alemannia_Aachen\" class=\"extiw\" title=\"de:Alemannia Aachen\">Alemannia Aachen</a> - <a href=\"https://de.wikipedia.org/wiki/Karlsruher_SC\" class=\"extiw\" title=\"de:Karlsruher SC\">Karlsruher SC</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2010-01-15",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Euku\" title=\"User:Euku\">Euku</a>:<a href=\"//commons.wikimedia.org/wiki/User_talk:Euku\" title=\"User talk:Euku\"><sup>⇄</sup></a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,91 @@
+{
+  "joueur": "Cáceres",
+  "fichier": "caceres.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Delf%C3%ADn_Ben%C3%ADtez_C%C3%A1ceres",
+  "titre_page": "Delfín Benítez Cáceres",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Benitez_caceres_Boca.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Benitez_caceres_Boca.jpg",
+  "auteur": "El Gráfico",
+  "credit": "El Gráfico",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-10-06 11:36:50",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Benitez caceres Boca",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Delfín Benítez Cáceres|PD-AR-Photo|PD-1996",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Paraguayan football forward, Delfín Benítez Cáceres, during his tenure on Boca Juniors of Argentina.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "vers 1932-1939<div style=\"display: none;\">date QS:P,+1932-00-00T00:00:00Z/8,P1319,+1932-00-00T00:00:00Z/9,P1326,+1939-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<i>El Gráfico</i>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<i>El Gráfico</i>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

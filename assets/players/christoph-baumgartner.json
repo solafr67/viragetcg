@@ -1,0 +1,116 @@
+{
+  "joueur": "Christoph Baumgartner",
+  "fichier": "christoph-baumgartner.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Christoph_Baumgartner",
+  "titre_page": "Christoph Baumgartner",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Austria_national_under-21_football_team_-_Teamcamp_October_2019_%2860%29.jpg/960px-Austria_national_under-21_football_team_-_Teamcamp_October_2019_%2860%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Austria_national_under-21_football_team_-_Teamcamp_October_2019_(60).jpg",
+  "auteur": "--Steindy (d) 18:47, 13 October 2019 (UTC)",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2019-10-13 18:47:45",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Austria national under-21 football team - Teamcamp October 2019 (60)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Taken with Canon EOS 7D Mark II|Christoph Baumgartner|Taken with Canon EF 300mm F2.8L IS II USM|Self-published work|Photographs by Steindy|Supported by Wikimedia Österreich in 2019|Files with coordinates missing SDC location of creation|Austria national under-21 football team - Teamcamp October 2019",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "quality",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "47.953014",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSLongitude": {
+      "value": "16.414152",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Teamcamp of the <a href=\"https://en.wikipedia.org/wiki/Austria_national_under-21_football_team\" class=\"extiw\" title=\"en:Austria national under-21 football team\">Austria national under-21 football team</a>  October 2019 in <a href=\"https://en.wikipedia.org/wiki/Bad_Erlach\" class=\"extiw\" title=\"en:Bad Erlach\">Bad Erlach</a> – The photo shows <a href=\"https://en.wikipedia.org/wiki/Christoph_Baumgartner\" class=\"extiw\" title=\"en:Christoph Baumgartner\">Christoph Baumgartner</a> (TSG 1899 Hoffenheim).",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2019-10-09 09:22:13",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "--<a href=\"//commons.wikimedia.org/wiki/User:Steindy\" title=\"User:Steindy\">Steindy</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Steindy\" title=\"User talk:Steindy\"><span class=\"signature-talk\">d</span></a>) 18:47, 13 October 2019 (UTC)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "This photograph was taken by <b><a href=\"https://en.wikipedia.org/wiki/en:User:Steindy\" class=\"extiw\" title=\"w:en:User:Steindy\">user Steindy</a></b> and released under the license(s) stated below. You are free to use it for any purpose as long as you credit the author and follow the terms of the license.<br>\n<ul><li>The equipment used to take this photo was supported by Wikimedia Austria.</li></ul>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

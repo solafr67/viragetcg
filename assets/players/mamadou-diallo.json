@@ -1,0 +1,96 @@
+{
+  "joueur": "Mamadou Diallo",
+  "fichier": "mamadou-diallo.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Mamadou_Diallo_(football,_1982)",
+  "titre_page": "Mamadou Diallo (football, 1982)",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Mamadou_Diallo_%2811-11-2006%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Mamadou_Diallo_(11-11-2006).jpg",
+  "auteur": "Manuel |MC",
+  "credit": "https://www.flickr.com/photos/mcanevet/296602245",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-11-20 12:55:12",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Mamadou Diallo (11-11-2006)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Flickr images reviewed by trusted users|Mamadou Diallo (footballer, born 1982)|FC Nantes-Atlantique v AS Saint-Étienne, 11 November 2006",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://fr.wikipedia.org/wiki/Mamadou_Diallo_(football,_1982)\" class=\"extiw\" title=\"fr:Mamadou Diallo (football, 1982)\">Mamadou Diallo</a> lors du match AS Saint-Étienne - FC Nantes comptant pour la treizième journée du championnat de France de football 2006-2007, le 11 novembre 2006 au Stade de la Beaujoire de Nantes.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2006-11-11",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/mcanevet/296602245\">https://www.flickr.com/photos/mcanevet/296602245</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Manuel |MC",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

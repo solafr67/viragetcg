@@ -1,0 +1,101 @@
+{
+  "joueur": "Ao Tanaka",
+  "fichier": "ao-tanaka.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Ao_Tanaka",
+  "titre_page": "Ao Tanaka",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Fumio_Kishida_with_Japan_National_Football_Team_after_Qatar_World_Cup_%285%29_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Fumio_Kishida_with_Japan_National_Football_Team_after_Qatar_World_Cup_(5)_(cropped).jpg",
+  "auteur": "内閣官房内閣広報室",
+  "credit": "https://www.kantei.go.jp/jp/101_kishida/actions/202212/08hyoukei.html",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-11-15 01:49:52",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Fumio Kishida with Japan National Football Team after Qatar World Cup (5) (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GJSTU-2.0|Ao Tanaka|Extracted images|Taken with Canon EOS R5 and Canon RF 24-105mm F4L IS USM|Prime Minister's Official Residence (Japan) in 2022",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "On December 8, 2022, Prime Minister Kishida met with Japan Football Association (JFA) President Kozo Tashima, FIFA (International Football Federation) World Cup Qatar 2022 Japan national team coach Hajime Moriyasu, Maya Yoshida, and others at the Prime Minister's Office.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2022-12-08 12:37:09",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.kantei.go.jp/jp/101_kishida/actions/202212/08hyoukei.html\">https://www.kantei.go.jp/jp/101_kishida/actions/202212/08hyoukei.html</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "内閣官房内閣広報室",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.kantei.go.jp/jp/terms.html\">首相官邸ホームページ</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

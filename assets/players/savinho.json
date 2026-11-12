@@ -1,0 +1,96 @@
+{
+  "joueur": "Savinho",
+  "fichier": "savinho.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Savinho",
+  "titre_page": "Savinho",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Manchester_City_2025_06_26_Juventus_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Manchester_City_2025_06_26_Juventus_(cropped).jpg",
+  "auteur": "Equipos de fútbol",
+  "credit": "https://commons.wikimedia.org/wiki/File:Savio_Tottenham.png",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-07-19 23:43:03",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Manchester City 2025 06 26 Juventus (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Extracted images|Creative Commons Attribution 4.0 missing SDC copyright license|Creative Commons Attribution missing SDC copyright status|Savinho in 2025|Juventus v Manchester City, 26 June 2025",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "MANCHESTER CITY FOOTBALL CLUB. 26 junio 2025.\n<p>Ederson Moraes, Manuel Akanji, Rodri Hernández, Matheus Nunes, Rúben Dias, Rayan Aït-Nouri.\nTijjani Reijnders, Omar Marmoush, Savinho, Jérémy Doku y Bernardo Silva.\n</p><p>JUVENTUS F. C. 2 MANCHESTER CITY F. C. 5\nJueves 26/06/2025, 21:00 horas (UTC+2); 26/06/2025, 15:00 horas, hora local. \nXXI Copa Mundial de Clubes de la FIFA 2025, fase de grupos, Grupo G, jornada 3. \nOrlando, Estados Unidos, Camping World Stadium: 54.320 espectadores. \n</p>\nGOLES: 0-1: 9’, Jérémy Doku. 1-1: 11’, Teun Koopmeiners. 1-2: 26’, Pierre Kalulu, en propia puerta. 1-3: 52’, Erling Haaland. 1-4: 69’, Phil Foden. 1-5: 75’, Savinho. 2-5: 84’, Dušan Vlahović.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2025-06-26 21:00:00",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a class=\"external free\" href=\"https://commons.wikimedia.org/wiki/File:Savio_Tottenham.png\">https://commons.wikimedia.org/wiki/File:Savio_Tottenham.png</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Equipos de fútbol",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

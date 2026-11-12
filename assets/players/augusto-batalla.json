@@ -1,0 +1,103 @@
+{
+  "joueur": "Augusto Batalla",
+  "fichier": "augusto-batalla.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Augusto_Batalla",
+  "titre_page": "Augusto Batalla",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Uni%C3%B3n_La_Calera_-_Colo-Colo_20190506_33.jpg/960px-Uni%C3%B3n_La_Calera_-_Colo-Colo_20190506_33.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Uni%C3%B3n_La_Calera_-_Colo-Colo_20190506_33.jpg",
+  "auteur": "Carlos Figueroa Rojas",
+  "credit": "Own work",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2019-05-06 18:47:55",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Unión La Calera - Colo-Colo 20190506 33",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Augusto Batalla|Self-published work|Media supported by Wikimedia Chile|Unión La Calera v Colo-Colo, 5 May 2019|People with gloves|People wearing green clothing|Images by User:Carlos yo|Unión La Calera - Colo-Colo 2019-05-05 - Supported by Wikimedia Chile",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "quality",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "-32.783716",
+      "source": "commons-desc-page"
+    },
+    "GPSLongitude": {
+      "value": "-71.199712",
+      "source": "commons-desc-page"
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Augusto Batalla, Unión La Calera v Colo-Colo, Estadio Municipal Nicolás Chahúan Nazar, La Calera, Región de Valparaíso, Chile.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2019-05-05 15:12:32",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Carlos_yo\" title=\"User:Carlos yo\">Carlos Figueroa Rojas</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

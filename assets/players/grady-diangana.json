@@ -1,0 +1,116 @@
+{
+  "joueur": "Grady Diangana",
+  "fichier": "grady-diangana.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Grady_Diangana",
+  "titre_page": "Grady Diangana",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Hertha_BSC_vs._West_Ham_United_20190731_%28194%29.jpg/960px-Hertha_BSC_vs._West_Ham_United_20190731_%28194%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Hertha_BSC_vs._West_Ham_United_20190731_(194).jpg",
+  "auteur": "--Steindy (d) 16:18, 29 August 2019 (UTC)",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2019-08-29 16:18:51",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Hertha BSC vs. West Ham United 20190731 (194)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Grady Diangana|Taken with Canon EOS 7D Mark II|Taken with Canon EF 300mm F2.8L IS II USM|Self-published work|Hertha BSC vs. West Ham United 20190731|Photographs by Steindy|Supported by Wikimedia Österreich in 2019",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "quality",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "47.603732",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSLongitude": {
+      "value": "16.494561",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Friendly match <a href=\"https://en.wikipedia.org/wiki/Hertha_BSC\" class=\"extiw\" title=\"en:Hertha BSC\">Hertha BSC</a> (blue-white shirts) vs. <a href=\"https://en.wikipedia.org/wiki/West_Ham_United\" class=\"extiw\" title=\"en:West Ham United\">West Ham United</a> (red-blue shirts) at 31-07-2019 3-5 (3-2) in the Sonnenseestadium in <a href=\"https://en.wikipedia.org/wiki/Ritzing\" class=\"extiw\" title=\"en:Ritzing\">Ritzing</a>. – The photo shows Grady Diangana (West Ham United).",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2019-07-31 16:39:10",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "--<a href=\"//commons.wikimedia.org/wiki/User:Steindy\" title=\"User:Steindy\">Steindy</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Steindy\" title=\"User talk:Steindy\"><span class=\"signature-talk\">d</span></a>) 16:18, 29 August 2019 (UTC)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "This photograph was taken by <b><a href=\"https://en.wikipedia.org/wiki/en:User:Steindy\" class=\"extiw\" title=\"w:en:User:Steindy\">user Steindy</a></b> and released under the license(s) stated below. You are free to use it for any purpose as long as you credit the author and follow the terms of the license.<br>\n<ul><li>The equipment used to take this photo was supported by Wikimedia Austria.</li></ul>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

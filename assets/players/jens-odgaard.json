@@ -1,0 +1,96 @@
+{
+  "joueur": "Jens Odgaard",
+  "fichier": "jens-odgaard.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Jens_Odgaard",
+  "titre_page": "Jens Odgaard",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Go_Ahead_Eagles_-_AZ_%28Jens_Odgaard%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Go_Ahead_Eagles_-_AZ_(Jens_Odgaard).jpg",
+  "auteur": "Carlo Bruil",
+  "credit": "https://www.flickr.com/photos/bruil/53170469441/",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-09-15 20:45:22",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Go Ahead Eagles - AZ (Jens Odgaard)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Pim Saathof|Jens Odgaard|Extracted images|Go Ahead Eagles v AZ, 7 September 2023|Photographs by Carlo Bruil",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Donderdag 07-09-2023\n<p>GO AHEAD EAGLES IN BESLOTEN OEFENDUEL MET 2-6 ONDERUIT TEGEN AZ\n</p>\nGo Ahead Eagles heeft vandaag in een besloten oefenwedstrijd met 2-6 verloren van AZ. Namens Go Ahead Eagles waren Rashaan Fernandes en Thibo Baeten trefzeker in het vriendschappelijke duel.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2023-09-07 12:13:49",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/bruil/53170469441/\">https://www.flickr.com/photos/bruil/53170469441/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Carlo Bruil",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

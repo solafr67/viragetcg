@@ -1,0 +1,91 @@
+{
+  "joueur": "Josip Šutalo",
+  "fichier": "josip-sutalo.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Josip_%C5%A0utalo",
+  "titre_page": "Josip Šutalo",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Qaraba%C4%9F_vs_Ajax_%2824.10.2024%29_%284%29_%28Josip_%C5%A0utalo%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Qaraba%C4%9F_vs_Ajax_(24.10.2024)_(4)_(Josip_%C5%A0utalo).jpg",
+  "auteur": "Voice of America (Aziz Karimov)",
+  "credit": "“Qarabağ” klubu Avropa Liqası futbol turniri çərçivəsində “Ayaks” klubu ilə qarşılaşıb",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-11-20 21:05:50",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Qarabağ vs Ajax (24.10.2024) (4) (Josip Šutalo)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Josip Šutalo|PD VOA|Extracted images|CC-PD-Mark|Qarabağ FK v AFC Ajax, 24 October 2024",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Qarabağ vs Ajax (24.10.2024)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2024-10-24",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.amerikaninsesi.org/a/7838935.html\">“Qarabağ” klubu Avropa Liqası futbol turniri çərçivəsində “Ayaks” klubu ilə qarşılaşıb</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Voice of America (Aziz Karimov)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

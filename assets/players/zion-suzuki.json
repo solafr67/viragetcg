@@ -1,0 +1,90 @@
+{
+  "joueur": "Zion Suzuki",
+  "fichier": "zion-suzuki.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Zion_Suzuki",
+  "titre_page": "Zion Suzuki",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/ZION_SUZUKI_-_JPN_vs_THA_-_Friendly_Match_-_2024.01.01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:ZION_SUZUKI_-_JPN_vs_THA_-_Friendly_Match_-_2024.01.01.jpg",
+  "auteur": "RuinDig/Yuki Uchida",
+  "credit": "Own work",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-01-15 16:06:56",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "ZION SUZUKI - JPN vs THA - Friendly Match - 2024.01.01",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Self-published work|Extracted images|Zion Suzuki|Japan vs. Thailand, International Friendly Match 2024.1.1",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "2024年1月1日、東京都新宿区の国立競技場で行われた、サッカー男子日本代表対タイ代表の国際親善試合、日本代表のスターティングメンバー。後列左から、<a href=\"https://ja.wikipedia.org/wiki/%E9%88%B4%E6%9C%A8%E5%BD%A9%E8%89%B6\" class=\"extiw\" title=\"ja:鈴木彩艶\">鈴木彩艶</a>、<a href=\"https://ja.wikipedia.org/wiki/%E6%AF%8E%E7%86%8A%E6%99%9F%E7%9F%A2\" class=\"extiw\" title=\"ja:毎熊晟矢\">毎熊晟矢</a>、<a href=\"https://ja.wikipedia.org/wiki/%E8%97%A4%E4%BA%95%E9%99%BD%E4%B9%9F\" class=\"extiw\" title=\"ja:藤井陽也\">藤井陽也</a>、<a href=\"https://ja.wikipedia.org/wiki/%E7%94%BA%E7%94%B0%E6%B5%A9%E6%A8%B9\" class=\"extiw\" title=\"ja:町田浩樹\">町田浩樹</a>、<a href=\"https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E6%B6%BC%E5%A4%AA%E9%83%8E\" class=\"extiw\" title=\"ja:伊藤涼太郎\">伊藤涼太郎</a>、<a href=\"https://ja.wikipedia.org/wiki/%E7%94%B0%E4%B8%AD%E7%A2%A7\" class=\"extiw\" title=\"ja:田中碧\">田中碧</a>。前列左から、<a href=\"https://ja.wikipedia.org/wiki/%E6%A3%AE%E4%B8%8B%E9%BE%8D%E7%9F%A2\" class=\"extiw\" title=\"ja:森下龍矢\">森下龍矢</a>、<a href=\"https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%8A%9C%E4%BE%83%E5%BF%97\" class=\"extiw\" title=\"ja:奥抜侃志\">奥抜侃志</a>、<a href=\"https://ja.wikipedia.org/wiki/%E4%BD%90%E9%87%8E%E6%B5%B7%E8%88%9F\" class=\"extiw\" title=\"ja:佐野海舟\">佐野海舟</a>、<a href=\"https://ja.wikipedia.org/wiki/%E7%B4%B0%E8%B0%B7%E7%9C%9F%E5%A4%A7\" class=\"extiw\" title=\"ja:細谷真大\">細谷真大</a>、<a href=\"https://ja.wikipedia.org/wiki/%E4%BC%8A%E6%9D%B1%E7%B4%94%E4%B9%9F\" class=\"extiw\" title=\"ja:伊東純也\">伊東純也</a>。",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2024-01-01 14:01:53",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:RuinDig\" title=\"User:RuinDig\">RuinDig/Yuki Uchida</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

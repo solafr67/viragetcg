@@ -1,0 +1,90 @@
+{
+  "joueur": "Yehor Yarmolyuk",
+  "fichier": "yehor-yarmolyuk.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Yehor_Yarmolyuk",
+  "titre_page": "Yehor Yarmolyuk",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Yehor_Yarmolyuk%2C_Brentford_F.C._footballer%2C_December_2025.jpg/960px-Yehor_Yarmolyuk%2C_Brentford_F.C._footballer%2C_December_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Yehor_Yarmolyuk,_Brentford_F.C._footballer,_December_2025.jpg",
+  "auteur": "Timmy96",
+  "credit": "https://commons.wikimedia.org/wiki/File:Yehor_Yarmolyuk_27122025_(3).jpg",
+  "licence": "CC0",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-01-10 12:09:45",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Yehor Yarmolyuk, Brentford F.C. footballer, December 2025",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "CC-Zero|Self-published work|Extracted images|Yehor Yarmolyuk|Photographs by Timmy96 in December 2025|Brentford v AFC Bournemouth, 27 December 2025",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Brentford F.C. footballer Yehor Yarmolyuk after a match",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2025-12-27",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a class=\"external free\" href=\"https://commons.wikimedia.org/wiki/File:Yehor_Yarmolyuk_27122025_(3).jpg\">https://commons.wikimedia.org/wiki/File:Yehor_Yarmolyuk_27122025_(3).jpg</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "Timmy96",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Zero, Public Domain Dedication",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

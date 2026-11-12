@@ -1,0 +1,81 @@
+{
+  "joueur": "Alex Tóth",
+  "fichier": "alex-toth.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Alex_T%C3%B3th",
+  "titre_page": "Alex Tóth",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Tothtur.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Tothtur.jpg",
+  "auteur": "mlsz.hu – the official website of the Hungarian Football Federation",
+  "credit": "https://en.mlsz.hu/",
+  "licence": "Attribution",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-03-29 14:48:19",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Tothtur",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Attribution only license|Alex Tóth",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Alex Tóth against Turkey",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2025-03-23",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://en.mlsz.hu/\">https://en.mlsz.hu/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "mlsz.hu – the official website of the Hungarian Football Federation",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "mlsz.hu-Imprint: <a rel=\"nofollow\" class=\"external text\" href=\"https://en.mlsz.hu/imprint\">„Articles, photos and videos on this site may be used free of charge, with the reference to the source.“</a>, 2. October 2022 – <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20221002122700/https://en.mlsz.hu/imprint\">Archive.org-Link</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Attribution",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "mlsz.hu – Hungarian Football Federation",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

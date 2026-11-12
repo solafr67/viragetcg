@@ -1,0 +1,96 @@
+{
+  "joueur": "Víctor Muñoz",
+  "fichier": "victor-munoz.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/%C3%89quipe_d%27Espagne_de_football_au_Championnat_d%27Europe_1984",
+  "titre_page": "Équipe d'Espagne de football au Championnat d'Europe 1984",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/960px-Flag_of_Spain.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+  "auteur": "RelShot 263, Echando una mano; earlier version was Pedro A. Gracia Fajardo, escudo de Manual de Imagen Institucional de la Administración General del Estado",
+  "credit": "Real Decreto 441/1981, de 27 de febrero, por el que se especifican técnicamente los colores de la Bandera de España. Earlier version was [\"Sodipodi.com Clipart Gallery\". Original link no longer available ]",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-01-15 20:54:09",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of Spain",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "With insignia|Self-published work|PD-self|SVG naval ensigns of Spain|Valid SVG created with Other tools|SVG flags of Spain - aspect ratio of 3:2|SVG national flag of Spain|Released into the public domain by the copyright holder with different SDC copyright license",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://fr.wikipedia.org/wiki/Drapeau_de_l%27Espagne\" class=\"extiw\" title=\"fr:Drapeau de l'Espagne\">Drapeau de l'Espagne</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "design: 1843-10-13",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.lamoncloa.gob.es/espana/simbolosdelestado/Paginas/legislacion/BanderaRD441-1981.aspx\">Real Decreto 441/1981, de 27 de febrero, por el que se especifican técnicamente los colores de la Bandera de España</a>. Earlier version was [\"Sodipodi.com Clipart Gallery\". Original link no longer available ]",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:RelShot_263\" title=\"User:RelShot 263\">RelShot 263</a>, <a href=\"//commons.wikimedia.org/wiki/User:Echando_una_mano\" title=\"User:Echando una mano\">Echando una mano</a>; earlier version was Pedro A. Gracia Fajardo, escudo de <a rel=\"nofollow\" class=\"external text\" href=\"http://www.060.es/guia_del_estado/programas_de_la_administracion/imagen_institucional/common/1_11.pdf\">Manual de Imagen Institucional de la Administración General del Estado</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "Domaine public.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

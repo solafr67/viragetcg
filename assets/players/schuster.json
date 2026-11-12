@@ -1,0 +1,96 @@
+{
+  "joueur": "Schuster",
+  "fichier": "schuster.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Bernd_Schuster",
+  "titre_page": "Bernd Schuster",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Bernd_Schuster_%282007%29.JPG/960px-Bernd_Schuster_%282007%29.JPG?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Bernd_Schuster_(2007).JPG",
+  "auteur": "Florian K",
+  "credit": "own work for WorldcupWiki",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2012-10-05 10:59:45",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Bernd Schuster (2007)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|Taken with Casio Exilim EX-Z1050|Bernd Schuster|License migration completed|WorldcupWiki Images Florian K.|Images with extracted images",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://de.worldcupwiki.org/index.php/Superstars_von_Real_Madrid_erledigt_von_Bremen\">Champions League-Match Werder Bremen - Real Madrid 2:3</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2007-11-27",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "own work for <a rel=\"nofollow\" class=\"external text\" href=\"http://de.worldcupwiki.org/index.php/Hauptseite\">WorldcupWiki</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://de.worldcupwiki.org/index.php/Benutzer:Florian_K\">Florian K</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

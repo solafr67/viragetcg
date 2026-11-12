@@ -1,0 +1,76 @@
+{
+  "joueur": "Bremer",
+  "fichier": "bremer.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_br%C3%AAmoise_de_football",
+  "titre_page": "Fédération brêmoise de football",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/fr/thumb/b/bc/Logo_Bremer_Fu%C3%9Fball-Verband2.svg/960px-Logo_Bremer_Fu%C3%9Fball-Verband2.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://fr.wikipedia.org/wiki/Fichier:Logo_Bremer_Fu%C3%9Fball-Verband2.svg",
+  "auteur": "Bremer Fußball Verband\n",
+  "credit": "DFB-PDF\n",
+  "licence": "marque déposée",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-10-23 19:57:00",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Logo Bremer Fußball-Verband2",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Image non libre de logo|Wikipédia:Exceptions au droit d'auteur",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<p>Logo de la fédération brêmoise de football\n</p>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.dfb.de/fileadmin/_dfbdam/130389-DFB__Masterplan_Amateurfussball.pdf\">DFB-PDF</a>\n</p>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "<p>inconnue\n</p>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<p>Bremer Fußball Verband\n</p>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "<p><br>\n</p>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "marque déposée",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

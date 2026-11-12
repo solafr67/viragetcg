@@ -1,0 +1,96 @@
+{
+  "joueur": "Steur",
+  "fichier": "steur.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Football_Club_Volendam",
+  "titre_page": "Football Club Volendam",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/FC_Volendam_logo.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:FC_Volendam_logo.png",
+  "auteur": "FC Volendam",
+  "credit": "Upload :  SERGIO PRO215",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-10-01 10:55:59",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "FC Volendam logo",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Text logos|FC Volendam|With trademark|Association football logos of the Netherlands|Vector version available|PD textlogo|Deletion requests July 2026",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Logo of FC Volendam.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "années 2020<div style=\"display: none;\">date QS:P,+2020-00-00T00:00:00Z/8</div>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<b>Upload : </b> <a href=\"//commons.wikimedia.org/w/index.php?title=User:SERGIO_PRO215&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:SERGIO PRO215 (page does not exist)\">SERGIO PRO215</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "FC Volendam",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "<i>Cette image, ou le texte inclus, comprend seulement des formes géométriques simples et du texte. Le <a href=\"//commons.wikimedia.org/wiki/Commons:Threshold_of_originality/fr\" title=\"Commons:Threshold of originality/fr\">seuil d'originalité</a> nécessaire pour la protection du droit d'auteur n'est pas atteint, et le fichier est donc dans le domaine public. Bien qu'il soit libre de droits d'auteur, ce fichier peut encore faire l'objet d'<a href=\"//commons.wikimedia.org/wiki/Commons:Non-copyright_restrictions\" title=\"Commons:Non-copyright restrictions\">autres restrictions</a>. Voir <a href=\"https://en.wikipedia.org/wiki/en:WP:PD#Fonts\" class=\"extiw\" title=\"w:en:WP:PD\">WP:PD § Fonts</a> ou <a href=\"//commons.wikimedia.org/wiki/Template_talk:PD-textlogo\" title=\"Template talk:PD-textlogo\">Template talk:PD-textlogo</a> pour plus d'informations.</i>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

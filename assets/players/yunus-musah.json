@@ -1,0 +1,95 @@
+{
+  "joueur": "Yunus Musah",
+  "fichier": "yunus-musah.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Yunus_Musah",
+  "titre_page": "Yunus Musah",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_%2813%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:2022_FIFA_World_Cup_United_States_1%E2%80%931_Wales_-_(13)_(cropped).jpg",
+  "auteur": "حسین ظهروند",
+  "credit": "دیدار تیم‌های فوتبال آمریکا و ولز- جام جهانی ۲۰۲۲",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-12-08 11:54:29",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "2022 FIFA World Cup United States 1–1 Wales - (13) (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Yunus Musah|2022 FIFA World Cup Match 4, United States v Wales|Extracted images|Photos by Hossein Zohrevand for Tasnim News Agency|Photos from Tasnim News Agency",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "در آخرین بازی از شب دوم جام جهانی ۲۰۲۲ قطر، شب گذشته (دوشنبه) از ساعت ۲۲:۳۰ به وقت تهران در ورزشگاه الریان، از گروه B تیم‌های ملی آمریکا و ولز برابر یکدیگر صف‌آرایی کردند که این بازی در نهایت با تساوی یک - یک به پایان رسید. تیموتی وه‌آ در دقیقه ۳۶ برای آمریکا و گرت بیل در دقیقه ۸۲ از روی نقطه پنالتی برای ولز گلزنی کردند.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2022-11-21",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.tasnimnews.ir/fa/media/1401/09/01/2808039/%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D8%AA%DB%8C%D9%85-%D9%87%D8%A7%DB%8C-%D9%81%D9%88%D8%AA%D8%A8%D8%A7%D9%84-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%D9%88-%D9%88%D9%84%D8%B2-%D8%AC%D8%A7%D9%85-%D8%AC%D9%87%D8%A7%D9%86%DB%8C-2022\">دیدار تیم‌های فوتبال آمریکا و ولز- جام جهانی ۲۰۲۲</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "حسین ظهروند",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.tasnimnews.ir\">Tasnim News Agency</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

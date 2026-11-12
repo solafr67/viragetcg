@@ -1,0 +1,96 @@
+{
+  "joueur": "Jack Taylor",
+  "fichier": "jack-taylor.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Jack_Taylor_(arbitre)",
+  "titre_page": "Jack Taylor (arbitre)",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Scheidsrechter_Jack_Taylor_%28Engeland%29%2C_Bestanddeelnr_927-9042.jpg/960px-Scheidsrechter_Jack_Taylor_%28Engeland%29%2C_Bestanddeelnr_927-9042.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Scheidsrechter_Jack_Taylor_(Engeland),_Bestanddeelnr_927-9042.jpg",
+  "auteur": "Hans Peters pour Anefo",
+  "credit": "http://proxy.handle.net/10648/ac6795ee-d0b4-102d-bcf8-003048976d84",
+  "licence": "CC0",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2018-04-07 16:34:49",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Scheidsrechter Jack Taylor (Engeland), Bestanddeelnr 927-9042",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Jack Taylor (referee)|CC-Zero|Images from Nationaal Archief|1975 in association football in Europe|Images from Anefo|Images with extracted images|April 1975 in Europe|Sportspeople in 1975|Black and white photographs of Belgium in the 1970s|Photographs by Hans Peters|Photographs by Hans Peters (flat list)|Photographs taken on 1975-04-30|1975 photographs of Belgium|Black and white photographs of 2 men|1975 black and white photographs of people|Black and white photographs of men standing|Black and white photographs of association football|Black and white photographs of Antwerp",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Collectie / Archief : Fotocollectie Anefo<br>\n<p>Reportage / Serie : België-Nederland 1-0<br>\nBeschrijving : Scheidsrechter Jack Taylor (Engeland)<br>\nDatum : 30 april 1975<br>\nLocatie : Antwerpen, België<br>\nTrefwoorden : interlands, scheidsrechters, sport, voetbal<br>\nPersoonsnaam : Taylor, Jack<br>\nFotograaf : Peters, Hans / Anefo<br>\nAuteursrechthebbende : Nationaal Archief<br>\nMateriaalsoort : Negatief (zwart/wit)<br>\nNummer archiefinventaris : bekijk toegang 2.24.01.05<br>\n</p>\nBestanddeelnummer : 927-9042",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "Prise le 30 avril 1975",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://proxy.handle.net/10648/ac6795ee-d0b4-102d-bcf8-003048976d84\">http://proxy.handle.net/10648/ac6795ee-d0b4-102d-bcf8-003048976d84</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/Category:Hans_Peters\" title=\"Category:Hans Peters\">Hans Peters</a> pour <a href=\"//commons.wikimedia.org/wiki/Category:Anefo\" title=\"Category:Anefo\">Anefo</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Zero, Public Domain Dedication",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

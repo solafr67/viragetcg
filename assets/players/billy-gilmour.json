@@ -1,0 +1,111 @@
+{
+  "joueur": "Billy Gilmour",
+  "fichier": "billy-gilmour.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Billy_Gilmour",
+  "titre_page": "Billy Gilmour",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Billy_Gilmour_2021-08-07_1_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Billy_Gilmour_2021-08-07_1_(cropped).jpg",
+  "auteur": "Mattythewhite",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2021-08-23 21:18:51",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Billy Gilmour 2021-08-07 1 (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Taken with Sony DSC-HX50|Billy Gilmour (footballer)|Self-published work|Images with extracted images|Extracted images|Photos by User:Mattythewhite|21st-century portrait photographs of standing men at half length|2021 portrait photographs of men|Newcastle United v Norwich City, 7 August 2021|Men of the United Kingdom in 2021|20-year-old human males",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "54.975556",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSLongitude": {
+      "value": "-1.621667",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/Billy_Gilmour\" class=\"extiw\" title=\"en:Billy Gilmour\">Billy Gilmour</a> playing for <a href=\"https://en.wikipedia.org/wiki/Norwich_City_F.C.\" class=\"extiw\" title=\"en:Norwich City F.C.\">Norwich City</a> against <a href=\"https://en.wikipedia.org/wiki/Newcastle_United_F.C.\" class=\"extiw\" title=\"en:Newcastle United F.C.\">Newcastle United</a> at <a href=\"https://en.wikipedia.org/wiki/St_James%27_Park\" class=\"extiw\" title=\"en:St James' Park\">St James' Park</a>, <a href=\"https://en.wikipedia.org/wiki/Newcastle_upon_Tyne\" class=\"extiw\" title=\"en:Newcastle upon Tyne\">Newcastle upon Tyne</a> on 7 August 2021",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2021-08-07 14:28:10",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mattythewhite\" title=\"User:Mattythewhite\">Mattythewhite</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

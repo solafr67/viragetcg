@@ -1,0 +1,90 @@
+{
+  "joueur": "Boris Radunović",
+  "fichier": "boris-radunovic.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Boris_Radunovi%C4%87",
+  "titre_page": "Boris Radunović",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/20171110_U21_Euro_Qualifiers_AUT-SRB_Boris_Radunovi%C4%87_850_4263.jpg/960px-20171110_U21_Euro_Qualifiers_AUT-SRB_Boris_Radunovi%C4%87_850_4263.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:20171110_U21_Euro_Qualifiers_AUT-SRB_Boris_Radunovi%C4%87_850_4263.jpg",
+  "auteur": "Granada",
+  "credit": "Own work",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "personality",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2017-11-12 16:48:00",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "20171110 U21 Euro Qualifiers AUT-SRB Boris Radunović 850 4263",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Men's association football players from Serbia|Personality rights warning|Supported by Wikimedia Österreich|Uploaded with LrMediaWiki|U21 Austria vs Serbia, 2017-11-10|Sport images supported by Wikimedia Chapters|Number 1 on association football goalkeeper kits|Taken with Nikon D850 for Sport|Boris Radunović",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "U21 Europameisterschaftsqualifikationsspiel Österreich gegen Serbien am 11.10.2017 in der BSFZ-Arena Maria Enzersdorf. Bild zeigt: Boris Radunović",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2017-11-10",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Granada\" title=\"User:Granada\">Granada</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "personality",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

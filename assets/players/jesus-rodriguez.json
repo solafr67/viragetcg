@@ -1,0 +1,91 @@
+{
+  "joueur": "Jesús Rodríguez",
+  "fichier": "jesus-rodriguez.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Championnat_de_R%C3%A9publique_dominicaine_de_football_2022",
+  "titre_page": "Championnat de République dominicaine de football 2022",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Liga_Dominicana_de_F%C3%BAtbol_logo_%28new%29.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Liga_Dominicana_de_F%C3%BAtbol_logo_(new).png",
+  "auteur": "Liga Dominicana de Fútbol",
+  "credit": "https://www.cibaofc.com/sobre-la-ldf/",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2019-06-16 04:16:51",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Liga Dominicana de Fútbol logo (new)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Text logos|With trademark|Liga Dominicana de Fútbol|PD textlogo|Other images that should use vector graphics|PNG that should use vector graphics|Sports logos of the Dominican Republic",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "The logo of the Liga Dominicana de Fútbol, the top flight football league in the Dominican Republic.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2014-11-22",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.cibaofc.com/sobre-la-ldf/\">https://www.cibaofc.com/sobre-la-ldf/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Liga Dominicana de Fútbol",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

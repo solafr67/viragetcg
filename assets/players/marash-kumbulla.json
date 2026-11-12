@@ -1,0 +1,91 @@
+{
+  "joueur": "Marash Kumbulla",
+  "fichier": "marash-kumbulla.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Marash_Kumbulla",
+  "titre_page": "Marash Kumbulla",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/UEFA_Europa_Conference_League_CSKA_Sofia_-_Roma%2C_2021-12-09_%28Kumbulla%29.jpg/960px-UEFA_Europa_Conference_League_CSKA_Sofia_-_Roma%2C_2021-12-09_%28Kumbulla%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:UEFA_Europa_Conference_League_CSKA_Sofia_-_Roma,_2021-12-09_(Kumbulla).jpg",
+  "auteur": "CSKA Sofia",
+  "credit": "https://cska.bg/index.php?main_page=document_product_info&cPath=240_241_436_442&products_id=10436&zenid=r51ibea547m3f47vad0817odg4",
+  "licence": "GFDL",
+  "licence_url": "http://www.gnu.org/copyleft/fdl.html",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-01-09 02:42:36",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "UEFA Europa Conference League CSKA Sofia - Roma, 2021-12-09 (Kumbulla)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|License migration not eligible|Marash Kumbulla|Items with VRTS permission confirmed|UEFA Europa Conference League CSKA Sofia - Roma, 2021-12-09",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "CSKA Sofia vs Roma, 9 dicembre 2021",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2021-12-09 21:02:57",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://cska.bg/index.php?main_page=document_product_info&amp;cPath=240_241_436_442&amp;products_id=10436&amp;zenid=r51ibea547m3f47vad0817odg4\">https://cska.bg/index.php?main_page=document_product_info&amp;cPath=240_241_436_442&amp;products_id=10436&amp;zenid=r51ibea547m3f47vad0817odg4</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "CSKA Sofia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "GFDL",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "GNU Free Documentation License",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "http://www.gnu.org/copyleft/fdl.html",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

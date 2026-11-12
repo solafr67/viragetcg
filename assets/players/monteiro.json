@@ -1,0 +1,101 @@
+{
+  "joueur": "Monteiro",
+  "fichier": "monteiro.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Miguel_(football,_1980)",
+  "titre_page": "Miguel (football, 1980)",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Lu%C3%ADs_Miguel_Brito_24sept2006.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Lu%C3%ADs_Miguel_Brito_24sept2006.jpg",
+  "auteur": "Darz Mol",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2006-09-25 00:11:50",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Luís Miguel Brito 24sept2006",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|Luís Miguel Brito|CC-BY-SA-2.5,2.0,1.0|License migration redundant|Self-published work|Images with extracted images",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/Valencia_CF\" class=\"extiw\" title=\"en:Valencia CF\">Valencia Club de Fútbol</a>'s goalkeeper <a href=\"https://en.wikipedia.org/wiki/Miguel_Monteiro\" class=\"extiw\" title=\"en:Miguel Monteiro\">Miguel</a> during the match FC Barcelona-Valencia CF.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2006-09-24",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Darz_Mol&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Darz Mol (page does not exist)\">Darz Mol</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "Vous pouvez choisir l’une de ces licences.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

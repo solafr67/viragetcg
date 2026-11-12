@@ -1,0 +1,96 @@
+{
+  "joueur": "Natan",
+  "fichier": "natan.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Natan_(football)",
+  "titre_page": "Natan (football)",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/S%C3%A9rie_A1_Bragantino_1x0_Corinthians_%2852632859764%29_-_Natan_%28Cropped%29.jpg/960px-S%C3%A9rie_A1_Bragantino_1x0_Corinthians_%2852632859764%29_-_Natan_%28Cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:S%C3%A9rie_A1_Bragantino_1x0_Corinthians_(52632859764)_-_Natan_(Cropped).jpg",
+  "auteur": "Original :  SOCCER DIGITAL @Flickr\nTravail dérivé :  FootyBystander",
+  "credit": "Série A1: Bragantino 1x0 Corinthians (Flickr)",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-05-17 14:28:09",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Série A1 Bragantino 1x0 Corinthians (52632859764) - Natan (Cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Retouched pictures|Natan Bernardo de Souza|Extracted images|PDMark-owner|PD-author-FlickrPDM|Red Bull Bragantino v Corinthians, 15 January 2023",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Crédito: Fabio Giannelli / Soccer Digital — Natan Bernardo de Souza @Match Bragantino 1-0 Corinthians, January 2023 (Cropped-Version)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2023-01-15 17:23",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/soccerdigital/52632859764/\">Série A1: Bragantino 1x0 Corinthians</a> (<a href=\"//commons.wikimedia.org/wiki/Flickr\" class=\"mw-redirect\" title=\"Flickr\">Flickr</a>)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<ul><li><b>Original : </b> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/132986455@N04\">SOCCER DIGITAL</a> @<a href=\"//commons.wikimedia.org/wiki/Flickr\" class=\"mw-redirect\" title=\"Flickr\">Flickr</a></li>\n<li><b>Travail dérivé : </b> <a href=\"//commons.wikimedia.org/w/index.php?title=User:FootyBystander&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:FootyBystander (page does not exist)\">FootyBystander</a></li></ul>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "<small>Si un fichier porte la marque du domaine public mise par une autre personne que l'auteur ou le détenteur des droits d'auteur, une marque plus spécifique de droit d'auteur telle que celle trouvée sur <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_tags/General_public_domain\" title=\"Commons:Copyright tags/General public domain\">Commons:Copyright tags/General public domain</a> doit être appliquée. S'il s'agit de votre propre œuvre, veuillez utiliser <a href=\"//commons.wikimedia.org/wiki/Template:Cc-zero\" title=\"Template:Cc-zero\"><span style=\"font-family:monospace,monospace;\">{{Cc-zero}}</span></a> à la place.</small>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

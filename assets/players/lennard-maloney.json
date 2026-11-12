@@ -1,0 +1,86 @@
+{
+  "joueur": "Lennard Maloney",
+  "fichier": "lennard-maloney.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05",
+  "titre_page": "1. FSV Mainz 05",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/1._FSV_Mainz_05_logo.svg/960px-1._FSV_Mainz_05_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:1._FSV_Mainz_05_logo.svg",
+  "auteur": "1. FSV Mainz 05",
+  "credit": "https://www.mainz05.de/en/news-en",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-12-15 18:07:42",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "1. FSV Mainz 05 logo",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "SVG association football logos of Germany|1. FSV Mainz 05|With trademark|PD textlogo|SVG text logos|Red and white logos with transparent background",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Logo of 1. FSV Mainz 05, a football club in Germany",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "Unknown",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.mainz05.de/en/news-en\">https://www.mainz05.de/en/news-en</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "1. FSV Mainz 05",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,108 @@
+{
+  "joueur": "Stefan Posch",
+  "fichier": "stefan-posch.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Stefan_Posch",
+  "titre_page": "Stefan Posch",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Austria_national_under-21_football_team_-_Teamcamp_June_2017_%28110%29.jpg/960px-Austria_national_under-21_football_team_-_Teamcamp_June_2017_%28110%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Austria_national_under-21_football_team_-_Teamcamp_June_2017_(110).jpg",
+  "auteur": "Steindy (talk) 10:41, 30 June 2017 (UTC)",
+  "credit": "Own work",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2017-06-30 10:41:20",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Austria national under-21 football team - Teamcamp June 2017 (110)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Stefan Posch|Self-published work|Supported by Wikimedia Österreich|Photographs by Steindy|Files with coordinates missing SDC location of creation|Sport images supported by Wikimedia Chapters|Austria national under-21 football team - Teamcamp June 2017",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "quality",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "47.732928",
+      "source": "commons-desc-page"
+    },
+    "GPSLongitude": {
+      "value": "16.215958",
+      "source": "commons-desc-page"
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Teamcamp of the <a href=\"https://en.wikipedia.org/wiki/Austria_national_under-21_football_team\" class=\"extiw\" title=\"en:Austria national under-21 football team\">Austrian U-21 national football team</a> in June 2017 in  <a href=\"https://en.wikipedia.org/wiki/Bad_Erlach\" class=\"extiw\" title=\"en:Bad Erlach\">Bad Erlach</a>. – The photo shows",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "between 5 June 2017 and 12 June 2017<div style=\"display: none;\">date QS:P,+2017-06-00T00:00:00Z/10,P1319,+2017-06-05T00:00:00Z/11,P1326,+2017-06-12T00:00:00Z/11</div>",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Steindy\" title=\"User:Steindy\">Steindy</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Steindy\" title=\"User talk:Steindy\"><span class=\"signature-talk\">talk</span></a>) 10:41, 30 June 2017 (UTC)",
+      "source": "commons-desc-page"
+    },
+    "Permission": {
+      "value": "This photograph was taken by <b><a href=\"https://en.wikipedia.org/wiki/en:User:Steindy\" class=\"extiw\" title=\"w:en:User:Steindy\">user Steindy</a></b> and released under the license(s) stated below. You are free to use it for any purpose as long as you credit the author and follow the terms of the license.<br>\n<ul><li>The equipment used to take this photo was supported by Wikimedia Austria.</li></ul>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

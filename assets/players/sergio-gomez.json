@@ -1,0 +1,96 @@
+{
+  "joueur": "Sergio Gómez",
+  "fichier": "sergio-gomez.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Sergio_G%C3%B3mez",
+  "titre_page": "Sergio Gómez",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Sergio_G%C3%B3mez_Mart%C3%ADn_2019-2-14_Espana-escocia-sub19-79_%2840133186463%29.jpg/960px-Sergio_G%C3%B3mez_Mart%C3%ADn_2019-2-14_Espana-escocia-sub19-79_%2840133186463%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Sergio_G%C3%B3mez_Mart%C3%ADn_2019-2-14_Espana-escocia-sub19-79_(40133186463).jpg",
+  "auteur": "Pedro  Semitiel from Cehegín, España",
+  "credit": "espana-escocia-sub19-79",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2019-02-28 22:53:12",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Sergio Gómez Martín 2019-2-14 Espana-escocia-sub19-79 (40133186463)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Jack Aitchison|Sergio Gómez Martín|Flickr images reviewed by FlickreviewR 2|Spain U19 v Scotland U19, 14 February 2019|Alejandro Marqués|Daniel Church|Víctor Chust",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "espana-escocia-sub19-79",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2019-02-14 13:46",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/55773111@N03/40133186463/\">espana-escocia-sub19-79</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/55773111@N03\">Pedro  Semitiel</a> from Cehegín, España",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

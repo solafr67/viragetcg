@@ -1,0 +1,101 @@
+{
+  "joueur": "Ferdi Kadıoğlu",
+  "fichier": "ferdi-kadioglu.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Ferdi_Kad%C4%B1o%C4%9Flu",
+  "titre_page": "Ferdi Kadıoğlu",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Ferdi_Kadioglu_%282021-22_S%C3%BCper_Lig%29_-_Resim1_%28cropped%29.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Ferdi_Kadioglu_(2021-22_S%C3%BCper_Lig)_-_Resim1_(cropped).png",
+  "auteur": "beIN SPORTS Türkiye",
+  "credit": "beIN SPORTS Türkiye (YouTube)",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-06-06 06:25:03",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Ferdi Kadioglu (2021-22 Süper Lig) - Resim1 (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "2021–22 Fenerbahçe SK season|Extracted images|Ferdi Kadıoğlu|Still images of YouTube videos",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Ferdi Erenay Kadıoğlu — 2021-22 Süper Lig Sezonu: „Spor Toto Süper Lig'de 2021 yılının son derbisi! #FBvBJK“ beIN-Sports-Reklamı, Aralik 2021.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2021-12-15",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=5ImdM6JgEg0#t=0m22s\">beIN SPORTS Türkiye (YouTube)</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "beIN SPORTS Türkiye",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "beIN SPORTS Türkiye",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

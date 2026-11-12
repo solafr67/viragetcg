@@ -1,0 +1,95 @@
+{
+  "joueur": "Hernando",
+  "fichier": "hernando.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Hernando_Siles_Stadium",
+  "titre_page": "Hernando Siles Stadium",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Hernando_Siles_Stadium_-_La_Paz.jpg/960px-Hernando_Siles_Stadium_-_La_Paz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Hernando_Siles_Stadium_-_La_Paz.jpg",
+  "auteur": "psyberartist",
+  "credit": "https://www.flickr.com/photos/psyberartist/5471854624/",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2012-03-10 17:09:26",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Hernando Siles Stadium - La Paz",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Taken with Nikon Coolpix L22|Hernando Siles Stadium|Miraflores, La Paz|Flickr images reviewed by trusted users|FoP-Bolivia",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Hernando Siles Stadium, the national stadium of Bolivia located in the Miraflores borough of La Paz.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2011-02-14",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/psyberartist/5471854624/\">https://www.flickr.com/photos/psyberartist/5471854624/</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "psyberartist",
+      "source": "commons-desc-page"
+    },
+    "Permission": {
+      "value": "Decision 351 of the <a href=\"https://en.wikipedia.org/wiki/Andean_Community_of_Nations\" class=\"extiw\" title=\"w:Andean Community of Nations\">Andean Community of Nations</a> provides for FOP as follows:\n<ul><li>\"<i>Article 22.- Without prejudice to that put forth in the Chapter 5 and in the previous article, it will be legal to realize, without authorization from the author and without the payment of any remuneration, the following acts:...h) Realizing the reproduction, emitting by radio diffusion or public transmission by cable, of the image of an architectural work, of a work of fine arts, of a photographic work or of a work of applied art, that is found situated in permanent form in a place open to the public</i>\".</li></ul>\nSee <a href=\"//commons.wikimedia.org/wiki/Commons:CRT/Bolivia#Freedom_of_panorama\" class=\"mw-redirect\" title=\"Commons:CRT/Bolivia\">COM:CRT/Bolivia#Freedom of panorama</a> for more information.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

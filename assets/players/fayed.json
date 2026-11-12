@@ -1,0 +1,96 @@
+{
+  "joueur": "Fayed",
+  "fichier": "fayed.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Mohamed_Al-Fayed",
+  "titre_page": "Mohamed Al-Fayed",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Mohamed_Al-Fayed.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Mohamed_Al-Fayed.jpg",
+  "auteur": "Abi Skipp",
+  "credit": "Cropped from File:With Mohammed Al Fayed.jpg, original source is Flickr: With Mohammed Al Fayed",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2011-11-03 22:31:43",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Mohamed Al-Fayed",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Mohamed Al-Fayed|Flickr images reviewed by trusted users|Flickr images missing SDC creator|Flickr images missing SDC source of file",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/Mohamed_Al-Fayed\" class=\"extiw\" title=\"w:Mohamed Al-Fayed\">Mohamed Al-Fayed</a> at Fulham Football ground.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2011-04-07 17:59:01",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "Cropped from <a href=\"//commons.wikimedia.org/wiki/File:With_Mohammed_Al_Fayed.jpg\" title=\"File:With Mohammed Al Fayed.jpg\">File:With Mohammed Al Fayed.jpg</a>, original source is <a href=\"//commons.wikimedia.org/wiki/Flickr\" class=\"mw-redirect\" title=\"Flickr\">Flickr</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/9557815@N05/5599713619\">With Mohammed Al Fayed</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/9557815@N05\">Abi Skipp</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

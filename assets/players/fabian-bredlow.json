@@ -1,0 +1,90 @@
+{
+  "joueur": "Fabian Bredlow",
+  "fichier": "fabian-bredlow.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Fabian_Bredlow",
+  "titre_page": "Fabian Bredlow",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/FC_Liefering_vs.FC_Wacker_Innsbruck_%283.Oktober_2014%29_17.JPG/960px-FC_Liefering_vs.FC_Wacker_Innsbruck_%283.Oktober_2014%29_17.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:FC_Liefering_vs.FC_Wacker_Innsbruck_(3.Oktober_2014)_17.JPG",
+  "auteur": "Werner100359",
+  "credit": "Own work",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2014-10-04 11:24:07",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "FC Liefering vs.FC Wacker Innsbruck (3.Oktober 2014) 17",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Taken with Pentax K100D|Self-published work|FC Liefering gegen FC Wacker Innsbruck (3.Oktober 2014)|Fabian Bredlow in 2014|Pictures taken by Werner100359 in October 2014",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "league match Austria 2nd league",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2014-10-03 20:24:00",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Werner100359\" title=\"User:Werner100359\">Werner100359</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

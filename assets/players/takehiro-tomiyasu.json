@@ -1,0 +1,101 @@
+{
+  "joueur": "Takehiro Tomiyasu",
+  "fichier": "takehiro-tomiyasu.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Takehiro_Tomiyasu",
+  "titre_page": "Takehiro Tomiyasu",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Takehiro_Tomiyasu%2C_2019_AFC_Asian_Cup_1.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Takehiro_Tomiyasu,_2019_AFC_Asian_Cup_1.jpg",
+  "auteur": "Amir Ostovari",
+  "credit": "https://www.farsnews.ir/photo/13971104000866/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%AA%D8%B5%D9%88%DB%8C%D8%B1%DB%8C-%D8%A7%D8%B2-%D9%BE%DB%8C%D8%B1%D9%88%D8%B2%DB%8C-%D8%B3%D8%AE%D8%AA-%DA%98%D8%A7%D9%BE%D9%86-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D9%88%DB%8C%D8%AA%D9%86%D8%A7%D9%85-",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2019-01-24 21:22:58",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Takehiro Tomiyasu, 2019 AFC Asian Cup 1",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Takehiro Tomiyasu|Files from external sources with reviewed licenses|Photographs from farsnews.ir|Photos by Amir Ostovari for Fars News Agency|Vietnam v Japan, 24 January 2019",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Takehiro Tomiyasu",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2019-01-24",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.farsnews.ir/photo/13971104000866/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%AA%D8%B5%D9%88%DB%8C%D8%B1%DB%8C-%D8%A7%D8%B2-%D9%BE%DB%8C%D8%B1%D9%88%D8%B2%DB%8C-%D8%B3%D8%AE%D8%AA-%DA%98%D8%A7%D9%BE%D9%86-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D9%88%DB%8C%D8%AA%D9%86%D8%A7%D9%85-\">https://www.farsnews.ir/photo/13971104000866/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%AA%D8%B5%D9%88%DB%8C%D8%B1%DB%8C-%D8%A7%D8%B2-%D9%BE%DB%8C%D8%B1%D9%88%D8%B2%DB%8C-%D8%B3%D8%AE%D8%AA-%DA%98%D8%A7%D9%BE%D9%86-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D9%88%DB%8C%D8%AA%D9%86%D8%A7%D9%85-</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Amir Ostovari",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "Fars Media Corporation",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

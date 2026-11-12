@@ -1,0 +1,81 @@
+{
+  "joueur": "Kenan Yıldız",
+  "fichier": "kenan-yildiz.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Kenan_Y%C4%B1ld%C4%B1z",
+  "titre_page": "Kenan Yıldız",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Kenan_Y%C4%B1ld%C4%B1z_in_the_international_match_%28March_2025%29_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Kenan_Y%C4%B1ld%C4%B1z_in_the_international_match_(March_2025)_(cropped).jpg",
+  "auteur": "Original :  mlsz.hu – the official website of the Hungarian Football Federation / Travail dérivé :  Danyele",
+  "credit": "mlsz.hu – the official website of the Hungarian Football Federation (original photo)",
+  "licence": "Attribution",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-06-20 23:30:44",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Kenan Yıldız in the international match (March 2025) (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Attribution only license|Extracted images|Kenan Yıldiz|Turkey - Hungary, UEFA Nations League (March 2025)",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Kenan Yıldız in the international match between Turkey and Hungary in <a rel=\"nofollow\" class=\"external text\" href=\"https://www.transfermarkt.com/spielbericht/index/spielbericht/4498055\">UEFA Nations League Play-off in March 2025</a>.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2025-03-20",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://en.mlsz.hu/hir/nations-league-hungary-hopes-hang-in-balance-after-loss-in-turkey\">mlsz.hu – the official website of the Hungarian Football Federation</a> (<a href=\"//commons.wikimedia.org/wiki/File:Fiola_and_Kenan_Y%C4%B1ld%C4%B1z_in_the_international_match_(March_2025).jpg\" title=\"File:Fiola and Kenan Yıldız in the international match (March 2025).jpg\">original photo</a>)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<b>Original : </b> mlsz.hu – the official website of the Hungarian Football Federation / <b>Travail dérivé : </b> <a href=\"//commons.wikimedia.org/w/index.php?title=User:Danyele&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Danyele (page does not exist)\">Danyele</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "mlsz.hu-Imprint: <a rel=\"nofollow\" class=\"external text\" href=\"https://en.mlsz.hu/imprint\">„Articles, photos and videos on this site may be used free of charge, with the reference to the source.“</a>, 24. March 2025 – <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20250324112839/https://en.mlsz.hu/imprint\">Archive.org-Link</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Attribution",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "mlsz.hu – Hungarian Football Federation",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

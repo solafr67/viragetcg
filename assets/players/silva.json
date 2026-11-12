@@ -1,0 +1,96 @@
+{
+  "joueur": "Silva",
+  "fichier": "silva.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Thiago_Silva",
+  "titre_page": "Thiago Silva",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Thiago_Silva_Brazil_Austria_June_2018.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Thiago_Silva_Brazil_Austria_June_2018.jpg",
+  "auteur": "Granada",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "personality",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-09-29 15:02:50",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Thiago Silva Brazil Austria June 2018",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Personality rights warning|Supported by Wikimedia Österreich|Extracted images|Uploaded with LrMediaWiki|FIFA Friendly Match Austria vs. Brazil 2018-06-10|Thiago Silva (footballer)|Sport images supported by Wikimedia Chapters|Taken with Nikon D850 for Sport",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "FIFA Friendly Match Austria vs. Brazil 2018/06/10 in Vienna/Ernst-Happel-Stadium. Picture shows Brazilian national team Paulinho (15), Thiago Silva (2), Danilo (14), Miranda (3), Alisson (1), Neymar (10), Willian (19), Marcelo (12), Casemiro (5), Gabriel Jesus (9) and Philippe Coutinho (11).",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2018-06-10",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Granada\" title=\"User:Granada\">Granada</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "personality",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

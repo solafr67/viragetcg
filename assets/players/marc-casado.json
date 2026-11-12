@@ -1,0 +1,81 @@
+{
+  "joueur": "Marc Casadó",
+  "fichier": "marc-casado.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Marc_Casad%C3%B3",
+  "titre_page": "Marc Casadó",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Marc_Casad%C3%B3%2C_durant_la_gira_de_pretemporada_a_EUA._%2805-08-2024%29_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Marc_Casad%C3%B3,_durant_la_gira_de_pretemporada_a_EUA._(05-08-2024)_(cropped).jpg",
+  "auteur": "gouvernement de Catalogne\n",
+  "credit": "El Govern i el Barça posicionen Catalunya als Estats Units com a destinació d'inversions i de turisme prèmium (press release)",
+  "licence": "Attribution",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-08-14 08:52:12",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Marc Casadó, durant la gira de pretemporada a EUA. (05-08-2024) (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Attribution only license|Extracted images|Attribution-govern|Marc Casadó|Images from Generalitat de Catalunya Press Room in August 2024",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "D'esquerra a dreta, Julián Araujo i Marc Casadó, jugadors del FCBarcelona durant la gira de pretemporada a EUA.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "Publié le 5 août 2024",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://govern.cat/salapremsa/audiovisual/imatge/2/470077\">El Govern i el Barça posicionen Catalunya als Estats Units com a destinació d'inversions i de turisme prèmium</a> (press release)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/fr:Gouvernement_de_Catalogne\" class=\"extiw\" title=\"w:fr:Gouvernement de Catalogne\"><span title=\"Main institution in Catalonia\">gouvernement de Catalogne</span></a>\n</bdi>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "This work was published on the website of the <i>Generalitat de Catalunya</i> <a rel=\"nofollow\" class=\"external text\" href=\"https://govern.cat/\">govern.cat</a>. The <a rel=\"nofollow\" class=\"external text\" href=\"https://govern.cat/gov/avis-legal\">legal notice</a> permits the reproduction, distribution and public communication of the work and, furthermore, the transformation of the work in order to make derived works, for everyone and without time limits, and provided that it does not contradict any license or notice that a work may hold. The following conditions must be followed:\n<ul><li>Not distort the meaning of the information. (see <a href=\"//commons.wikimedia.org/wiki/Commons:Non-copyright_restrictions#Authors'_moral_rights\" title=\"Commons:Non-copyright restrictions\">moral rights</a>)</li>\n<li>Always quote the source of the information.</li>\n<li>State the date of the latest update of the information</li></ul>\n<small><b><u>To the uploader</u></b>: Please provide a link to the original file and cite authorship as \"Government of Catalonia. Department of [name].\".</small>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Attribution",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "<i>Govern de Catalunya</i>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

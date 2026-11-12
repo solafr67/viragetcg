@@ -1,0 +1,91 @@
+{
+  "joueur": "Aurèle Amenda",
+  "fichier": "aurele-amenda.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Switzerland_national_under-21_football_team",
+  "titre_page": "Switzerland national under-21 football team",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/960px-Flag_of_Switzerland.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland.svg",
+  "auteur": "Original: Unknown\nVector:\nUser:Marc Mongenet\nCredits:\n\nUser:-xfi-\nUser:Zscout370",
+  "credit": "PDF Colors\nConstruction sheet",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2019-10-16 01:26:02",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of Switzerland",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "PD shape|With insignia|SVG national flag of Switzerland|SVG flags of Switzerland - square flags|Upload protected files|Valid SVG created with Text Editor:Flags|Flags with invalid colors|Illustrations used in Salute, Jonathan!|PD Flag Switzerland",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/Flag_of_Switzerland\" class=\"extiw\" title=\"en:Flag of Switzerland\">Flag of Switzerland</a>",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "1841",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<ul><li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.bk.admin.ch/themen/02268/02385/index.html?lang=de\">PDF Colors</a></li>\n<li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.vtg.admin.ch/internet/vtg/de/home/themen/internationale_kooperation/MP/militaerisches_zeremoniell.parsysrelated1.17761.downloadList.20706.DownloadFile.tmp/fahnenreglement51340d.pdf\">Construction sheet</a></li></ul>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<p>Original: Unknown<br>\nVector:\n<a href=\"//commons.wikimedia.org/wiki/User:Marc_Mongenet\" title=\"User:Marc Mongenet\">User:Marc Mongenet</a><br>\nCredits:\n</p>\n<ul><li><a href=\"//commons.wikimedia.org/wiki/User:-xfi-\" title=\"User:-xfi-\">User:-xfi-</a></li>\n<li><a href=\"//commons.wikimedia.org/wiki/User:Zscout370\" title=\"User:Zscout370\">User:Zscout370</a></li></ul>",
+      "source": "commons-desc-page"
+    },
+    "Permission": {
+      "value": "<i>This file depicts the flag of a Swiss </i><a href=\"https://de.wikipedia.org/wiki/K%C3%B6rperschaft_des_%C3%B6ffentlichen_Rechts\" class=\"extiw\" title=\"de:Körperschaft des öffentlichen Rechts\">Körperschaft des öffentlichen Rechts</a><i> (corporation governed by public law). <a href=\"https://de.wikipedia.org/wiki/Amtliches_Werk\" class=\"extiw\" title=\"de:Amtliches Werk\">Official works</a> like flags are in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b>.</i>\n<p><b>Note:</b> The usage of flags is <b>governed by legal restrictions</b>, independent of the <a href=\"https://en.wikipedia.org/wiki/copyright\" class=\"extiw\" title=\"en:copyright\">copyright</a> status of the depiction shown here.\n</p>\n<hr>\n<p><span style=\"font-size:x-small;line-height:140%\" class=\"plainlinks noprint\"><a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:PD-Flag-Switzerland/de\" href=\"https://commons.wikimedia.org/wiki/Template:PD-Flag-Switzerland/de\">Deutsch</a> | <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:PD-Flag-Switzerland/en\" href=\"https://commons.wikimedia.org/wiki/Template:PD-Flag-Switzerland/en\">English</a> | <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:PD-Flag-Switzerland/fr\" href=\"https://commons.wikimedia.org/wiki/Template:PD-Flag-Switzerland/fr\">français</a> | <a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/Template:PD-Flag-Switzerland/it\" href=\"https://commons.wikimedia.org/wiki/Template:PD-Flag-Switzerland/it\">italiano</a> | <small class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/w/index.php?title=Template:PD-Flag-Switzerland/lang&amp;action=edit\" href=\"https://commons.wikimedia.org/w/index.php?title=Template:PD-Flag-Switzerland/lang&amp;action=edit\">+/−</a></small></span>\n</p>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

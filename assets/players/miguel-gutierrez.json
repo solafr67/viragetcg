@@ -1,0 +1,91 @@
+{
+  "joueur": "Miguel Gutiérrez",
+  "fichier": "miguel-gutierrez.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Miguel_Guti%C3%A9rrez_(football,_1956)",
+  "titre_page": "Miguel Gutiérrez (football, 1956)",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Miguel_Guti%C3%A9rrez_La_Rosa.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Miguel_Guti%C3%A9rrez_La_Rosa.jpg",
+  "auteur": "Auteur inconnuUnknown author",
+  "credit": "https://www.facebook.com/retrobolas/photos/a.352594958086887/4893459930667011/?type=3",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-08-20 15:22:26",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Miguel Gutiérrez La Rosa",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Template Unknown (author)|PD-Peru-anonymous|Miguel Gutiérrez La Rosa",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "A photograph of Gutiérrez La Rosa playing for Peru",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "1980",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.facebook.com/retrobolas/photos/a.352594958086887/4893459930667011/?type=3\">https://www.facebook.com/retrobolas/photos/a.352594958086887/4893459930667011/?type=3</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Auteur inconnu<span style=\"display: none;\">Unknown author</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

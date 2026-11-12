@@ -1,0 +1,91 @@
+{
+  "joueur": "Jens Stage",
+  "fichier": "jens-stage.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Sebastian_Hausner",
+  "titre_page": "Sebastian Hausner",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Sebastian_Hausner_%28IFK_G%C3%B6teborg_vs_AIK%2C_6_November_2023%29.jpg/960px-Sebastian_Hausner_%28IFK_G%C3%B6teborg_vs_AIK%2C_6_November_2023%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Sebastian_Hausner_(IFK_G%C3%B6teborg_vs_AIK,_6_November_2023).jpg",
+  "auteur": "Amanda Aikioniemi",
+  "credit": "https://www.flickr.com/photos/198658015@N03/53315910456/in/album-72177720312525329/",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-12-14 12:09:46",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Sebastian Hausner (IFK Göteborg vs AIK, 6 November 2023)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Flickr images reviewed by trusted users|PD-author-FlickrPDM|IFK Göteborg vs AIK, 6 November 2023|Sebastian Hausner",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Sebastian Hausner during the 2023 IFK Göteborg home game vs AIK",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2023-11-06 22:26:30",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/198658015@N03/53315910456/in/album-72177720312525329/\">https://www.flickr.com/photos/198658015@N03/53315910456/in/album-72177720312525329/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/198658015@N03\">Amanda Aikioniemi</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

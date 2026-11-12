@@ -1,0 +1,90 @@
+{
+  "joueur": "Andrija Maksimović",
+  "fichier": "andrija-maksimovic.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Andrija_Maksimovi%C4%87",
+  "titre_page": "Andrija Maksimović",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/FC_Zenit_Saint_Petersburg_v_Red_Star_Belgrade%2C_8_July_2024_11_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:FC_Zenit_Saint_Petersburg_v_Red_Star_Belgrade,_8_July_2024_11_(cropped).jpg",
+  "auteur": "Вячеслав Евдокимов",
+  "credit": "https://fc-zenit.ru/photo/56366/",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-11-10 19:43:32",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "FC Zenit Saint Petersburg v Red Star Belgrade, 8 July 2024 11 (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|License migration redundant|Items with VRTS permission confirmed|Extracted images|Files from fc-zenit.ru|FC Zenit Saint Petersburg v Red Star Belgrade, 8 July 2024|Andrija Maksimović",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "08.07.2024.Россия, Санкт-Петербург, «Газпром Арена». Winline Летний Кубок, «Зенит» — «Црвена Звезда».",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "8. 7. 2024",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://fc-zenit.ru/photo/56366/\">https://fc-zenit.ru/photo/56366/</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "Вячеслав Евдокимов",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

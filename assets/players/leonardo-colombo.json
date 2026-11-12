@@ -1,0 +1,86 @@
+{
+  "joueur": "Leonardo Colombo",
+  "fichier": "leonardo-colombo.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/AC_Milan_Youth_Sector",
+  "titre_page": "AC Milan Youth Sector",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/960px-Logo_of_AC_Milan.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Logo_of_AC_Milan.svg",
+  "auteur": "A.C. Milan\n\nUploaded by Vargklo at en.wikipedia",
+  "credit": "https://www.acmilan.com/",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-02-25 18:31:11",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Logo of AC Milan",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "With trademark|PD textlogo|SVG text logos|Black, red, white logos|Valid SVG created with Adobe Illustrator:Text logos|TOO-Italy|Oval logos (vertically)|SVG logos of AC Milan",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Logo dell'AC Milan",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2007-09-07",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.acmilan.com/\">https://www.acmilan.com/</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<p><a href=\"//commons.wikimedia.org/wiki/A.C._Milan\" class=\"mw-redirect\" title=\"A.C. Milan\">A.C. Milan</a><br>\n</p>\nUploaded by <a href=\"https://en.wikipedia.org/wiki/User:Vargklo\" class=\"extiw\" title=\"en:User:Vargklo\">Vargklo</a> at en.wikipedia",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

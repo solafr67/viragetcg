@@ -1,0 +1,91 @@
+{
+  "joueur": "Kiko Femenía",
+  "fichier": "kiko-femenia.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Kiko_Femen%C3%ADa",
+  "titre_page": "Kiko Femenía",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Kiko_Femenia_del_H%C3%A9rcules_y_Javi_Mart%C3%ADnez_del_Athletic.jpg/960px-Kiko_Femenia_del_H%C3%A9rcules_y_Javi_Mart%C3%ADnez_del_Athletic.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Kiko_Femenia_del_H%C3%A9rcules_y_Javi_Mart%C3%ADnez_del_Athletic.jpg",
+  "auteur": "Tatono",
+  "credit": "Travail personnel",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2010-08-29 16:08:36",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Kiko Femenia del Hércules y Javi Martínez del Athletic",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Taken with Canon EOS 40D|Kiko Femenia|Javi Martínez|Self-published work|PD-self",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "The player of Hércules, Kiko Femenia, wearing the number 15, playing the ball against the number 24 Athletic Bilbao's Javi Martínez. Which belonged to the match of the La Liga Round 1 between Hércules and the Athletic Club, held at the José Rico Pérez Stadium.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2010-08-28",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tatono&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tatono (page does not exist)\">Tatono</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

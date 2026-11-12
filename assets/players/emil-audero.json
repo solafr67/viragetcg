@@ -1,0 +1,91 @@
+{
+  "joueur": "Emil Audero",
+  "fichier": "emil-audero.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Emil_Audero",
+  "titre_page": "Emil Audero",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Emil_Audero_%28Indonesia-China_5_June_2025%29.jpg/960px-Emil_Audero_%28Indonesia-China_5_June_2025%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Emil_Audero_(Indonesia-China_5_June_2025).jpg",
+  "auteur": "BPMI Sekretariat Presiden/Muchlis Jr",
+  "credit": "Presiden Prabowo: Bersyukur tapi Perjalanan Belum Selesai",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-10-03 17:21:00",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Emil Audero (Indonesia-China 5 June 2025)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Extracted images|PD Indonesian Government|AI upscaler software unknown|Emil Audero|Indonesia v China, 5 June 2025",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "President Prabowo Subianto said that the Indonesia national football team's victory against the People's Republic of China (PRC) on the Asian Qualification for the 2026 FIFA World Cup was a big step further. Nevertheless, the head of state emphasized that the struggle for the Garuda Squad to the World Cup is not over yet.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2025-06-05",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.presidenri.go.id/foto/presiden-prabowo-bersyukur-tapi-perjalanan-belum-selesai/\">Presiden Prabowo: Bersyukur tapi Perjalanan Belum Selesai</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "BPMI Sekretariat Presiden/Muchlis Jr",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,116 @@
+{
+  "joueur": "Morten Hjulmand",
+  "fichier": "morten-hjulmand.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Morten_Hjulmand",
+  "titre_page": "Morten Hjulmand",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Morten_Hjulmand%2C_FC_Admira_Wacker_M%C3%B6dling_vs._LASK_Linz_2018-08-12.jpg/960px-Morten_Hjulmand%2C_FC_Admira_Wacker_M%C3%B6dling_vs._LASK_Linz_2018-08-12.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Morten_Hjulmand,_FC_Admira_Wacker_M%C3%B6dling_vs._LASK_Linz_2018-08-12.jpg",
+  "auteur": "Steindy (d) 23:15, 4 September 2018 (UTC)",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2018-09-04 23:15:27",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Morten Hjulmand, FC Admira Wacker Mödling vs. LASK Linz 2018-08-12",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Morten Hjulmand|Self-published work|Photographs by Steindy|Supported by Wikimedia Österreich in 2018|Files with coordinates missing SDC location of creation|FC Admira Wacker Mödling vs. LASK Linz 2018-08-12",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "quality",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "48.098810",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSLongitude": {
+      "value": "16.313593",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Championshipmatch of the <a href=\"https://en.wikipedia.org/wiki/Austrian_Football_Bundesliga\" class=\"extiw\" title=\"en:Austrian Football Bundesliga\">Austrian Bundesliga</a> 2018–19 <a href=\"https://en.wikipedia.org/wiki/FC_Admira_Wacker_M%C3%B6dling\" class=\"extiw\" title=\"en:FC Admira Wacker Mödling\">FC Admira Wacker Mödling</a> (red shirts) vs. <a href=\"https://en.wikipedia.org/wiki/LASK_Linz\" class=\"extiw\" title=\"en:LASK Linz\">LASK Linz</a> (black-white shirts) 0-1 (0-0) at 2018-08-12 in the <a href=\"https://en.wikipedia.org/wiki/Bundesstadion_S%C3%BCdstadt\" class=\"extiw\" title=\"en:Bundesstadion Südstadt\">Bundesstadion Südstadt</a> in <a href=\"https://en.wikipedia.org/wiki/Maria_Enzersdorf\" class=\"extiw\" title=\"en:Maria Enzersdorf\">Maria Enzersdorf</a>. – The photo shows .",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2018-08-12",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Steindy\" title=\"User:Steindy\">Steindy</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Steindy\" title=\"User talk:Steindy\"><span class=\"signature-talk\">d</span></a>) 23:15, 4 September 2018 (UTC)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "This photograph was taken by <b><a href=\"https://en.wikipedia.org/wiki/en:User:Steindy\" class=\"extiw\" title=\"w:en:User:Steindy\">user Steindy</a></b> and released under the license(s) stated below. You are free to use it for any purpose as long as you credit the author and follow the terms of the license.<br>\n<ul><li>The equipment used to take this photo was supported by Wikimedia Austria.</li></ul>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

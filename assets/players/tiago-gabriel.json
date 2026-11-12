@@ -1,0 +1,91 @@
+{
+  "joueur": "Tiago Gabriel",
+  "fichier": "tiago-gabriel.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Portugal_national_under-21_football_team",
+  "titre_page": "Portugal national under-21 football team",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/960px-Flag_of_Portugal_%28official%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal_(official).svg",
+  "auteur": "Original: Columbano Bordalo Pinheiro Vector:  Vítor Luís Rodrigues, António Martins-Tuválkin",
+  "credit": "Símbolos Nacionais",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-05-02 07:39:04",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of Portugal (official)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "PD Old|With insignia|Files allowed to be overwritten by everyone|PD US expired|SVG flags of Portugal - aspect ratio of 3:2|CC-PD-Mark|Valid SVG created with Adobe Illustrator:Flags|Vectorizations|SVG national flag of Portugal (1910–2010)",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Flag of Portugal, created by Columbano Bordalo Pinheiro (1857-1929), officially adopted by Portuguese government in June 30, 1911 (in use since about November 1910).",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "1910-11-01",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.presidencia.pt/presidente-da-republica/a-presidencia/simbolos-nacionais/ficheiros/\">Símbolos Nacionais</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<div style=\"display:inline-block;padding:0 3px;background-color:#CCF\">Original:</div> <div style=\"display:inline-block;padding:3px 0;\">Columbano Bordalo Pinheiro</div> <div style=\"display:inline-block;padding:0 3px;background-color:#CCF\">Vector: </div> <div style=\"display:inline-block;\">Vítor Luís Rodrigues, António Martins-Tuválkin</div>",
+      "source": "commons-desc-page"
+    },
+    "Permission": {
+      "value": "The original of this vector set was contracted by the Portuguese Presidential Office in June 2004 to Vítor Luís Rodrigues and António Martins-Tuválkin expressly to be released in public domain.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,96 @@
+{
+  "joueur": "Paddy McNair",
+  "fichier": "paddy-mcnair.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Paddy_McNair",
+  "titre_page": "Paddy McNair",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Paddy_McNair%2C_CZE-NIR_2019-10-14_%282%29.jpg/960px-Paddy_McNair%2C_CZE-NIR_2019-10-14_%282%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Paddy_McNair,_CZE-NIR_2019-10-14_(2).jpg",
+  "auteur": "Tadeáš Bednarz",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "personality",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2019-10-17 18:02:31",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Paddy McNair, CZE-NIR 2019-10-14 (2)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Paddy McNair|Personality rights warning|Uploaded with pattypan|Self-published work|Images with extracted images|Mediagrant:Odborná fotografie|Supported by Wikimedia Österreich in 2019|Mediagrant 2019|Czech Republic vs Northern Ireland (14 October 2019)|Files by Plánovací kalendář|Sport images supported by Wikimedia Österreich|Photos by T.Bednarz taken with Canon EF 400/2,8 L IS USM",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Paddy McNair in an international friendly match between Czech Republic and Northern Ireland (2:3), Stadion Letná (Prague) 2019-10-14",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2019-10-14 19:06",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q99692082\" class=\"extiw\" title=\"d:Q99692082\"><span title=\"arbitre de football tchèque\">Tadeáš Bednarz</span></a></bdi>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "personality",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,96 @@
+{
+  "joueur": "Alemão",
+  "fichier": "alemao.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Alem%C3%A3o_(football,_1984)",
+  "titre_page": "Alemão (football, 1984)",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Carlos_Adriano_de_Jesus_Soares_%28Alem%C3%A3o%29_2006.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Carlos_Adriano_de_Jesus_Soares_(Alem%C3%A3o)_2006.jpg",
+  "auteur": "Ryosuke Yagi",
+  "credit": "アレモン\n\nUploaded by Kafuffle",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2013-05-24 18:08:34",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Carlos Adriano de Jesus Soares (Alemão) 2006",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Players of Kyoto Sanga FC|Players of Sociedade Esportiva Palmeiras|Players of Yokohama FC|Players of Coritiba Foot Ball Club|Taken with Panasonic Lumix DMC-FZ30|Deaths from road accidents|23-year-old deaths|Flickr images reviewed by File Upload Bot (Magnus Manske)|Men's association football forwards from Brazil",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "アレモン",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2006-08-19 20:58",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/compose-r/377770203/\">アレモン</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Kafuffle\" title=\"User:Kafuffle\">Kafuffle</a></li></ul>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/85999278@N00\">Ryosuke Yagi</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,91 @@
+{
+  "joueur": "Antonio Blanco",
+  "fichier": "antonio-blanco.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Championnat_sud-am%C3%A9ricain_de_football_de_1917",
+  "titre_page": "Championnat sud-américain de football de 1917",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Parque_pereira.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Parque_pereira.jpg",
+  "auteur": "Auteur inconnuUnknown author",
+  "credit": "Here",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2015-08-03 01:15:55",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Parque pereira",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Association football venues in Uruguay|Estadio Parque Pereira|PD-Uruguay|Association football supporters of Uruguay|PD-anon-expired|Template Unknown (author)|Black and white photographs of Uruguay in the 1910s|Campeonato Sudamericano 1917",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Estadio Parque Pereira of Montevideo, which stood from 1917 to 1920 when it was demolished.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "vers 1917<div style=\"display: none;\">date QS:P,+1917-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://futsandokan76.blogspot.com.ar/2013/09/copa-america-1917.html\">Here</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Auteur inconnu<span style=\"display: none;\">Unknown author</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

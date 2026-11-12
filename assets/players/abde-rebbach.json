@@ -1,0 +1,90 @@
+{
+  "joueur": "Abde Rebbach",
+  "fichier": "abde-rebbach.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Abde_Rebbach",
+  "titre_page": "Abde Rebbach",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Abde_rebbach_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Abde_rebbach_2023.jpg",
+  "auteur": "Alberto Cabello Mayero",
+  "credit": "Own work",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-08-12 02:01:02",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Abde rebbach 2023",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Deportivo Alavés|Men's association football|Abde Rebbach|Self-published work|Extracted images|2023 in Vitoria-Gasteiz|Celebrations in Spain",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "La plantilla del Deportivo Alavés, subida en un autobús descapotable de dos pisos, celebran en la calle Reyes Católicos de Vitoria-Gasteiz el ascenso a la Primera división española de fútbol. En primera plana puede verse a Asier Villalibre, acompañado más atrás por el resto de sus compañeros, el dueño del Alavés (Josean Querejeta) y el director deportivo (Sergio Fernandez).",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2023-06-19 19:53:37",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pixelillo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Pixelillo (page does not exist)\">Alberto Cabello Mayero</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

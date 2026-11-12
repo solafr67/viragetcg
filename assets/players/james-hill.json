@@ -1,0 +1,90 @@
+{
+  "joueur": "James Hill",
+  "fichier": "james-hill.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/James_Hill_(footballer,_born_2002)",
+  "titre_page": "James Hill (footballer, born 2002)",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/James_Hill_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:James_Hill_2022.jpg",
+  "auteur": "AFC Bournemouth",
+  "credit": "YouTube (Time: 0) – View/save archived versions on archive.org",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-01-06 19:45:09",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "James Hill 2022",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Media from YouTube|Files from external sources with reviewed licenses|James Hill (footballer, born 2002)",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "James Hill in his first interview with AFC Bournemouth club TV.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2022-01-05",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<bdi lang=\"en\" dir=\"ltr\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=%7B%7B%7B1%7D%7D%7D&amp;t=0\">YouTube</a> (Time: 0) – View/save archived versions on <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/*/https://www.youtube.com/watch?v=%7B%7B%7B1%7D%7D%7D\">archive.org</a></bdi>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "AFC Bournemouth",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 3.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/3.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

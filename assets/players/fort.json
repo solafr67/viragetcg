@@ -1,0 +1,121 @@
+{
+  "joueur": "Fort",
+  "fichier": "fort.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Maillot_de_football",
+  "titre_page": "Maillot de football",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/1954_FA_Cup_memorabilia_%28pedantic_version%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:1954_FA_Cup_memorabilia_(pedantic_version).jpg",
+  "auteur": "Jameboy",
+  "credit": "Original uploader: Jameboy",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2008-10-22 21:11:20",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "1954 FA Cup memorabilia (pedantic version)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|West Bromwich Albion F.C.|User-created GFDL images|FA Cup|License migration completed|1954 in association football in Europe|Self-published work|Blue and white clothing|Black and white association football jerseys|Files with coordinates missing SDC location of creation (53° N, 3° W)|National Football Museum (2001–2010)",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "53.772958",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSLongitude": {
+      "value": "-2.689231",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Memorabilia from the <a href=\"https://en.wikipedia.org/wiki/1954_FA_Cup_Final\" class=\"extiw\" title=\"en:1954 FA Cup Final\">1954 FA Cup Final</a>, exhibited at the <a href=\"https://en.wikipedia.org/wiki/National_Football_Museum\" class=\"extiw\" title=\"en:National Football Museum\">National Football Museum</a> in Preston. Among the items on display is a <a href=\"https://en.wikipedia.org/wiki/West_Bromwich_Albion_F.C.\" class=\"extiw\" title=\"en:West Bromwich Albion F.C.\">West Bromwich Albion F.C.</a> shirt and a photograph of the winning Albion team. <br> <i>Edited version (with photographs blanked-out) to avoid the photo being lost if a copyright claim is made.</i>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "7 février 2004 (date de téléversement originale)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "Original uploader: <a href=\"//commons.wikimedia.org/wiki/User:Jameboy\" title=\"User:Jameboy\">Jameboy</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jameboy\" title=\"User:Jameboy\">Jameboy</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jameboy\" title=\"User:Jameboy\">Jameboy</a>, en tant que détenteur des droits d’auteur sur cette œuvre, la publie sous la licence suivante :",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Jameboy\" title=\"User:Jameboy\">Jameboy</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

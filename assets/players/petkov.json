@@ -1,0 +1,96 @@
+{
+  "joueur": "Petkov",
+  "fichier": "petkov.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Petko_Petkov_(football)",
+  "titre_page": "Petko Petkov (football)",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Petko_Petkov_b1946.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Petko_Petkov_b1946.jpg",
+  "auteur": "Panini",
+  "credit": "[1]",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2016-07-21 05:06:03",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Petko Petkov b1946",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Men's association football players from Bulgaria|PD Italy (20 years after creation)|Births in Pazardzhik Province",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "MONACO/MUNCHEN 74-PANINI-Figurina n.264- PETKOV - BULGARIA -Recuperata",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "1974",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.ebay.it/itm/MONACO-MUNCHEN-74-PANINI-Figurina-n-264-PETKOV-BULGARIA-Recuperata-/272155459542?hash=item3f5dbabfd6:g:YekAAOSwDuJW2GBL\">[1]</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/Panini_Group\" class=\"extiw\" title=\"en:Panini Group\">Panini</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "Ceci ne peut pas être appliqué dans le pays qui n'appliquent pas la <a href=\"https://en.wikipedia.org/wiki/Rule_of_the_shorter_term\" class=\"extiw\" title=\"en:Rule of the shorter term\">règle du plus court terme</a> sur les travaux italiens. En particulier, ces photographies sont dans le domaine public aux États-Unis seulement si :\n<ul><li>elles ne sont pas sous copyright aux États-Unis parce qu'elles sont enregistrées pour copyright (lire <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_tags#United_States\" title=\"Commons:Copyright tags\">ici</a> pour la plupart des cas) <b>et</b></li>\n<li>elles ont été créées avant 1976 — elles ne sont pas sous copyright en Italie à la <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Non-U.S._copyrights#Dates_of_restoration_and_terms_of_protection\" class=\"extiw\" title=\"en:Wikipedia:Non-U.S. copyrights\">date de la restauration URAA</a> (1<sup>er</sup> janvier 1996) (<a href=\"https://en.wikipedia.org/wiki/Title_17_of_the_United_States_Code\" class=\"extiw\" title=\"en:Title 17 of the United States Code\">17 U.S.C.</a> <a rel=\"nofollow\" class=\"external text\" data-mw-original-href=\"http://www.copyright.gov/title17/92chap1.html#104a\" href=\"https://www.copyright.gov/title17/92chap1.html#104a\">§ 104A</a>). Si c'est le cas, ajouter <a href=\"//commons.wikimedia.org/wiki/Template:PD-1996\" title=\"Template:PD-1996\"><span style=\"font-family:monospace,monospace;\">{{PD-1996}}</span></a> en plus de ce tag. Si l'image a été créée en 1976 ou après, ajouter <a href=\"//commons.wikimedia.org/wiki/Template:Not-PD-US-URAA\" title=\"Template:Not-PD-US-URAA\"><span style=\"font-family:monospace,monospace;\">{{Not-PD-US-URAA}}</span></a>.</li></ul>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

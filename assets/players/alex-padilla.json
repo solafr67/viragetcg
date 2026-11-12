@@ -1,0 +1,95 @@
+{
+  "joueur": "Álex Padilla",
+  "fichier": "alex-padilla.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Athletic_Bilbao_signing_policy",
+  "titre_page": "Athletic Bilbao signing policy",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Flag_of_the_Basque_Country.svg/960px-Flag_of_the_Basque_Country.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Basque_Country.svg",
+  "auteur": "Daniele Schirmo aka Frankie688",
+  "credit": "Own work (Original text: own work (modification of the former image at this page))",
+  "licence": "CC BY-SA 2.5",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2015-09-05 10:21:46",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of the Basque Country",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "With insignia|Self-published work|Files with derivative versions|SVG Ikurrina|SVG flags of Spain - aspect ratio of 25:14",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Flag of the <a href=\"https://en.wikipedia.org/wiki/Basque_Country_(autonomous_community)\" class=\"extiw\" title=\"en:Basque Country (autonomous community)\">autonomous region</a> of the <a href=\"https://en.wikipedia.org/wiki/Basque_Country\" class=\"extiw\" title=\"w:Basque Country\">Basque Country</a>\n<dl><dd><i>A white cross over a green saltire on a red field.</i></dd></dl>",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2006-12-28",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span> (<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">own work (modification of the former image at this page)</bdi></i></span>)",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "Daniele Schirmo aka <a href=\"https://en.wikipedia.org/wiki/it:Utente:Frankie688\" class=\"extiw\" title=\"w:it:Utente:Frankie688\">Frankie688</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 2.5",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 2.5",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "Daniele Schirmo aka <a href=\"https://en.wikipedia.org/wiki/it:Utente:Frankie688\" class=\"extiw\" title=\"w:it:Utente:Frankie688\">Frankie688</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-2.5",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

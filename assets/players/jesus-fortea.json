@@ -1,0 +1,95 @@
+{
+  "joueur": "Jesús Fortea",
+  "fichier": "jesus-fortea.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Spain_national_under-19_football_team",
+  "titre_page": "Spain national under-19 football team",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Coat_of_Arms_of_Spain.svg/960px-Coat_of_Arms_of_Spain.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Spain.svg",
+  "auteur": "Heralder",
+  "credit": " [1]",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-06-24 14:38:18",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Coat of Arms of Spain",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "GFDL|Plus ultra|Royal coats of arms of Spain|License migration redundant|Self-published work|CoA Lab-es:Heralder|SVG coats of arms of Spain|Latin-language SVG|Invalid SVG created with Inkscape:CoA-HE|Quarterly, 1st Castile, 2nd Leon, 3rd Aragon, 4th Navarre, enté en point of Granada and overall Bourbon-Anjou",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "This coat of arms was drawn based on its <b><a href=\"https://en.wikipedia.org/wiki/blazon\" class=\"extiw\" title=\"w:blazon\">blazon</a></b> which – being a written description – <i>is free from copyright</i>. Any illustration conforming with the blazon of the arms is considered to be <i>heraldically correct</i>. Thus several different artistic interpretations of the same coat of arms can exist. Sometimes, the design officially used by the armiger is likely to be protected by copyright, in which case it cannot be used here.<br><small>Individual representations of a coat of arms, drawn from a blazon, may have a copyright belonging to the artist, but are not necessarily <a href=\"//commons.wikimedia.org/wiki/Commons:Derivative_works\" title=\"Commons:Derivative works\">derivative works</a>.</small><small><style data-mw-deduplicate=\"TemplateStyles:r428405392\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output .hatnote i,.mw-parser-output .hatnote.noitalic{font-style:normal}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output div.hatnote+div.hatnote{margin-top:-0.5em}@media print{.mw-parser-output .hatnote{display:none}}</style><div role=\"note\" class=\"hatnote navigation-not-searchable\">Further information: <a href=\"//commons.wikimedia.org/wiki/Commons:Coats_of_arms\" title=\"Commons:Coats of arms\">Commons:Coats of arms</a>  and <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Template:Coa_blazon\" title=\"Special:MyLanguage/Template:Coa blazon\">Template:Coa blazon</a> </div></small>",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2010-09-28",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:ISO_639_Icon_es.svg\" class=\"mw-file-description\" title=\"español\"><img alt=\"español\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/ISO_639_Icon_es.svg/40px-ISO_639_Icon_es.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"30\" height=\"14\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/ISO_639_Icon_es.svg/60px-ISO_639_Icon_es.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"400\" data-file-height=\"180\"></a></span> <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.boe.es/aeboe/consultas/bases_datos/doc.php?id=BOE-A-1981-24155#analisis\">[1]</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Heralder\" title=\"User:Heralder\">Heralder</a>",
+      "source": "commons-desc-page"
+    },
+    "Permission": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

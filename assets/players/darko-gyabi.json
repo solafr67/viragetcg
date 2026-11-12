@@ -1,0 +1,90 @@
+{
+  "joueur": "Darko Gyabi",
+  "fichier": "darko-gyabi.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/England_national_under-21_football_team",
+  "titre_page": "England national under-21 football team",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Arms_of_The_Football_Association_%28include_star%29.svg/960px-Arms_of_The_Football_Association_%28include_star%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Arms_of_The_Football_Association_(include_star).svg",
+  "auteur": "Sangjinhwa (originally America06)",
+  "credit": "File:Arms of The Football Association.svg",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-07-30 01:11:56",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Arms of The Football Association (include star)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "England national association football team|Coats of arms of the Football Association of England|SVG association football logos of England",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "The arms of The Football Association (The FA), include star version, drawn from from the blazon:\n<p>\"<i>Argent, semée of Tudor roses, three lions passant guardant in pale azure</i>\"\n</p><p>The heraldry is based on the national heraldry of England: the \"<i>three lions passant guardant in pale</i>\" (three lions walking and looking sideways, one atop the other) are like those of the mediaeval royal arms of the English kingdom, though the FA's three lions are \"<i>azure</i>\" (blue) and the royal arms' lions are \"<i>or armed and langued azure</i>\" (gold with blue claws and tongues). The Tudor rose is the national heraldic badge of England, uniting the white rose of the House of York with the red rose of the House of Lancaster. The ground colour of the shield (the \"field\") is \"<i>argent</i>\" (silver) a heraldic \"<i>metal</i>\" traditionally represented as white.\n</p>\nThe FA is the governing body of football in England (and the Isle of Man and the Channel Islands).",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2024-07-30",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/File:Arms_of_The_Football_Association.svg\" title=\"File:Arms of The Football Association.svg\">File:Arms of The Football Association.svg</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Sangjinhwa\" title=\"User:Sangjinhwa\">Sangjinhwa</a> (originally <a href=\"//commons.wikimedia.org/w/index.php?title=User:America06&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:America06 (page does not exist)\">America06</a>)",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

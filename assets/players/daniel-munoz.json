@@ -1,0 +1,86 @@
+{
+  "joueur": "Daniel Muñoz",
+  "fichier": "daniel-munoz.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Daniel_Mu%C3%B1oz_(footballer)",
+  "titre_page": "Daniel Muñoz (footballer)",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Daniel_Mu%C3%B1oz%2C_Colombia_NT_presidential_send-off%2C_Jun_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Daniel_Mu%C3%B1oz,_Colombia_NT_presidential_send-off,_Jun_2026.jpg",
+  "auteur": "Fotografía oficial de la Presidencia de Colombia",
+  "credit": "20260604 Despedida del Señor Presidente a Selección Colombiana Fútbol - Ovidio González 73",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-07-18 18:38:15",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Daniel Muñoz, Colombia NT presidential send-off, Jun 2026",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Extracted images|Flickr images missing SDC copyright status|Flickr images reviewed by FlickreviewR 2|PD-author-FlickrPDM|Files from the Fotografía oficial de la Presidencia de Colombia Flickr stream|Daniel Muñoz Mejía|2026 FIFA World Cup presidential send-off of Colombia national football team",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/Daniel_Mu%C3%B1oz_(footballer)\" class=\"extiw\" title=\"en:Daniel Muñoz (footballer)\">Daniel Muñoz</a>, Colombian footballer, during the presidential farewell of the Colombia national football team, prior to their trip for the <a href=\"https://en.wikipedia.org/wiki/2026_FIFA_World_Cup\" class=\"extiw\" title=\"en:2026 FIFA World Cup\">2026 FIFA World Cup</a>.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2026-06-04",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/197399771@N06/55314590848/in/album-72177720334024702\">20260604 Despedida del Señor Presidente a Selección Colombiana Fútbol - Ovidio González 73</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/197399771@N06/\">Fotografía oficial de la Presidencia de Colombia</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,111 @@
+{
+  "joueur": "Freddie Woodman",
+  "fichier": "freddie-woodman.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Freddie_Woodman",
+  "titre_page": "Freddie Woodman",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Freddie_Woodman_2021-08-07_1.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Freddie_Woodman_2021-08-07_1.jpg",
+  "auteur": "Mattythewhite",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2021-08-10 00:30:31",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Freddie Woodman 2021-08-07 1",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Freddie Woodman|Taken with Sony DSC-HX50|Self-published work|Extracted images|Photos by User:Mattythewhite|21st-century portrait photographs of standing men at three-quarter length|2021 portrait photographs of men|Newcastle United v Norwich City, 7 August 2021|Men of the United Kingdom in 2021|24-year-old human males",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "54.975556",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSLongitude": {
+      "value": "-1.621667",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/Freddie_Woodman\" class=\"extiw\" title=\"en:Freddie Woodman\">Freddie Woodman</a> playing for <a href=\"https://en.wikipedia.org/wiki/Newcastle_United_F.C.\" class=\"extiw\" title=\"en:Newcastle United F.C.\">Newcastle United</a> against <a href=\"https://en.wikipedia.org/wiki/Norwich_City_F.C.\" class=\"extiw\" title=\"en:Norwich City F.C.\">Norwich City</a> at <a href=\"https://en.wikipedia.org/wiki/St_James%27_Park\" class=\"extiw\" title=\"en:St James' Park\">St James' Park</a>, <a href=\"https://en.wikipedia.org/wiki/Newcastle_upon_Tyne\" class=\"extiw\" title=\"en:Newcastle upon Tyne\">Newcastle upon Tyne</a> on 7 August 2021",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2021-08-07 15:16:44",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mattythewhite\" title=\"User:Mattythewhite\">Mattythewhite</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

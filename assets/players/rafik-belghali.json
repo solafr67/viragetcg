@@ -1,0 +1,96 @@
+{
+  "joueur": "Rafik Belghali",
+  "fichier": "rafik-belghali.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/%C3%89quipe_d%27Alg%C3%A9rie_de_football_%C3%A0_la_Coupe_du_monde_2026",
+  "titre_page": "Équipe d'Algérie de football à la Coupe du monde 2026",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/960px-Flag_of_Algeria.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_Algeria.svg",
+  "auteur": "Original : National Liberation Front of Algeria Vecteur :  SKopp",
+  "credit": "SVG implementation of the 63-145 Algerian law \"on Characteristics of the Algerian national emblem\"",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-10-30 02:41:01",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of Algeria",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "PD ineligible|PD-Algeria|With insignia|SVG national flag of Algeria|Vectorizations|SVG flags of Algeria - aspect ratio of 3:2|Valid SVG created with Text Editor:Flags",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://fr.wikipedia.org/wiki/Drapeau_de_l%27Alg%C3%A9rie\" class=\"extiw\" title=\"fr:Drapeau de l'Algérie\">Drapeau de l'Algérie</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "1962-07-03",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/Scalable_Vector_Graphics\" class=\"extiw\" title=\"w:Scalable Vector Graphics\">SVG</a> implementation of the 63-145 Algerian law \"<i>on Characteristics of the Algerian national emblem</i>\"",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<div style=\"display:inline-block;padding:0 3px;background-color:#CCF\">Original :</div> <div style=\"display:inline-block;padding:3px 0;\">National Liberation Front of Algeria</div> <div style=\"display:inline-block;padding:0 3px;background-color:#CCF\">Vecteur : </div> <div style=\"display:inline-block;\"><a href=\"//commons.wikimedia.org/wiki/User:SKopp\" title=\"User:SKopp\">SKopp</a></div>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "copyright",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

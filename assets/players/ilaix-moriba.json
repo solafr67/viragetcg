@@ -1,0 +1,91 @@
+{
+  "joueur": "Ilaix Moriba",
+  "fichier": "ilaix-moriba.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Ilaix_Moriba",
+  "titre_page": "Ilaix Moriba",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Ilaix1.jpg/960px-Ilaix1.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Ilaix1.jpg",
+  "auteur": "Mamadou Saliou Barry - Fédération Guinéenne de Football",
+  "credit": "https://flickr.com/photos/196250323@N06/53466716209/in/album-72177720314104879/",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-01-15 22:28:35",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Ilaix1",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Flickr images reviewed by trusted users|Flickr images missing SDC creator|Flickr images missing SDC source of file|PD-author-FlickrPDM|Photographs taken on 2024-01-15|Cameroon v Guinea, 15 January 2024|Files from Fédération Guinéenne Football Flickr stream|Ilaix Moriba in 2024",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Moriba Kourouma avec la Guinée en 2024",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2024-01-15",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://flickr.com/photos/196250323@N06/53466716209/in/album-72177720314104879/\">https://flickr.com/photos/196250323@N06/53466716209/in/album-72177720314104879/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Mamadou Saliou Barry - Fédération Guinéenne de Football",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

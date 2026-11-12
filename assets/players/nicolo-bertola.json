@@ -1,0 +1,90 @@
+{
+  "joueur": "Nicolò Bertola",
+  "fichier": "nicolo-bertola.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Udinese_Calcio",
+  "titre_page": "Udinese Calcio",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Udinese_through_the_ages_2025.jpg/960px-Udinese_through_the_ages_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Udinese_through_the_ages_2025.jpg",
+  "auteur": "TThaarup",
+  "credit": "Own work",
+  "licence": "CC0",
+  "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-03-25 19:38:12",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Udinese through the ages 2025",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Udinese Calcio|CC-Zero|Graph images that should use vector graphics|Self-published work|JPG images that should use vector graphics|Charts of Italy|Sports-related charts",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "The performance of Udinese in the Italian football league structure since the first season of a unified Serie A (1929/30). Only seasons in the top four tiers appear in the graph. Also note that the graph does not reflect any regional subdivisions within a tier. Thus the graph does not give an accurate picture of the team's position in the football pyramid as a whole, but only within its regional subdivision. This is relevant for: All seasons of the fourth tier, the vast majority of third tier seasons, and a few Serie B seasons.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2026-03-25",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:TThaarup&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:TThaarup (page does not exist)\">TThaarup</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Zero, Public Domain Dedication",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

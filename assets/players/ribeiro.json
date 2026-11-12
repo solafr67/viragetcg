@@ -1,0 +1,101 @@
+{
+  "joueur": "Ribeiro",
+  "fichier": "ribeiro.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Adriano_(football,_f%C3%A9vrier_1982)",
+  "titre_page": "Adriano (football, février 1982)",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Adriano_2009.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Adriano_2009.jpg",
+  "auteur": "José Cruz/A Br",
+  "credit": "[1] [2]",
+  "licence": "CC BY 3.0 br",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2011-10-09 16:49:21",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Adriano 2009",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Photographs by Agencia Brasil|Images with extracted images|Adriano Leite Ribeiro",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "O presidente Lula recebe jogadores e dirigentes do Flamengo, campeão brasileiro de 2009, no Centro Cultural Banco do Brasil.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2011-10-09",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external autonumber\" href=\"http://fcodaniel1.wix.com/elpibedechalco#!299019_273487922680719_1534902929_njpg/zoom/cvz7/image221a\">[1]</a> <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://agenciabrasil.ebc.com.br/sites/_agenciabrasil/files/gallery_assist/3/gallery_assist638062/141209JFC3792.jpg\">[2]</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "José Cruz/A Br",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "<small><b><u>Au téléverseur</u></b>: Vous devez donner un lien (URL) vers le fichier d’origine et les informations sur l’auteur si elles sont disponibles.</small>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 3.0 br",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 3.0 br",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-3.0-br",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

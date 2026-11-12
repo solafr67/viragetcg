@@ -1,0 +1,90 @@
+{
+  "joueur": "Ionuț Radu",
+  "fichier": "ionut-radu.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Ionu%C8%9B_Radu",
+  "titre_page": "Ionuț Radu",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Ionu%C8%9B_Radu_2023.jpg/960px-Ionu%C8%9B_Radu_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Ionu%C8%9B_Radu_2023.jpg",
+  "auteur": "AFC Bournemouth",
+  "credit": "YouTube: Andrei's First Interview 🎥Romanian International 🇷🇴 joins on loan from Inter Milan – View/save archived versions on archive.org",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-08-16 19:14:11",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Ionuț Radu 2023",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Media from YouTube|Players of AFC Bournemouth|Players of Genoa CFC|Players of AJ Auxerre|Players of FC Internazionale Milano|Players of US Cremonese|Players of US Avellino 1912|Players of Romania national association football team|Files from external sources with reviewed licenses|Players of Parma Calcio 1913|Men's association football goalkeepers from Romania|Still images of YouTube videos",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Ionuț Radu in 2023",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2023-07-27",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<bdi lang=\"en\" dir=\"ltr\"><a href=\"//commons.wikimedia.org/wiki/Commons:YouTube_files\" title=\"Commons:YouTube files\">YouTube</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=kQ2ovBt3Poo\"><bdi lang=\"\">Andrei's First Interview 🎥Romanian International 🇷🇴 joins on loan from Inter Milan</bdi></a> – View/save archived versions on <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/*/https://www.youtube.com/watch?v=kQ2ovBt3Poo\">archive.org</a></bdi>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "AFC Bournemouth",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 3.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/3.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

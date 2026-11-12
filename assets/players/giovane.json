@@ -1,0 +1,96 @@
+{
+  "joueur": "Giovane",
+  "fichier": "giovane.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Giovane_%C3%89lber",
+  "titre_page": "Giovane Élber",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Giovane_%C3%89lber_-_2022236170448_2022-08-24_Champions_for_Charity_-_Sven_-_1D_X_MK_II_-_0137_-_AK8I2494.jpg/960px-Giovane_%C3%89lber_-_2022236170448_2022-08-24_Champions_for_Charity_-_Sven_-_1D_X_MK_II_-_0137_-_AK8I2494.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Giovane_%C3%89lber_-_2022236170448_2022-08-24_Champions_for_Charity_-_Sven_-_1D_X_MK_II_-_0137_-_AK8I2494.jpg",
+  "auteur": "Sven Mandel",
+  "credit": "Sven Mandel",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "personality",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-09-04 19:59:54",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Giovane Élber - 2022236170448 2022-08-24 Champions for Charity - Sven - 1D X MK II - 0137 - AK8I2494",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Personality rights warning|Uploaded with VicuñaUploader|Supported by Wikimedia Deutschland|Festivalsommer 2022|Items with ticket accreditation|Giovane Élber - Champions for Charity 2022|Files by User:Svema from de.wikipedia/People|Photographs by Sven Mandel in 2022-08",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "during Champions for Charity at Waldstadion, Frankfurt, Hessen, Germany on 2022-08-24, Photo: Sven Mandel",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2022-08-24",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "Sven Mandel",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Sven Mandel",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "personality",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,96 @@
+{
+  "joueur": "Lee Kang-in",
+  "fichier": "lee-kang-in.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Lee_Kang-in",
+  "titre_page": "Lee Kang-in",
+  "methode": "titre",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Lee_Kang-in_-_2022_%2852551771501%29_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Lee_Kang-in_-_2022_(52551771501)_(cropped).jpg",
+  "auteur": "Republic of  Korea from Seoul, Republic of Korea",
+  "credit": "Presidential_Dinner_for_Team_Korea_12",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-01-11 02:30:41",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Lee Kang-in - 2022 (52551771501) (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Lee Kang-in|Extracted images|Flickr images reviewed by FlickreviewR 2|Flickr images missing SDC published in",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<p>President Yoon Suk Yeol and first lady Kim Keon Hee host a dinner for the national football team.\n</p><p>December 8, 2022\n</p><p>Yeongbingwan, Cheong Wa Dae, Jongno-gu, Seoul\n</p><p>Presidential Security Service\nOfficial Photographer : Kang Min Seok\n</p><p>All photographs in the official Flikr account of the Republic of Korea are available only for publication by news organizations and/or for public purposes with proper attribution to the correct source (photographer and organizations mentioned above).\n</p><p>Any distortion to the original meaning of a photograph for provision to a third party through posting and resale, partial reproduction, falsification or use of the photograph with other images is strictly prohibited without the express written permission of the government of the Republic of Korea.\nThank you.\n</p>\n<hr>\n<p>윤석열 대통령과 김건희 여사가 8일 청와대 영빈관에서 축구 국가대표팀 환영 만찬을 가졌습니다. \n</p><p>2022-12-8\n</p><p>청와대 영빈관\n</p><p>대통령경호처\n강민석\n</p><p>플리커 채널 'Republic of Korea'에 게재되는 대한민국정부 사진은 올바른 저작권 이름 (촬영자 / 상기 명기된 기관)으로 표기한 이후 보도 혹은 공익목적으로 사용하실 수 있습니다.\n</p>\n의미를 왜곡하는 맥락에서 사진을 게시하고 재판매, 부분 복제, 변조 또는 다른 이미지에 통합하는 것과 같은 사진의 모든 수정, 자료를 제3자에게 제공하는 것은 대한민국정부(운영자/저작권자)의 명시적인 허가 없이 금지됩니다.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2022-12-08 19:01",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/koreanet/52551771501/\">Presidential_Dinner_for_Team_Korea_12</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/42438955@N05\">Republic of  Korea</a> from Seoul, Republic of Korea",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

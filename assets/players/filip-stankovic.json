@@ -1,0 +1,96 @@
+{
+  "joueur": "Filip Stanković",
+  "fichier": "filip-stankovic.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Filip_Stankovi%C4%87",
+  "titre_page": "Filip Stanković",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Filip_Stankovi%C4%87_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784046_%282023%29.jpg/960px-Filip_Stankovi%C4%87_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784046_%282023%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Filip_Stankovi%C4%87_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784046_(2023).jpg",
+  "auteur": "Carlo Bruil Fotografie",
+  "credit": "https://www.flickr.com/photos/131306819@N08/52914784046/",
+  "licence": "CC BY 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-08-28 07:37:53",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Filip Stanković - Go Ahead Eagles - FC Volendam - 52914784046 (2023)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Filip Stanković (footballer, born 2002)|Flickr images reviewed by FlickreviewR 2|Go Ahead Eagles v FC Volendam, 21 May 2023|Photographs by Carlo Bruil",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Deventer, Sunday 21 May 2023, seizoen 2022 / 2023 , wedstrijd tussen Go Ahead Eagles en FC Volendam, einduitslag 3-0 (1-0)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2023-05-21 15:16:08",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/131306819@N08/52914784046/\">https://www.flickr.com/photos/131306819@N08/52914784046/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Carlo Bruil Fotografie",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

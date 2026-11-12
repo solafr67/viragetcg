@@ -1,0 +1,86 @@
+{
+  "joueur": "Nicolas Kristof",
+  "fichier": "nicolas-kristof.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/SV_Elversberg",
+  "titre_page": "SV Elversberg",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/SV_Elversberg_Logo_2021.svg/960px-SV_Elversberg_Logo_2021.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:SV_Elversberg_Logo_2021.svg",
+  "auteur": "SV Elversberg",
+  "credit": "SV Elversberg - extracted from PDF",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-04-23 12:13:31",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "SV Elversberg Logo 2021",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "SVG association football logos of Germany|SV Elversberg|With trademark|PD textlogo|SVG text logos",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "SV Elversberg Logo ab 2021",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "07.2021",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "SV Elversberg - extracted from <a rel=\"nofollow\" class=\"external text\" href=\"https://sv07elversberg.de/wp-content/uploads/SVE_Stadionmagazin2122_Kickers_Offenbach_A4_4c_RZ_Ansicht.pdf\">PDF</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "SV Elversberg",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

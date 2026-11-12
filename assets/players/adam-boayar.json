@@ -1,0 +1,96 @@
+{
+  "joueur": "Adam Boayar",
+  "fichier": "adam-boayar.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Adam_Boayar",
+  "titre_page": "Adam Boayar",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/2025-12-03_-_Copa_del_Rey_de_f%C3%BAtbol%2C_C.D._Quintanar_del_Rey_contra_el_Elche_C.F_-_54962303553_%28cropped%29_Adam_Boayar.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:2025-12-03_-_Copa_del_Rey_de_f%C3%BAtbol,_C.D._Quintanar_del_Rey_contra_el_Elche_C.F_-_54962303553_(cropped)_Adam_Boayar.jpg",
+  "auteur": "Gobierno de Castilla-La Mancha",
+  "credit": "https://www.flickr.com/photos/gobjccm/54962303553/",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-12-05 21:55:52",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "2025-12-03 - Copa del Rey de fútbol, C.D. Quintanar del Rey contra el Elche C.F - 54962303553 (cropped) Adam Boayar",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Extracted images|2025 in the province of Cuenca|Spain photographs taken on 2025-12-03|2025-2026 Copa del Rey|Adam Boayar",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Quintanar del Rey (Cuenca), 3 de diciembre de 2025.- El vicepresidente primero del Gobierno regional, José Luis Martínez Guijarro, ha asistido al partido que disputan el C.D. Quintanar del Rey contra el Elche Club de Fútbol dentro de la Copa del Rey de fútbol. (Fotos: JCCM)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2025-12-03 21:56:45",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/gobjccm/54962303553/\">https://www.flickr.com/photos/gobjccm/54962303553/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Gobierno de Castilla-La Mancha",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

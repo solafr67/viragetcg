@@ -1,0 +1,96 @@
+{
+  "joueur": "David Soria",
+  "fichier": "david-soria.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/David_Soria",
+  "titre_page": "David Soria",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/05-05-2016_-_Sevilla_FC_-_FC_Shakhtar_Donetsk_-_3-1_%2826235556264%29.jpg/960px-05-05-2016_-_Sevilla_FC_-_FC_Shakhtar_Donetsk_-_3-1_%2826235556264%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:05-05-2016_-_Sevilla_FC_-_FC_Shakhtar_Donetsk_-_3-1_(26235556264).jpg",
+  "auteur": "Aleksandr Osipov from Ukraine",
+  "credit": "05/05/2016 - Sevilla FC - FC Shakhtar Donetsk - 3:1",
+  "licence": "CC BY-SA 2.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2016-05-09 14:22:24",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "05-05-2016 - Sevilla FC - FC Shakhtar Donetsk - 3-1 (26235556264)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Players of Sevilla FC|David Soria|Images with extracted images|Flickr images reviewed by FlickreviewR|Photographs by Alexander Osipov|2016-05-05 Sevilla vs Shakhtar Donetsk",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<p>EFA Europa League 2015/16. Semi-finals. Return leg.\n</p><p>May 5, 2016. Spain. Seville. Ramon Sanchez Pizjuan. 17 oC. Att: 41,269.\n</p><p>Sevilla, Spain 3-1 (1-1) Shakhtar Donetsk, Ukraine\n</p><p>Goals: 1-0 Gameiro (9), 1-1 Eduardo (44), 2-1 Gameiro (47), 3-1 Mariano Ferreira (59)\n</p><p>Sevilla: Soria, Tremoulinas (Escudero, 74), Rami, Krychowiak, Carriço, Gameiro (Iborra, 82), N'Zonzi, Banega (Cristoforo, 89), Vitolo, Coke (c), Mariano Ferreira\n</p><p>Unused subs: Rico, Pareja, Konoplyanka, Llorente\n</p><p>Head coach: Unai Emery\n</p><p>Shakhtar: Pyatov, Srna (c), Kucher, Rakits’kyy, Ismaily, Stepanenko, Malyshev, Kovalenko, Taison (Bernard, 76), Marlos (Nem, 84), Eduardo (Dentinho, 84)\n</p><p>Unused subs: Kanibolotskyi, Kobin, Ordets, Facundo Ferreyra\n</p><p>Head coach: Mircea Lucescu\n</p><p>Booked: Marlos (11), Rakits’kyy (14) Kucher (20), Banega (30), Srna (48), Eduardo (61), Stepanenko (76), Vitolo (87), Ismaily (90)\n</p>\nReferee: Bjorn Kuipers (Netherlands)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2016-05-06 02:37",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/da_belkin/26235556264/\">05/05/2016 - Sevilla FC - FC Shakhtar Donetsk - 3:1</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/15267882@N06\">Aleksandr Osipov</a> from Ukraine",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-2.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

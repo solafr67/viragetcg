@@ -1,0 +1,96 @@
+{
+  "joueur": "Eliesse Ben Seghir",
+  "fichier": "eliesse-ben-seghir.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Eliesse_Ben_Seghir",
+  "titre_page": "Eliesse Ben Seghir",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Eliesse_Ben_Seghir_vs_Niger_%28cropped_2%29.jpg/960px-Eliesse_Ben_Seghir_vs_Niger_%28cropped_2%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Eliesse_Ben_Seghir_vs_Niger_(cropped_2).jpg",
+  "auteur": "Laloumance",
+  "credit": "Photo de Laloumance, transmise à l’utilisateur A.Nawfel ; autorisation envoyée à permissions-commons@wikimedia.org le 2025-09-10.",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-12-17 20:55:05",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Eliesse Ben Seghir vs Niger (cropped 2)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Extracted images|Number 13 on association football kits|Eliesse Ben Seghir|Morocco v Niger, 5 September 2025",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Eliesse Ben Seghir en action au Stade Moulay Abdellah de Rabat contre le Niger.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2025-09-05",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "Photo de <b>Laloumance</b>, transmise à l’utilisateur A.Nawfel ; autorisation envoyée à permissions-commons@wikimedia.org le 2025-09-10.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Laloumance",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

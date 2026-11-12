@@ -1,0 +1,111 @@
+{
+  "joueur": "Raffaele Di Gennaro",
+  "fichier": "raffaele-di-gennaro.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Finale_de_la_Ligue_des_champions_de_l%27UEFA_2024-2025",
+  "titre_page": "Finale de la Ligue des champions de l'UEFA 2024-2025",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Allianz_arena_golden_hour_Richard_Bartz.jpg/960px-Allianz_arena_golden_hour_Richard_Bartz.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Allianz_arena_golden_hour_Richard_Bartz.jpg",
+  "auteur": "Richard Bartz, Munich aka Makro Freak ",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 2.5",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2008-03-10 02:48:40",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Allianz arena golden hour Richard Bartz",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Photographs by User:Richard Bartz|Featured pictures on Wikipedia, Spanish|Featured pictures on Wikipedia, Turkish|Files with coordinates missing SDC location of creation (48° N, 11° E)|Allianz Arena red illumination",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "quality",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "48.214181",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSLongitude": {
+      "value": "11.630524",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "L'Allianz Arena est un stade de football situé au nord de <a href=\"https://fr.wikipedia.org/wiki/Munich\" class=\"extiw\" title=\"fr:Munich\">Munich</a>, en Allemagne. Les deux clubs professionnels de Munich (FC Bayern et TSV 1860) jouent leur match à domicile dans ce stade depuis fin 2005. Le stade est surnommé le « Schlauchboot » (canot pneumatique) en raison de son aspect.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2008-01-08",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Richard_Bartz\" title=\"User:Richard Bartz\">Richard Bartz</a>, Munich aka <a href=\"//commons.wikimedia.org/wiki/User:Makro_Freak\" title=\"User:Makro Freak\">Makro Freak</a> <span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Makro_Freak_bar.jpg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/8/8b/Makro_Freak_bar.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled\" decoding=\"async\" loading=\"lazy\" width=\"80\" height=\"15\" class=\"mw-file-element\" data-file-width=\"80\" data-file-height=\"15\"></a></span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 2.5",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 2.5",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/2.5",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-2.5",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

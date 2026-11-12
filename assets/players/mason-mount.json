@@ -1,0 +1,101 @@
+{
+  "joueur": "Mason Mount",
+  "fichier": "mason-mount.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Mason_Mount",
+  "titre_page": "Mason Mount",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/2022_FIFA_World_Cup_England_6%E2%80%932_Iran_-_%2838%29_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:2022_FIFA_World_Cup_England_6%E2%80%932_Iran_-_(38)_(cropped).jpg",
+  "auteur": "مهدی مریزاد",
+  "credit": "جام جهانی ۲۰۲۲ ایران ۲ - ۶ انگلیس",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-11-24 15:25:03",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "2022 FIFA World Cup England 6–2 Iran - (38) (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Mason Mount|2022 FIFA World Cup Match 2, England v Iran|Extracted images|Photographs from farsnews.ir|Photos by Mehdi Marizad for Fars News Agency",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "جام جهانی ۲۰۲۲ ایران ۲ - ۶ انگلیس",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2022-11-21 18:54:29",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.farsnews.ir/photo/14010830000657/%D8%AC%D8%A7%D9%85-%D8%AC%D9%87%D8%A7%D9%86%DB%8C-2022-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-2--6-%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%B3\">جام جهانی ۲۰۲۲ ایران ۲ - ۶ انگلیس</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "مهدی مریزاد",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "Fars Media Corporation",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

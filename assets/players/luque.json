@@ -1,0 +1,90 @@
+{
+  "joueur": "Luque",
+  "fichier": "luque.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Luque",
+  "titre_page": "Luque",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Hotel_Bourbon-Conmebol_%28costado%29.JPG/960px-Hotel_Bourbon-Conmebol_%28costado%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Hotel_Bourbon-Conmebol_(costado).JPG",
+  "auteur": "Hazaña17",
+  "credit": "Own work",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2014-05-04 04:04:13",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Hotel Bourbon-Conmebol (costado)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Taken with Panasonic Lumix DMC-S2|Museum of the Conmebol|Self-published work|CONMEBOL Headquarter",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Costado del denominado oficialmente como 'Bourbon Conmebol Convention Hotel', situado en Luque, Paraguay, en inmediaciones de las oficinas de la Confederación Sudamericana de Fútbol. Por detrás, pegado a éste, se observa el Museo de la Conmebol.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2014-01-19 15:38:04",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Haza%C3%B1a17\" title=\"User:Hazaña17\">Hazaña17</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}
