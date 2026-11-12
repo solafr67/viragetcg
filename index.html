@@ -69,6 +69,32 @@ h1,h2,h3{font-family:var(--disp);text-transform:uppercase;letter-spacing:.02em;m
 @media(max-width:480px){.snd,.bell{width:36px!important;height:36px!important;margin-right:6px!important}}
 .btn.pulse{animation:tpulse 1.2s ease-in-out 2}
 @keyframes tpulse{50%{box-shadow:0 0 0 6px rgba(245,196,81,.35),0 6px 22px rgba(245,196,81,.28)}}
+.pk-hint{margin:6px 0 18px;color:var(--mute);font-size:14px}
+.offer .pack[data-act]{cursor:pointer}.offer .pack[data-act]:focus-visible{outline:3px solid var(--gold);outline-offset:6px}
+.pko{position:fixed;inset:0;z-index:60;display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:radial-gradient(60% 50% at 50% 40%,rgba(30,50,100,.55),rgba(4,8,18,.92));backdrop-filter:blur(6px);overflow-y:auto}
+.pko-in{position:relative;display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;width:min(460px,100%);padding:10px 0}
+.pko.in .pko-in{animation:pkoIn .35s cubic-bezier(.2,.9,.3,1.2)}
+@keyframes pkoIn{from{opacity:0;transform:scale(.9) translateY(20px)}}
+.pko-x{position:absolute;right:0;top:0;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--fg);font-size:26px;line-height:1;cursor:pointer;z-index:3}
+.pko-stack{position:relative;margin:18px 0 6px;filter:drop-shadow(0 30px 50px rgba(0,0,0,.6))}
+.pko-stack .pack{--pw:min(250px,58vw)}
+.pko-p{position:relative;z-index:2;animation:pkoFloat 3.2s ease-in-out infinite}
+@keyframes pkoFloat{50%{transform:translateY(-10px) rotate(-1.5deg)}}
+.pko-g{position:absolute;inset:0;opacity:.55;transition:transform .3s}
+.pko-g.g1{transform:translate(18px,8px) rotate(6deg)}.pko-g.g2{transform:translate(-18px,10px) rotate(-7deg)}
+.pko-stack .p-x{right:-18px;top:-10px;z-index:4}
+.pko-in h2{font-size:34px}.pko-d{margin:-6px 0 0;color:var(--mute)}
+.pko-in .qty{margin:4px 0}.pko-in .qty button{font-size:18px;padding:10px 22px}
+.pko-act{display:grid;gap:10px;width:100%}.pko-act .btn{width:100%;padding:15px 16px;font-size:16px}
+.pko-act .btn small{display:block;font-size:12px;font-weight:600;opacity:.75;margin-top:2px}
+.pko-no{margin:0;color:#FF9AA5;font-size:14px}
+.flip.hid{cursor:pointer}
+.flip.hid .face.back{border-color:#F5C451;box-shadow:0 0 18px rgba(245,196,81,.55),0 0 50px rgba(245,196,81,.25);animation:hidPulse 1.4s ease-in-out infinite}
+.flip.hid .face.back::after{content:"Touche";position:absolute;bottom:8%;left:0;right:0;font-family:var(--body);font-size:max(10px,calc(var(--w)*.09));font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#F5C451;text-align:center}
+.flip.hid:hover .flip-in{transform:translateY(-4px) rotate(-1deg)}
+@keyframes hidPulse{50%{box-shadow:0 0 28px rgba(245,196,81,.85),0 0 80px rgba(245,196,81,.35)}}
+@keyframes hintPulse{50%{opacity:.55}}
+.st-hint{position:relative;z-index:6;margin:14px 16px 0;font-weight:700;color:#F5C451;text-align:center;animation:hintPulse 1.4s ease-in-out infinite;text-shadow:0 2px 10px rgba(0,0,0,.6)}
 .qty{display:inline-flex;align-items:center;gap:4px;padding:4px;border:1px solid var(--line);border-radius:12px;background:var(--panel);margin:4px 0 18px}
 .qty span{font-size:13px;color:var(--mute);font-weight:600;padding:0 8px}
 .qty button{border:0;background:transparent;color:var(--mute);font:inherit;font-weight:800;padding:8px 14px;border-radius:9px;cursor:pointer}
@@ -484,20 +510,20 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
       <div>
         <div class="eyebrow">Boutique · Saison 2026-27</div>
         <h1>Ouvre un booster,<br><em>décroche un Mythique</em></h1>
-        <div class="qty" role="group" aria-label="Nombre de boosters à ouvrir"><span>Ouvrir</span><button type="button" data-act="qty" data-n="1">×1</button><button type="button" data-act="qty" data-n="5">×5</button><button type="button" data-act="qty" data-n="10">×10</button></div>
+        <p class="pk-hint">Touche un booster pour l'afficher et en ouvrir 1, 5 ou 10 d'un coup.</p>
         <div class="packs">
           <div class="panel offer" style="--halo:#0EA5E9">
-            <div class="pack"><span class="p-sheen"></span><span class="p-t">Top 5</span><span class="p-s">Europe</span><span class="p-d"><i></i><i></i><i></i><i></i><i></i></span><span class="p-n">5 cartes</span></div>
+            <div class="pack" data-act="pk" data-k="std" role="button" tabindex="0" aria-label="Afficher le Booster Top 5 Europe"><span class="p-sheen"></span><span class="p-t">Top 5</span><span class="p-s">Europe</span><span class="p-d"><i></i><i></i><i></i><i></i><i></i></span><span class="p-n">5 cartes</span></div>
             <h3>Booster Top 5 Europe</h3>
             <p>5 cartes tirées dans les cinq grands championnats.</p>
-            <button type="button" class="btn gold" data-act="free" id="buy-free">Ouvrir un booster gratuit</button>
-            <button type="button" class="btn ghost" data-act="open" data-k="std" id="buy-std">Ouvrir un Booster Top 5 Europe · <span class="coin sm"></span> 500</button>
+            <button type="button" class="btn gold" data-act="pk" data-k="std" id="buy-free">Booster gratuit</button>
+            <button type="button" class="btn ghost" data-act="pk" data-k="std" id="buy-std">Ouvrir un Booster Top 5 Europe · <span class="coin sm"></span> 500</button>
           </div>
           <div class="panel offer" style="--halo:#F5C451">
-            <div class="pack elite"><span class="p-sheen"></span><span class="p-t">Élite</span><span class="p-s">Europe</span><span class="p-d"><i></i><i></i><i></i><i></i><i></i></span><span class="p-n">Rare garanti</span></div>
+            <div class="pack elite" data-act="pk" data-k="elite" role="button" tabindex="0" aria-label="Afficher le Booster Élite"><span class="p-sheen"></span><span class="p-t">Élite</span><span class="p-s">Europe</span><span class="p-d"><i></i><i></i><i></i><i></i><i></i></span><span class="p-n">Rare garanti</span></div>
             <h3>Booster Élite</h3>
             <p>5 cartes dont une Rare ou mieux à coup sûr.</p>
-            <button type="button" class="btn ghost" data-act="open" data-k="elite" id="buy-elite">Ouvrir un Booster Élite · <span class="coin sm"></span> 1 500</button>
+            <button type="button" class="btn ghost" data-act="pk" data-k="elite" id="buy-elite">Ouvrir un Booster Élite · <span class="coin sm"></span> 1 500</button>
           </div>
         </div>
         <h3 style="font-size:22px;margin-top:28px">Boosters par championnat</h3>
@@ -640,6 +666,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
 
 <div class="mt" id="mt" hidden></div>
 <div class="modal" id="modal" hidden><div class="sheet" id="sheet"></div></div>
+<div class="pko" id="pko" hidden><div class="pko-in" id="pko-in" role="dialog" aria-modal="true" aria-label="Ouvrir des boosters"></div></div>
 <div class="stage" id="stage" hidden>
   <div class="st-rays"></div><div class="st-glow"></div>
   <canvas id="fx"></canvas>
@@ -648,6 +675,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
   <div class="st-pack" id="st-pack"></div>
   <div class="st-row" id="st-row" hidden></div>
   <div class="st-sum" id="st-sum" hidden></div>
+  <p class="st-hint" id="st-hint" hidden></p>
   <button type="button" class="btn ghost st-skip" data-act="skip" id="st-skip">Passer</button>
 </div>
 <div class="toast" id="toast" role="status"></div>
@@ -3036,11 +3064,9 @@ function hud(){
   if(shownCoins!==null&&shownCoins!==S.coins)SFX.play(S.coins>shownCoins?'coin':'spend');
   if(shownCoins!==null&&shownCoins!==S.coins){const w=$('#wallet');w.classList.remove('bump');void w.offsetWidth;w.classList.add('bump')}
   shownCoins=S.coins;
-  document.querySelectorAll('[data-act=qty]').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.n===QTY));
-  const lab=(n,name)=>n>1?`Ouvrir ${n} ${name}`:`Ouvrir un ${name}`;
-  $('#buy-std').disabled=S.coins<PACKS.std.cost*QTY;$('#buy-std').innerHTML=`${lab(QTY,QTY>1?'Boosters Top 5':'Booster Top 5 Europe')} · <span class="coin sm"></span> ${fmt(PACKS.std.cost*QTY)}`;
-  $('#buy-elite').disabled=S.coins<PACKS.elite.cost*QTY;$('#buy-elite').innerHTML=`${lab(QTY,QTY>1?'Boosters Élite':'Booster Élite')} · <span class="coin sm"></span> ${fmt(PACKS.elite.cost*QTY)}`;
-  document.querySelectorAll('#lgpacks .lgp').forEach(b=>{const c=750*QTY;b.disabled=S.coins<c;const sm=b.querySelector('.lgp-c');if(sm)sm.innerHTML=`${QTY>1?QTY+' × ':''}<span class="coin sm"></span> ${fmt(c)}`});
+  $('#buy-std').innerHTML=`Ouvrir des Boosters Top 5 · <span class="coin sm"></span> ${fmt(PACKS.std.cost)}`;
+  $('#buy-elite').innerHTML=`Ouvrir des Boosters Élite · <span class="coin sm"></span> ${fmt(PACKS.elite.cost)}`;
+  if(!$('#pko').hidden)pkDraw();
   document.querySelectorAll('.lgp').forEach(b=>{b.disabled=S.coins<750});
 }
 function shop(){
@@ -3057,7 +3083,7 @@ function freeUI(){
   $('#pips').innerHTML=Array.from({length:FREE_MAX},(_,i)=>`<i class="${i<f.n?'on':''}"></i>`).join('');
   const left=Math.max(0,Math.ceil((f.t+FREE_MS-nowMs())/1000)),clock=Math.floor(left/60)+':'+String(left%60).padStart(2,'0');
   $('#free-txt').textContent=f.n>=FREE_MAX?`Stock plein : ${FREE_MAX} / ${FREE_MAX}. Ouvres-en un pour relancer le compteur.`:`${f.n} / ${FREE_MAX} en stock · prochain dans ${clock}`;
-  const b=$('#buy-free'),k=Math.min(QTY,f.n);b.disabled=f.n<1;b.textContent=f.n>0?(k>1?`Ouvrir ${k} boosters gratuits · ${f.n} en stock`:`Ouvrir un booster gratuit · ${f.n} en stock`):`Prochain gratuit dans ${clock}`;
+  const b=$('#buy-free');b.disabled=f.n<1;b.textContent=f.n>0?`${f.n>1?f.n+' boosters gratuits':'1 booster gratuit'} en stock · Ouvrir`:`Prochain gratuit dans ${clock}`;
 }
 const F={r:-1,lg:'',club:'',grp:'',q:'',own:false,sort:'',n:60,sig:''};
 function collection(){
@@ -3449,6 +3475,20 @@ function roll(min){
 function flashGo(){const f=$('#st-flash');f.classList.remove('go');void f.offsetWidth;f.classList.add('go')}
 let QTY=1;try{QTY=[1,5,10].includes(+localStorage.getItem('virage-qty'))?+localStorage.getItem('virage-qty'):1}catch(e){}
 const plur=(n,a,b)=>n>1?b:a;
+let PKO=null;
+function pkShow(k){if(busy||!PACKS[k])return;PKO=k;pkDraw();const o=$('#pko');o.hidden=false;o.classList.remove('in');void o.offsetWidth;o.classList.add('in');SFX.play('tap')}
+function pkClose(){$('#pko').hidden=true;PKO=null}
+function pkDraw(){
+  const k=PKO,pk=PACKS[k];if(!pk)return;accrue();
+  const n=QTY,fr=k==='std'?S.free.n:0,fk=Math.min(n,fr),cost=pk.cost*n,can=S.coins>=cost;
+  const desc=k==='elite'?'5 cartes dont une Rare ou mieux à coup sûr.':pk.lg?`5 cartes tirées uniquement en ${pk.lg}.`:'5 cartes tirées dans les cinq grands championnats.';
+  $('#pko-in').innerHTML=`<button type="button" class="pko-x" data-act="pk-x" aria-label="Fermer">×</button>
+  <div class="pko-stack${n>1?' many':''}">${n>1?`<div class="pko-g g2">${packHTML(pk)}</div><div class="pko-g g1">${packHTML(pk)}</div>`:''}<div class="pko-p">${packHTML(pk)}</div>${n>1?`<span class="p-x num">×${n}</span>`:''}</div>
+  <h2>${k==='std'?'Booster Top 5 Europe':k==='elite'?'Booster Élite':'Booster '+pk.lg}</h2><p class="pko-d">${desc}</p>
+  <div class="qty" role="group" aria-label="Nombre de boosters"><button type="button" data-act="pk-n" data-n="1" aria-pressed="${n===1}">×1</button><button type="button" data-act="pk-n" data-n="5" aria-pressed="${n===5}">×5</button><button type="button" data-act="pk-n" data-n="10" aria-pressed="${n===10}">×10</button></div>
+  <div class="pko-act">${fr>0?`<button type="button" class="btn gold" data-act="pk-go" data-k="std" data-free="1">Ouvrir ${fk>1?fk+' boosters gratuits':'un booster gratuit'}<small>${fr} en stock</small></button>`:''}<button type="button" class="btn ${fr>0?'ghost':'gold'}" data-act="pk-go" data-k="${k}"${can?'':' disabled'}>Ouvrir ${n>1?n+' boosters':'le booster'} · <span class="coin sm"></span> ${fmt(cost)}</button></div>
+  ${!can&&!fr?`<p class="pko-no">Il te manque ${fmt(cost-S.coins)} pièces.${k==='std'?' Un booster gratuit arrive toutes les 10 minutes.':''}</p>`:''}`;
+}
 function rollLocal(kind,free){
   const pk=PACKS[kind],res=[];let refund=0,news=0;
   if(free){if(S.free.n>=FREE_MAX)S.free.t=Date.now();S.free.n--}else S.coins-=pk.cost;
@@ -3486,7 +3526,7 @@ async function openPack(kind,free,n){
   if(!free)SFX.play('spend');shownCoins=+String($('#coins').textContent).replace(/\D/g,'')||S.coins;
   const best=res[res.length-1].p.r,multi=n>1,st=$('#stage'),pe=$('#st-pack'),row=$('#st-row'),sum=$('#st-sum');
   st.className='stage';st.style.setProperty('--tease','#FFFFFF');
-  pe.className='st-pack';pe.hidden=false;row.hidden=true;row.innerHTML='';sum.hidden=true;$('#st-skip').hidden=false;
+  pe.className='st-pack';pe.hidden=false;row.hidden=true;row.innerHTML='';sum.hidden=true;$('#st-skip').hidden=false;$('#st-skip').textContent='Passer';$('#st-hint').hidden=true;
   pe.innerHTML=packHTML(pk)+(multi?`<span class="p-x num">×${n}</span>`:'');
   st.hidden=false;fit();
   await sleep(multi?550:750);
@@ -3502,34 +3542,34 @@ async function openPack(kind,free,n){
   row.innerHTML=res.map((x,i)=>`<div class="flip" style="--i:${multi?Math.min(i,20):i};--rc:${RAR[x.p.r].c}"><div class="flip-in"><div class="face back">V</div><div class="face front">${cardHTML(x.p,{attrs:''})}</div></div><div class="tag${x.isNew?' new':''}">${x.isNew?'Nouvelle':multi?'':NET?'Doublon':'Doublon +'+RAR[x.p.r].sell}</div></div>`).join('');
   row.hidden=false;
   await sleep(multi?700:1000);
-  const flips=[...row.children],WAIT=[0,0,250,800,1400,2100],N=[8,12,22,50,100,170];
+  const flips=[...row.children],hid=[];
+  res.forEach((x,i)=>{if(x.p.r>=3){hid.push(i);const f=flips[i];f.classList.add('hid');f.dataset.act='rv';f.dataset.i=i;f.setAttribute('role','button');f.setAttribute('aria-label','Révéler cette carte')}});
+  // les cartes jusqu'à Rare se retournent seules
   if(multi){
-    // les cartes communes se retournent en cascade, les plus rares une par une
     const lowN=res.filter(x=>x.p.r<=1).length;
     for(let i=0;i<lowN;i++){flips[i].classList.add('open');if(!skip&&i%4===0)SFX.play('flip');if(!skip)await sleep(28)}
     if(lowN&&!skip){SFX.play('r1');await sleep(350)}
-    for(let i=lowN;i<res.length;i++){
-      const r=res[i].p.r,el=flips[i];
-      if(!skip){el.scrollIntoView({block:'nearest',behavior:'smooth'});if(r>=3){el.classList.add('charge');SFX.play('charge',WAIT[r]/2000);await sleep(WAIT[r]/2)}}
+    for(let i=lowN;i<res.length;i++){if(res[i].p.r>=3)break;const el=flips[i];
+      if(!skip)el.scrollIntoView({block:'nearest',behavior:'smooth'});
+      el.classList.add('open');if(!skip){SFX.play('flip');SFX.play('r2')}
+      const [x,y]=mid(el);burst(x,y,RAR[2].c,11,.9);if(!skip)await sleep(200)}
+  }else{
+    for(let i=0;i<5;i++){const r=res[i].p.r,el=flips[i];if(r>=3)break;
+      if(r===2){el.classList.add('charge');if(!skip)SFX.play('charge',WAIT[r]/1000);if(!skip)await sleep(WAIT[r])}
       el.classList.add('open');if(!skip){SFX.play('flip');SFX.play('r'+r)}
       st.style.setProperty('--tease',RAR[r].c);
-      const [x,y]=mid(el);burst(x,y,RAR[r].c,Math.round(N[r]/2),r>=4?1.4:.9);
-      if(r>=4&&!skip){flashGo();const c=$('#st-call');c.textContent=RAR[r].n+' !';c.classList.remove('go');void c.offsetWidth;c.classList.add('go')}
-      if(!skip)await sleep(r>=4?1100:r===3?520:200);
-      el.classList.remove('charge');
+      const [x,y]=mid(el);burst(x,y,RAR[r].c,N[r],1);
+      if(!skip)await sleep(r===2?520:420);el.classList.remove('charge');
     }
-    if(skip)SFX.play('r'+best);
-  }else{
-    for(let i=0;i<5;i++){
-      const r=res[i].p.r,el=flips[i];
-      if(r>=2){el.classList.add('charge');if(!skip)SFX.play('charge',WAIT[r]/1000);await sleep(WAIT[r])}
-      el.classList.add('open');if(!skip||i===4){SFX.play('flip');SFX.play(skip?'r'+best:'r'+r)}
-      st.style.setProperty('--tease',RAR[r].c);
-      const [x,y]=mid(el);burst(x,y,RAR[r].c,N[r],r>=4?1.6:1);
-      if(r>=4&&!skip){flashGo();const c=$('#st-call');c.textContent=RAR[r].n+' !';c.classList.remove('go');void c.offsetWidth;c.classList.add('go')}
-      await sleep(r>=4?1500:r===3?800:420);
-      el.classList.remove('charge');
-    }
+  }
+  // les Épiques et mieux restent de dos : le joueur les retourne
+  if(hid.length){
+    RV={res,flips,st,left:hid.length,best,busy:0};RV.wait=new Promise(r=>RV.done=r);
+    const h=$('#st-hint');h.textContent=hid.length>1?`${hid.length} cartes spéciales : touche-les pour les révéler`:'Une carte spéciale : touche-la pour la révéler';h.hidden=false;
+    $('#st-skip').textContent='Tout révéler';
+    if(skip)revealAll();
+    else{flips[hid[0]].scrollIntoView({block:'nearest',behavior:'smooth'});SFX.play('charge',.4)}
+    await RV.wait;$('#st-hint').hidden=true;RV=null;await sleep(skip?150:500);
   }
   $('#st-skip').hidden=true;
   const cnt=[0,0,0,0,0,0];res.forEach(x=>cnt[x.p.r]++);
@@ -3538,11 +3578,27 @@ async function openPack(kind,free,n){
   sum.innerHTML=`<p>${multi?`<b>${n}</b> boosters · `:''}<b>${news}</b> nouvelle${news>1?'s':''} carte${news>1?'s':''}${refund?` · doublons revendus <b>+${fmt(refund)}</b> pièces`:''}${ups?` · niveau ${level()} atteint <b>+${fmt(upc(ups))}</b>`:''}</p>${tally}<div class="row" style="justify-content:center">${S.free.n>0?`<button type="button" class="btn gold" data-act="free">Ouvrir ${Math.min(QTY,S.free.n)>1?Math.min(QTY,S.free.n)+' gratuits':'un gratuit'} · ${S.free.n} en stock</button>`:''}<button type="button" class="btn ${S.free.n>0?'ghost':'gold'}" data-act="again" data-k="${kind}"${S.coins<againCost?' disabled':''}>Rouvrir${again>1?' ×'+again:''} · ${fmt(againCost)} pièces</button><button type="button" class="btn ghost" data-act="stage-col">Voir la collection</button><button type="button" class="btn ghost" data-act="stage-close">Fermer</button></div>`;
   sum.hidden=false;renderAll();busy=false;if(ups)setTimeout(()=>SFX.play('level'),350);
 }
+const WAIT=[0,0,250,700,1200,1800],N=[8,12,22,50,100,170];let RV=null;
+async function revealOne(i,fast){
+  const R=RV;if(!R)return;const el=R.flips[i];if(!el||!el.classList.contains('hid'))return;
+  el.classList.remove('hid');el.removeAttribute('data-act');el.removeAttribute('role');
+  const r=R.res[i].p.r;
+  if(!fast){el.classList.add('charge');SFX.play('charge',WAIT[r]/1000);await sleep(WAIT[r])}
+  el.classList.add('open');if(!fast){SFX.play('flip');SFX.play('r'+r)}
+  R.st.style.setProperty('--tease',RAR[r].c);
+  const [x,y]=mid(el);burst(x,y,RAR[r].c,fast?Math.round(N[r]/3):N[r],r>=4?1.6:1);
+  if(r>=4&&!fast){flashGo();const c=$('#st-call');c.textContent=RAR[r].n+' !';c.classList.remove('go');void c.offsetWidth;c.classList.add('go')}
+  setTimeout(()=>el.classList.remove('charge'),fast?0:900);
+  if(--R.left===0)R.done();
+}
+function revealAll(){const R=RV;if(!R)return;const l=R.flips.map((f,i)=>f.classList.contains('hid')?i:-1).filter(i=>i>=0);if(!l.length)return;
+  SFX.play('flip');SFX.play('r'+Math.max(...l.map(i=>R.res[i].p.r)));l.forEach(i=>revealOne(i,true))}
 function closeStage(){$('#stage').hidden=true;$('#st-row').innerHTML='';parts=[]}
 
 /* ---------- Actions ---------- */
 let resetArmed=0;
-document.addEventListener('click',e=>{
+document.addEventListener('keydown',e=>{const el=e.target;if((e.key==='Enter'||e.key===' ')&&el.matches&&el.matches('.pack[data-act=pk]')){e.preventDefault();pkShow(el.dataset.k)}});
+document.addEventListener('click',e=>{if(e.target.id==='pko'){pkClose();return}
   if(e.target.id==='modal'){closeModal();return}
   const el=e.target.closest('[data-act]');if(!el)return;
   const a=el.dataset.act,id=el.dataset.id;
@@ -3550,11 +3606,15 @@ document.addEventListener('click',e=>{
   else if(a==='nav'){SFX.play('tap');go(el.dataset.v,true)}
   else if(a==='open')openPack(el.dataset.k);
   else if(a==='again'){if(!el.disabled)openPack(el.dataset.k)}
-  else if(a==='skip')skip=true;
+  else if(a==='skip'){skip=true;if(RV)revealAll()}
   else if(a==='stage-close')closeStage();
   else if(a==='stage-col'){closeStage();go('collection',true)}
   else if(a==='free')openPack('std',true);
-  else if(a==='qty'){QTY=+el.dataset.n;try{localStorage.setItem('virage-qty',QTY)}catch(e){}SFX.play('tap');hud();shop()}
+  else if(a==='pk')pkShow(el.dataset.k);
+  else if(a==='pk-x')pkClose();
+  else if(a==='pk-n'){QTY=+el.dataset.n;try{localStorage.setItem('virage-qty',QTY)}catch(e){}SFX.play('tap');pkDraw()}
+  else if(a==='pk-go'){if(el.disabled)return;const k=el.dataset.k,f=!!el.dataset.free;pkClose();openPack(k,f,QTY)}
+  else if(a==='rv')revealOne(+el.dataset.i,false);
   else if(a==='noimg'){delete IMG[id];saveImg();renderAll();detail(id)}
   else if(a==='card')detail(id);
   else if(a==='fav'){SFX.play('fav');const i=S.favs.indexOf(id);i<0?S.favs.push(id):S.favs.splice(i,1);save();profile();detail(id)}
@@ -3612,7 +3672,7 @@ document.addEventListener('click',e=>{
   }
 });
 document.addEventListener('keydown',e=>{
-  if(e.key==='Escape'){if(!$('#modal').hidden)closeModal();else if(!$('#stage').hidden&&!busy)closeStage()}
+  if(e.key==='Escape'){if(!$('#pko').hidden)pkClose();else if(!$('#modal').hidden)closeModal();else if(!$('#stage').hidden&&!busy)closeStage()}
   if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('[role=button][data-act]')){e.preventDefault();e.target.click()}
 });
 function thumb(file){return new Promise((ok,ko)=>{
@@ -3636,7 +3696,7 @@ $('#f-wish').addEventListener('change',e=>{F.wish=e.target.checked;collection()}
 $('#f-sort').addEventListener('change',e=>{F.sort=e.target.value;collection()});
 setInterval(freeUI,1000);
 
-$('#lgpacks').innerHTML=Object.keys(LGP).map(l=>{const g=LGP[l];return `<button type="button" class="lgp" data-act="open" data-k="${g[0]}" style="--a:${g[2]};--b:${g[3]}"><b>${l}</b><small>5 cartes · ${g[1]}</small><span class="lgp-c"><span class="coin sm"></span> 750</span></button>`}).join('');
+$('#lgpacks').innerHTML=Object.keys(LGP).map(l=>{const g=LGP[l];return `<button type="button" class="lgp" data-act="pk" data-k="${g[0]}" style="--a:${g[2]};--b:${g[3]}"><b>${l}</b><small>5 cartes · ${g[1]}</small><span class="lgp-c"><span class="coin sm"></span> 750</span></button>`}).join('');
 window.VGAME={get:()=>S,crest:c=>crestSrc(c),clubs:()=>Object.keys(CLUBS),mkTab:t=>{mkTab(t);return MKT},toast,closeModal,detail,help,
   cardBig:id=>BY[id]?cardHTML(BY[id],{attrs:''}):'',sfx:n=>SFX.play(n),
   pvp:pv=>playMatch(null,null,pv),hasTeam:()=>!!myTeam(),teamOvr:()=>{const t=myTeam();return t?t.r.ovr:0},
