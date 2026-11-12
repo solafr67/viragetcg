@@ -4002,12 +4002,13 @@ async function flush(){
   })();
   try{await flushing}finally{flushing=null}
 }
-let fullAt=0;
+let fullAt=0,noPulse=false;
 async function refresh(full){
   if(!sb||!user)return;
   // état complet au chargement ; ensuite un point allégé (le serveur ne renvoie que ce qui a changé)
   const lite=full!==true&&G.get().ov!=null&&Date.now()-fullAt<30*60000;
-  try{const o=await api.call(lite?'pulse':'game_state');if(!lite)fullAt=Date.now();api.apply(o.state);isAdmin=!!o.admin;news(o.news);setStatus('Partie en ligne sécurisée','')}
+  try{let o=null;if(lite&&!noPulse){try{o=await api.call('pulse')}catch(e){noPulse=true}}   // ancien serveur sans « pulse » : on retombe sur l'état complet
+    if(!o){o=await api.call('game_state');fullAt=Date.now()}api.apply(o.state);isAdmin=!!o.admin;news(o.news);setStatus('Partie en ligne sécurisée','')}
   catch(e){setStatus(msgOf(e),'e')}
 }
 let isAdmin=false,act=null,delArm=false;
