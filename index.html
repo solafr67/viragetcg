@@ -92,10 +92,10 @@ h1,h2,h3{font-family:var(--disp);text-transform:uppercase;letter-spacing:.02em;m
 .pko-act .btn small{display:block;font-size:12px;font-weight:600;opacity:.75;margin-top:2px}
 .pko-no{margin:0;color:#FF9AA5;font-size:14px}
 .flip.hid{cursor:pointer}
-.flip.hid .face.back{border-color:#E8EEFF;color:#E8EEFF;box-shadow:0 0 18px rgba(232,238,255,.5),0 0 50px rgba(232,238,255,.22);animation:hidPulse 1.4s ease-in-out infinite}
-.flip.hid .face.back::after{content:"Touche";position:absolute;bottom:8%;left:0;right:0;font-family:var(--body);font-size:max(10px,calc(var(--w)*.09));font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#E8EEFF;text-align:center}
+.flip.hid .face.back{border-color:var(--rc);color:var(--rc);box-shadow:0 0 18px color-mix(in srgb,var(--rc) 65%,transparent),0 0 55px color-mix(in srgb,var(--rc) 35%,transparent);animation:hidPulse 1.4s ease-in-out infinite}
+.flip.hid .face.back::after{content:"Touche";position:absolute;bottom:8%;left:0;right:0;font-family:var(--body);font-size:max(10px,calc(var(--w)*.09));font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--rc);text-align:center}
 .flip.hid:hover .flip-in{transform:translateY(-4px) rotate(-1deg)}
-@keyframes hidPulse{50%{box-shadow:0 0 28px rgba(232,238,255,.8),0 0 80px rgba(232,238,255,.32)}}
+@keyframes hidPulse{50%{box-shadow:0 0 30px color-mix(in srgb,var(--rc) 90%,transparent),0 0 90px color-mix(in srgb,var(--rc) 50%,transparent)}}
 @keyframes hintPulse{50%{opacity:.55}}
 .st-hint{position:relative;z-index:6;margin:14px 16px 0;font-weight:700;color:#E8EEFF;text-align:center;animation:hintPulse 1.4s ease-in-out infinite;text-shadow:0 2px 10px rgba(0,0,0,.6)}
 .qty{display:inline-flex;align-items:center;gap:4px;padding:4px;border:1px solid var(--line);border-radius:12px;background:var(--panel);margin:4px 0 18px}
@@ -3581,7 +3581,7 @@ async function openPack(kind,free,n){
   await sleep(multi?550:750);
   pe.classList.add('shake');st.classList.add('heat');if(!skip)SFX.play('shake');
   await sleep(multi?800:950);
-  const teaseC=best>=3?'#E8EEFF':RAR[best].c;st.style.setProperty('--tease',teaseC);   // lueur neutre si une carte est à révéler
+  const teaseC=RAR[best].c;st.style.setProperty('--tease',teaseC);   // lueur neutre si une carte est à révéler
   await sleep(multi?700:1000);
   flashGo();pe.classList.remove('shake');pe.classList.add('gone');SFX.play('burst');
   burst(innerWidth/2,innerHeight/2,teaseC,multi?140:90,1.5);
