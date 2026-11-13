@@ -102,11 +102,13 @@ Chaque joueur peut télécharger toutes ses données et supprimer son compte dep
 
 Si le jeu devient public, ajoute un moyen de te contacter (une adresse e-mail dédiée) dans le texte de cette rubrique, dans `index.html` (cherche « Mes données personnelles »).
 
-## 9. Avant d'ouvrir au public : à compléter
+## 9. Avant d'ouvrir au public
 
-- **`legal.html`** : remplace chaque passage surligné en jaune (`[TON NOM]`, `[ADRESSE E-MAIL DE CONTACT]`, adresses de Netlify et Supabase, région du projet, service d'e-mail, date). L'adresse de contact doit être réelle et lue.
-- **Service d'e-mail** : branche Brevo, Resend ou équivalent dans *Authentication → SMTP Settings* ; l'envoi intégré de Supabase est trop limité pour un lancement.
-- **Aperçu de partage** : donne-moi l'adresse définitive du site pour que l'image s'affiche partout (Discord, WhatsApp, Facebook demandent une adresse complète).
+- **Mentions légales** : remplies (éditeur Sola, contact viragetcg@gmail.com, hébergeurs, photos Wikimedia). À relire une fois.
+- **E-mails d'inscription (Brevo)** : voir `emails-supabase.md` pour les réglages SMTP et les modèles d'e-mails en français.
+- **Captcha** : voir la section 3. La clé de site se colle dans `index.html` (`const CAPTCHA_SITEKEY='';`) ou tu me la donnes.
+- **Photos** : parcours `credits.html` et signale les erreurs (mauvais joueur, image floue).
+- **Test réel** : deux comptes sur viragetcg.com, une vente, un échange, un match entre joueurs.
 
 ## 10. Ce qui a été vérifié
 
