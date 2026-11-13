@@ -72,6 +72,18 @@ h1,h2,h3{font-family:var(--disp);text-transform:uppercase;letter-spacing:.02em;m
 @media(max-width:480px){.snd,.bell{width:36px!important;height:36px!important;margin-right:6px!important}}
 .btn.pulse{animation:tpulse 1.2s ease-in-out 2}
 @keyframes tpulse{50%{box-shadow:0 0 0 6px rgba(245,196,81,.35),0 6px 22px rgba(245,196,81,.28)}}
+.daily-p{background:radial-gradient(120% 100% at 100% 0%,rgba(245,196,81,.14),transparent 60%),var(--panel)}
+.dl-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px}.dl-h h3{font-size:22px}.dl-h small{color:var(--mute);font-weight:600}
+.dl-h small.on{color:var(--gold)}
+.dl-row{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;margin:12px 0}
+.dl-t{display:grid;gap:2px;justify-items:center;padding:8px 2px;border-radius:10px;border:1px solid var(--line);background:rgba(255,255,255,.03);min-width:0}
+.dl-t small{font-size:10px;font-weight:700;color:var(--mute);letter-spacing:.04em}.dl-t b{font-size:12px;font-variant-numeric:tabular-nums}
+.dl-t.got{border-color:rgba(52,211,153,.5);background:rgba(52,211,153,.10)}.dl-t.got b{color:var(--r1)}
+.dl-t.cur{border-color:var(--gold);background:rgba(245,196,81,.14);box-shadow:0 0 0 1px var(--gold) inset}.dl-t.cur b{color:var(--gold)}
+.dl-t.big b{color:#D946EF}.dl-t.big.got b{color:var(--r1)}
+.daily-p .btn{width:100%}.dl-n{margin:10px 0 0;font-size:12.5px;color:var(--mute)}
+.dl-win{display:grid;gap:12px;justify-items:center;text-align:center}.dl-win .big{font-family:var(--disp);font-size:64px;line-height:1;color:var(--gold)}
+.dl-win .card{--w:150px}
 .pk-hint{margin:6px 0 18px;color:var(--mute);font-size:14px}
 .offer .pack[data-act]{cursor:pointer}.offer .pack[data-act]:focus-visible{outline:3px solid var(--gold);outline-offset:6px}
 .pko{position:fixed;inset:0;z-index:60;display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:radial-gradient(60% 50% at 50% 40%,rgba(30,50,100,.55),rgba(4,8,18,.92));backdrop-filter:blur(6px);overflow-y:auto}
@@ -571,6 +583,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
         <div class="lgpacks" id="lgpacks"></div>
       </div>
       <aside class="side">
+        <div class="panel daily-p" id="daily"></div>
         <div class="panel">
           <h3 style="font-size:22px">Missions du jour</h3>
           <div id="missions"></div>
@@ -3348,7 +3361,7 @@ async function playMatch(club,di,pv){
 }
 const enc=o=>'VTCG1.'+btoa(unescape(encodeURIComponent(JSON.stringify(o))));
 const dec=t=>{t=t.trim();if(t.slice(0,6)!=='VTCG1.')throw 0;const j=JSON.parse(decodeURIComponent(escape(atob(t.slice(6)))));if(!j||typeof j.coins!=='number'||!j.owned||typeof j.owned!=='object')throw 0;return j};
-function renderAll(){hud();shop();collection();squad();profile();leagueBars();albums();matchView();market()}
+function renderAll(){hud();dailyDraw();shop();collection();squad();profile();leagueBars();albums();matchView();market()}
 
 /* ---------- Navigation ---------- */
 const VIEWS=['boutique','collection','effectif','match','marche','profil'];
@@ -3524,6 +3537,42 @@ function roll(min){
 function flashGo(){const f=$('#st-flash');f.classList.remove('go');void f.offsetWidth;f.classList.add('go')}
 let QTY=1;try{QTY=[1,5,10].includes(+localStorage.getItem('virage-qty'))?+localStorage.getItem('virage-qty'):1}catch(e){}
 const plur=(n,a,b)=>n>1?b:a;
+/* ---------- Cadeau du jour : série de 7 jours ---------- */
+const DAILY=[100,150,200,250,300,400,500];
+function dailyInfo(){
+  if(NET)return S.daily||{streak:0,done:true,off:true};
+  const d=S.dly||{day:'',streak:0},y=new Date();y.setDate(y.getDate()-1);const yk=y.getFullYear()+'-'+(y.getMonth()+1)+'-'+y.getDate();
+  return{streak:d.day===today()||d.day===yk?d.streak:0,done:d.day===today()};
+}
+function dailyHTML(){
+  const i=dailyInfo(),g=i.done?i.streak:i.streak%7;
+  return `<div class="dl-h"><h3>Cadeau du jour</h3><small class="${i.done?'':'on'}">${i.done?'Reviens demain':'Disponible'}</small></div>
+  <div class="dl-row">${DAILY.map((c,k)=>`<span class="dl-t${k<g?' got':''}${!i.done&&k===g?' cur':''}${k===6?' big':''}" title="Jour ${k+1} : ${c} pièces${k===6?' et une carte Épique':''}"><small>J${k+1}</small><b>${k<g?'✓':k===6?'★':c}</b></span>`).join('')}</div>
+  <button type="button" class="btn ${i.done?'ghost':'gold'}" data-act="daily"${i.done?' disabled':''}>${i.done?'Récupéré aujourd\'hui ✓':`Récupérer · <span class="coin sm"></span> ${DAILY[g]}${g===6?' + carte Épique':''}`}</button>
+  <p class="dl-n">Connecte-toi chaque jour : la récompense monte jusqu'au jour 7 (500 pièces et une carte Épique). Un jour manqué remet la série à zéro.</p>`;
+}
+function dailyDraw(){const el=$('#daily');if(!el)return;const i=dailyInfo();el.hidden=!!i.off;if(!i.off)el.innerHTML=dailyHTML()}
+let dailyBusy=false;
+async function dailyClaim(){
+  if(dailyBusy||busy)return;const i=dailyInfo();if(i.done)return;dailyBusy=true;let day,coins,card=null;
+  try{
+    if(NET){const o=await NET.call('claim_daily');day=o.day;coins=o.coins;card=o.card;NET.apply(o.state)}
+    else{day=i.streak%7+1;coins=DAILY[day-1];S.coins+=coins;
+      if(day===7){const pool=BYR[3].filter(p=>!S.owned[p.id]),src=pool.length?pool:BYR[3],c=src[Math.random()*src.length|0];S.owned[c.id]=(S.owned[c.id]||0)+1;card=c.id}
+      S.dly={day:today(),streak:day};save()}
+  }catch(e){dailyBusy=false;SFX.play('error');toast(NET&&NET.msg?NET.msg(e):'Récompense indisponible.');return}
+  dailyBusy=false;SFX.play('coin');if(card&&BY[card])setTimeout(()=>SFX.play('r'+BY[card].r),500);
+  renderAll();
+  modal(`<div class="dl-win"><div class="eyebrow">Cadeau du jour · jour ${day} sur 7</div><div class="big num">+${fmt(coins)}</div><p style="margin:0;color:var(--mute)">pièces ajoutées à ton solde</p>${card&&BY[card]?`${cardHTML(BY[card],{attrs:''})}<p style="margin:0"><b>${BY[card].full}</b> rejoint ta collection.</p>`:''}<p style="margin:0;color:var(--mute)">${day===7?'Série complète ! Elle repart au jour 1 demain.':`Reviens demain pour <b style="color:var(--fg)">${DAILY[day]} pièces</b>${day===6?' et une carte Épique':''}.`}</p><button type="button" class="btn gold" data-act="close">Continuer</button></div>`);
+}
+// à l'arrivée : on propose le cadeau s'il n'a pas été pris (une fois par session)
+let dailySeen=false;
+function dailyNudge(force){
+  if(dailySeen&&!force)return;const i=dailyInfo();if(i.done||i.off)return;
+  if(!force&&(navigator.webdriver||!$('#modal').hidden||!$('#stage').hidden||!$('#pko').hidden))return;
+  try{if(!force&&localStorage.getItem('virage-tuto')!=='1')return}catch(e){}
+  dailySeen=true;modal(`<div class="daily-m">${dailyHTML()}</div>`);
+}
 let PKO=null;
 function pkShow(k){if(busy||!PACKS[k])return;PKO=k;pkDraw();const o=$('#pko');o.hidden=false;o.classList.remove('in');void o.offsetWidth;o.classList.add('in');SFX.play('tap')}
 function pkClose(){$('#pko').hidden=true;PKO=null}
@@ -3659,6 +3708,7 @@ document.addEventListener('click',e=>{if(e.target.id==='pko'){pkClose();return}
   else if(a==='stage-close')closeStage();
   else if(a==='stage-col'){closeStage();go('collection',true)}
   else if(a==='free')openPack('std',true);
+  else if(a==='daily'){closeModal();dailyClaim()}
   else if(a==='pk')pkShow(el.dataset.k);
   else if(a==='pk-x')pkClose();
   else if(a==='pk-n'){QTY=+el.dataset.n;try{localStorage.setItem('virage-qty',QTY)}catch(e){}SFX.play('tap');pkDraw()}
@@ -3746,7 +3796,7 @@ $('#f-sort').addEventListener('change',e=>{F.sort=e.target.value;collection()});
 setInterval(freeUI,1000);
 
 $('#lgpacks').innerHTML=Object.keys(LGP).map(l=>{const g=LGP[l];return `<button type="button" class="lgp" data-act="pk" data-k="${g[0]}" style="--a:${g[2]};--b:${g[3]}"><b>${l}</b><small>5 cartes · ${g[1]}</small><span class="lgp-c"><span class="coin sm"></span> 750</span></button>`}).join('');
-window.VGAME={get:()=>S,crest:c=>crestSrc(c),clubs:()=>Object.keys(CLUBS),mkTab:t=>{mkTab(t);return MKT},toast,closeModal,detail,help,
+window.VGAME={get:()=>S,dailyNudge:f=>dailyNudge(f),crest:c=>crestSrc(c),clubs:()=>Object.keys(CLUBS),mkTab:t=>{mkTab(t);return MKT},toast,closeModal,detail,help,
   cardBig:id=>BY[id]?cardHTML(BY[id],{attrs:''}):'',sfx:n=>SFX.play(n),
   pvp:pv=>playMatch(null,null,pv),hasTeam:()=>!!myTeam(),teamOvr:()=>{const t=myTeam();return t?t.r.ovr:0},
   online(api){NET=api;api.apply=applyState},
@@ -3772,6 +3822,7 @@ window.VGAME={get:()=>S,crest:c=>crestSrc(c),clubs:()=>Object.keys(CLUBS),mkTab:
     return{level:Math.min(1000,level()),cards:o.length,value:o.reduce((a,p)=>a+RAR[p.r].sell,0),best_ovr:Math.min(99,b),wins:Math.min(100000,S.rec.w|0)}},
   onSave(){}};
 renderAll();go(location.hash.slice(1));
+setTimeout(()=>{if(!NET)dailyNudge()},1600);
 try{if(localStorage.getItem('virage-tuto')!=='1'&&!location.hash)setTimeout(()=>{if($('#modal').hidden&&$('#stage').hidden)tuto(0)},700)}catch(e){}
 if(!SFX.on){const b=$('#snd');b.textContent='🔇';b.classList.add('off');b.setAttribute('aria-label','Activer le son')}
 })();
@@ -3804,8 +3855,26 @@ st.textContent=`
 #gate{position:fixed;inset:0;z-index:150;overflow:auto;background:radial-gradient(800px 500px at 80% 0%,rgba(245,196,81,.16),transparent 60%),radial-gradient(700px 500px at 0% 100%,rgba(60,224,240,.10),transparent 60%),var(--bg);padding:max(24px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) 32px max(16px,env(safe-area-inset-left,0px))}
 #gate[hidden]{display:none}
 body.gated{overflow:hidden}
-.gate-in{max-width:480px;margin:0 auto;display:grid;gap:16px;padding-top:4vh}
-.gate-brand{font-family:var(--disp);font-weight:900;font-size:clamp(64px,16vw,96px);line-height:.9;letter-spacing:.02em;color:var(--fg)}
+.ol-ref{border:1px solid rgba(245,196,81,.4);background:rgba(245,196,81,.06);border-radius:12px;padding:10px 12px;margin:12px 0;font-size:13.5px}
+.ol-ref summary{cursor:pointer;font-weight:700;color:var(--gold)}.ol-ref p{margin:8px 0;color:#C9D3EA}
+.ol-reflink{display:flex;gap:8px}.ol-reflink input{flex:1;min-width:0;background:#1B2947;border:1px solid var(--line);border-radius:10px;padding:10px;color:var(--fg);font:inherit;font-size:13px}
+.ol-refn{color:var(--mute)!important}.ol-refn b{color:var(--fg)}
+.gate-in{max-width:1080px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,440px);gap:28px 48px;align-items:start;padding-top:3vh}
+.gate-l{display:grid;gap:18px;min-width:0}.gate-r{display:grid;gap:14px;min-width:0;position:sticky;top:16px}
+.gate-h{font-family:var(--disp);font-weight:900;text-transform:uppercase;font-size:clamp(30px,4.6vw,54px);line-height:.95;margin:0}
+.gate-h span{color:var(--gold)}
+.gate-fan{position:relative;height:clamp(220px,31vw,340px);margin:6px 0}
+.gate-fan .gc{position:absolute;left:50%;top:4%;width:clamp(128px,19vw,210px);transform:translateX(calc(-50% + var(--i)*58%)) translateY(calc(var(--i)*var(--i)*5%)) rotate(calc(var(--i)*7deg))}
+.gate-fan .gc .card{--w:100%;cursor:default;pointer-events:none}
+.gate-ft{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.gate-ft li{border:1px solid var(--line);background:rgba(255,255,255,.03);border-radius:14px;padding:12px 14px;font-size:14px;color:#C9D3EA;line-height:1.4}
+.gate-ft b{display:block;color:var(--fg);font-size:15px;margin-bottom:2px}
+.gate-kpi{display:flex;gap:10px 22px;flex-wrap:wrap;color:var(--mute);font-size:14px}.gate-kpi b{font-family:var(--disp);font-size:26px;color:var(--gold);margin-right:6px}
+.gate-ref{border:1px solid var(--gold);background:rgba(245,196,81,.10);border-radius:12px;padding:10px 14px;font-size:14px}
+.gate-cta{display:none}
+@media(max-width:860px){.gate-in{grid-template-columns:minmax(0,1fr);gap:18px;padding-top:0}.gate-r{position:static;order:2}.gate-l{display:contents}
+  .gate-top{order:1}.gate-fan{order:1;height:clamp(150px,44vw,220px)}.gate-fan .gc{width:clamp(84px,25vw,130px)}.gate-more{order:3;display:grid;gap:16px}.gate-ft{grid-template-columns:minmax(0,1fr)}}
+.gate-brand{font-family:var(--disp);font-weight:900;font-size:clamp(44px,9vw,64px);line-height:.9;letter-spacing:.02em;color:var(--fg)}
 .gate-brand span{color:var(--gold)}.gate-brand small{font-size:22px;letter-spacing:.3em;color:var(--mute);margin-left:10px}
 .gate-tag{margin:0;color:#C9D3EA;font-size:16px;line-height:1.55}
 .gate-box #online{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px}
@@ -3930,6 +3999,7 @@ const ERR={
   pas_de_gratuit:'Aucun booster gratuit en stock pour le moment.',
   formation_invalide:'Formation invalide.',equipe_invalide:'Équipe invalide.',
   poste_invalide:'Ce joueur ne peut pas jouer à ce poste.',
+  deja_recu:'Tu as déjà récupéré ton cadeau aujourd\'hui.',
   mission_inconnue:'Mission inconnue.',deja_encaisse:'Mission déjà encaissée.',mission_incomplete:'Mission pas encore terminée.',
   offre_indisponible:"Cette offre n'est plus disponible.",
   deja_achete:'Carte déjà achetée.',deja_possede:'Tu possèdes déjà cette carte.',
@@ -3964,17 +4034,52 @@ function msgOf(e){
 }
 
 /* ---------- accès réservé aux comptes ---------- */
+const RK='virage-parrain';
+try{const q=new URLSearchParams(location.search).get('parrain');if(q&&/^[\w .\-À-ÿ]{2,16}$/.test(q))localStorage.setItem(RK,q.trim())}catch(e){}
+const refPending=()=>{try{return localStorage.getItem(RK)||''}catch(e){return ''}};
 const gate=document.createElement('div');gate.id='gate';gate.setAttribute('role','dialog');gate.setAttribute('aria-modal','true');gate.setAttribute('aria-label','Connexion à Virage TCG');
-gate.innerHTML=`<div class="gate-in"><div class="gate-brand">VIR<span>A</span>GE<small>TCG</small></div>
-  <p class="gate-tag">Le jeu de cartes à collectionner du Top 5 européen. Crée ton compte gratuit pour jouer : ta collection est sauvegardée, protégée et te suit sur tous tes appareils.</p>
-  <div class="gate-box" id="gate-slot"></div>
-  <p class="gate-legal"><a href="legal.html#mentions">Mentions légales</a> · <a href="legal.html#confidentialite">Confidentialité</a> · <a href="legal.html#conditions">Conditions d'utilisation</a></p></div>`;
+const FAN=(()=>{const have=String(window.PHOTOS||'').split(',');const want=['lamine-yamal','bukayo-saka','achraf-hakimi','jude-bellingham','erling-haaland','harry-kane','vitinha','pedri','florian-wirtz','ousmane-dembele'];
+  const ok=want.filter(id=>G.info(id)&&have.includes(id)),rest=want.filter(id=>G.info(id)&&!ok.includes(id));return ok.concat(rest).slice(0,4)})();
+gate.innerHTML=`<div class="gate-in">
+  <div class="gate-l">
+    <div class="gate-top" style="display:grid;gap:14px"><div class="gate-brand">VIR<span>A</span>GE<small>TCG</small></div>
+      <h1 class="gate-h">Collectionne tout le foot européen <span>en cartes</span></h1>
+      <p class="gate-tag">Ouvre des boosters, construis ton onze, affronte les clubs et les autres joueurs. Gratuit, dans ton navigateur, sans rien installer.</p></div>
+    <div class="gate-fan" aria-hidden="true">${FAN.map((id,i)=>`<div class="gc" style="--i:${i-(FAN.length-1)/2}">${G.cardBig(id)}</div>`).join('')}</div>
+    <div class="gate-more">
+      <div class="gate-kpi"><span><b>2 236</b>cartes</span><span><b>5</b>championnats</span><span><b>101</b>clubs</span><span><b>6</b>raretés</span></div>
+      <ul class="gate-ft">
+        <li><b>10 boosters offerts</b>Dès l'inscription, puis un booster gratuit toutes les 10 minutes.</li>
+        <li><b>Du Commun au Mythique</b>Six raretés, des cartes garanties, et un cadeau chaque jour.</li>
+        <li><b>Ton onze, ton collectif</b>Aligne tes joueurs par club et par pays pour gagner tes matchs.</li>
+        <li><b>Un vrai marché</b>Vends, achète et échange tes cartes avec les autres joueurs.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="gate-r">
+    ${refPending()?`<div class="gate-ref">🎁 Tu es invité par <b>${esc(refPending())}</b> : inscris-toi et recevez chacun 1 500 pièces quand tu atteins le niveau 5.</div>`:''}
+    <div class="gate-box" id="gate-slot"></div>
+    <p class="gate-legal"><a href="legal.html#mentions">Mentions légales</a> · <a href="legal.html#confidentialite">Confidentialité</a> · <a href="legal.html#conditions">Conditions</a> · <a href="credits.html">Crédits photo</a><br>Jeu de fans non officiel.</p>
+  </div></div>`;
 document.body.appendChild(gate);
 const boxHome=box.parentNode,boxNext=box.nextSibling;
 function setGate(on){
   if(on){gate.hidden=false;document.body.classList.add('gated');if(box.parentNode!==gate.querySelector('#gate-slot'))gate.querySelector('#gate-slot').appendChild(box);box.hidden=false}
   else{gate.hidden=true;document.body.classList.remove('gated');if(box.parentNode!==boxHome)boxHome.insertBefore(box,boxNext)}
 }
+
+/* ---------- parrainage : lien d'invitation ---------- */
+async function refApply(){
+  const ps=refPending();if(!ps||!sb||!user)return;const st=G.get().ref;if(st&&st.by){try{localStorage.removeItem(RK)}catch(e){}return}
+  try{const o=await api.call('set_referrer',{p_pseudo:ps});try{localStorage.removeItem(RK)}catch(e){}
+    if(o&&o.ok){G.toast(`Parrain enregistré : ${o.pseudo}. Bonus de 1 500 pièces au niveau 5 !`);const S=G.get();if(S.ref)S.ref.by=true}}catch(e){}
+}
+const refLink=()=>location.origin+location.pathname+'?parrain='+encodeURIComponent(pseudo||'');
+function refHTML(){const r=G.get().ref||{n:0,wait:0};
+  return `<details class="ol-ref" open><summary>Parrainage : invite tes amis</summary>
+    <p>Partage ton lien. Quand un ami s'inscrit avec et atteint le <b>niveau 5</b>, vous recevez <b>1 500 pièces chacun</b> (20 filleuls récompensés au maximum).</p>
+    <div class="ol-reflink"><input id="ol-ref-l" readonly value="${esc(refLink())}" aria-label="Ton lien d'invitation"><button type="button" class="btn gold" data-ol="refcopy">Copier</button></div>
+    <p class="ol-refn"><b class="num">${r.n|0}</b> filleul${r.n>1?'s':''} récompensé${r.n>1?'s':''} · <b class="num">${r.wait|0}</b> en cours</p></details>`}
 
 /* ---------- état ---------- */
 let lbSeason='';
@@ -4022,6 +4127,8 @@ const nfmt=n=>{const b=n.body||{},c=x=>esc(nm(x));
     case 'envie_vente':return `♥ ${c(b.card)} est en vente par ${esc(b.by||'un joueur')} à ${fmt(b.price)} pièces`;
     case 'envie_echange':return `♥ ${esc(b.by||'Un joueur')} propose ${c(b.card)} en échange de ${c(b.want)}`;
     case 'renomme':return `Ton pseudo « ${esc(b.old)} » a été remplacé par « ${esc(b.new)} » par l'administrateur${b.reason?` (${esc(b.reason)})`:''}.`;
+    case 'parrain':return `Parrainage : ${esc(b.pseudo||'ton filleul')} a atteint le niveau 5, +${fmt(b.coins)} pièces`;
+    case 'filleul':return `Bonus de parrainage : +${fmt(b.coins)} pièces pour avoir atteint le niveau 5`;
     case 'admin':return `Ajustement de l'administrateur : ${b.delta>0?'+':''}${fmt(b.delta)} pièces${b.reason?` (${esc(b.reason)})`:''}`;
     default:return esc(n.kind)}};
 /* ---------- cloche des notifications ---------- */
@@ -4075,6 +4182,7 @@ function draw(){
     left=`<p style="margin:12px 0 4px">Connecté en tant que <strong>${esc(pseudo||'…')}</strong></p><p style="margin:0 0 12px;color:var(--mute);font-size:13px">${esc(user.email||'')}</p>
       <form class="ol-form" id="ol-ren" style="margin:0 0 12px" novalidate><label>Changer de pseudo (une fois tous les 30 jours)<span class="row" style="flex-wrap:nowrap"><input name="ps" maxlength="16" value="${esc(pseudo)}" autocomplete="nickname" style="min-width:0"><button class="btn ghost" type="submit">Valider</button></span></label></form>
       <div class="row"><button type="button" class="btn ghost" data-ol="out">Se déconnecter</button>${isAdmin?'<a class="btn ghost" href="admin.html">Administration</a>':''}</div>
+      ${refHTML()}
       <div class="ol-note">Ta partie en ligne est gardée et vérifiée par le serveur : pièces et cartes ne peuvent pas être modifiées depuis le navigateur. Ta partie hors ligne reste sur cet appareil et revient quand tu te déconnectes.</div>
       <p class="ol-msg" id="ol-m"></p>
       <details><summary>Mes données personnelles</summary>
@@ -4139,7 +4247,7 @@ async function onUser(u){
   if(p.data)pseudo=p.data.pseudo;
   try{
     const o=await sb.rpc('game_state');if(o.error)throw o.error;
-    G.online(api);api.apply(o.data.state);fullAt=Date.now();isAdmin=!!o.data.admin;status='Partie en ligne sécurisée';statusK='';
+    G.online(api);api.apply(o.data.state);fullAt=Date.now();isAdmin=!!o.data.admin;refApply();setTimeout(()=>{G.dailyNudge&&G.dailyNudge()},1200);status='Partie en ligne sécurisée';statusK='';
     setGate(false);try{localStorage.setItem('virage-compte','1')}catch(e){}
     bellMake();bellBadge();setTimeout(()=>news(o.data.news),600);act=null;
   }catch(e){status=msgOf(e);statusK='e'}
@@ -4200,13 +4308,14 @@ box.addEventListener('submit',async e=>{
 box.addEventListener('click',async e=>{
   const el=e.target.closest('[data-ol]');if(!el||!sb)return;const a=el.dataset.ol;
   if(a==='mode'){mode=el.dataset.m;draw()}
+  else if(a==='refcopy'){const i=box.querySelector('#ol-ref-l');try{await navigator.clipboard.writeText(i.value);el.textContent='Copié ✓'}catch(_){i.focus();i.select();el.textContent='Sélectionné'}setTimeout(()=>{el.textContent='Copier'},1800)}
   else if(a==='lb'){lbKey=el.dataset.k;box.querySelectorAll('[data-ol=lb]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.k===lbKey));loadLB()}
   else if(a==='out'){el.disabled=true;await flush();await sb.auth.signOut()}
   else if(a==='export'){
     try{const d=await api.call('my_data');const url=URL.createObjectURL(new Blob([JSON.stringify(d,null,2)],{type:'application/json'}));
       const l=document.createElement('a');l.href=url;l.download='virage-mes-donnees.json';document.body.appendChild(l);l.click();l.remove();setTimeout(()=>URL.revokeObjectURL(url),2000)}
     catch(x){msg(msgOf(x),'err')}}
-  else if(a==='del'){delArm=true;draw();const d=box.querySelector('details');if(d)d.open=true}
+  else if(a==='del'){delArm=true;draw();const d=box.querySelector('details:not(.ol-ref)');if(d)d.open=true}
   else if(a==='del-no'){delArm=false;draw()}
   else if(a==='del-go'){
     const v=(document.getElementById('ol-del')||{}).value||'';

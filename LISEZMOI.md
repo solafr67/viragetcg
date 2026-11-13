@@ -87,6 +87,10 @@ Ils sont regroupés dans la fonction `v_cfg` de `supabase-securite.sql` :
 
 **Départ et niveaux.** Un nouveau compte commence avec 0 pièce et 10 boosters gratuits. Passer du niveau L au niveau L+1 demande 150 × L XP (niveau 5 = 1 500 XP, niveau 10 = 6 750 XP). Atteindre le niveau L rapporte 50 × L pièces (1 000 maximum). XP gagnée : nouvelle carte 10, doublon d'un booster payant 3, victoire 20, nul ou défaite 5, achat dans l’offre du jour 10. Ces valeurs sont dans `g_xp`, `v_level`, `open_pack` et `play_match`.
 
+**Cadeau du jour.** Série de 7 jours : 100, 150, 200, 250, 300, 400 puis 500 pièces et une carte Épique. Un jour manqué remet la série à 1 (fonction `claim_daily`).
+
+**Parrainage.** Chaque joueur a un lien `viragetcg.com/?parrain=SonPseudo` (Profil). Un nouveau compte créé avec ce lien enregistre son parrain ; quand le filleul atteint le niveau 5, les deux reçoivent 1 500 pièces. Limites : parrain enregistré dans les 7 jours suivant l'inscription, 20 filleuls récompensés par parrain (fonctions `set_referrer` et `g_ref_pay`).
+
 Pour changer une valeur : modifie-la dans le script et relance-le. Regarde l'onglet « Pièces créées et détruites » de l'administration après quelques semaines. Si les créations dépassent nettement les retraits, baisse `bank_cap` ou monte `tax`.
 
 ## 7. Mercato et mises à jour des cartes
