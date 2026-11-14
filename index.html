@@ -249,6 +249,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
 .offer.icon-o{margin-top:16px;flex-direction:row;justify-content:center;gap:28px;text-align:left}
 .icon-t{display:flex;flex-direction:column;gap:10px;align-items:flex-start;max-width:36ch;position:relative}
 .offer.icon-o p{max-width:none}.icon-t small{color:var(--mute);font-size:12.5px}
+.pk-it.no .card{opacity:.45;filter:grayscale(.5)}
 .offer:hover .pack{transform:translateY(-6px) rotate(-2deg)}
 .pack::before,.pack::after{content:"";position:absolute;left:0;right:0;height:7%;background:repeating-linear-gradient(90deg,rgba(255,255,255,.4) 0 3px,rgba(0,0,0,.3) 3px 6px)}
 .pack::before{top:0}.pack::after{bottom:0}
@@ -459,7 +460,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
   .nav{position:fixed;left:0;right:0;bottom:0;z-index:50;margin:0;background:rgba(10,16,32,.94);backdrop-filter:blur(14px);border-top:1px solid var(--line);justify-content:space-around;padding:6px max(16px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
   .nav button{flex-direction:column;gap:3px;font-size:11px;padding:6px 10px;flex:1}
   .nav button[aria-current="page"]{background:none;color:var(--gold)}
-  .wallet{margin-left:auto}
+  .wallet{margin-left:auto;padding:6px 10px 6px 7px;gap:6px;font-size:14px;min-width:0}
   main{padding-bottom:110px}
   .team .big{font-size:64px}
 }
@@ -474,7 +475,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
 /* ---------- Marché & défis ---------- */
 #v-marche .head-row{align-items:center}
 .mk-tabs{margin-top:0;align-self:center}
-#v-marche[data-tab=day] .mk-pane,#v-marche[data-tab=ventes] #mk-day,#v-marche[data-tab=ventes] #trades,#v-marche[data-tab=echanges] #mk-day,#v-marche[data-tab=echanges] #pmarket{display:none}
+#v-marche[data-tab=day] .mk-pane,#v-marche[data-tab=ventes] #mk-day,#v-marche[data-tab=ventes] #trades,#v-marche[data-tab=echanges] #mk-day,#v-marche[data-tab=echanges] #pmarket,#v-marche[data-tab=ventes] #auctions,#v-marche[data-tab=echanges] #auctions,#v-marche[data-tab=encheres] #mk-day,#v-marche[data-tab=encheres] #pmarket,#v-marche[data-tab=encheres] #trades{display:none}
 .mk-day{background:radial-gradient(120% 90% at 50% 0%,rgba(245,196,81,.10),transparent 60%),linear-gradient(180deg,var(--panel),rgba(21,32,57,.6))}
 .mk-hd{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap;margin-bottom:20px}
 .mk-hd h3{font-size:26px}.mk-hd p{margin:4px 0 0;color:var(--mute);font-size:14px}
@@ -511,6 +512,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
   .offer .pack{--pw:min(120px,33vw)}
   .offer h3{font-size:19px;line-height:1.05}
   .offer p{display:none}
+  .mk-tabs{max-width:100%;overflow-x:auto;scrollbar-width:none}.mk-tabs button{white-space:nowrap;padding:9px 11px;font-size:13px;flex:0 0 auto}
   .offer.icon-o{gap:14px;justify-content:flex-start}.icon-t{gap:7px;min-width:0;flex:1}.icon-t .eyebrow{font-size:10px}
   .offer .btn{padding:11px 6px;font-size:13.5px;min-height:44px}
   .lgpacks{gap:8px}
@@ -587,9 +589,9 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
         <div class="panel offer icon-o" style="--halo:#FF3B4E">
           <div class="pack icon" data-act="pk" data-k="icon" role="button" tabindex="0" aria-label="Afficher le Booster Légendes"><span class="p-sheen"></span><span class="p-t" style="font-size:calc(var(--pw)*.185)">Légendes</span><span class="p-s">Icônes</span><span class="p-d"><i></i><i></i><i></i><i></i><i></i></span><span class="p-n">Épique garantie</span></div>
           <div class="icon-t">
-            <span class="eyebrow">Exclusif · 35 Icônes Mythiques</span>
+            <span class="eyebrow">35 Icônes Mythiques</span>
             <h3>Booster Légendes</h3>
-            <p>Zidane, Pelé, Maradona, Cruyff… Les Icônes ne sortent que de ce booster. 4 Rares ou mieux, une Épique ou mieux, et 10 % de chances d'Icône.</p>
+            <p>Zidane, Pelé, Maradona, Cruyff… Le moyen le plus sûr d'obtenir une Icône. 4 Rares ou mieux, une Épique ou mieux, et 10 % de chances d'Icône.</p>
             <button type="button" class="btn ghost" data-act="pk" data-k="icon" id="buy-icon">Ouvrir · <span class="coin sm"></span> 7 500</button>
             <small id="pity-icon" class="num"></small>
           </div>
@@ -693,7 +695,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
   <section class="view" id="v-marche" data-tab="day" hidden>
     <div class="head-row">
       <div><div class="eyebrow">Transferts</div><h1>Marché</h1></div>
-      <div class="seg mk-tabs" id="mk-tabs" role="tablist" aria-label="Rubriques du marché" hidden><button type="button" role="tab" data-act="mkt" data-t="day">Offre du jour</button><button type="button" role="tab" data-act="mkt" data-t="ventes">Ventes</button><button type="button" role="tab" data-act="mkt" data-t="echanges">Échanges</button></div>
+      <div class="seg mk-tabs" id="mk-tabs" role="tablist" aria-label="Rubriques du marché" hidden><button type="button" role="tab" data-act="mkt" data-t="day">Offre du jour</button><button type="button" role="tab" data-act="mkt" data-t="ventes">Ventes</button><button type="button" role="tab" data-act="mkt" data-t="encheres">Enchères</button><button type="button" role="tab" data-act="mkt" data-t="echanges">Échanges</button></div>
     </div>
     <div class="panel mk-day" id="mk-day">
       <div class="mk-hd">
@@ -703,6 +705,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
       <div class="mk" id="mk-grid"></div>
     </div>
     <div class="panel mk-pane" id="pmarket" hidden></div>
+    <div class="panel mk-pane" id="auctions" hidden></div>
     <div class="panel mk-pane" id="trades" hidden></div>
   </section>
 
@@ -4421,7 +4424,7 @@ const P=RAW.split('\n').map(l=>{let [full,short,club,pos,nat,ovr,att,def,vit]=l.
   return{id:slug(full),full,short,club,lg:c[0],c1:c[1],c2:c[2],pos,grp:GRP[pos],nat,ovr:+ovr,att:+att,def:+def,vit:+vit,r:rarOf(+ovr),key:norm(full+' '+club),x:c[0]==='Légendes'&&!BASE_ICON.has(slug(full))}});
 P.sort((a,b)=>b.ovr-a.ovr);
 const BY={};P.forEach(p=>{if(BY[p.id])p.id+='-'+slug(p.club);BY[p.id]=p});
-const BYR=RAR.map((_,i)=>P.filter(p=>p.r===i&&!p.x)),ICONS=P.filter(p=>p.lg==='Légendes');
+const BYR=RAR.map((_,i)=>P.filter(p=>p.r===i)),BYRS=RAR.map((_,i)=>P.filter(p=>p.r===i&&!p.x)),ICONS=P.filter(p=>p.lg==='Légendes');
 const PACKS={std:{cost:500,min:0,name:'Europe',sub:'8 championnats',fs:.24,cls:''},elite:{cost:1500,min:2,name:'Élite',cls:' elite'},icon:{cost:7500,min:2,name:'Légendes',sub:'Icônes',fs:.185,cls:' icon',icon:1}};
 const ICON_P=.10,PITY_ICON=10;
 const LGP={'Premier League':['pl','Angleterre','#3D195B','#C2185B',.185],'LaLiga':['liga','Espagne','#0B1E4F','#E0452F',.21],'Serie A':['seriea','Italie','#0A2A66','#0E9F6E',.185],'Bundesliga':['buli','Allemagne','#3A0A0E','#D20515',.13],'Ligue 1':['l1','France','#0B1F3A','#1F6FEB',.185],'Liga Portugal':['pt','Portugal','#0B3B2E','#C8102E',.15],'Eredivisie':['nl','Pays-Bas','#0B1E4F','#F36C21',.165],'Süper Lig':['tr','Turquie','#3A0A12','#E30A17',.185]};
@@ -4432,7 +4435,7 @@ function draw(r,lg){
   const pool=BYR[r];return pool[Math.random()*pool.length|0];
 }
 const packHTML=pk=>`<div class="pack${pk.cls}" style="${pk.style||''}"><span class="p-sheen"></span><span class="p-t" style="${pk.fs?`font-size:calc(var(--pw)*${pk.fs})`:''}">${pk.name}</span><span class="p-s">${pk.sub||'Europe'}</span><span class="p-d"><i></i><i></i><i></i><i></i><i></i></span><span class="p-n">5 cartes</span></div>`;
-const PITY=10,PITY_LEG=150;
+const PITY=10,PITY_LEG=200;
 const MIS=[['open','Ouvre 3 boosters',3,300],['new','Obtiens 5 nouvelles cartes',5,300],['rare','Tire une Rare ou mieux',1,200],['win','Gagne 2 matchs',2,400]];
 const today=()=>{const d=new Date();return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate()};
 function misDay(){if(NET){if(!S.mis||!S.mis.p||!S.mis.c)S.mis={day:'',p:{},c:{}};return}if(!S.mis||S.mis.day!==today()||!S.mis.p||!S.mis.c)S.mis={day:today(),p:{},c:{}}}
@@ -4539,7 +4542,7 @@ function shop(){
   const l=(S.last||[]).map(id=>BY[id]).filter(Boolean);
   $('#last').innerHTML=l.length?`<div class="strip">${l.map(p=>cardHTML(p)).join('')}</div>`:`<div class="empty">Aucun booster ouvert pour l'instant. Tu démarres avec 10 boosters gratuits. Les pièces se gagnent ensuite en jouant.</div>`;
   const pl=S.pity_leg|0;
-  $('#pity').textContent=(S.pity>=PITY-1?'Épique ou mieux garantie dans le prochain booster.':`Épique ou mieux garantie d'ici ${PITY-S.pity} boosters.`)+' '+(pl>=PITY_LEG-1?'Légendaire ou mieux garantie dans le prochain booster.':`Légendaire ou mieux garantie d'ici ${PITY_LEG-pl} boosters.`);
+  $('#pity').textContent=(S.pity>=PITY-1?'Épique ou mieux garantie dans le prochain booster.':`Épique ou mieux garantie d'ici ${PITY-S.pity} boosters.`)+' '+(pl>=PITY_LEG-1?'Mythique garantie dans le prochain booster.':`Mythique garantie d'ici ${PITY_LEG-pl} boosters.`);
   missions();
   freeUI();
 }
@@ -4589,7 +4592,7 @@ function squadExtra(ps){
   $('#forms').innerHTML=Object.keys(FORMS).map(k=>`<button type="button" class="chip" data-act="form" data-k="${k}" aria-pressed="${S.form===k}">${FNAME[k]}</button>`).join('');
   const chem=ps.length>1?chemOf(ps):0;
   $('#t-meters').insertAdjacentHTML('beforeend',`<div class="meter"><span>COL</span><span class="prog" style="margin:0"><i style="width:${chem}%;background:var(--gold)"></i></span><b class="num">${ps.length>1?chem:'–'}</b></div>`);
-  $('#t-chem').textContent=(ps.length===11?`Collectif ${chem} sur 100, soit +${Math.round(chem/20)} à ta note en match. `:'')+'Le collectif monte quand tes joueurs partagent un club, un championnat ou une nationalité. Chaque légende alignée ajoute +'+ICON+' (bonus icône).';
+  $('#t-chem').textContent=(ps.length===11?`Collectif ${chem} sur 100, soit +${Math.round(chem/20)} à ta note en match. `:'')+'Le collectif monte quand tes joueurs partagent un club, un championnat ou une nationalité. Chaque légende alignée ajoute +'+ICON+' (bonus icône). Mythiques alignées : '+mythN(-1)+' / '+MYTH_MAX+'.';
 }
 function setForm(k){
   const cur=SLOTS.map((_,i)=>BY[S.squad[i]]).filter(Boolean).sort((a,b)=>b.ovr-a.ovr);
@@ -4706,11 +4709,11 @@ const PRICE=[120,300,900,2600,9000,40000],RMIN=[60,75,80,85,89,93];
 const priceOf=p=>Math.round(PRICE[p.r]*(1+(p.ovr-RMIN[p.r])*.08)/10)*10;
 function mktFill(roll){
   const r=rng(hash(today()+'#'+roll)),items=[];
-  [1,1,1,2,2,3,3,r()<.12?5:4].forEach(t=>{const pool=BYR[t].filter(p=>!S.owned[p.id]&&!items.includes(p.id)),src=pool.length?pool:BYR[t].filter(p=>!items.includes(p.id));items.push(src[r()*src.length|0].id)});
+  [1,1,1,2,2,3,3,r()<.12?5:4].forEach(t=>{const pool=BYRS[t].filter(p=>!S.owned[p.id]&&!items.includes(p.id)),src=pool.length?pool:BYRS[t].filter(p=>!items.includes(p.id));items.push(src[r()*src.length|0].id)});
   S.mkt={day:today(),roll,items,sold:{}};
 }
 let MKT='day';try{MKT=localStorage.getItem('virage-mkt')||'day'}catch(e){}
-function mkTab(t){if(t)MKT=t;if(!NET)MKT='day';if(!['day','ventes','echanges'].includes(MKT))MKT='day';try{localStorage.setItem('virage-mkt',MKT)}catch(e){}
+function mkTab(t){if(t)MKT=t;if(!NET)MKT='day';if(!['day','ventes','encheres','echanges'].includes(MKT))MKT='day';try{localStorage.setItem('virage-mkt',MKT)}catch(e){}
   const v=$('#v-marche');v.dataset.tab=MKT;$('#mk-tabs').hidden=!NET;document.querySelectorAll('#mk-tabs button').forEach(b=>{const on=b.dataset.t===MKT;b.setAttribute('aria-pressed',on);b.setAttribute('aria-selected',on)})}
 function mkClock(){const el=$('#mk-cd');if(!el)return;const n=new Date(),m=new Date(n);m.setHours(24,0,0,0);const s=Math.max(0,(m-n)/1000|0),h=s/3600|0,mn=(s%3600)/60|0;el.textContent=`Nouvelle offre dans ${h?h+' h ':''}${String(mn).padStart(h?2:1,'0')} min.`}
 setInterval(()=>{if(!$('#v-marche').hidden)mkClock()},30000);
@@ -4794,6 +4797,7 @@ function detail(id){
   modal(`<div class="detail">${cardHTML(p,{attrs:''})}<div class="info"><span class="tagr" style="--c:${r.c}">${r.n}</span><h2>${p.full}</h2><dl><dt>Club</dt><dd><span class="dd-crest">${crestI(p.club)}${p.club}</span></dd><dt>Championnat</dt><dd>${p.lg}</dd><dt>Poste</dt><dd>${p.pos}</dd>${isIcon(p)?`<dt>Bonus icône</dt><dd style="color:var(--gold)">+${ICON} au collectif de ton onze</dd>`:''}<dt>${own?'Tirée':'Collection'}</dt><dd>${own?own+' fois':'Pas encore obtenue'}</dd><dt>Valeur de revente</dt><dd><span class="coin sm"></span> ${fmt(r.sell)}</dd><dt>Prix en boutique</dt><dd><span class="coin sm"></span> ${fmt(priceOf(p))}</dd>${CREDITS[id]?`<dt>Photo</dt><dd>${String(CREDITS[id]).replace(/[<>&]/g,'')}</dd>`:''}</dl>${own?`<button type="button" class="btn ${fav?'ghost':'gold'}" data-act="fav" data-id="${id}">${fav?'★ Retirer des favorites':'☆ Ajouter aux favorites'}</button>${NET&&NET.detailExtra?NET.detailExtra(id):''}<button type="button" class="btn danger" data-act="sell" data-id="${id}">${NET?'Vente rapide':'Vendre'} · ${fmt(r.sell)} pièces</button>`:NET&&NET.cardExtra?NET.cardExtra(id):`<p style="color:var(--mute);margin:0;font-size:14px">Ouvre des boosters ou passe par la boutique du jour pour l'obtenir.</p>`}</div></div>`);
 }
 const PK={q:'',lg:'',club:'',nat:'',sort:'ovr'};let PKI=0;
+const MYTH_MAX=5,mythN=ex=>Object.entries(S.squad).filter(([k,v])=>+k!==ex&&BY[v]&&BY[v].r===5).length;
 function pickOthers(){return Object.entries(S.squad).filter(([k,v])=>+k!==PKI&&BY[v]&&S.owned[v]).map(([,v])=>BY[v])}
 function pickCands(){const s=SLOTS[PKI],used=new Set(Object.entries(S.squad).filter(([k])=>+k!==PKI).map(([,v])=>v));return owned().filter(p=>okSlot(p,s)&&!used.has(p.id))}
 function picker(i){
@@ -4809,14 +4813,16 @@ function pickList(){
   const el=$('#pk-list');if(!el)return;const s=SLOTS[PKI],o=pickOthers(),cur=S.squad[PKI]&&BY[S.squad[PKI]],now=chemOf(o.concat(cur?[cur]:[])),q=norm(PK.q.trim());
   const l=pickCands().filter(p=>(!PK.lg||p.lg===PK.lg)&&(!PK.club||p.club===PK.club)&&(!PK.nat||p.nat===PK.nat)&&(!q||p.key.includes(q))).map(p=>({p,d:chemOf(o.concat([p]))-now}));
   l.sort((a,b)=>PK.sort==='chem'?b.d-a.d||b.p.ovr-a.p.ovr:PK.sort==='pos'?(b.p.pos===s[0])-(a.p.pos===s[0])||b.p.ovr-a.p.ovr:b.p.ovr-a.p.ovr||(b.p.pos===s[0])-(a.p.pos===s[0]));
-  el.innerHTML=l.length?l.map(x=>`<div class="pk-it${x.p.id===S.squad[PKI]?' cur':''}">${cardHTML(x.p,{attrs:`data-act="assign" data-s="${PKI}" data-id="${x.p.id}"`})}<small><span class="${x.d>0?'up':x.d<0?'dn':''}">${x.d>0?'+':''}${x.d} collectif</span>${x.p.pos!==s[0]?` · ${x.p.pos}`:''}</small></div>`).join(''):'<p style="color:var(--mute);grid-column:1/-1">Aucun joueur ne correspond à ces filtres.</p>';
+  const full=mythN(PKI)>=MYTH_MAX;
+  el.innerHTML=l.length?l.map(x=>{const no=full&&x.p.r===5;return `<div class="pk-it${x.p.id===S.squad[PKI]?' cur':''}${no?' no':''}">${cardHTML(x.p,{attrs:`data-act="assign" data-s="${PKI}" data-id="${x.p.id}"`})}<small>${no?'<span class="dn">Limite de 5 Mythiques</span> · ':''}<span class="${x.d>0?'up':x.d<0?'dn':''}">${x.d>0?'+':''}${x.d} collectif</span>${x.p.pos!==s[0]?` · ${x.p.pos}`:''}</small></div>`}).join(''):'<p style="color:var(--mute);grid-column:1/-1">Aucun joueur ne correspond à ces filtres.</p>';
 }
 document.addEventListener('input',e=>{if(e.target.id==='pk-q'){PK.q=e.target.value;pickList()}});
 document.addEventListener('change',e=>{const m={'pk-lg':'lg','pk-club':'club','pk-nat':'nat','pk-sort':'sort'}[e.target.id];if(m){PK[m]=e.target.value;pickList()}});
 function autoFill(){
   S.squad={};const used=new Set(),o=owned().sort((a,b)=>b.ovr-a.ovr);
-  SLOTS.forEach((s,i)=>{const p=o.find(p=>!used.has(p.id)&&p.pos===s[0]);if(p){S.squad[i]=p.id;used.add(p.id)}});
-  SLOTS.forEach((s,i)=>{if(S.squad[i])return;const p=o.find(p=>!used.has(p.id)&&okSlot(p,s));if(p){S.squad[i]=p.id;used.add(p.id)}});
+  let my=0;const ok=p=>p.r!==5||my<MYTH_MAX,put=(i,p)=>{S.squad[i]=p.id;used.add(p.id);if(p.r===5)my++};
+  SLOTS.forEach((s,i)=>{const p=o.find(p=>!used.has(p.id)&&p.pos===s[0]&&ok(p));if(p)put(i,p)});
+  SLOTS.forEach((s,i)=>{if(S.squad[i])return;const p=o.find(p=>!used.has(p.id)&&okSlot(p,s)&&ok(p));if(p)put(i,p)});
 }
 
 function srv(name,args,ok){NET.call(name,args).then(o=>{if(o&&o.state)NET.apply(o.state);ok&&ok(o)}).catch(e=>{SFX.play('error');toast(NET.msg(e));NET.refresh&&NET.refresh()})}
@@ -4904,7 +4910,7 @@ function tuto(i){
 const FAQ=[
  ['Comment est choisie la rareté d\'une carte ?',()=>`Elle dépend uniquement de la note du joueur : ${RAR.map((r,i)=>`${r.n} (${RANGES[i]})`).join(', ')}. Les chances de tirage par carte sont de ${RAR.map(r=>String(r.p).replace('.',',')+' %').join(', ')}.`],
  ['Comment avoir des boosters gratuits ?',()=>'Un booster gratuit arrive toutes les 10 minutes, même quand tu n\'es pas sur le site. Tu peux en stocker 10 : au-delà, le compteur s\'arrête jusqu\'à ce que tu en ouvres un.'],
- ['Que sont les garanties Épique et Légendaire ?',()=>'Si tu ouvres 9 boosters sans Épique (ou mieux), le 10e en contient forcément une. De même, après 149 boosters sans Légendaire (ou mieux), le 150e en contient une. Chaque compteur repart à zéro dès que tu obtiens la rareté, même par chance.'],
+ ['Que sont les garanties Épique et Légendaire ?',()=>'Si tu ouvres 9 boosters sans Épique (ou mieux), le 10e en contient forcément une. De même, après 149 boosters sans Mythique, le 200e en contient une. Chaque compteur repart à zéro dès que tu obtiens la rareté, même par chance.'],
  ['Comment gagner des pièces ?',()=>'Missions du jour, matchs (surtout la première victoire contre chaque club), défis de la semaine, matchs contre d\'autres joueurs, albums complétés, passages de niveau, et ventes de cartes. Certaines sources sont plafonnées chaque jour pour garder une économie saine.'],
  ['À quoi servent les doublons ?',()=>'Tu peux les vendre aux autres joueurs (onglet Ventes du Marché), les proposer en échange (onglet Échanges), ou les revendre rapidement à la banque depuis la fiche de la carte. Le tri « doublons d\'abord » de la Collection les regroupe.'],
  ['Qu\'est-ce que le collectif ?',()=>'Un bonus de ton onze qui monte quand tes joueurs partagent un club, un championnat ou une nationalité. Chaque légende alignée ajoute +10 grâce à son bonus icône, même sans lien avec ses coéquipiers. Chaque tranche de 20 points de collectif ajoute 1 point à ta note en match. Aligner un joueur hors de son poste habituel coûte un peu de note.'],
@@ -5006,10 +5012,10 @@ function rollLocal(kind,free){
   const icHit=pk.icon&&((S.pity_icon|0)>=PITY_ICON-1||Math.random()<ICON_P);
   for(let i=0;i<5;i++){let p;
     if(icHit&&i===4){const sure=(S.pity_icon|0)>=PITY_ICON-1,nw=ICONS.filter(c=>!S.owned[c.id]),src=sure&&nw.length?nw:ICONS;p=src[Math.random()*src.length|0]}
-    else p=draw(roll(i===4?Math.max(pk.min,pk.icon?3:0,pityHit?3:0,legHit?4:0):pk.icon?2:0),pk.lg);
+    else p=draw(roll(i===4?Math.max(pk.min,pk.icon?3:0,pityHit?3:0,legHit?5:0):pk.icon?2:0),legHit&&i===4?null:pk.lg);
     const isNew=!S.owned[p.id];S.owned[p.id]=(S.owned[p.id]||0)+1;S.xp+=isNew?XP.nouv:(free?0:XP.doub);
     if(isNew)news++;else refund+=RAR[p.r].sell;res.push({p,isNew})}
-  S.pity=res.some(x=>x.p.r>=3)?0:S.pity+1;S.pity_leg=res.some(x=>x.p.r>=4)?0:(S.pity_leg|0)+1;if(pk.icon)S.pity_icon=icHit?0:(S.pity_icon|0)+1;
+  S.pity=res.some(x=>x.p.r>=3)?0:S.pity+1;S.pity_leg=res.some(x=>x.p.r>=5)?0:(S.pity_leg|0)+1;if(pk.icon)S.pity_icon=icHit?0:(S.pity_icon|0)+1;
   bump('open',1);bump('new',news);if(res.some(x=>x.p.r>=2))bump('rare',1);
   return{res,refund,news};
 }
@@ -5139,7 +5145,7 @@ document.addEventListener('click',e=>{if(e.target.id==='pko'){pkClose();return}
   else if(a==='rar'){F.r=+el.dataset.r;collection()}
   else if(a==='more'){F.n+=120;collection()}
   else if(a==='slot')picker(+el.dataset.s);
-  else if(a==='assign'){S.squad[el.dataset.s]=id;save();closeModal();squad()}
+  else if(a==='assign'){if(BY[id]&&BY[id].r===5&&mythN(+el.dataset.s)>=MYTH_MAX){SFX.play('error');toast('Limite atteinte : 5 Mythiques au plus dans un onze.');return}S.squad[el.dataset.s]=id;save();closeModal();squad()}
   else if(a==='unslot'){delete S.squad[el.dataset.s];save();closeModal();squad()}
   else if(a==='auto'){if(!owned().length){toast('Ouvre d\'abord un booster');return}autoFill();save();squad();toast('Meilleur onze aligné')}
   else if(a==='clear'){S.squad={};save();squad()}
@@ -5395,6 +5401,13 @@ body.gated{overflow:hidden}
 .ce-k{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
 .ce-k div{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:12px;color:var(--mute)}
 .ce-k b{display:block;color:var(--fg);font-size:16px;font-variant-numeric:tabular-nums}
+.au-f{grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr)}
+@media(max-width:640px){.au-f{grid-template-columns:minmax(0,1fr)}}
+.au-t{font-size:13px;font-weight:700;color:var(--fg)}.au-t.soon{color:#FF9AA5}
+.au-b{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px}.au-b input{min-width:0;width:100%;background:#1B2947;border:1px solid var(--line);border-radius:10px;padding:9px 10px;color:var(--fg);font:inherit;font-size:15px}.au-b .btn{width:auto;padding:9px 12px}
+.au-n{font-size:12px;color:var(--mute)}.au-n.ok{color:var(--r1)}
+.au-it.lead .card{outline:2px solid var(--r1);outline-offset:3px;border-radius:12px}
+.au-new{display:grid;grid-template-columns:1fr 1fr;gap:8px}.au-new label{display:grid;gap:4px;font-size:13px;color:var(--mute)}.au-new select{width:100%;background:#1B2947;border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--fg);font:inherit;font-size:15px}
 .pm-w{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--mute);white-space:nowrap}
 `;
 document.head.appendChild(st);
@@ -5422,7 +5435,11 @@ const ERR={
   club_inconnu:'Club inconnu.',trop_rapide:'Patiente quelques secondes entre deux matchs.',
   onze_incomplet:'Il te faut 11 titulaires.',defi_invalide:'Défi invalide.',defi_deja_reussi:'Défi déjà réussi.',
   condition_non_remplie:"La condition du défi n'est pas remplie.",
-  trop_dannonces:'Tu as déjà 10 annonces en cours.',trop_doffres:"Tu as déjà 5 offres d'échange ouvertes.",
+  trop_dannonces:'Tu as déjà 10 annonces ou enchères en cours.',
+  enchere_terminee:'Cette enchère est terminée.',deja_en_tete:'Ta mise est déjà la plus haute.',
+  enchere_depassee:"Quelqu'un vient de miser avant toi : vérifie le nouveau montant.",
+  enchere_plafond:'Cette enchère a atteint son plafond.',enchere_engagee:'Impossible de retirer une enchère qui a déjà reçu une mise.',
+  duree_invalide:'Durée invalide.',trop_de_mythiques:'5 Mythiques au plus dans un onze.',trop_doffres:"Tu as déjà 5 offres d'échange ouvertes.",
   propre_offre:'Tu ne peux pas accepter ta propre offre.',offre_invalide:'Offre invalide.',rarete_invalide:'Rareté invalide.',
   compte_suspendu:"Ce compte est suspendu. Contacte l'administrateur du jeu.",
   adversaire_indisponible:"Cet adversaire n'est plus disponible (onze incomplet ou compte suspendu).",
@@ -5440,6 +5457,8 @@ function msgOf(e){
   if(ren)return `Tu pourras changer de pseudo à nouveau à partir du ${ren[1]}.`;
   const lim=/^prix_hors_limites:(\d+):(\d+)/.exec(m);
   if(lim)return `Le prix doit être entre ${fmt(lim[1])} et ${fmt(lim[2])} pièces.`;
+  const mise=/^mise_hors_limites:(\d+):(\d+)/.exec(m);
+  if(mise)return `Ta mise doit être entre ${fmt(mise[1])} et ${fmt(mise[2])} pièces.`;
   if(ERR[m])return ERR[m];
   if(/rate limit|too many/i.test(m))return 'Trop de tentatives : réessaie dans quelques minutes.';
   if(/fetch|network|Failed to/i.test(m))return 'Connexion au serveur impossible. Vérifie ton réseau.';
@@ -5537,6 +5556,12 @@ const nfmt=n=>{const b=n.body||{},c=x=>esc(nm(x));
     case 'echange':return `${esc(b.by||'Un joueur')} a accepté ton échange : tu reçois ${c(b.got)}${b.coins?` et ${fmt(b.coins)} pièces`:''}`;
     case 'defense':return `${esc(b.by)} a affronté ton onze : ${b.res==='w'?'victoire':b.res==='l'?'défaite':'match nul'} ${b.a}–${b.b}${b.elo?` (Elo ${b.elo>0?'+':''}${b.elo})`:''}`;
     case 'saison':return `Saison ${esc(b.season)} terminée : ${b.rank}${b.rank===1?'re':'e'} place, +${fmt(b.gain)} pièces`;
+    case 'surenchere':return `${esc(b.by||'Un joueur')} a surenchéri sur ${c(b.card)} (${fmt(b.bid)} pièces) : ta mise de ${fmt(b.back)} pièces t'est rendue`;
+    case 'enchere_gagnee':return `Enchère remportée : ${c(b.card)} rejoint ta collection pour ${fmt(b.price)} pièces`;
+    case 'enchere_vendue':return `Enchère terminée : ${c(b.card)} adjugée à ${esc(b.by||'un joueur')}, +${fmt(b.net)} pièces`;
+    case 'enchere_invendue':return `Enchère sans preneur : ${c(b.card)} revient dans ta collection`;
+    case 'enchere_annulee':return `Enchère annulée par le vendeur : ta mise de ${fmt(b.bid)} pièces sur ${c(b.card)} t'est rendue`;
+    case 'envie_enchere':return `♥ ${c(b.card)} est aux enchères par ${esc(b.by||'un joueur')}, mise de départ ${fmt(b.price)} pièces`;
     case 'expiree':return `Annonce expirée : ${c(b.card)} revient dans ta collection`;
     case 'envie_vente':return `♥ ${c(b.card)} est en vente par ${esc(b.by||'un joueur')} à ${fmt(b.price)} pièces`;
     case 'envie_echange':return `♥ ${esc(b.by||'Un joueur')} propose ${c(b.card)} en échange de ${c(b.want)}`;
@@ -5655,7 +5680,7 @@ async function onUser(u){
   if(!u){
     setGate(true);
     if(G.isOnline())G.offline();
-    T.loaded=false;M.loaded=false;isAdmin=false;act=null;PV.data=null;unread=0;bellClose();bellBadge();draw();drawTrades();drawMarket();drawPvp();loadLB();return}
+    T.loaded=false;M.loaded=false;isAdmin=false;act=null;PV.data=null;unread=0;bellClose();bellBadge();A.loaded=false;draw();drawTrades();drawMarket();drawAuc();drawPvp();loadLB();return}
   mode='in';draw();
   const p=await sb.from('profiles').select('pseudo').eq('id',u.id).maybeSingle();
   if(p.data)pseudo=p.data.pseudo;
@@ -5667,7 +5692,7 @@ async function onUser(u){
   }catch(e){status=msgOf(e);statusK='e'}
   draw();loadLB();drawPvp();bellBadge();
   if(G.isOnline()&&!document.getElementById('v-match').hidden)loadPvp();
-  if(G.isOnline()&&!document.getElementById('v-marche').hidden){loadTrades();loadMarket()}else{drawTrades();drawMarket()}
+  if(G.isOnline()&&!document.getElementById('v-marche').hidden){loadTrades();loadMarket();drawAuc();loadAuc()}else{drawTrades();drawMarket();drawAuc()}
 }
 async function init(){
   try{
@@ -5767,6 +5792,10 @@ function sellForm(id){
     <small>Entre ${fmt(lo)} et ${fmt(hi)} pièces. Tu reçois le prix moins 10 % de taxe. La carte est mise de côté pendant 3 jours au plus.${last?' C\'est ton dernier exemplaire et un titulaire : il quittera ton onze.':''}</small>
     <small id="pm-ref">Prix des dernières ventes : …</small>
     <button type="button" class="btn gold" data-net="list" data-id="${esc(id)}">Mettre en vente</button>
+    <strong style="margin-top:8px">Ou la mettre aux enchères</strong>
+    <div class="au-new"><label>Mise de départ<input type="number" id="au-start" min="${lo}" max="${hi}" step="10" value="${lo}" inputmode="numeric"></label><label>Durée<select id="au-h"><option value="6">6 heures</option><option value="12">12 heures</option><option value="24" selected>24 heures</option><option value="48">48 heures</option></select></label></div>
+    <small>Les joueurs surenchérissent jusqu'à la fin ; le meilleur l'emporte et tu reçois sa mise moins 10 %. Sans mise, la carte te revient. Une enchère qui a reçu une mise ne peut plus être retirée.</small>
+    <button type="button" class="btn ghost" data-net="auc" data-id="${esc(id)}">Mettre aux enchères</button>
     <small>Vente rapide aujourd'hui : ${fmt(b.sold)} / ${fmt(b.cap)} pièces.</small></div>`;
 }
 document.addEventListener('click',async e=>{
@@ -5777,6 +5806,13 @@ document.addEventListener('click',async e=>{
     catch(x){G.toast(msgOf(x));el.disabled=false}
     return}
   if(el.dataset.net==='go'){G.closeModal();goMarket(el.dataset.q);return}
+  if(el.dataset.net==='auc'){
+    const id=el.dataset.id,st=parseInt((document.getElementById('au-start')||{}).value,10),h=parseInt((document.getElementById('au-h')||{}).value,10);
+    if(!st){G.toast('Indique une mise de départ.');return}
+    el.disabled=true;
+    try{const o=await api.call('auction_create',{p_card:id,p_start:st,p_hours:h});api.apply(o.state);G.closeModal();G.toast(`${nm(id)} est aux enchères pour ${h} h, dès ${fmt(st)} pièces`);if(isMarket())loadAuc()}
+    catch(x){G.toast(msgOf(x));el.disabled=false}
+    return}
   if(el.dataset.net==='list'){
     const id=el.dataset.id,price=parseInt((document.getElementById('pm-price')||{}).value,10);
     if(!price){G.toast('Indique un prix.');return}
@@ -5861,6 +5897,72 @@ if(MB){
   MB.addEventListener('input',e=>{if(e.target.id!=='pm-q')return;M.q=e.target.value;clearTimeout(qT);qT=setTimeout(loadMarket,350)});
   MB.addEventListener('change',e=>{if(e.target.id==='pm-wish'){M.wish=e.target.checked;loadMarket();return}if(e.target.id==='pm-r'){M.r=+e.target.value;loadMarket()}else if(e.target.id==='pm-s'){M.sort=e.target.value;loadMarket()}});
 }
+
+/* ---------- enchères entre joueurs ---------- */
+const AB=document.getElementById('auctions');
+const A={open:[],mine:[],won:[],loaded:false,q:'',r:-1,sort:'fin',busy:false,arm:'',err:'',off:0,val:{},gate:null};
+const aucTab=()=>{const v=document.getElementById('v-marche');return v&&!v.hidden&&v.dataset.tab==='encheres'};
+const rem=t=>new Date(t).getTime()-(Date.now()+A.off);
+const remTxt=t=>{const ms=rem(t);if(ms<=0)return 'Terminée';const sec=Math.floor(ms/1000),h=Math.floor(sec/3600),m=Math.floor(sec%3600/60),x=sec%60;
+  return h>=24?`${Math.floor(h/24)} j ${h%24} h`:h?`${h} h ${String(m).padStart(2,'0')} min`:`${m} min ${String(x).padStart(2,'0')} s`};
+let aqT=null;
+async function loadAuc(){
+  if(!AB||!user||!G.isOnline())return;
+  try{const o=await api.call('auctions_list',{p_q:A.q,p_r:A.r,p_sort:A.sort});A.open=o.open;A.mine=o.mine;A.won=o.won;A.gate=o.gate||null;A.off=new Date(o.now).getTime()-Date.now();A.err=''}
+  catch(e){A.err=msgOf(e)}
+  A.loaded=true;
+  const f=document.activeElement;if(f&&f.classList&&f.classList.contains('au-in')&&!A.err){drawAucMine();return}   // on ne coupe pas une saisie en cours
+  drawAucList();drawAucMine();
+}
+function drawAuc(){
+  if(!AB)return;AB.hidden=!sb;if(!sb)return;
+  if(!user||!G.isOnline()){AB.innerHTML=`<div class="eyebrow">Entre joueurs</div><h3>Enchères</h3><p class="ol-msg">Connecte-toi pour enchérir et mettre tes cartes aux enchères.</p><button type="button" class="btn gold" data-act="nav" data-v="profil">Me connecter</button>`;return}
+  AB.innerHTML=`<div class="ol-top"><div><div class="eyebrow">Entre joueurs</div><h3>Enchères</h3></div><button type="button" class="btn ghost" data-au="refresh">Actualiser</button></div>
+   <p class="ol-msg" style="margin-top:8px">Mise sur les cartes des autres joueurs : la plus haute mise à la fin du compte à rebours remporte la carte. Ta mise est prélevée tout de suite et rendue dès qu'un joueur surenchérit. Une mise dans les deux dernières minutes prolonge l'enchère de deux minutes. Pour lancer une enchère, ouvre une carte dans ta Collection.</p>
+   <div data-gate>${gateHTML()}</div>
+   <div class="pm-f au-f"><input id="au-q" placeholder="Joueur ou club" value="${esc(A.q)}" aria-label="Rechercher"><select id="au-r" aria-label="Rareté"><option value="-1">Toutes raretés</option>${RARN.map((n,i)=>`<option value="${i}"${A.r===i?' selected':''}>${n}</option>`).join('')}</select><select id="au-s" aria-label="Tri"><option value="fin">Fin la plus proche</option><option value="prix"${A.sort==='prix'?' selected':''}>Mise croissante</option><option value="note"${A.sort==='note'?' selected':''}>Meilleure note</option></select></div>
+   <div id="au-list"></div><div id="au-mine"></div>`;
+  drawAucList();drawAucMine();
+}
+function drawAucList(){
+  const el=AB&&AB.querySelector('#au-list');if(!el)return;
+  if(A.err){el.innerHTML=`<p class="ol-msg err">${esc(A.err)}</p>`;return}
+  if(!A.loaded){el.innerHTML='<p class="ol-msg">Chargement…</p>';return}
+  if(!A.open.length){el.innerHTML='<p class="ol-msg" style="margin-top:12px">Aucune enchère en cours pour ces critères.</p>';return}
+  const coins=G.get().coins,gate=A.gate||M.gate;
+  el.innerHTML=`<div class="pm-grid">${A.open.map(a=>{const arm=A.arm===a.id,cap=a.min>a.hi,v=Math.min(a.hi,Math.max(a.min,parseInt(A.val[a.id],10)||a.min));
+    const act=a.lead?'<small class="au-n ok">Ta mise est la plus haute.</small>':cap?'<small class="au-n">Plafond atteint : plus de surenchère possible.</small>':gate?'<small class="au-n">Bientôt disponible.</small>'
+      :`<div class="au-b"><input type="number" class="au-in" data-id="${esc(a.id)}" min="${a.min}" max="${a.hi}" step="10" value="${v}" inputmode="numeric" aria-label="Ta mise en pièces"><button type="button" class="btn ${coins>=v?'gold':'ghost'}" data-au="bid" data-id="${esc(a.id)}"${A.busy||coins<a.min?' disabled':''}>${arm?'Confirmer':coins<a.min?'Trop cher':'Miser'}</button></div><small class="au-n">Mise minimale : ${fmt(a.min)}</small>`;
+    return `<div class="pm-it au-it${a.lead?' lead':''}">${G.card(a.card)}<div class="pm-tk"><div class="pm-pr"><span class="coin sm"></span><b class="num">${fmt(a.bid||a.start_price)}</b><span class="deal ${a.lead?'good':'mid'}">${a.lead?'Tu mènes':a.bids?`${a.bids} mise${a.bids>1?'s':''}`:'Départ'}</span></div><div class="pm-sel">${avt(a.pseudo)}<span>${esc(a.pseudo)}</span></div><div class="au-t num" data-end="${esc(a.ends_at)}">${remTxt(a.ends_at)}</div>${act}</div></div>`}).join('')}</div>`;
+}
+function drawAucMine(){
+  const el=AB&&AB.querySelector('#au-mine');if(!el)return;
+  const open=A.mine.filter(a=>a.status==='open'),done=A.mine.filter(a=>a.status!=='open');
+  const lab={sold:a=>`adjugée à ${esc(a.bidder||'un joueur')} : +${fmt(a.bid-Math.max(1,Math.ceil(a.bid*.1)))} pièces`,unsold:()=>'sans preneur, carte rendue',cancelled:()=>'retirée'};
+  el.innerHTML=(open.length?`<div class="mk-sub"><strong>Mes enchères</strong><small class="num">${open.length} en cours</small></div><div class="pm-mine-g">${open.map(a=>`<div class="pm-mi">${G.card(a.card)}<small><b class="num" style="color:var(--fg)">${fmt(a.bid||a.start_price)}</b><span>${a.bids?`${a.bids} mise${a.bids>1?'s':''}`:'aucune mise'}</span></small><small><span class="au-t num" data-end="${esc(a.ends_at)}">${remTxt(a.ends_at)}</span>${a.bidder?`<span>${esc(a.bidder)}</span>`:''}</small>${a.bids?'':`<button type="button" class="btn ghost" data-au="cancel" data-id="${esc(a.id)}"${A.busy?' disabled':''}>Retirer</button>`}</div>`).join('')}</div>`:'')
+    +(done.length||A.won.length?`<div><div class="mk-sub"><strong>Historique</strong></div><ul class="tr-hist">${done.map(a=>`<li>${dt(a.closed_at||a.ends_at)} · ${esc(nm(a.card))} ${lab[a.status](a)}</li>`).join('')}${A.won.map(w=>`<li>${dt(w.closed_at)} · ${esc(nm(w.card))} remportée pour ${fmt(w.bid)} pièces (vendeur : ${esc(w.seller)})</li>`).join('')}</ul></div>`:'');
+}
+if(AB){
+  AB.addEventListener('click',async e=>{
+    const el=e.target.closest('[data-au]');if(!el||!user||A.busy)return;const a=el.dataset.au,id=el.dataset.id;
+    if(a==='refresh'){await refresh();await loadAuc();return}
+    if(a==='bid'){const inp=AB.querySelector(`.au-in[data-id="${id}"]`);A.val[id]=inp?inp.value:'';if(A.arm!==id){A.arm=id;drawAucList();return}}
+    A.busy=true;
+    try{
+      if(a==='bid'){const amt=parseInt(A.val[id],10);const o=await api.call('auction_bid',{p_id:id,p_amount:amt});api.apply(o.state);delete A.val[id];G.toast(`Mise de ${fmt(amt)} pièces enregistrée sur ${nm(o.card)}`)}
+      else if(a==='cancel'){const o=await api.call('auction_cancel',{p_id:id});api.apply(o.state);G.toast('Enchère retirée : la carte te revient')}
+    }catch(x){G.toast(msgOf(x))}
+    A.busy=false;A.arm='';await loadAuc();
+  });
+  AB.addEventListener('input',e=>{const t=e.target;if(t.classList.contains('au-in')){A.val[t.dataset.id]=t.value;if(A.arm){A.arm='';const b=AB.querySelector(`[data-au=bid][data-id="${t.dataset.id}"]`);if(b)b.textContent='Miser'}return}
+    if(t.id!=='au-q')return;A.q=t.value;clearTimeout(aqT);aqT=setTimeout(loadAuc,350)});
+  AB.addEventListener('change',e=>{if(e.target.id==='au-r'){A.r=+e.target.value;loadAuc()}else if(e.target.id==='au-s'){A.sort=e.target.value;loadAuc()}});
+  // compte à rebours ; à zéro, on recharge (le serveur attribue la carte)
+  let endT=0;setInterval(()=>{if(!aucTab())return;let over=false;AB.querySelectorAll('[data-end]').forEach(n=>{const ms=rem(n.dataset.end);n.textContent=remTxt(n.dataset.end);n.classList.toggle('soon',ms>0&&ms<120000);if(ms<=0)over=true});
+    if(over&&Date.now()-endT>5000){endT=Date.now();refresh().then(loadAuc)}},1000);
+  setInterval(()=>{if(aucTab()&&user&&G.isOnline()&&!document.hidden&&!A.busy)loadAuc()},30000);
+}
+api.marketTab=t=>{if(t==='encheres'&&user&&G.isOnline())loadAuc()};
 
 /* ---------- échanges carte contre carte ---------- */
 const TB=document.getElementById('trades');
@@ -5977,7 +6079,7 @@ api.afterMatch=pv=>{if(pv)loadPvp()};
 
 /* ---------- rafraîchissements ---------- */
 const vm=document.getElementById('v-marche');
-if(vm)new MutationObserver(()=>{if(!vm.hidden&&user&&G.isOnline()){drawMarket();drawTrades();loadMarket();loadTrades()}}).observe(vm,{attributes:true,attributeFilter:['hidden']});
+if(vm)new MutationObserver(()=>{if(!vm.hidden&&user&&G.isOnline()){drawMarket();drawTrades();drawAuc();loadMarket();loadTrades();loadAuc()}}).observe(vm,{attributes:true,attributeFilter:['hidden']});
 const vp=document.getElementById('v-profil');
 if(vp)new MutationObserver(()=>{if(!vp.hidden&&sb)loadLB()}).observe(vp,{attributes:true,attributeFilter:['hidden']});
 const vmt=document.getElementById('v-match');
