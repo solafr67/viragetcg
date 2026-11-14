@@ -249,6 +249,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
 .offer.icon-o{margin-top:16px;flex-direction:row;justify-content:center;gap:28px;text-align:left}
 .icon-t{display:flex;flex-direction:column;gap:10px;align-items:flex-start;max-width:36ch;position:relative}
 .offer.icon-o p{max-width:none}.icon-t small{color:var(--mute);font-size:12.5px}
+.stale{position:fixed;left:12px;right:12px;top:calc(env(safe-area-inset-top,0px) + 12px);z-index:200;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:#1B2947;border:1px solid var(--gold);border-radius:14px;padding:12px 14px;font-size:14px;box-shadow:0 12px 40px rgba(0,0,0,.5)}.stale span{flex:1;min-width:220px}
 .pk-it.no .card{opacity:.45;filter:grayscale(.5)}
 .offer:hover .pack{transform:translateY(-6px) rotate(-2deg)}
 .pack::before,.pack::after{content:"";position:absolute;left:0;right:0;height:7%;background:repeating-linear-gradient(90deg,rgba(255,255,255,.4) 0 3px,rgba(0,0,0,.3) 3px 6px)}
@@ -4436,6 +4437,9 @@ function draw(r,lg){
 }
 const packHTML=pk=>`<div class="pack${pk.cls}" style="${pk.style||''}"><span class="p-sheen"></span><span class="p-t" style="${pk.fs?`font-size:calc(var(--pw)*${pk.fs})`:''}">${pk.name}</span><span class="p-s">${pk.sub||'Europe'}</span><span class="p-d"><i></i><i></i><i></i><i></i><i></i></span><span class="p-n">5 cartes</span></div>`;
 const PITY=10,PITY_LEG=200;
+/* Version des données (cartes et règles). Le serveur renvoie la sienne : si elle est plus récente,
+   ce navigateur affiche une ancienne page et on la recharge. À augmenter à chaque livraison. */
+const BUILD=19;
 const MIS=[['open','Ouvre 3 boosters',3,300],['new','Obtiens 5 nouvelles cartes',5,300],['rare','Tire une Rare ou mieux',1,200],['win','Gagne 2 matchs',2,400]];
 const today=()=>{const d=new Date();return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate()};
 function misDay(){if(NET){if(!S.mis||!S.mis.p||!S.mis.c)S.mis={day:'',p:{},c:{}};return}if(!S.mis||S.mis.day!==today()||!S.mis.p||!S.mis.c)S.mis={day:today(),p:{},c:{}}}
@@ -4826,10 +4830,21 @@ function autoFill(){
 }
 
 function srv(name,args,ok){NET.call(name,args).then(o=>{if(o&&o.state)NET.apply(o.state);ok&&ok(o)}).catch(e=>{SFX.play('error');toast(NET.msg(e));NET.refresh&&NET.refresh()})}
+let STALE=false;
+function staleClient(b){
+  if(STALE)return;STALE=true;
+  const u=new URL(location.href);
+  if(u.searchParams.get('v')!==String(b)){toast('Mise à jour du jeu : la page se recharge…');setTimeout(()=>{u.searchParams.set('v',b);location.replace(u.toString())},1600);return}
+  const d=document.createElement('div');d.className='stale';d.setAttribute('role','alert');
+  d.innerHTML='<span>Une nouvelle version du jeu est en ligne, mais ton navigateur affiche encore l\'ancienne : certaines cartes peuvent manquer à l\'écran (elles sont bien dans ta collection). Réessaie dans quelques minutes ou vide le cache du navigateur.</span><button type="button" class="btn gold">Recharger</button>';
+  d.querySelector('button').onclick=()=>{u.searchParams.set('v',b+'-'+Date.now());location.replace(u.toString())};
+  document.body.appendChild(d);
+}
 function applyState(st,quiet){
+  NET.serverBuild=st.build||0;if(st.build>BUILD)staleClient(st.build);
   if(st.defis)NET.defis=st.defis;else if(!NET.defis)NET.defis=[];
   NET.bank=st.bank||null;NET.matches=st.matches||0;NET.skew=(st.now||Date.now())-Date.now();
-  let o=Object.assign({},st),stale=false;['defis','bank','matches','now','lite','ovp','od'].forEach(k=>delete o[k]);
+  let o=Object.assign({},st),stale=false;['defis','bank','matches','now','lite','ovp','od','build'].forEach(k=>delete o[k]);
   if(st.lite){
     // réponse allégée : on garde la partie en mémoire et on n'applique que ce qui a changé
     stale=S.ov==null||st.ovp!==S.ov;
@@ -5216,7 +5231,7 @@ $('#f-sort').addEventListener('change',e=>{F.sort=e.target.value;collection()});
 setInterval(freeUI,1000);
 
 $('#lgpacks').innerHTML=Object.keys(LGP).map(l=>{const g=LGP[l];return `<button type="button" class="lgp" data-act="pk" data-k="${g[0]}" style="--a:${g[2]};--b:${g[3]}"><b>${l}</b><small>5 cartes · ${g[1]}</small><span class="lgp-c"><span class="coin sm"></span> 750</span></button>`}).join('');
-window.VGAME={get:()=>S,dailyNudge:f=>dailyNudge(f),crest:c=>crestSrc(c),clubs:()=>Object.keys(CLUBS),mkTab:t=>{mkTab(t);return MKT},toast,closeModal,detail,help,
+window.VGAME={build:BUILD,get:()=>S,dailyNudge:f=>dailyNudge(f),crest:c=>crestSrc(c),clubs:()=>Object.keys(CLUBS),mkTab:t=>{mkTab(t);return MKT},toast,closeModal,detail,help,
   cardBig:id=>BY[id]?cardHTML(BY[id],{attrs:''}):'',sfx:n=>SFX.play(n),
   pvp:pv=>playMatch(null,null,pv),hasTeam:()=>!!myTeam(),teamOvr:()=>{const t=myTeam();return t?t.r.ovr:0},
   online(api){NET=api;api.apply=applyState},
@@ -5546,7 +5561,7 @@ async function refresh(full){
   // état complet au chargement ; ensuite un point allégé (le serveur ne renvoie que ce qui a changé)
   const lite=full!==true&&G.get().ov!=null&&Date.now()-fullAt<30*60000;
   try{let o=null;if(lite&&!noPulse){try{o=await api.call('pulse')}catch(e){noPulse=true}}   // ancien serveur sans « pulse » : on retombe sur l'état complet
-    if(!o){o=await api.call('game_state');fullAt=Date.now()}api.apply(o.state);isAdmin=!!o.admin;news(o.news);setStatus('Partie en ligne sécurisée','')}
+    if(!o){o=await api.call('game_state');fullAt=Date.now()}api.apply(o.state);isAdmin=!!o.admin;if(isAdmin&&!api.warnedBuild&&(api.serverBuild||0)<G.build){api.warnedBuild=true;G.toast('Administrateur : le serveur est en retard sur le site. Relance supabase-securite.sql dans Supabase.')}news(o.news);setStatus('Partie en ligne sécurisée','')}
   catch(e){setStatus(msgOf(e),'e')}
 }
 let isAdmin=false,act=null,delArm=false;
