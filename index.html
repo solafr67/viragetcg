@@ -324,7 +324,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
 .lvl .ring{width:92px;height:92px;border-radius:50%;flex:none;display:grid;place-items:center;font-family:var(--disp);font-weight:900;font-size:42px;background:radial-gradient(closest-side,var(--panel) 78%,transparent 80%),conic-gradient(var(--gold) var(--p),rgba(255,255,255,.1) 0)}
 .kv{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
 .kv div{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:12px;padding:12px}
-.kv b{display:block;font-family:var(--disp);font-size:28px;line-height:1.05}
+.kv b{display:block;font-family:var(--disp);font-size:clamp(18px,5.6vw,28px);line-height:1.05;overflow-wrap:anywhere}
 .kv span{font-size:12px;color:var(--mute);letter-spacing:.06em;text-transform:uppercase}
 .favs{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:14px;margin-top:16px}
 .favs .card{--w:100%}
@@ -734,7 +734,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
       </div>
     </div>
   </section>
-<footer class="foot"><span>Virage TCG · jeu de fans non officiel, gratuit</span><nav><button type="button" data-act="help">Aide</button><a href="credits.html">Crédits photo</a><a href="legal.html#mentions">Mentions légales</a><a href="legal.html#confidentialite">Confidentialité</a><a href="legal.html#conditions">Conditions</a></nav></footer>
+<footer class="foot"><span>Virage TCG · jeu de fans non officiel, gratuit</span><nav><button type="button" data-act="help">Aide</button><a href="https://discord.gg/xHv7HyEkyU" target="_blank" rel="noopener">Discord</a><a href="credits.html">Crédits photo</a><a href="legal.html#mentions">Mentions légales</a><a href="legal.html#confidentialite">Confidentialité</a><a href="legal.html#conditions">Conditions</a></nav></footer>
 </main>
 
 <div class="mt" id="mt" hidden></div>
@@ -1239,9 +1239,9 @@ Aimar Oroz|Oroz|Osasuna|MOC|ESP|80
 Moi Gómez|Gómez|Osasuna|MC|ESP|77
 Echegoyen|Echegoyen|Osasuna|MC|ESP|65
 Asier Osambela|Osambela|Osasuna|MC|ESP|70
-Raúl García|García|Osasuna|BU|ESP|76
+Raúl García|Raúl García|Osasuna|BU|ESP|76
 Kike Barja|Barja|Osasuna|AG|ESP|74
-Rubén García|García|Osasuna|AD|ESP|76
+Rubén García|Rubén García|Osasuna|AD|ESP|76
 Ante Budimir|Budimir|Osasuna|BU|CRO|81
 Raúl Moro|Moro|Osasuna|AG|ESP|76
 Romain Del Castillo|Del Castillo|Osasuna|AD|FRA|77
@@ -1249,21 +1249,21 @@ Jonathan Dubasin|Dubasin|Osasuna|AD|BEL|75
 Bonel|Bonel|Osasuna|BU|ESP|65
 Julen Agirrezabala|Agirrezabala|Racing Santander|G|ESP|79
 Mantilla|Mantilla|Racing Santander|DD|ESP|70
-Aaron Martín|Martín|Racing Santander|DG|ESP|72
+Aaron Martín|Aa. Martín|Racing Santander|DG|ESP|72
 Hernando|Hernando|Racing Santander|DC|ESP|69
 Ramón|Ramón|Racing Santander|DC|ESP|68
 Salinas|Salinas|Racing Santander|DG|ESP|67
 Jeanuël Belocian|Belocian|Racing Santander|DC|FRA|74
 Íñigo Sainz-Maza|Sainz-Maza|Racing Santander|MC|ESP|71
 Maguette Gueye|Gueye|Racing Santander|MC|SEN|72
-Iván Martín|Martín|Racing Santander|MDC|ESP|72
+Iván Martín|I. Martín|Racing Santander|MDC|ESP|72
 Almeida|Almeida|Racing Santander|MC|POR|68
 Sergio Canales|Canales|Racing Santander|MOC|ESP|79
 Matteo Prati|Prati|Racing Santander|MDC|ITA|73
 Giorgi Guliashvili|Guliashvili|Racing Santander|BU|GEO|71
 Juan Carlos Arana|Arana|Racing Santander|BU|ESP|73
 Íñigo Vicente|Vicente|Racing Santander|AG|ESP|76
-Andrés Martín|Martín|Racing Santander|AD|ESP|77
+Andrés Martín|An. Martín|Racing Santander|AD|ESP|77
 Asier Villalibre|Villalibre|Racing Santander|BU|ESP|73
 Luque|Luque|Racing Santander|BU|ESP|66
 Dani Cárdenas|Cárdenas|Rayo Vallecano|G|ESP|72
@@ -2545,11 +2545,11 @@ Patson Daka|Daka|Hambourg|BU|ZAM|73|74|28|84
 Røssing-Lelesiit|Røssing-Lelesiit|Hambourg|AG|NOR|68
 Loris Karius|Karius|Schalke|G|GER|70
 Kuruçay|Kuruçay|Schalke|DC|TUR|68
-Timo Becker|Becker|Schalke|DD|GER|69
+Timo Becker|T. Becker|Schalke|DD|GER|69
 Gantenbein|Gantenbein|Schalke|DC|SUI|66
 Nikola Katić|Katić|Schalke|DC|CRO|70
 Donkor|Donkor|Schalke|DC|GER|66
-Vitalie Becker|Becker|Schalke|DG|GER|67
+Vitalie Becker|V. Becker|Schalke|DG|GER|67
 Maximilian Wöber|Wöber|Schalke|DC|AUT|74
 Ron Schallenberg|Schallenberg|Schalke|MDC|GER|70
 Junior Dina Ebimbe|Ebimbe|Schalke|MC|FRA|74
@@ -4439,7 +4439,7 @@ const packHTML=pk=>`<div class="pack${pk.cls}" style="${pk.style||''}"><span cla
 const PITY=10,PITY_LEG=200;
 /* Version des données (cartes et règles). Le serveur renvoie la sienne : si elle est plus récente,
    ce navigateur affiche une ancienne page et on la recharge. À augmenter à chaque livraison. */
-const BUILD=19;
+const BUILD=20;
 const MIS=[['open','Ouvre 3 boosters',3,300],['new','Obtiens 5 nouvelles cartes',5,300],['rare','Tire une Rare ou mieux',1,200],['win','Gagne 2 matchs',2,400]];
 const today=()=>{const d=new Date();return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate()};
 function misDay(){if(NET){if(!S.mis||!S.mis.p||!S.mis.c)S.mis={day:'',p:{},c:{}};return}if(!S.mis||S.mis.day!==today()||!S.mis.p||!S.mis.c)S.mis={day:today(),p:{},c:{}}}
@@ -4696,7 +4696,7 @@ function defis(){
   const c2=r()<.5?{type:'nat',arg:pick(Object.keys(NATN))}:{type:'cap',arg:3};
   const c3={type:'lg',arg:pick(LEAGUES.filter(l=>l!=='Légendes'))};
   defis.wk=wk;
-  return defis.list=[{c:c1,club:pick(third(0)),gain:600},{c:c2,club:pick(third(1)),gain:1000},{c:c3,club:pick(third(2)),gain:1500,card:1}];
+  return defis.list=[{c:c1,club:pick(third(0)),gain:600},{c:c2,club:pick(third(1)),gain:1000},{c:c3,club:pick((l=>l.slice(l.length>>1))(byF.filter(c=>CLUBS[c][0]===c3.arg))),gain:1500,card:1}];   // défi de championnat : adversaire de ce championnat (moitié haute)
 }
 function defiCheck(c){
   const ps=SLOTS.map((_,i)=>BY[S.squad[i]]).filter(Boolean),full=ps.length===11;
@@ -4910,10 +4910,10 @@ const SFX=(()=>{
 const RANGES=['moins de 73','73 à 77','78 à 81','82 à 85','86 à 92','93 et plus'];
 const TUTO=[
  {ic:'⚽',t:'Bienvenue dans Virage',h:()=>`<p>Collectionne les <b>${fmt(P.length)} joueurs</b> de huit championnats européens, plus les Icônes. Chaque carte a une rareté qui dépend de la note du joueur :</p><div class="rlist">${RAR.map((r,i)=>`<span style="--c:${r.c}">${r.n}<small>${RANGES[i]}</small></span>`).join('')}</div>`},
- {ic:'🎁',t:'Ouvre des boosters',h:()=>`<ul><li>Chaque booster contient <b>5 cartes</b>.</li><li>Tu reçois <b>un booster gratuit toutes les 10 minutes</b>, jusqu'à 10 en stock : reviens régulièrement.</li><li>Garanties : une <b>Épique</b> ou mieux au moins tous les 10 boosters, une <b>Légendaire</b> ou mieux au moins tous les 150.</li><li>Avec tes pièces : booster Élite (une Rare minimum) ou booster d'un championnat précis.</li></ul>`},
+ {ic:'🎁',t:'Ouvre des boosters',h:()=>`<ul><li>Chaque booster contient <b>5 cartes</b>.</li><li>Tu reçois <b>un booster gratuit toutes les 10 minutes</b>, jusqu'à 10 en stock : reviens régulièrement.</li><li>Garanties : une <b>Épique</b> ou mieux au moins tous les 10 boosters, une <b>Mythique</b> au 200e booster sans Mythique.</li><li>Avec tes pièces : booster Élite (une Rare minimum), booster d'un championnat précis, ou Booster Légendes pour viser les Icônes.</li></ul>`},
  {ic:'📚',t:'Complète ta collection',h:()=>`<ul><li>La <b>Collection</b> montre toutes les cartes, même celles que tu n'as pas : ouvre-les pour voir leurs détails.</li><li>En mode <b>Albums</b>, complète tous les joueurs d'un club pour encaisser une prime, puis tous les clubs d'un championnat pour <b>10 000 pièces</b>.</li><li>Tes doublons se vendent aux autres joueurs, s'échangent, ou se revendent rapidement à la banque.</li></ul>`},
- {ic:'🏟️',t:'Compose ton onze et joue',h:()=>`<ul><li>Dans <b>Effectif</b>, choisis ta formation et aligne 11 joueurs. Des joueurs du même club, du même championnat ou de la même nationalité renforcent ton <b>collectif</b>.</li><li>Dans <b>Matchs</b> : la tournée des 96 clubs, trois défis renouvelés chaque lundi, et des matchs contre les onzes des autres joueurs avec un classement mensuel.</li></ul>`},
- {ic:'🤝',t:'Échange avec les autres',h:()=>`<ul><li>Le <b>Marché</b> propose chaque jour 8 cartes à acheter avec tes pièces, et deux onglets pour vendre et échanger avec les autres joueurs.</li><li>Avec un compte gratuit (onglet <b>Profil</b>) : ta partie est sauvegardée et protégée, tu peux vendre et échanger avec les autres joueurs, et la cloche 🔔 te prévient de tes ventes et de tes cartes en envie.</li><li>Le bouton 🔊 coupe ou remet le son.</li></ul>`}
+ {ic:'🏟️',t:'Compose ton onze et joue',h:()=>`<ul><li>Dans <b>Effectif</b>, choisis ta formation et aligne 11 joueurs. Des joueurs du même club, du même championnat ou de la même nationalité renforcent ton <b>collectif</b>. Un onze compte 5 Mythiques au plus.</li><li>Dans <b>Matchs</b> : la tournée des ${MCLUBS.length} clubs, trois défis renouvelés chaque lundi, et des matchs contre les onzes des autres joueurs avec un classement mensuel.</li></ul>`},
+ {ic:'🤝',t:'Échange avec les autres',h:()=>`<ul><li>Le <b>Marché</b> propose chaque jour 8 cartes à acheter avec tes pièces, et trois onglets pour vendre, mettre aux enchères et échanger avec les autres joueurs.</li><li>Avec un compte gratuit (onglet <b>Profil</b>) : ta partie est sauvegardée et protégée, tu peux vendre et échanger avec les autres joueurs, et la cloche 🔔 te prévient de tes ventes et de tes cartes en envie.</li><li>Le bouton 🔊 coupe ou remet le son.</li></ul>`}
 ];
 let TI=0;
 function tuto(i){
@@ -4925,13 +4925,16 @@ function tuto(i){
 const FAQ=[
  ['Comment est choisie la rareté d\'une carte ?',()=>`Elle dépend uniquement de la note du joueur : ${RAR.map((r,i)=>`${r.n} (${RANGES[i]})`).join(', ')}. Les chances de tirage par carte sont de ${RAR.map(r=>String(r.p).replace('.',',')+' %').join(', ')}.`],
  ['Comment avoir des boosters gratuits ?',()=>'Un booster gratuit arrive toutes les 10 minutes, même quand tu n\'es pas sur le site. Tu peux en stocker 10 : au-delà, le compteur s\'arrête jusqu\'à ce que tu en ouvres un.'],
- ['Que sont les garanties Épique et Légendaire ?',()=>'Si tu ouvres 9 boosters sans Épique (ou mieux), le 10e en contient forcément une. De même, après 149 boosters sans Mythique, le 200e en contient une. Chaque compteur repart à zéro dès que tu obtiens la rareté, même par chance.'],
- ['Comment gagner des pièces ?',()=>'Missions du jour, matchs (surtout la première victoire contre chaque club), défis de la semaine, matchs contre d\'autres joueurs, albums complétés, passages de niveau, et ventes de cartes. Certaines sources sont plafonnées chaque jour pour garder une économie saine.'],
- ['À quoi servent les doublons ?',()=>'Tu peux les vendre aux autres joueurs (onglet Ventes du Marché), les proposer en échange (onglet Échanges), ou les revendre rapidement à la banque depuis la fiche de la carte. Le tri « doublons d\'abord » de la Collection les regroupe.'],
+ ['Que sont les garanties Épique et Mythique ?',()=>'Si tu ouvres 9 boosters sans Épique (ou mieux), le 10e en contient forcément une. De même, après 199 boosters sans Mythique, le 200e en contient une. Chaque compteur repart à zéro dès que tu obtiens la rareté, même par chance.'],
+ ['Comment gagner des pièces ?',()=>'Cadeau du jour, missions du jour, matchs (surtout la première victoire contre chaque club), défis de la semaine, matchs contre d\'autres joueurs, albums complétés, passages de niveau, parrainage, et ventes de cartes. Certaines sources sont plafonnées chaque jour pour garder une économie saine.'],
+ ['À quoi servent les doublons ?',()=>'Tu peux les vendre aux autres joueurs à prix fixe ou aux enchères (onglets Ventes et Enchères du Marché), les proposer en échange (onglet Échanges), ou les revendre rapidement à la banque depuis la fiche de la carte. Le tri « doublons d\'abord » de la Collection les regroupe.'],
  ['Qu\'est-ce que le collectif ?',()=>'Un bonus de ton onze qui monte quand tes joueurs partagent un club, un championnat ou une nationalité. Chaque légende alignée ajoute +10 grâce à son bonus icône, même sans lien avec ses coéquipiers. Chaque tranche de 20 points de collectif ajoute 1 point à ta note en match. Aligner un joueur hors de son poste habituel coûte un peu de note.'],
  ['Comment marchent les matchs contre les joueurs ?',()=>'Ton onze affronte celui d\'un autre joueur tel qu\'il l\'a composé. Victoire : 3 points de saison, nul : 1 point. Le classement de saison repart à zéro chaque mois et les meilleurs reçoivent des pièces le 1er du mois. Ton onze sert aussi de défense quand on te défie.'],
- ['Comment vendre ou échanger une carte ?',()=>'Il faut un compte, le niveau 5 et 2 jours d\'ancienneté (protection contre les comptes multiples). Pour vendre : ouvre la carte dans ta Collection et fixe ton prix. Pour échanger : section Échanges du Marché. Les ventes et les pièces échangées sont taxées à 10 %.'],
- ['À quoi servent les envies ?',()=>'Ouvre une carte que tu n\'as pas et ajoute-la à tes envies : la cloche 🔔 te prévient dès qu\'un joueur la met en vente ou la propose en échange.'],
+ ['Comment vendre ou échanger une carte ?',()=>'Il faut un compte, le niveau 5 et 2 jours d\'ancienneté (protection contre les comptes multiples). Pour vendre : ouvre la carte dans ta Collection et fixe ton prix, ou lance une enchère. Pour échanger : onglet Échanges du Marché. Les ventes et les pièces échangées sont taxées à 10 %.'],
+ ['Comment marchent les enchères ?',()=>'Dans l\'onglet Enchères du Marché, mise sur la carte d\'un autre joueur : la plus haute mise à la fin du compte à rebours l\'emporte. Ta mise est prélevée tout de suite et rendue dès qu\'un joueur surenchérit. Une mise dans les deux dernières minutes prolonge l\'enchère de deux minutes. Pour lancer la tienne, ouvre une carte dans ta Collection : tu choisis la mise de départ et la durée, et tu reçois la mise gagnante moins 10 %.'],
+ ['Que contient le Booster Légendes ?',()=>`4 cartes Rares ou mieux, puis une Épique ou mieux, avec ${Math.round(ICON_P*100)} % de chances que ce soit une Icône (Mythique). Au ${PITY_ICON}e Booster Légendes sans Icône, tu en reçois une à coup sûr. Les Icônes sortent aussi des boosters Europe et Élite, mais bien plus rarement.`],
+ ['Combien de Mythiques puis-je aligner ?',()=>'5 au plus dans un onze. Au-delà, il faut choisir : c\'est ce qui garde de la stratégie dans la composition.'],
+ ['À quoi servent les envies ?',()=>'Ouvre une carte que tu n\'as pas et ajoute-la à tes envies : la cloche 🔔 te prévient dès qu\'un joueur la met en vente, aux enchères ou la propose en échange.'],
  ['Pourquoi créer un compte ?',()=>'Sans compte, ta partie est seulement dans ce navigateur. Avec un compte gratuit, elle est sauvegardée sur le serveur, protégée contre la triche, accessible depuis n\'importe quel appareil, et tu accèdes au classement, au marché entre joueurs, aux échanges et aux matchs contre les autres.'],
  ['Les notes sont-elles officielles ?',()=>'Non. Virage est un jeu de fans non officiel : les notes et statistiques sont des estimations propres au jeu.']
 ];
@@ -5305,6 +5308,8 @@ body.gated{overflow:hidden}
 .gate-ft li{border:1px solid var(--line);background:rgba(255,255,255,.03);border-radius:14px;padding:12px 14px;font-size:14px;color:#C9D3EA;line-height:1.4}
 .gate-ft b{display:block;color:var(--fg);font-size:15px;margin-bottom:2px}
 .gate-kpi{display:flex;gap:10px 22px;flex-wrap:wrap;color:var(--mute);font-size:14px}.gate-kpi b{font-family:var(--disp);font-size:26px;color:var(--gold);margin-right:6px}
+@media(max-width:560px){.gate-kpi{display:grid;grid-template-columns:repeat(4,auto);justify-content:space-between;gap:6px;font-size:12px}.gate-kpi b{display:block;font-size:22px;margin:0}}
+.gate-dc{display:grid;gap:2px;text-decoration:none;color:#fff;background:#5865F2;border-radius:12px;padding:11px 16px;margin-top:12px;font-size:13px}.gate-dc b{font-size:15px}.gate-dc span{opacity:.85}.gate-dc:hover{background:#4752C4}
 .gate-ref{border:1px solid var(--gold);background:rgba(245,196,81,.10);border-radius:12px;padding:10px 14px;font-size:14px}
 .gate-cta{display:none}
 @media(max-width:860px){.gate-in{grid-template-columns:minmax(0,1fr);gap:18px;padding-top:0}.gate-r{position:static;order:2}.gate-l{display:contents}
@@ -5423,6 +5428,7 @@ body.gated{overflow:hidden}
 .au-n{font-size:12px;color:var(--mute)}.au-n.ok{color:var(--r1)}
 .au-it.lead .card{outline:2px solid var(--r1);outline-offset:3px;border-radius:12px}
 .au-new{display:grid;grid-template-columns:1fr 1fr;gap:8px}.au-new label{display:grid;gap:4px;font-size:13px;color:var(--mute)}.au-new select{width:100%;background:#1B2947;border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--fg);font:inherit;font-size:15px}
+.pm-f .pm-w input{width:auto;flex:0 0 auto}
 .pm-w{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--mute);white-space:nowrap}
 `;
 document.head.appendChild(st);
@@ -5500,13 +5506,14 @@ gate.innerHTML=`<div class="gate-in">
         <li><b>10 boosters offerts</b>Dès l'inscription, puis un booster gratuit toutes les 10 minutes.</li>
         <li><b>Du Commun au Mythique</b>Six raretés, des cartes garanties, et un cadeau chaque jour.</li>
         <li><b>Ton onze, ton collectif</b>Aligne tes joueurs par club et par pays pour gagner tes matchs.</li>
-        <li><b>Un vrai marché</b>Vends, achète et échange tes cartes avec les autres joueurs.</li>
+        <li><b>Un vrai marché</b>Vends, achète, enchéris et échange tes cartes avec les autres joueurs.</li>
       </ul>
     </div>
   </div>
   <div class="gate-r">
     ${refPending()?`<div class="gate-ref">🎁 Tu es invité par <b>${esc(refPending())}</b> : inscris-toi et recevez chacun 1 500 pièces quand tu atteins le niveau 5.</div>`:''}
     <div class="gate-box" id="gate-slot"></div>
+    <a class="gate-dc" href="https://discord.gg/xHv7HyEkyU" target="_blank" rel="noopener"><b>Rejoins le Discord</b><span>Annonces, échanges entre joueurs, aide et suggestions</span></a>
     <p class="gate-legal"><a href="legal.html#mentions">Mentions légales</a> · <a href="legal.html#confidentialite">Confidentialité</a> · <a href="legal.html#conditions">Conditions</a> · <a href="credits.html">Crédits photo</a><br>Jeu de fans non officiel.</p>
   </div></div>`;
 document.body.appendChild(gate);
@@ -5637,6 +5644,7 @@ function draw(){
       <form class="ol-form" id="ol-ren" style="margin:0 0 12px" novalidate><label>Changer de pseudo (une fois tous les 30 jours)<span class="row" style="flex-wrap:nowrap"><input name="ps" maxlength="16" value="${esc(pseudo)}" autocomplete="nickname" style="min-width:0"><button class="btn ghost" type="submit">Valider</button></span></label></form>
       <div class="row"><button type="button" class="btn ghost" data-ol="out">Se déconnecter</button>${isAdmin?'<a class="btn ghost" href="admin.html">Administration</a>':''}</div>
       ${refHTML()}
+      <a class="gate-dc" href="https://discord.gg/xHv7HyEkyU" target="_blank" rel="noopener"><b>Discord de Virage TCG</b><span>Annonces, échanges entre joueurs, aide et suggestions</span></a>
       <div class="ol-note">Ta partie en ligne est gardée et vérifiée par le serveur : pièces et cartes ne peuvent pas être modifiées depuis le navigateur. Ta partie hors ligne reste sur cet appareil et revient quand tu te déconnectes.</div>
       <p class="ol-msg" id="ol-m"></p>
       <details><summary>Mes données personnelles</summary>
