@@ -245,6 +245,10 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
 .offer .btn{width:100%;position:relative}
 .pack{--pw:170px;width:var(--pw);aspect-ratio:10/15;position:relative;border-radius:8px;overflow:hidden;background:linear-gradient(135deg,#1E3A8A,#0EA5E9 38%,#1E1B4B 68%,#0B1120);box-shadow:0 18px 40px rgba(0,0,0,.55),inset 0 0 0 1px rgba(255,255,255,.18);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4%;color:#fff;transition:transform .3s}
 .pack.elite{background:linear-gradient(135deg,#3B2A05,#F5C451 36%,#7C2D12 66%,#120A02)}
+.pack.icon{background:linear-gradient(135deg,#12040A,#B3122A 30%,#F5C451 50%,#7A0C1E 68%,#0B0508)}
+.offer.icon-o{margin-top:16px;flex-direction:row;justify-content:center;gap:28px;text-align:left}
+.icon-t{display:flex;flex-direction:column;gap:10px;align-items:flex-start;max-width:36ch;position:relative}
+.offer.icon-o p{max-width:none}.icon-t small{color:var(--mute);font-size:12.5px}
 .offer:hover .pack{transform:translateY(-6px) rotate(-2deg)}
 .pack::before,.pack::after{content:"";position:absolute;left:0;right:0;height:7%;background:repeating-linear-gradient(90deg,rgba(255,255,255,.4) 0 3px,rgba(0,0,0,.3) 3px 6px)}
 .pack::before{top:0}.pack::after{bottom:0}
@@ -507,6 +511,7 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
   .offer .pack{--pw:min(120px,33vw)}
   .offer h3{font-size:19px;line-height:1.05}
   .offer p{display:none}
+  .offer.icon-o{gap:14px;justify-content:flex-start}.icon-t{gap:7px;min-width:0;flex:1}.icon-t .eyebrow{font-size:10px}
   .offer .btn{padding:11px 6px;font-size:13.5px;min-height:44px}
   .lgpacks{gap:8px}
   /* rangées de filtres : une seule ligne qui défile au doigt */
@@ -577,6 +582,16 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
             <h3>Booster Élite</h3>
             <p>5 cartes dont une Rare ou mieux à coup sûr.</p>
             <button type="button" class="btn ghost" data-act="pk" data-k="elite" id="buy-elite">Ouvrir un Booster Élite · <span class="coin sm"></span> 1 500</button>
+          </div>
+        </div>
+        <div class="panel offer icon-o" style="--halo:#FF3B4E">
+          <div class="pack icon" data-act="pk" data-k="icon" role="button" tabindex="0" aria-label="Afficher le Booster Légendes"><span class="p-sheen"></span><span class="p-t" style="font-size:calc(var(--pw)*.185)">Légendes</span><span class="p-s">Icônes</span><span class="p-d"><i></i><i></i><i></i><i></i><i></i></span><span class="p-n">Épique garantie</span></div>
+          <div class="icon-t">
+            <span class="eyebrow">Exclusif · 35 Icônes Mythiques</span>
+            <h3>Booster Légendes</h3>
+            <p>Zidane, Pelé, Maradona, Cruyff… Les Icônes ne sortent que de ce booster. 4 Rares ou mieux, une Épique ou mieux, et 10 % de chances d'Icône.</p>
+            <button type="button" class="btn ghost" data-act="pk" data-k="icon" id="buy-icon">Ouvrir · <span class="coin sm"></span> 7 500</button>
+            <small id="pity-icon" class="num"></small>
           </div>
         </div>
         <h3 style="font-size:22px;margin-top:28px">Boosters par championnat</h3>
@@ -738,6 +753,38 @@ main{max-width:1240px;margin:0 auto;padding-block:24px 48px;padding-left:max(16p
 window.VIRAGE_CARTES=`Lionel Messi|Messi|Argentine|AD|ARG|94|95|35|80
 Cristiano Ronaldo|CR7|Portugal|BU|POR|93|96|34|78
 Neymar|Neymar|Brésil|AG|BRA|93|92|32|86
+Zinédine Zidane|Zidane|France|MOC|FRA|96
+Thierry Henry|Henry|France|BU|FRA|94
+Michel Platini|Platini|France|MOC|FRA|95
+Pelé|Pelé|Brésil|BU|BRA|97
+Ronaldo Nazário|Ronaldo|Brésil|BU|BRA|96
+Ronaldinho|Ronaldinho|Brésil|MOC|BRA|95
+Kaká|Kaká|Brésil|MOC|BRA|93
+Diego Maradona|Maradona|Argentine|MOC|ARG|97
+Paolo Maldini|Maldini|Italie|DG|ITA|95
+Gianluigi Buffon|Buffon|Italie|G|ITA|94
+Andrea Pirlo|Pirlo|Italie|MDC|ITA|93
+Roberto Baggio|Baggio|Italie|MOC|ITA|94
+Franz Beckenbauer|Beckenbauer|Allemagne|DC|GER|96
+Lothar Matthäus|Matthäus|Allemagne|MC|GER|94
+Philipp Lahm|Lahm|Allemagne|DD|GER|93
+Xavi Hernández|Xavi|Espagne|MC|ESP|94
+Andrés Iniesta|Iniesta|Espagne|MC|ESP|94
+Iker Casillas|Casillas|Espagne|G|ESP|93
+Carles Puyol|Puyol|Espagne|DC|ESP|93
+David Beckham|Beckham|Angleterre|AD|ENG|93
+Steven Gerrard|Gerrard|Angleterre|MC|ENG|93
+Wayne Rooney|Rooney|Angleterre|BU|ENG|93
+Johan Cruyff|Cruyff|Pays-Bas|AG|NED|96
+Marco van Basten|Van Basten|Pays-Bas|BU|NED|95
+Eusébio|Eusébio|Portugal|BU|POR|94
+Luís Figo|Figo|Portugal|AD|POR|94
+Samuel Eto'o|Eto'o|Cameroun|BU|CMR|93
+Didier Drogba|Drogba|Côte d'Ivoire|BU|CIV|93
+Yaya Touré|Yaya Touré|Côte d'Ivoire|MC|CIV|93
+George Weah|Weah|Liberia|BU|LBR|94
+Zlatan Ibrahimović|Ibrahimović|Suède|BU|SWE|94
+Andriy Shevchenko|Shevchenko|Ukraine|BU|UKR|93
 Kylian Mbappé|Mbappé|Real Madrid|BU|FRA|94|96|38|97
 Erling Haaland|Haaland|Man City|BU|NOR|93|97|45|89
 Lamine Yamal|Yamal|Barcelone|AD|ESP|91|93|36|92
@@ -2989,7 +3036,7 @@ const RAR=[
  {n:'Mythique',c:'#FF3B4E',p:.3,sell:3000}];
 const rarOf=o=>o<75?0:o<80?1:o<85?2:o<89?3:o<93?4:5;
 const GRP={G:'G',DG:'DEF',DC:'DEF',DD:'DEF',MDC:'MIL',MC:'MIL',MOC:'MIL',AG:'ATT',AD:'ATT',BU:'ATT'};
-const CLUBS={'Argentine':['Légendes','#75AADB','#FFFFFF'],'Portugal':['Légendes','#DA291C','#006600'],'Brésil':['Légendes','#FFDF00','#009C3B'],'Alavés':['LaLiga','#0761AF','#FFFFFF'],'Elche':['LaLiga','#F4F4F4','#05642C'],'Levante':['LaLiga','#B4053F','#005CA5'],'Málaga':['LaLiga','#6CABDD','#FFFFFF'],'Osasuna':['LaLiga','#D91A21','#0A346F'],'Racing Santander':['LaLiga','#F4F4F4','#00703C'],'Rayo Vallecano':['LaLiga','#F4F4F4','#E53027'],'Valence':['LaLiga','#F4F4F4','#EE3524'],'Séville':['LaLiga','#F4F4F4','#D8061B'],'Bournemouth':['Premier League','#DA291C','#111111'],'Coventry':['Premier League','#87CEEB','#FFFFFF'],'Crystal Palace':['Premier League','#1B458F','#C4122E'],'Fulham':['Premier League','#F4F4F4','#111111'],'Hull City':['Premier League','#F5A12D','#111111'],'Ipswich':['Premier League','#0044A9','#FFFFFF'],'Leeds':['Premier League','#F4F4F4','#FFCD00'],'Sunderland':['Premier League','#EB172B','#FFFFFF'],'Atalanta':['Serie A','#1E71B8','#111111'],'Cagliari':['Serie A','#A31E32','#002350'],'Frosinone':['Serie A','#FFE600','#004B9B'],'Genoa':['Serie A','#AD1919','#0A2342'],'Lecce':['Serie A','#FFDD00','#DA291C'],'Monza':['Serie A','#E4032E','#FFFFFF'],'Parme':['Serie A','#F4F4F4','#FFD200'],'Torino':['Serie A','#8A1E03','#FFFFFF'],'Udinese':['Serie A','#F4F4F4','#111111'],'Venise':['Serie A','#1A1A1A','#FC6B0A'],'Leipzig':['Bundesliga','#F4F4F4','#DD0741'],'Augsbourg':['Bundesliga','#F4F4F4','#BA3733'],'Mayence':['Bundesliga','#C3141E','#FFFFFF'],'Elversberg':['Bundesliga','#F4F4F4','#111111'],'Cologne':['Bundesliga','#F4F4F4','#ED1C24'],'Paderborn':['Bundesliga','#005CA9','#111111'],'Angers':['Ligue 1','#1A1A1A','#FFFFFF'],'Auxerre':['Ligue 1','#F4F4F4','#0055A4'],'Troyes':['Ligue 1','#0A5EB0','#FFFFFF'],'Le Havre':['Ligue 1','#79BCE7','#0A2240'],'Le Mans':['Ligue 1','#E2001A','#FFD500'],'Paris FC':['Ligue 1','#0B1E3C','#7FB2E5'],'Rennes':['Ligue 1','#E13327','#111111'],'Strasbourg':['Ligue 1','#009FE3','#FFFFFF'],'Toulouse':['Ligue 1','#5B2D82','#FFFFFF'],
+const CLUBS={"France":['Légendes','#0055A4','#EF4135'],"Italie":['Légendes','#0066B2','#FFFFFF'],"Allemagne":['Légendes','#F4F4F4','#111111'],"Espagne":['Légendes','#C60B1E','#FFC400'],"Angleterre":['Légendes','#F4F4F4','#CE1124'],"Pays-Bas":['Légendes','#F36C21','#111111'],"Cameroun":['Légendes','#007A5E','#FCD116'],"Côte d'Ivoire":['Légendes','#F77F00','#009E60'],"Liberia":['Légendes','#BF0A30','#002868'],"Suède":['Légendes','#FECC00','#006AA7'],"Ukraine":['Légendes','#FFD500','#0057B7'],'Argentine':['Légendes','#75AADB','#FFFFFF'],'Portugal':['Légendes','#DA291C','#006600'],'Brésil':['Légendes','#FFDF00','#009C3B'],'Alavés':['LaLiga','#0761AF','#FFFFFF'],'Elche':['LaLiga','#F4F4F4','#05642C'],'Levante':['LaLiga','#B4053F','#005CA5'],'Málaga':['LaLiga','#6CABDD','#FFFFFF'],'Osasuna':['LaLiga','#D91A21','#0A346F'],'Racing Santander':['LaLiga','#F4F4F4','#00703C'],'Rayo Vallecano':['LaLiga','#F4F4F4','#E53027'],'Valence':['LaLiga','#F4F4F4','#EE3524'],'Séville':['LaLiga','#F4F4F4','#D8061B'],'Bournemouth':['Premier League','#DA291C','#111111'],'Coventry':['Premier League','#87CEEB','#FFFFFF'],'Crystal Palace':['Premier League','#1B458F','#C4122E'],'Fulham':['Premier League','#F4F4F4','#111111'],'Hull City':['Premier League','#F5A12D','#111111'],'Ipswich':['Premier League','#0044A9','#FFFFFF'],'Leeds':['Premier League','#F4F4F4','#FFCD00'],'Sunderland':['Premier League','#EB172B','#FFFFFF'],'Atalanta':['Serie A','#1E71B8','#111111'],'Cagliari':['Serie A','#A31E32','#002350'],'Frosinone':['Serie A','#FFE600','#004B9B'],'Genoa':['Serie A','#AD1919','#0A2342'],'Lecce':['Serie A','#FFDD00','#DA291C'],'Monza':['Serie A','#E4032E','#FFFFFF'],'Parme':['Serie A','#F4F4F4','#FFD200'],'Torino':['Serie A','#8A1E03','#FFFFFF'],'Udinese':['Serie A','#F4F4F4','#111111'],'Venise':['Serie A','#1A1A1A','#FC6B0A'],'Leipzig':['Bundesliga','#F4F4F4','#DD0741'],'Augsbourg':['Bundesliga','#F4F4F4','#BA3733'],'Mayence':['Bundesliga','#C3141E','#FFFFFF'],'Elversberg':['Bundesliga','#F4F4F4','#111111'],'Cologne':['Bundesliga','#F4F4F4','#ED1C24'],'Paderborn':['Bundesliga','#005CA9','#111111'],'Angers':['Ligue 1','#1A1A1A','#FFFFFF'],'Auxerre':['Ligue 1','#F4F4F4','#0055A4'],'Troyes':['Ligue 1','#0A5EB0','#FFFFFF'],'Le Havre':['Ligue 1','#79BCE7','#0A2240'],'Le Mans':['Ligue 1','#E2001A','#FFD500'],'Paris FC':['Ligue 1','#0B1E3C','#7FB2E5'],'Rennes':['Ligue 1','#E13327','#111111'],'Strasbourg':['Ligue 1','#009FE3','#FFFFFF'],'Toulouse':['Ligue 1','#5B2D82','#FFFFFF'],
  'Man City':['Premier League','#6CABDD','#1C2C5B'],'Liverpool':['Premier League','#C8102E','#00B2A9'],'Arsenal':['Premier League','#EF0107','#FFFFFF'],'Chelsea':['Premier League','#034694','#FFFFFF'],'Man United':['Premier League','#DA291C','#FBE122'],'Aston Villa':['Premier League','#670E36','#95BFE5'],'Everton':['Premier League','#003399','#FFFFFF'],'Nottingham Forest':['Premier League','#DD0000','#FFFFFF'],'Newcastle':['Premier League','#241F20','#FFFFFF'],'West Ham':['Premier League','#7A263A','#1BB1E7'],'Brighton':['Premier League','#0057B8','#FFFFFF'],'Tottenham':['Premier League','#F4F4F4','#132257'],'Brentford':['Premier League','#E30613','#FFFFFF'],'La Corogne':['LaLiga','#1C5BA2','#FFFFFF'],'Schalke':['Bundesliga','#004D9D','#FFFFFF'],'Hambourg':['Bundesliga','#0A3F86','#FFFFFF'],'Werder Brême':['Bundesliga','#1D9053','#FFFFFF'],'Burnley':['Premier League','#6C1D45','#99D6EA'],
  'Real Madrid':['LaLiga','#F1F1F1','#FEBE10'],'Barcelone':['LaLiga','#A50044','#004D98'],'Atlético':['LaLiga','#CB3524','#FFFFFF'],'Athletic Club':['LaLiga','#EE2523','#FFFFFF'],'Real Sociedad':['LaLiga','#0067B1','#FFFFFF'],'Betis':['LaLiga','#00954C','#FFFFFF'],'Villarreal':['LaLiga','#FFE667','#005187'],'Majorque':['LaLiga','#E20613','#111111'],'Celta':['LaLiga','#8AC3EE','#FFFFFF'],'Getafe':['LaLiga','#005999','#FFFFFF'],'Espanyol':['LaLiga','#007FC8','#FFFFFF'],
  'Inter':['Serie A','#0068A8','#111111'],'Naples':['Serie A','#12A0D7','#FFFFFF'],'Milan':['Serie A','#FB090B','#111111'],'Juventus':['Serie A','#F4F4F4','#111111'],'Roma':['Serie A','#8E1F2F','#F0BC42'],'Côme':['Serie A','#1D4E9E','#FFFFFF'],'Fiorentina':['Serie A','#592C82','#FFFFFF'],'Bologne':['Serie A','#A21C26','#1A2F48'],'Lazio':['Serie A','#87D8F7','#FFFFFF'],'Sassuolo':['Serie A','#00A752','#111111'],'Cremonese':['Serie A','#8B8C8E','#C8102E'],
@@ -3000,7 +3047,7 @@ const h3=(a,b,c)=>`linear-gradient(${a} 33%,${b} 33% 66%,${c} 66%)`;
 const v3=(a,b,c)=>`linear-gradient(90deg,${a} 33%,${b} 33% 66%,${c} 66%)`;
 const cross=(bg,fg)=>`linear-gradient(transparent 38%,${fg} 38% 62%,transparent 62%),linear-gradient(90deg,${bg} 32%,${fg} 32% 50%,${bg} 50%)`;
 const dot=(bg,fg)=>`radial-gradient(circle,${fg} 0 28%,${bg} 30%)`;
-const FLAG={FRA:v3('#0055A4','#fff','#EF4135'),ITA:v3('#009246','#fff','#CE2B37'),BEL:v3('#111','#FDDA24','#EF3340'),IRL:v3('#169B62','#fff','#FF883E'),GUI:v3('#CE1126','#FCD116','#009460'),CMR:v3('#007A5E','#CE1126','#FCD116'),
+const FLAG={LBR:'linear-gradient(#002868,#002868) 0 0/40% 46% no-repeat,repeating-linear-gradient(#BF0A30 0 18.2%,#fff 18.2% 36.4%)',FRA:v3('#0055A4','#fff','#EF4135'),ITA:v3('#009246','#fff','#CE2B37'),BEL:v3('#111','#FDDA24','#EF3340'),IRL:v3('#169B62','#fff','#FF883E'),GUI:v3('#CE1126','#FCD116','#009460'),CMR:v3('#007A5E','#CE1126','#FCD116'),
  GER:h3('#111','#DD0000','#FFCE00'),NED:h3('#AE1C28','#fff','#21468B'),ESP:'linear-gradient(#AA151B 25%,#F1BF00 25% 75%,#AA151B 75%)',ARG:h3('#74ACDF','#fff','#74ACDF'),EGY:h3('#CE1126','#fff','#111'),CRO:h3('#FF0000','#fff','#171796'),AUT:h3('#ED2939','#fff','#ED2939'),GAB:h3('#009E60','#FCD116','#3A75C4'),COL:'linear-gradient(#FCD116 50%,#003893 50% 75%,#CE1126 75%)',ECU:'linear-gradient(#FFDD00 50%,#034EA2 50% 75%,#ED1C24 75%)',URU:'repeating-linear-gradient(#fff 0 12%,#0038A8 12% 24%)',TOG:'repeating-linear-gradient(#006A4E 0 20%,#FFCE00 20% 40%)',
  ENG:cross('#fff','#CE1124'),NOR:cross('#BA0C2F','#00205B'),SWE:cross('#006AA7','#FECC00'),DEN:cross('#C8102E','#fff'),GEO:cross('#fff','#FF0000'),SUI:cross('#DA291C','#fff'),
  POR:'linear-gradient(90deg,#006600 40%,#FF0000 40%)',BRA:'radial-gradient(circle,#002776 0 20%,#FFDF00 22% 46%,#009C3B 48%)',MAR:dot('#C1272D','#006233'),TUR:dot('#E30A17','#fff'),KOS:dot('#244AA5','#D0A650'),SCO:'linear-gradient(33deg,transparent 44%,#fff 44% 56%,transparent 56%),linear-gradient(-33deg,#005EB8 44%,#fff 44% 56%,#005EB8 56%)',AUS:'#012169',ZAM:'#198A00',FIN:cross('#fff','#003580'),ISL:cross('#02529C','#DC1E35'),ROU:v3('#002B7F','#FCD116','#CE1126'),MEX:v3('#006847','#fff','#CE1126'),MLI:v3('#14B53A','#FCD116','#CE1126'),CGO:v3('#009543','#FBDE4A','#DC241F'),CZE:'linear-gradient(#fff 50%,#D7141A 50%)',CHI:'linear-gradient(#fff 50%,#D52B1E 50%)',IDN:'linear-gradient(#FF0000 50%,#fff 50%)',HAI:'linear-gradient(#00209F 50%,#D21034 50%)',BFA:'linear-gradient(#EF2B2D 50%,#009E49 50%)',ANG:'linear-gradient(#CC092F 50%,#111 50%)',BUL:h3('#fff','#00966E','#D62612'),EST:h3('#0072CE','#111','#fff'),LTU:h3('#FDB913','#006A44','#C1272D'),PAR:h3('#D52B1E','#fff','#0038A8'),VEN:h3('#FFCC00','#00247D','#CF142B'),GAM:h3('#CE1126','#0C1C8C','#3A7728'),MOZ:h3('#009A44','#111','#FCE100'),KEN:h3('#111','#BB0000','#006600'),EQG:h3('#3E9A00','#fff','#E32118'),SUR:h3('#377E3F','#B40A2D','#377E3F'),THA:h3('#A51931','#2D2A4A','#A51931'),SLE:h3('#1EB53A','#fff','#0072C6'),JOR:h3('#111','#fff','#007A3D'),CRC:h3('#002B7F','#CE1126','#002B7F'),NER:h3('#E05206','#fff','#0DB02B'),ISR:'linear-gradient(#fff 20%,#0038B8 20% 35%,#fff 35% 65%,#0038B8 65% 80%,#fff 80%)',GNB:'linear-gradient(90deg,#CE1126 33%,#FCD116 33%)',BEN:'linear-gradient(90deg,#008751 40%,#FCD116 40%)',MKD:dot('#D20000','#FFE600'),TUN:dot('#E70013','#fff'),BIH:'#002395',ALB:'#E41E20',MNE:'#C40308',JAM:'#009B3A',COD:'#007FFF',NZL:'#00247D',CPV:'#003893',CTA:'#003082',COM:'#3A75C4',TAN:'#1EB53A',KSA:'#006C35',BDI:'#CE1126',DOM:'#002D62',UKR:'linear-gradient(#0057B7 50%,#FFD700 50%)',POL:'linear-gradient(#fff 50%,#DC143C 50%)',WAL:'linear-gradient(#fff 50%,#00AB39 50%)',ALG:'linear-gradient(90deg,#006233 50%,#fff 50%)',CAN:v3('#D80621','#fff','#D80621'),NGA:v3('#008751','#fff','#008751'),SEN:v3('#00853F','#FDEF42','#E31B23'),RUS:h3('#fff','#0039A6','#D52B1E'),SVN:h3('#fff','#0005CE','#ED1C24'),SVK:h3('#fff','#0B4EA2','#EE1C25'),SRB:h3('#C6363C','#0C4076','#fff'),HUN:h3('#CE2939','#fff','#477050'),UZB:h3('#0099B5','#fff','#1EB53A'),GHA:h3('#CE1126','#FCD116','#006B3F'),ARM:h3('#D90012','#0033A0','#F2A800'),NIR:cross('#fff','#CE1124'),JPN:dot('#fff','#BC002D'),USA:'repeating-linear-gradient(#B22234 0 14%,#fff 14% 28%)',GRE:'repeating-linear-gradient(#0D5EAF 0 14%,#fff 14% 28%)',KOR:dot('#fff','#CD2E3A'),CIV:v3('#FF8200','#fff','#009A44')};
@@ -3009,12 +3056,14 @@ const norm=s=>s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').re
 const slug=s=>norm(s).replace(/[^a-z]+/g,'-').replace(/^-|-$/g,'');
 const TPL={G:[.2,1.01,.55],DC:[.48,1.01,.86],DG:[.8,.93,1],DD:[.8,.93,1],MDC:[.8,.98,.82],MC:[.9,.9,.88],MOC:[1,.6,.92],AG:[1,.5,1.06],AD:[1,.5,1.06],BU:[1.03,.48,.95]};
 function auto(name,pos,ovr){let h=7;for(const c of name)h=(h*31+c.charCodeAt(0))>>>0;return TPL[pos].map((k,i)=>Math.max(10,Math.min(98,Math.round(ovr*k)+((h>>(i*5))%7)-3)))}
+const BASE_ICON=new Set(['lionel-messi','cristiano-ronaldo','neymar']);
 const P=RAW.split('\n').map(l=>{let [full,short,club,pos,nat,ovr,att,def,vit]=l.split('|');const c=CLUBS[club];if(att===undefined)[att,def,vit]=auto(full,pos,+ovr);
-  return{id:slug(full),full,short,club,lg:c[0],c1:c[1],c2:c[2],pos,grp:GRP[pos],nat,ovr:+ovr,att:+att,def:+def,vit:+vit,r:rarOf(+ovr),key:norm(full+' '+club)}});
+  return{id:slug(full),full,short,club,lg:c[0],c1:c[1],c2:c[2],pos,grp:GRP[pos],nat,ovr:+ovr,att:+att,def:+def,vit:+vit,r:rarOf(+ovr),key:norm(full+' '+club),x:c[0]==='Légendes'&&!BASE_ICON.has(slug(full))}});
 P.sort((a,b)=>b.ovr-a.ovr);
 const BY={};P.forEach(p=>{if(BY[p.id])p.id+='-'+slug(p.club);BY[p.id]=p});
-const BYR=RAR.map((_,i)=>P.filter(p=>p.r===i));
-const PACKS={std:{cost:500,min:0,name:'Top 5',cls:''},elite:{cost:1500,min:2,name:'Élite',cls:' elite'}};
+const BYR=RAR.map((_,i)=>P.filter(p=>p.r===i&&!p.x)),ICONS=P.filter(p=>p.lg==='Légendes');
+const PACKS={std:{cost:500,min:0,name:'Top 5',cls:''},elite:{cost:1500,min:2,name:'Élite',cls:' elite'},icon:{cost:7500,min:2,name:'Légendes',sub:'Icônes',fs:.185,cls:' icon',icon:1}};
+const ICON_P=.10,PITY_ICON=10;
 const LGP={'Premier League':['pl','Angleterre','#3D195B','#C2185B',.185],'LaLiga':['liga','Espagne','#0B1E4F','#E0452F',.21],'Serie A':['seriea','Italie','#0A2A66','#0E9F6E',.185],'Bundesliga':['buli','Allemagne','#3A0A0E','#D20515',.13],'Ligue 1':['l1','France','#0B1F3A','#1F6FEB',.185]};
 Object.keys(LGP).forEach(l=>{const g=LGP[l];PACKS[g[0]]={cost:750,min:0,name:l.replace(/ (\S)$/,' $1'),sub:g[1],lg:l,fs:g[4],cls:'',style:`background:linear-gradient(135deg,${g[2]},${g[3]} 45%,${g[2]} 78%,#0B1120)`}});
 const BYRL={};LEAGUES.forEach(l=>BYRL[l]=RAR.map((_,i)=>BYR[i].filter(p=>p.lg===l)));
@@ -3036,7 +3085,7 @@ function missions(){
 
 /* ---------- État ---------- */
 const KEY='virage-tcg-v1';
-const fresh=()=>({coins:0,xp:0,owned:{},favs:[],squad:{},packs:0,free:{n:10,t:Date.now()},last:[],pity:0,form:'433',beaten:{},rec:{w:0,d:0,l:0},mis:{day:'',p:{},c:{}},mkt:{day:'',items:[],sold:{},roll:0},defi:{wk:'',done:{}},albums:{},pity_leg:0,wishes:[]});
+const fresh=()=>({coins:0,xp:0,owned:{},favs:[],squad:{},packs:0,free:{n:10,t:Date.now()},last:[],pity:0,form:'433',beaten:{},rec:{w:0,d:0,l:0},mis:{day:'',p:{},c:{}},mkt:{day:'',items:[],sold:{},roll:0},defi:{wk:'',done:{}},albums:{},pity_leg:0,pity_icon:0,wishes:[]});
 let S=fresh(),NET=null;
 try{const j=JSON.parse(localStorage.getItem(KEY));if(j&&typeof j==='object')S=Object.assign(fresh(),j)}catch(e){}
 if(!S.free||typeof S.free.n!=='number'||typeof S.free.t!=='number')S.free={n:2,t:Date.now()};
@@ -3069,7 +3118,7 @@ function art(p){
   return ph+`<svg viewBox="0 0 100 82" preserveAspectRatio="xMidYMax meet" aria-hidden="true"><text x="50" y="36" text-anchor="middle" class="ini">${ini}</text><path d="M10 82C10 60 28 50 50 50s40 10 40 32z" fill="${p.c1}"/><path d="M10 82C10 60 28 50 50 50s40 10 40 32" fill="none" stroke="${p.c2}" stroke-width="2.4"/><rect x="44" y="39" width="12" height="13" rx="3" fill="#2B3654"/><path d="M41 50.5l9 10 9-10z" fill="${p.c2}"/><circle cx="50" cy="30" r="13" fill="#34405F"/><path d="M37 29a13 13 0 0 1 26 0c-3-5-8-7-13-7s-10 2-13 7z" fill="#0B1120"/></svg>`;
 }
 /* ---------- Écussons (créations originales : forme, motif, couleurs et sigle du club) ---------- */
-const CCODE={"Argentine": "ARG", "Portugal": "POR", "Brésil": "BRA", "Alavés": "ALA", "Elche": "ELC", "Levante": "LEV", "Málaga": "MAL", "Osasuna": "OSA", "Racing Santander": "RAC", "Rayo Vallecano": "RAY", "Valence": "VAL", "Séville": "SEV", "Bournemouth": "BOU", "Coventry": "COV", "Crystal Palace": "CRY", "Fulham": "FUL", "Hull City": "HUL", "Ipswich": "IPS", "Leeds": "LEE", "Sunderland": "SUN", "Atalanta": "ATA", "Cagliari": "CAG", "Frosinone": "FRO", "Genoa": "GEN", "Lecce": "LEC", "Monza": "MON", "Parme": "PAR", "Torino": "TOR", "Udinese": "UDI", "Venise": "VEN", "Leipzig": "LEI", "Augsbourg": "AUG", "Mayence": "MAY", "Elversberg": "ELV", "Cologne": "COL", "Paderborn": "PAD", "Angers": "ANG", "Auxerre": "AUX", "Troyes": "TRO", "Le Havre": "HAC", "Le Mans": "LMA", "Paris FC": "PFC", "Rennes": "REN", "Strasbourg": "STR", "Toulouse": "TFC", "Man City": "MCI", "Liverpool": "LIV", "Arsenal": "ARS", "Chelsea": "CHE", "Man United": "MUN", "Aston Villa": "AVL", "Everton": "EVE", "Nottingham Forest": "NFO", "Newcastle": "NEW", "West Ham": "WHU", "Brighton": "BHA", "Tottenham": "TOT", "Brentford": "BRE", "La Corogne": "COR", "Schalke": "S04", "Hambourg": "HSV", "Werder Brême": "SVW", "Burnley": "BUR", "Real Madrid": "RMA", "Barcelone": "BAR", "Atlético": "ATM", "Athletic Club": "ATH", "Real Sociedad": "RSO", "Betis": "BET", "Villarreal": "VIL", "Majorque": "MLL", "Celta": "CEL", "Getafe": "GET", "Espanyol": "ESP", "Inter": "INT", "Naples": "NAP", "Milan": "MIL", "Juventus": "JUV", "Roma": "ROM", "Côme": "COM", "Fiorentina": "FIO", "Bologne": "BOL", "Lazio": "LAZ", "Sassuolo": "SAS", "Cremonese": "CRE", "Bayern": "BAY", "Dortmund": "BVB", "Leverkusen": "B04", "Stuttgart": "VFB", "Francfort": "SGE", "Mönchengladbach": "BMG", "Fribourg": "SCF", "Hoffenheim": "TSG", "Union Berlin": "FCU", "St. Pauli": "STP", "PSG": "PSG", "Marseille": "OM", "Monaco": "ASM", "Lens": "RCL", "Lyon": "OL", "Lille": "LIL", "Brest": "SB29", "Nice": "OGC", "Lorient": "FCL"};
+const CCODE={"France": "FRA", "Italie": "ITA", "Allemagne": "ALL", "Espagne": "ESP", "Angleterre": "ANG", "Pays-Bas": "P-B", "Cameroun": "CMR", "Côte d'Ivoire": "CIV", "Liberia": "LBR", "Suède": "SUE", "Ukraine": "UKR", "Argentine": "ARG", "Portugal": "POR", "Brésil": "BRA", "Alavés": "ALA", "Elche": "ELC", "Levante": "LEV", "Málaga": "MAL", "Osasuna": "OSA", "Racing Santander": "RAC", "Rayo Vallecano": "RAY", "Valence": "VAL", "Séville": "SEV", "Bournemouth": "BOU", "Coventry": "COV", "Crystal Palace": "CRY", "Fulham": "FUL", "Hull City": "HUL", "Ipswich": "IPS", "Leeds": "LEE", "Sunderland": "SUN", "Atalanta": "ATA", "Cagliari": "CAG", "Frosinone": "FRO", "Genoa": "GEN", "Lecce": "LEC", "Monza": "MON", "Parme": "PAR", "Torino": "TOR", "Udinese": "UDI", "Venise": "VEN", "Leipzig": "LEI", "Augsbourg": "AUG", "Mayence": "MAY", "Elversberg": "ELV", "Cologne": "COL", "Paderborn": "PAD", "Angers": "ANG", "Auxerre": "AUX", "Troyes": "TRO", "Le Havre": "HAC", "Le Mans": "LMA", "Paris FC": "PFC", "Rennes": "REN", "Strasbourg": "STR", "Toulouse": "TFC", "Man City": "MCI", "Liverpool": "LIV", "Arsenal": "ARS", "Chelsea": "CHE", "Man United": "MUN", "Aston Villa": "AVL", "Everton": "EVE", "Nottingham Forest": "NFO", "Newcastle": "NEW", "West Ham": "WHU", "Brighton": "BHA", "Tottenham": "TOT", "Brentford": "BRE", "La Corogne": "COR", "Schalke": "S04", "Hambourg": "HSV", "Werder Brême": "SVW", "Burnley": "BUR", "Real Madrid": "RMA", "Barcelone": "BAR", "Atlético": "ATM", "Athletic Club": "ATH", "Real Sociedad": "RSO", "Betis": "BET", "Villarreal": "VIL", "Majorque": "MLL", "Celta": "CEL", "Getafe": "GET", "Espanyol": "ESP", "Inter": "INT", "Naples": "NAP", "Milan": "MIL", "Juventus": "JUV", "Roma": "ROM", "Côme": "COM", "Fiorentina": "FIO", "Bologne": "BOL", "Lazio": "LAZ", "Sassuolo": "SAS", "Cremonese": "CRE", "Bayern": "BAY", "Dortmund": "BVB", "Leverkusen": "B04", "Stuttgart": "VFB", "Francfort": "SGE", "Mönchengladbach": "BMG", "Fribourg": "SCF", "Hoffenheim": "TSG", "Union Berlin": "FCU", "St. Pauli": "STP", "PSG": "PSG", "Marseille": "OM", "Monaco": "ASM", "Lens": "RCL", "Lyon": "OL", "Lille": "LIL", "Brest": "SB29", "Nice": "OGC", "Lorient": "FCL"};
 const CREST={};
 function crestSrc(club){
   if(CREST[club])return CREST[club];
@@ -3120,6 +3169,8 @@ function hud(){
   shownCoins=S.coins;
   $('#buy-std').innerHTML=`Ouvrir · <span class="coin sm"></span> ${fmt(PACKS.std.cost)}`;
   $('#buy-elite').innerHTML=`Ouvrir · <span class="coin sm"></span> ${fmt(PACKS.elite.cost)}`;
+  $('#buy-icon').innerHTML=`Ouvrir · <span class="coin sm"></span> ${fmt(PACKS.icon.cost)}`;
+  {const n=ICONS.filter(p=>S.owned[p.id]).length,pi=S.pity_icon|0;$('#pity-icon').textContent=`${n} / ${ICONS.length} Icônes · `+(pi>=PITY_ICON-1?'Icône garantie dans le prochain booster.':`Icône garantie d'ici ${PITY_ICON-pi} boosters.`)}
   if(!$('#pko').hidden)pkDraw();
   document.querySelectorAll('.lgp').forEach(b=>{b.disabled=S.coins<750});
 }
@@ -3169,7 +3220,7 @@ function sane(){
   if(!S.rec||typeof S.rec.w!=='number')S.rec={w:0,d:0,l:0};
   if(!Array.isArray(S.favs))S.favs=[];if(!Array.isArray(S.last))S.last=[];
   if(!S.free||typeof S.free.n!=='number'||typeof S.free.t!=='number')S.free={n:2,t:Date.now()};
-  S.pity=+S.pity||0;S.pity_leg=+S.pity_leg||0;if(!Array.isArray(S.wishes))S.wishes=[];S.coins=+S.coins||0;S.xp=+S.xp||0;S.packs=+S.packs||0;
+  S.pity=+S.pity||0;S.pity_leg=+S.pity_leg||0;S.pity_icon=+S.pity_icon||0;if(!Array.isArray(S.wishes))S.wishes=[];S.coins=+S.coins||0;S.xp=+S.xp||0;S.packs=+S.packs||0;
 }
 sane();
 const ICON=10,isIcon=p=>p.lg==='Légendes';
@@ -3579,10 +3630,10 @@ function pkClose(){$('#pko').hidden=true;PKO=null}
 function pkDraw(){
   const k=PKO,pk=PACKS[k];if(!pk)return;accrue();
   const n=QTY,fr=k==='std'?S.free.n:0,fk=Math.min(n,fr),cost=pk.cost*n,can=S.coins>=cost;
-  const desc=k==='elite'?'5 cartes dont une Rare ou mieux à coup sûr.':pk.lg?`5 cartes tirées uniquement en ${pk.lg}.`:'5 cartes tirées dans les cinq grands championnats.';
+  const desc=k==='icon'?`4 cartes Rares ou mieux, puis une Épique ou mieux. ${Math.round(ICON_P*100)} % de chances d'y trouver une Icône, garantie ${(S.pity_icon|0)>=PITY_ICON-1?'dans ce booster':`d'ici ${PITY_ICON-(S.pity_icon|0)} boosters Légendes`}.`:k==='elite'?'5 cartes dont une Rare ou mieux à coup sûr.':pk.lg?`5 cartes tirées uniquement en ${pk.lg}.`:'5 cartes tirées dans les cinq grands championnats.';
   $('#pko-in').innerHTML=`<button type="button" class="pko-x" data-act="pk-x" aria-label="Fermer">×</button>
   <div class="pko-stack${n>1?' many':''}">${n>1?`<div class="pko-g g2">${packHTML(pk)}</div><div class="pko-g g1">${packHTML(pk)}</div>`:''}<div class="pko-p">${packHTML(pk)}</div>${n>1?`<span class="p-x num">×${n}</span>`:''}</div>
-  <h2>${k==='std'?'Booster Top 5 Europe':k==='elite'?'Booster Élite':'Booster '+pk.lg}</h2><p class="pko-d">${desc}</p>
+  <h2>${k==='std'?'Booster Top 5 Europe':k==='elite'?'Booster Élite':k==='icon'?'Booster Légendes':'Booster '+pk.lg}</h2><p class="pko-d">${desc}</p>
   <div class="qty" role="group" aria-label="Nombre de boosters"><button type="button" data-act="pk-n" data-n="1" aria-pressed="${n===1}">×1</button><button type="button" data-act="pk-n" data-n="5" aria-pressed="${n===5}">×5</button><button type="button" data-act="pk-n" data-n="10" aria-pressed="${n===10}">×10</button></div>
   <div class="pko-act">${fr>0?`<button type="button" class="btn gold" data-act="pk-go" data-k="std" data-free="1">Ouvrir ${fk>1?fk+' boosters gratuits':'un booster gratuit'}<small>${fr} en stock</small></button>`:''}<button type="button" class="btn ${fr>0?'ghost':'gold'}" data-act="pk-go" data-k="${k}"${can?'':' disabled'}>Ouvrir ${n>1?n+' boosters':'le booster'} · <span class="coin sm"></span> ${fmt(cost)}</button></div>
   ${!can&&!fr?`<p class="pko-no">Il te manque ${fmt(cost-S.coins)} pièces.${k==='std'?' Un booster gratuit arrive toutes les 10 minutes.':''}</p>`:''}`;
@@ -3592,10 +3643,13 @@ function rollLocal(kind,free){
   if(free){if(S.free.n>=FREE_MAX)S.free.t=Date.now();S.free.n--}else S.coins-=pk.cost;
   S.packs++;
   const pityHit=S.pity>=PITY-1,legHit=(S.pity_leg|0)>=PITY_LEG-1;
-  for(let i=0;i<5;i++){const p=draw(roll(i===4?Math.max(pk.min,pityHit?3:0,legHit?4:0):0),pk.lg);
+  const icHit=pk.icon&&((S.pity_icon|0)>=PITY_ICON-1||Math.random()<ICON_P);
+  for(let i=0;i<5;i++){let p;
+    if(icHit&&i===4){const sure=(S.pity_icon|0)>=PITY_ICON-1,nw=ICONS.filter(c=>!S.owned[c.id]),src=sure&&nw.length?nw:ICONS;p=src[Math.random()*src.length|0]}
+    else p=draw(roll(i===4?Math.max(pk.min,pk.icon?3:0,pityHit?3:0,legHit?4:0):pk.icon?2:0),pk.lg);
     const isNew=!S.owned[p.id];S.owned[p.id]=(S.owned[p.id]||0)+1;S.xp+=isNew?XP.nouv:(free?0:XP.doub);
     if(isNew)news++;else refund+=RAR[p.r].sell;res.push({p,isNew})}
-  S.pity=res.some(x=>x.p.r>=3)?0:S.pity+1;S.pity_leg=res.some(x=>x.p.r>=4)?0:(S.pity_leg|0)+1;
+  S.pity=res.some(x=>x.p.r>=3)?0:S.pity+1;S.pity_leg=res.some(x=>x.p.r>=4)?0:(S.pity_leg|0)+1;if(pk.icon)S.pity_icon=icHit?0:(S.pity_icon|0)+1;
   bump('open',1);bump('new',news);if(res.some(x=>x.p.r>=2))bump('rare',1);
   return{res,refund,news};
 }
@@ -3806,7 +3860,7 @@ window.VGAME={get:()=>S,dailyNudge:f=>dailyNudge(f),crest:c=>crestSrc(c),clubs:(
   inSquad:id=>Object.values(S.squad).includes(id),
   price:id=>BY[id]?priceOf(BY[id]):0,
   sell:id=>BY[id]?RAR[BY[id].r].sell:0,
-  all:()=>P.map((p,i)=>[p.id,i,p.full,p.short,p.club,p.lg,p.nat,p.pos,p.grp,p.ovr,p.att,p.def,p.vit,p.r]),mclubs:()=>MCLUBS,
+  all:()=>P.map((p,i)=>[p.id,i,p.full,p.short,p.club,p.lg,p.nat,p.pos,p.grp,p.ovr,p.att,p.def,p.vit,p.r,p.x?1:0]),mclubs:()=>MCLUBS,
   count:id=>S.owned[id]|0,
   info:id=>{const p=BY[id];return p?{id,name:p.short,full:p.full,ovr:p.ovr,club:p.club,pos:p.pos,r:p.r,rn:RAR[p.r].n,c:RAR[p.r].c}:null},
   card:id=>BY[id]?cardHTML(BY[id],{mini:true,attrs:'data-trc="'+id+'"'}):'',
@@ -4047,7 +4101,7 @@ gate.innerHTML=`<div class="gate-in">
       <p class="gate-tag">Ouvre des boosters, construis ton onze, affronte les clubs et les autres joueurs. Gratuit, dans ton navigateur, sans rien installer.</p></div>
     <div class="gate-fan" aria-hidden="true">${FAN.map((id,i)=>`<div class="gc" style="--i:${i-(FAN.length-1)/2}">${G.cardBig(id)}</div>`).join('')}</div>
     <div class="gate-more">
-      <div class="gate-kpi"><span><b>2 236</b>cartes</span><span><b>5</b>championnats</span><span><b>101</b>clubs</span><span><b>6</b>raretés</span></div>
+      <div class="gate-kpi"><span><b>2 268</b>cartes</span><span><b>5</b>championnats</span><span><b>101</b>clubs</span><span><b>6</b>raretés</span></div>
       <ul class="gate-ft">
         <li><b>10 boosters offerts</b>Dès l'inscription, puis un booster gratuit toutes les 10 minutes.</li>
         <li><b>Du Commun au Mythique</b>Six raretés, des cartes garanties, et un cadeau chaque jour.</li>
