@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /assets/players/
+
+Sitemap: https://viragetcg.com/sitemap.xml
