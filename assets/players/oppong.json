@@ -1,0 +1,91 @@
+{
+  "joueur": "Oppong",
+  "fichier": "oppong.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/George_Weah",
+  "titre_page": "George Weah",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Clar_Weah%2C_George_Weah%2C_Joe_Biden%2C_Jill_Biden_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Clar_Weah,_George_Weah,_Joe_Biden,_Jill_Biden_(cropped).jpg",
+  "auteur": "United States Department of State Africa U.S.-Africa Leaders Summit: Photos and Videos",
+  "credit": "https://www.state.gov/africasummit/photos/",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-10-29 12:45:17",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Clar Weah, George Weah, Joe Biden, Jill Biden (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "PD US Government|Clar Weah|George Weah|Extracted images|Jill Biden in December 2022|CC-PD-Mark|Joe Biden at the United States-Africa Leaders Summit 2022|United States-Africa Leaders Summit 2022|Joe Biden with national leaders|United States-Africa Leaders Summit 2022 at the White House",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Liberia First Lady Clar Weah, Liberia President George Weah, United States President Joe Biden, and United States First Lady Jill Biden in the Diplomatic Reception Room of the White House at the U.S.-Africa Leader Summit, Wednesday, December 14, 2022. (Official White House Photo by Adam Schultz)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2022-12-14",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.state.gov/africasummit/photos/\">https://www.state.gov/africasummit/photos/</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "United States Department of State Africa U.S.-Africa Leaders Summit: Photos and Videos",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

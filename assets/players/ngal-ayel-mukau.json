@@ -1,0 +1,96 @@
+{
+  "joueur": "Ngal'ayel Mukau",
+  "fichier": "ngal-ayel-mukau.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/%C3%89quipe_de_r%C3%A9publique_d%C3%A9mocratique_du_Congo_de_football_%C3%A0_la_Coupe_du_monde_2026",
+  "titre_page": "Équipe de république démocratique du Congo de football à la Coupe du monde 2026",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/960px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Democratic_Republic_of_the_Congo.svg",
+  "auteur": "Nightstallion",
+  "credit": "Travail personnel. Based on this source: [1]\n\nConstruction sheet: Vexilla Mundi.",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2015-07-07 12:44:11",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of the Democratic Republic of the Congo",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "2006 in the Democratic Republic of the Congo|PD ineligible|With insignia|Structured SVG|Valid SVG created with Text Editor|SVG national flag of the Democratic Republic of the Congo|PD-Democratic Republic of the Congo|SVG flags with an aspect ratio of 4:3",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Le <a href=\"https://fr.wikipedia.org/wiki/Drapeau_de_la_R%C3%A9publique_d%C3%A9mocratique_du_Congo\" class=\"extiw\" title=\"fr:Drapeau de la République démocratique du Congo\">drapeau de la République démocratique du Congo</a>. Conformément à la <a rel=\"nofollow\" class=\"external text\" href=\"http://www.presidentrdc.cd/constitution.html\">Constitution de la République Démocratique du Congo de 2006, Article 1er</a>: <i>Son emblème est le drapeau bleu ciel, orné d’une étoile jaune dans le coin supérieur gauche et traversé en biais d’une bande rouge finement encadrée de jaune.</i>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "<b>2006-present</b>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<p><span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>. <b>Based on this source: <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.crwflags.com/fotw/flags/cd.html\">[1]</a></b><br>\n</p>\n<b>Construction sheet: <a rel=\"nofollow\" class=\"external text\" href=\"http://www.vexilla-mundi.com/congo_democratic_republic_flag.html\"><i>Vexilla Mundi</i></a></b>.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Nightstallion\" title=\"User:Nightstallion\">Nightstallion</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "copyright",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

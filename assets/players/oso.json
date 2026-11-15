@@ -1,0 +1,96 @@
+{
+  "joueur": "Oso",
+  "fichier": "oso.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Marcos_Calder%C3%B3n",
+  "titre_page": "Marcos Calderón",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Marcos_Calderon_1975_Copa_America.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Marcos_Calderon_1975_Copa_America.png",
+  "auteur": "Auteur inconnuUnknown author",
+  "credit": "Ovación sports journal from Lima, Peru.",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2015-06-26 14:31:23",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Marcos Calderon 1975 Copa America",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Copa América 1975|Coaches of Universitario de Deportes|Coaches of Peru national association football team|Coaches of Sporting Cristal|Coaches of Sport Boys|Template Unknown (author)|PD-Peru-photo|Peru at the Copa América|People with Copa América trophy",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Peru manager Marcos Calderón raises the Copa América, which the Peru national football team won in 1975.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "1975",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<i>Ovación</i> sports journal from Lima, Peru.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Auteur inconnu<span style=\"display: none;\">Unknown author</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "Peruvian copyright law, signed under the Manuel Prado administration, had a 20 year protection over images starting in January 1, 1962. All images published in Peru prior to 1976, whose protection lasted until 1996 (and by which time a new 70 year protection was imposed by the Alberto Fujimori administration), are in the public domain.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

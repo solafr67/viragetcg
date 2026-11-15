@@ -1,0 +1,96 @@
+{
+  "joueur": "Lucas Høgsberg",
+  "fichier": "lucas-hogsberg.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Souma%C3%AFla_Coulibaly_(football,_2003)",
+  "titre_page": "Soumaïla Coulibaly (football, 2003)",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Souma%C3%AFla_Coulibaly_lors_de_sa_premi%C3%A8re_pr%C3%A9sentation_%C3%A0_la_presse_au_Stade_Brestois_29.jpg/960px-Souma%C3%AFla_Coulibaly_lors_de_sa_premi%C3%A8re_pr%C3%A9sentation_%C3%A0_la_presse_au_Stade_Brestois_29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Souma%C3%AFla_Coulibaly_lors_de_sa_premi%C3%A8re_pr%C3%A9sentation_%C3%A0_la_presse_au_Stade_Brestois_29.jpg",
+  "auteur": "Béka29",
+  "credit": "Travail personnel",
+  "licence": "CC BY 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-10-07 14:54:53",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Soumaïla Coulibaly lors de sa première présentation à la presse au Stade Brestois 29",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Self-published work|Soumaila Coulibaly",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Soumaïla Coulibaly lors de sa première présentation à la presse au Stade Brestois 29",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2024-10-09 12:50:34",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:B%C3%A9ka29&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Béka29 (page does not exist)\">Béka29</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

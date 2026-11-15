@@ -1,0 +1,96 @@
+{
+  "joueur": "Vladimír Coufal",
+  "fichier": "vladimir-coufal.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/%C3%89quipe_de_Tch%C3%A9quie_de_football_au_Championnat_d%27Europe_2020",
+  "titre_page": "Équipe de Tchéquie de football au Championnat d'Europe 2020",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/960px-Flag_of_the_Czech_Republic.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+  "auteur": "Jaroslav Kursa",
+  "credit": "Appendix No. 3 of Czech Legal Act 3/1993",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "communist",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2011-09-20 20:43:24",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of the Czech Republic",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://fr.wikipedia.org/wiki/Drapeau_de_la_R%C3%A9publique_tch%C3%A8que\" class=\"extiw\" title=\"fr:Drapeau de la République tchèque\">Drapeau de la République tchèque</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "1920-03-30",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "Appendix No. 3 of Czech Legal Act 3/1993",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Jaroslav Kursa",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "<i>Selon la loi sur le droit d'auteur tchèque, cette image se trouve dans le <b><a href=\"https://fr.wikipedia.org/wiki/Domaine_public_en_droit_de_la_propri%C3%A9t%C3%A9_intellectuelle_fran%C3%A7ais\" class=\"extiw\" title=\"fr:Domaine public en droit de la propriété intellectuelle français\">domaine public</a></b>.</i>\n<p><i>(<a rel=\"nofollow\" class=\"external text\" href=\"http://www.wipo.int/wipolex/fr/text.jsp?file_id=126154\">Loi 121/2000</a>, article 3, alinea a)</i>\n</p><p>“Protection pursuant to this Act shall not apply to\n</p>\n<ul><li>an official work, such as a legal regulation, decision, public charter, publicly accessible register and the collection of its records, and also</li>\n<li>an official draft of an official work and other preparatory official documentation including the official translation of such work,</li>\n<li>Chamber of Deputies and Senate publications,</li>\n<li>a memorial chronicle of a municipality (muncipal chronicle),</li>\n<li>a state symbol and symbol of a regional self-governing unit,</li>\n<li>and other such works where there is public interest in their exclusion from copyright protection.”</li></ul>\n<i>Par conséquent cette image peut être considérée comme étant placée dans le <b><a href=\"https://fr.wikipedia.org/wiki/Domaine_public_en_droit_de_la_propri%C3%A9t%C3%A9_intellectuelle_fran%C3%A7ais\" class=\"extiw\" title=\"fr:Domaine public en droit de la propriété intellectuelle français\">domaine public</a></b>. Toutefois, dans certains cas, l'usage de cette image peut être régi par d'autres lois.</i>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "communist",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

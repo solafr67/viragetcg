@@ -1,0 +1,86 @@
+{
+  "joueur": "Vidović",
+  "fichier": "vidovic.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/%C3%89quipe_de_Belgique_de_football_%C3%A0_la_Coupe_du_monde_1998",
+  "titre_page": "Équipe de Belgique de football à la Coupe du monde 1998",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/960px-Flag_of_Belgium_%28civil%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_Belgium_(civil).svg",
+  "auteur": "Dbenbenn",
+  "credit": "Travail personnel basé sur : Flag of Belgium.svg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-11-09 21:40:12",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of Belgium (civil)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "PD shape|With insignia|Flags with three vertical stripes of black, red and yellow color combination|SVG flags of Belgium - aspect ratio of 3:2|SVG national flag of Belgium|Valid SVG created with Text Editor:Flags|SVG civil and merchant ensigns",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Le drapeau de <a href=\"https://fr.wikipedia.org/wiki/Belgique\" class=\"extiw\" title=\"fr:Belgique\">Belgique</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "Travail personnel basé sur : <a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Belgium.svg\" title=\"File:Flag of Belgium.svg\">Flag of Belgium.svg</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:Dbenbenn\" title=\"User:Dbenbenn\">Dbenbenn</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

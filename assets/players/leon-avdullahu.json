@@ -1,0 +1,86 @@
+{
+  "joueur": "Leon Avdullahu",
+  "fichier": "leon-avdullahu.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
+  "titre_page": "TSG 1899 Hoffenheim",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Logo_TSG_Hoffenheim.svg/960px-Logo_TSG_Hoffenheim.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Logo_TSG_Hoffenheim.svg",
+  "auteur": "TSG Hoffenheim",
+  "credit": "https://www.tsg-hoffenheim.de/",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2021-07-31 09:19:08",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Logo TSG Hoffenheim",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "SVG association football logos of Germany|With trademark|PD textlogo|SVG text logos|Symbols of Sinsheim|TSG letter combinations|TSG 1899 Hoffenheim logos",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Logo des TSG Hoffenheim",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2007",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.tsg-hoffenheim.de/\">https://www.tsg-hoffenheim.de/</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "TSG Hoffenheim",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

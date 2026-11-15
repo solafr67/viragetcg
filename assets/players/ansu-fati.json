@@ -1,0 +1,101 @@
+{
+  "joueur": "Ansu Fati",
+  "fichier": "ansu-fati.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Ansu_Fati",
+  "titre_page": "Ansu Fati",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ansu_Fati_%E2%80%94_Dinamo_vs_Barcelona_0-1_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Ansu_Fati_%E2%80%94_Dinamo_vs_Barcelona_0-1_(cropped).jpg",
+  "auteur": "Olga Shcherbytska",
+  "credit": "https://www.dynamomania.com/album/2183-dinamo---barselona-01-2-noyabrya-2021-goda/1289339",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-08-22 03:50:23",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Ansu Fati — Dinamo vs Barcelona 0-1 (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Ansu Fati|Items with VRTS permission confirmed|Extracted images|Files with PermissionTicket template but without P6305 SDC statement|Photos from dynamomania.com|Photographs by Olga Shcherbytska|2021-11-02 Dynamo Kyiv vs Barcelona",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Матч «Динамо» - «Барселона» 0-1. 2 листопада 2021 року",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2021-11-02",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dynamomania.com/album/2183-dinamo---barselona-01-2-noyabrya-2021-goda/1289339\">https://www.dynamomania.com/album/2183-dinamo---barselona-01-2-noyabrya-2021-goda/1289339</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q131344231\" class=\"extiw\" title=\"d:Q131344231\"><span title=\"photographe ukrainienne\">Olga Shcherbytska</span></a></bdi>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "ТОВ \"Динамоманія\"",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

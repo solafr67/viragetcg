@@ -1,0 +1,86 @@
+{
+  "joueur": "Gantenbein",
+  "fichier": "gantenbein.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Milt_Gantenbein",
+  "titre_page": "Milt Gantenbein",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Milt_Gantenbein_1932.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Milt_Gantenbein_1932.jpg",
+  "auteur": "Walker's Cleaners and Tailors, Green Bay, Wisconsin. Photographer unknown.",
+  "credit": "https://www.tcdb.com/ViewSet.cfm/sid/107092/1932-Walker's-Cleaners-Green-Bay-Packers",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2024-07-31 01:43:25",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Milt Gantenbein 1932",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Green Bay Packers players|Gantenbein (surname)|PD US no notice|1932 in American football in the United States",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "A football card portrait of Milt Gantenbein from the 1932 Walker's Cleaners Green Bay Packers set.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "1932",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.tcdb.com/ViewSet.cfm/sid/107092/1932-Walker's-Cleaners-Green-Bay-Packers\">https://www.tcdb.com/ViewSet.cfm/sid/107092/1932-Walker's-Cleaners-Green-Bay-Packers</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "Walker's Cleaners and Tailors, Green Bay, Wisconsin. Photographer unknown.",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

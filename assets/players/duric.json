@@ -1,0 +1,91 @@
+{
+  "joueur": "Đurić",
+  "fichier": "duric.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Aleksandar_%C4%90uri%C4%87",
+  "titre_page": "Aleksandar Đurić",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Aleksduric.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Aleksduric.jpg",
+  "auteur": "en:User:mygan (talk)",
+  "credit": "self-made, transfered from English wikipedia [1]",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2010-05-31 12:15:37",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Aleksduric",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Men's association football players from Bosnia and Herzegovina|Taken with Panasonic Lumix DMC-FZ10|People of Doboj|Canoeists|Self-published work|PD-self|Men's association football players from Singapore",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Aleksandar Đurić. I took this picture during the Singapore vs Lebanon international football match.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2008-03-26",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "self-made, transfered from English wikipedia <a class=\"external autonumber\" data-mw-original-href=\"http://en.wikipedia.org/wiki/File:Aleksduric.jpg\" href=\"https://en.wikipedia.org/wiki/File:Aleksduric.jpg\">[1]</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<a href=\"https://en.wikipedia.org/wiki/User:mygan\" class=\"extiw\" title=\"en:User:mygan\">en:User:mygan</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:mygan\" class=\"extiw\" title=\"en:User talk:mygan\">talk</a>)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

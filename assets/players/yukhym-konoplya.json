@@ -1,0 +1,95 @@
+{
+  "joueur": "Yukhym Konoplya",
+  "fichier": "yukhym-konoplya.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/Yukhym_Konoplya",
+  "titre_page": "Yukhym Konoplya",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/%D0%AE%D1%85%D0%B8%D0%BC_%D0%9A%D0%BE%D0%BD%D0%BE%D0%BF%D0%BB%D1%8F%2C_%D0%97%D0%B1%D1%96%D1%80%D0%BD%D0%B0_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C_2020_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:%D0%AE%D1%85%D0%B8%D0%BC_%D0%9A%D0%BE%D0%BD%D0%BE%D0%BF%D0%BB%D1%8F,_%D0%97%D0%B1%D1%96%D1%80%D0%BD%D0%B0_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8,_2020_(cropped).jpg",
+  "auteur": "Dynamomania.com",
+  "credit": "https://www.dynamomania.com/album/2035-liga-nacij-uefa-sbornaya-ukrainy---sbornaya-germanii-1210-oktyabrya-2020-god/1149938",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2025-01-03 18:10:39",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Юхим Конопля, Збірна України, 2020 (cropped)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Items with VRTS permission confirmed|Extracted images|Photos from dynamomania.com|Yukhym Konoplya|2020-10-10 Ukraine vs Germany",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Лига наций УЕФА. Сборная Украины - Сборная Германии 1-2.10 октября 2020 год",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "2020-10-10",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.dynamomania.com/album/2035-liga-nacij-uefa-sbornaya-ukrainy---sbornaya-germanii-1210-oktyabrya-2020-god/1149938\">https://www.dynamomania.com/album/2035-liga-nacij-uefa-sbornaya-ukrainy---sbornaya-germanii-1210-oktyabrya-2020-god/1149938</a>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "Dynamomania.com",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 4.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 4.0",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "ТОВ \"Динамоманія\"",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-4.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

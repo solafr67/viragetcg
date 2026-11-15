@@ -1,0 +1,96 @@
+{
+  "joueur": "Hansen",
+  "fichier": "hansen.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/John_Hansen",
+  "titre_page": "John Hansen",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/John_Hansen_-_Juventus_FC.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:John_Hansen_-_Juventus_FC.jpg",
+  "auteur": "Auteur inconnuUnknown author",
+  "credit": "Sticker No. 186 from (en italien) (2001)  Juventus - Le grandi vittorie, Modena, Italy :  Panini  ",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2017-10-11 22:56:14",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "John Hansen - Juventus FC",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "PD Italy (20 years after creation)|People of Denmark in the 1950s|John Hansen|History of Juventus FC|Panini association football cards|PD-1996|Sepia photographs of sport|Template Unknown (author)|Sepia photographs of Italy in the 20th century",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Danish footballer John Hansen with Juventus FC in the early 1950s.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "entre 1950 et 1953<div style=\"display: none;\">date QS:P,+1950-00-00T00:00:00Z/8,P1319,+1950-00-00T00:00:00Z/9,P1326,+1953-00-00T00:00:00Z/9</div>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "Sticker No. 186 from <cite class=\"book\" style=\"font-style:normal\">(en italien) (2001) <i> Juventus - Le grandi vittorie</i>, Modena, Italy :  Panini  <small></small></cite>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Auteur inconnu<span style=\"display: none;\">Unknown author</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "Pour plus d'informations, voir les explications sur <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Non-U.S._copyrights\" class=\"extiw\" title=\"w:Wikipedia:Non-U.S. copyrights\">Non-U.S. copyrights</a>.<br><b>Note:</b> Veuillez noter que cette étiquette ne doit <i>pas</i> être utilisée pour les enregistrements sonores.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

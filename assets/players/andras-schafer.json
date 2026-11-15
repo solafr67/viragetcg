@@ -1,0 +1,81 @@
+{
+  "joueur": "András Schäfer",
+  "fichier": "andras-schafer.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Andr%C3%A1s_Sch%C3%A4fer",
+  "titre_page": "András Schäfer",
+  "methode": "titre_groupe",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sch%C3%A4fer_2022.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Sch%C3%A4fer_2022.jpg",
+  "auteur": "mlsz.hu – the official website of the Hungarian Football Federation",
+  "credit": "mlsz.hu – the official website of the Hungarian Football Federation",
+  "licence": "Attribution",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-11-11 16:43:46",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Schäfer 2022",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "András Schäfer|Attribution only license|Hungary national association football team|Hungary national football team 2022",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Schäfer against England",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2022-06-14 19:40:19",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://en.mlsz.hu/hir/captain-szalai-inspires-hungary-to-victory-in-germany\">mlsz.hu – the official website of the Hungarian Football Federation</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "mlsz.hu – the official website of the Hungarian Football Federation",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Permission": {
+      "value": "mlsz.hu-Imprint: <a rel=\"nofollow\" class=\"external text\" href=\"https://en.mlsz.hu/imprint\">„Articles, photos and videos on this site may be used free of charge, with the reference to the source.“</a>, 2. October 2022 – <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20221002122700/https://en.mlsz.hu/imprint\">Archive.org-Link</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Attribution",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "mlsz.hu – Hungarian Football Federation",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

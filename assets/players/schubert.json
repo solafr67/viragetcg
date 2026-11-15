@@ -1,0 +1,91 @@
+{
+  "joueur": "Schubert",
+  "fichier": "schubert.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Schubert_Gambetta",
+  "titre_page": "Schubert Gambetta",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Urug1950.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Urug1950.jpg",
+  "auteur": "Auteur inconnuUnknown author",
+  "credit": "El Gráfico",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2017-10-09 21:51:10",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Urug1950",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Juan Carlos González Ortiz|Víctor Rodríguez Andrade|Roque Máspoli|Alcides Ghiggia|PD-AR-Photo|Julio Gervasio Pérez Gutiérrez|Images with annotations|Obdulio Varela|Schubert Gambetta|Juan Alberto Schiaffino|Ernesto Fígoli|Uruguay at the World Cup 1950|Óscar Míguez|Eusebio Tejera|Rubén Morán|Matías González|Juan López Fontana|PD-1996|Images with 10+ annotations|Template Unknown (author)|Association football in Uruguay in 1950|Group photographs of Uruguay national association football team|People of Uruguay in 1950|Brazil-Uruguay association football rivalry|Group photographs of national association football teams in 1950",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Team of Uruguay, world champions. Standing: Obdulio Varela, Juan López Fontana (coach), Eusebio Tejera, Vazquez (staff), Abate (assistant coach), Schubert Gambetta, Matiás González, Roque Máspoli, Víctor Andrade, Juan Kirschberg (physiotherapist); lower row: Alvarez (staff), Alcides Ghiggia, Julio Pérez, Oscar Míguez, Juan Schiaffino, Rubén Morán, Figoli (staff)",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "1950",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.elgrafico.com.ar/articulo/1088/5283/uruguay-1950-el-maracanazo\"><i>El Gráfico</i></a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Auteur inconnu<span style=\"display: none;\">Unknown author</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

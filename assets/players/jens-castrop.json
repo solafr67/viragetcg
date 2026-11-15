@@ -1,0 +1,91 @@
+{
+  "joueur": "Jens Castrop",
+  "fichier": "jens-castrop.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/%C3%89quipe_de_Cor%C3%A9e_du_Sud_de_football_%C3%A0_la_Coupe_du_monde_2026",
+  "titre_page": "Équipe de Corée du Sud de football à la Coupe du monde 2026",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/960px-Flag_of_South_Korea.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+  "auteur": "Original : Government of the Republic of Korea Vecteur :  Great Brightstar and others",
+  "credit": "Ordinance Act of the Law concerning the National Flag of the Republic of Korea, Construction and color guidelines (Russian/English)File:Flag of South Korea (construction sheet).svg",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2026-06-06 05:12:29",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of South Korea",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "PD-South Korea|With insignia|Valid SVG created with Text Editor|Files with derivative versions|SVG flags of South Korea - aspect ratio of 3:2|SVG national flag of South Korea|Valid SVG created with Inkscape-hand:Flags|Vectorizations|PD-old missing SDC copyright status|PD flag",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<a href=\"https://fr.wikipedia.org/wiki/Drapeau_de_la_Cor%C3%A9e_du_Sud\" class=\"extiw\" title=\"fr:Drapeau de la Corée du Sud\">Drapeau de la Corée du Sud</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2011-05-30",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "Ordinance Act of the Law concerning the National Flag of the Republic of Korea, <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20070703045917/http://www.infokorea.ru/flag/\">Construction and color guidelines (Russian/English)</a><br><a href=\"//commons.wikimedia.org/wiki/File:Flag_of_South_Korea_(construction_sheet).svg\" title=\"File:Flag of South Korea (construction sheet).svg\">File:Flag of South Korea (construction sheet).svg</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<div style=\"display:inline-block;padding:0 3px;background-color:#CCF\">Original :</div> <div style=\"display:inline-block;padding:3px 0;\">Government of the Republic of Korea</div> <div style=\"display:inline-block;padding:0 3px;background-color:#CCF\">Vecteur : </div> <div style=\"display:inline-block;\"><a href=\"//commons.wikimedia.org/wiki/User:Great_Brightstar\" title=\"User:Great Brightstar\">Great Brightstar</a> and others</div>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

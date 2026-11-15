@@ -1,0 +1,86 @@
+{
+  "joueur": "Khalis Merah",
+  "fichier": "khalis-merah.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/France_national_under-19_football_team",
+  "titre_page": "France national under-19 football team",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/960px-Flag_of_France.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://en.wikipedia.org/wiki/File:Flag_of_France.svg",
+  "auteur": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg, https://diffusion.shom.fr/pro/downloadable/download/sample/sample_id/73/, https://www.gouvernement.fr/charte/charte-graphique-les-fondamentaux/les-couleurs, User:Anomie, User:MSGJ, User:SKopp\n",
+  "credit": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg, colours from https://diffusion.shom.fr/pro/downloadable/download/sample/sample_id/73/, which are different from the official colours at https://www.gouvernement.fr/charte/charte-graphique-les-fondamentaux/les-couleurs\n",
+  "licence": "PD",
+  "licence_url": "",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-01-20 16:22:34",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of France",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "All free media|Wikipedia images of insignia|Wikipedia files on Wikimedia Commons for which a local copy has been requested to be kept|Wikipedia upload-protected files|Wikipedia images in SVG format|Wikipedia indefinitely move-protected pages|Public domain images ineligible for copyright (shape)",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "<p><a href=\"//en.wikipedia.org/wiki/Flag_of_France\" title=\"Flag of France\">Flag of France</a> in #002654, #FFFFFF, #CE1126\n<style data-mw-deduplicate=\"TemplateStyles:r1039146308\">.mw-parser-output .valid-svg{border:1px solid #55B05A;display:inline-block;margin:0.1em}.mw-parser-output .valid-svg-image{background-color:#55B05A;color:#FFDD77;display:inline-block;font-size:1.5em}.mw-parser-output .valid-svg-text{padding:0 0.25em}</style>\n</p>\n<p class=\"plainlinks valid-svg\">\n<span class=\"valid-svg-image\"><span typeof=\"mw:File\"><a href=\"https://validator.w3.org/nu/\" rel=\"nofollow\"><img alt=\"W3C\" src=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/W3C%C2%AE_Icon.svg/40px-W3C%C2%AE_Icon.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"32\" height=\"15\" class=\"mw-file-element\" srcset=\"//thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/W3C%C2%AE_Icon.svg/120px-W3C%C2%AE_Icon.svg.png?utm_source=en.wikipedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"244\"></a></span>✓</span>\n<span class=\"valid-svg-text\">The source code of this <a href=\"//en.wikipedia.org/wiki/SVG\" title=\"SVG\">SVG</a> is <a rel=\"nofollow\" class=\"external text\" href=\"https://validator.w3.org/nu/?doc=https:%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fc%2Fc3%2FFlag_of_France.svg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dapi%26utm_content%3Doriginal\">valid</a>.</span>\n</p>",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<p><a class=\"external free\" href=\"https://commons.wikimedia.org/wiki/File:Flag_of_France.svg\">https://commons.wikimedia.org/wiki/File:Flag_of_France.svg</a>, colours from <a rel=\"nofollow\" class=\"external free\" href=\"https://diffusion.shom.fr/pro/downloadable/download/sample/sample_id/73/\">https://diffusion.shom.fr/pro/downloadable/download/sample/sample_id/73/</a>, which are different from the official colours at <a rel=\"nofollow\" class=\"external free\" href=\"https://www.gouvernement.fr/charte/charte-graphique-les-fondamentaux/les-couleurs\">https://www.gouvernement.fr/charte/charte-graphique-les-fondamentaux/les-couleurs</a>\n</p>",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "<p>original: 1794, upload of first update 2011-10-03, 2022-01-20\n</p>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<p><a class=\"external free\" href=\"https://commons.wikimedia.org/wiki/File:Flag_of_France.svg\">https://commons.wikimedia.org/wiki/File:Flag_of_France.svg</a>, <a rel=\"nofollow\" class=\"external free\" href=\"https://diffusion.shom.fr/pro/downloadable/download/sample/sample_id/73/\">https://diffusion.shom.fr/pro/downloadable/download/sample/sample_id/73/</a>, <a rel=\"nofollow\" class=\"external free\" href=\"https://www.gouvernement.fr/charte/charte-graphique-les-fondamentaux/les-couleurs\">https://www.gouvernement.fr/charte/charte-graphique-les-fondamentaux/les-couleurs</a>, <a href=\"//en.wikipedia.org/wiki/User:Anomie\" title=\"User:Anomie\">User:Anomie</a>, <a href=\"//en.wikipedia.org/wiki/User:MSGJ\" title=\"User:MSGJ\">User:MSGJ</a>, <a href=\"//en.wikipedia.org/wiki/User:SKopp\" title=\"User:SKopp\">User:SKopp</a>\n</p>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "PD",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

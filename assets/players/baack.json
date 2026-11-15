@@ -1,0 +1,86 @@
+{
+  "joueur": "Baack",
+  "fichier": "baack.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/1._FC_Nuremberg",
+  "titre_page": "1. FC Nuremberg",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/1._FC_N%C3%BCrnberg_logo.svg/960px-1._FC_N%C3%BCrnberg_logo.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:1._FC_N%C3%BCrnberg_logo.svg",
+  "auteur": "Auteur inconnuUnknown author",
+  "credit": "1. FC Nürnberg - taken from fcn.de",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-04-25 09:45:29",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "1. FC Nürnberg logo",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "SVG sports logos of Germany|With trademark|PD shape|PD textlogo|SVG text logos|Red and white logos with transparent background|Template Unknown (author)|Number 1 depicted by Western Arabic numerals|FCN letter combinations|Three letter combinations (all caps)|Files uploaded with For the Common Good|1. FC Nürnberg logos|User:Imalipusram - Gallery/Logos|Red background circle logos|White number 1 in red circles|SVG circle logos with transparent background",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Logo des <a href=\"https://de.wikipedia.org/wiki/1._FC_N%C3%BCrnberg\" class=\"extiw\" title=\"de:1. FC Nürnberg\">1. FC Nürnberg</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "1. FC Nürnberg - taken from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.fcn.de/typo3conf/ext/dfau_fcn/Resources/Public/Images/navLogo.svg\">fcn.de</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Auteur inconnu<span style=\"display: none;\">Unknown author</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

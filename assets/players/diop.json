@@ -1,0 +1,96 @@
+{
+  "joueur": "Diop",
+  "fichier": "diop.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Papa_Bouba_Diop",
+  "titre_page": "Papa Bouba Diop",
+  "methode": "recherche",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Papa_Bouba_Diop_en_mai_2014.JPG?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Papa_Bouba_Diop_en_mai_2014.JPG",
+  "auteur": "Supporterhéninois\n\nFile:Anciens du RCL mai 2014 2.JPG:\nderivative work: Aga",
+  "credit": "Travail personnel",
+  "licence": "CC BY-SA 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "restrictions": "personality",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2014-05-21 06:17:26",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Papa Bouba Diop en mai 2014",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Taken with Casio Exilim EX-Z60|Personality rights warning|Papa Bouba Diop|Association européenne contre les leucodystrophies|Self-published work|Images with extracted images|Match de bienfaisance au profit de l'association ELA à Hénin-Beaumont le 19 mai 2014",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Papa Bouba Diop en mai 2014.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2014-05-19",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"fr\">Travail personnel</span>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "<p><a href=\"//commons.wikimedia.org/w/index.php?title=User:Supporterh%C3%A9ninois&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Supporterhéninois (page does not exist)\">Supporterhéninois</a>\n</p>\n<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Anciens_du_RCL_mai_2014_2.JPG\" title=\"File:Anciens du RCL mai 2014 2.JPG\">File:Anciens du RCL mai 2014 2.JPG</a>:</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Agamitsudo\" class=\"mw-redirect\" title=\"User:Agamitsudo\">Aga</a></li></ul>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY-SA 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution-Share Alike 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "personality",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-sa-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

@@ -1,0 +1,86 @@
+{
+  "joueur": "Gayret",
+  "fichier": "gayret.jpg",
+  "page_wikipedia": "https://en.wikipedia.org/wiki/SC_Paderborn_07",
+  "titre_page": "SC Paderborn 07",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/SC_Paderborn_07_Logo_new.svg/960px-SC_Paderborn_07_Logo_new.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:SC_Paderborn_07_Logo_new.svg",
+  "auteur": "SC Paderborn 07 e.V.",
+  "credit": "SC Paderborn 07 e.V.",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "trademarked",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2020-01-26 14:04:35",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "SC Paderborn 07 Logo new",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "SVG association football logos of Germany|With trademark|PD textlogo|SVG text logos|Unknown date|Logos of SC Paderborn 07",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Logo of the SC Paderborn (in use since January 2018)",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "Unknown date",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "SC Paderborn 07 e.V.",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "SC Paderborn 07 e.V.",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "trademarked",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

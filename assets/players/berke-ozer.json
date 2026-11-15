@@ -1,0 +1,101 @@
+{
+  "joueur": "Berke Özer",
+  "fichier": "berke-ozer.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/Berke_%C3%96zer",
+  "titre_page": "Berke Özer",
+  "methode": "titre_groupe",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Berke_%C3%96zer_%282021-22_S%C3%BCper_Lig%29.png/960px-Berke_%C3%96zer_%282021-22_S%C3%BCper_Lig%29.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Berke_%C3%96zer_(2021-22_S%C3%BCper_Lig).png",
+  "auteur": "beIN SPORTS Türkiye",
+  "credit": "beIN SPORTS Türkiye (YouTube)beIN SPORTS Türkiye (Archive.org – 13th January 2022)",
+  "licence": "CC BY 3.0",
+  "licence_url": "https://creativecommons.org/licenses/by/3.0",
+  "restrictions": "",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2022-04-17 16:20:57",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Berke Özer (2021-22 Süper Lig)",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "Berke Özer|2021–22 Fenerbahçe SK season|Images with extracted images|Still images of YouTube videos",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Berke Özer — 2021-22 Süper Lig Sezonu – 10. Ocak 2022, Demirspora karşı: „FTA Antalyaspor - Fenerbahçe, A. Hatayspor - Galatasaray | İstatistik Bankası“ beIN-Sports-Videosu, Ocak 2022.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "2022-01-13",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=iXBJINHvTEU#t=0m04s\">beIN SPORTS Türkiye (YouTube)</a><br><a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20220113230633/https://www.youtube.com/watch?v=iXBJINHvTEU\">beIN SPORTS Türkiye (Archive.org – 13th January 2022)</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "beIN SPORTS Türkiye",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "CC BY 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Attribution 3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "true",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Attribution": {
+      "value": "beIN SPORTS Türkiye",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "https://creativecommons.org/licenses/by/3.0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc-by-3.0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}

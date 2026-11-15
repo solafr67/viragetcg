@@ -1,0 +1,91 @@
+{
+  "joueur": "Assane Dioussé",
+  "fichier": "assane-diousse.jpg",
+  "page_wikipedia": "https://fr.wikipedia.org/wiki/%C3%89quipe_du_S%C3%A9n%C3%A9gal_de_football_%C3%A0_la_Coupe_d%27Afrique_des_nations_2019",
+  "titre_page": "Équipe du Sénégal de football à la Coupe d'Afrique des nations 2019",
+  "methode": "recherche",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/960px-Flag_of_Senegal.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "source_photo": "https://commons.wikimedia.org/wiki/File:Flag_of_Senegal.svg",
+  "auteur": "Original upload by Nightstallion",
+  "credit": "Original upload from Openclipart : Senegal. However, the current source code for this SVG file has almost nothing in common with the original upload.",
+  "licence": "Public domain",
+  "licence_url": "",
+  "restrictions": "insignia",
+  "metadata_brutes": {
+    "DateTime": {
+      "value": "2023-04-12 05:07:40",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Flag of Senegal",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "PD shape|With insignia|Flags with five-pointed stars|SVG national flag of Senegal|SVG flags of Senegal - aspect ratio of 3:2|Valid SVG created with Text Editor:Flags|SVG simplified flags●Zero",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "Drapeau du Sénégal",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "DateTimeOriginal": {
+      "value": "Original upload on 2005-10-10",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Credit": {
+      "value": "Original upload from <a rel=\"nofollow\" class=\"external text\" href=\"http://openclipart.org/clipart//signs_and_symbols/flags/africa/senegal.svg\">Openclipart : Senegal</a>. However, the current source code for this SVG file has almost nothing in common with the original upload.",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Artist": {
+      "value": "Original upload by <a href=\"//commons.wikimedia.org/wiki/User:Nightstallion\" title=\"User:Nightstallion\">Nightstallion</a>",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseShortName": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Public domain",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Copyrighted": {
+      "value": "False",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "insignia",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "pd",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  },
+  "statut": "telecharge_a_verifier"
+}
