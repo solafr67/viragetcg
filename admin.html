@@ -75,6 +75,7 @@ tr.pick{cursor:pointer}tr.pick:hover td{background:rgba(255,255,255,.04)}tr.on t
       <div class="tbl"><table id="flag"></table></div>
     </div>
 
+    <div class="panel" style="margin-top:20px"><div class="row" style="justify-content:space-between"><h2>Avis des joueurs</h2><span class="sub">Un avis masqué disparaît de la page d'accueil et de la boutique.</span></div><div class="tbl" style="margin-top:12px"><table id="reviews"></table></div></div>
     <div class="grid2" style="margin-top:20px">
       <div class="panel">
         <h2>Joueurs</h2>
@@ -112,7 +113,7 @@ async function boot(){
   let ok=false;try{ok=await call('am_admin')}catch(e){}
   if(!ok){$('#login').hidden=false;$('#app').hidden=true;$('#lm').textContent="Ce compte n'est pas administrateur.";$('#lm').className='msg err';return}
   $('#login').hidden=true;$('#app').hidden=false;
-  stats();find('');
+  stats();find('');reviews();
 }
 async function stats(){
   try{
@@ -125,6 +126,9 @@ async function stats(){
       +`<tr><td><b>Solde net</b></td><td></td><td class="${tot>=0?'pos':'neg'}"><b>${tot>0?'+':''}${fmt(tot)}</b></td></tr>`;
   }catch(e){$('#gm').textContent=err(e);$('#gm').className='msg err'}
 }
+function rvShow(l){$('#reviews').innerHTML=l.length?l.map(r=>`<tr><td><b>${esc(r.pseudo)}</b><br><span class="sub">${'★'.repeat(r.stars)} · ${new Date(r.updated_at).toLocaleDateString('fr-FR')}</span></td><td>${esc(r.body)}</td><td><button class="btn" data-rvh="${esc(r.user_id)}" data-h="${r.hidden?0:1}">${r.hidden?'Réafficher':'Masquer'}</button></td></tr>`).join(''):'<tr><td class="sub">Aucun avis pour l\'instant.</td></tr>'}
+async function reviews(){try{rvShow(await call('admin_reviews'))}catch(e){}}
+document.addEventListener('click',async e=>{const b=e.target.closest('[data-rvh]');if(!b)return;b.disabled=true;try{rvShow(await call('admin_review_hide',{p_user:b.dataset.rvh,p_hidden:b.dataset.h==='1'}))}catch(x){b.disabled=false}});
 async function find(q){
   try{
     const l=await call('admin_find',{p_q:q});
