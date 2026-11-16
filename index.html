@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-/3wE19o0Ch6Y+cW+rMQJwcKRJf2u69sWOFJzdB8k/N0=' 'sha256-FIYGDU7eBVEIY44RrU3fhnTJzKpe2sqMU024rWE5VCA=' 'sha256-QO52X5XIPZYN8Qzq3/UkFjBFA8VPNJN/TVcTZKuyW2I=' 'sha256-eceVeEDzgqVRyyxG2LxgPSrMEcc8e4looPCVIVYbosA=' 'sha256-gZvmvhJ3FOvKr76EHRYq6OpHU4jKVO3S9Em6zB+Tx20=' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; connect-src 'self' https://vjzrsnnpjofgveusbbcg.supabase.co https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><script>if(window.top!==window.self){document.documentElement.style.display='none';try{window.top.location.replace(window.location.href)}catch(e){}}</script>
+<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-/3wE19o0Ch6Y+cW+rMQJwcKRJf2u69sWOFJzdB8k/N0=' 'sha256-2L56SKKd8UD+29hRvNEsahfI9Az4M66FD+u9vAmMouI=' 'sha256-FIYGDU7eBVEIY44RrU3fhnTJzKpe2sqMU024rWE5VCA=' 'sha256-eceVeEDzgqVRyyxG2LxgPSrMEcc8e4looPCVIVYbosA=' 'sha256-gZvmvhJ3FOvKr76EHRYq6OpHU4jKVO3S9Em6zB+Tx20=' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; connect-src 'self' https://vjzrsnnpjofgveusbbcg.supabase.co https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><script>if(window.top!==window.self){document.documentElement.style.display='none';try{window.top.location.replace(window.location.href)}catch(e){}}</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Virage TCG · Jeu de cartes à collectionner de football gratuit</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Outfit:wght@400;500;600;700&display=swap">
@@ -5887,7 +5887,7 @@ function draw(){
   const head=`<div class="ol-top"><div><div class="eyebrow">En ligne</div><h3>Compte &amp; classement</h3></div>${user?`<div class="ol-st" id="ol-st"></div>`:''}</div>`;
   let left;
   if(recovery){
-    left=`<strong>Nouveau mot de passe</strong><form class="ol-form" id="ol-rec" style="margin-top:10px"><label>Mot de passe<input type="password" name="pw" autocomplete="new-password" minlength="8" required></label><button class="btn gold" type="submit">Enregistrer</button><p class="ol-msg" id="ol-m"></p></form>`}
+    left=`<strong>Nouveau mot de passe</strong><form class="ol-form" id="ol-rec" style="margin-top:10px"><label>Mot de passe<input type="password" name="pw" autocomplete="new-password" required></label><button class="btn gold" type="submit">Enregistrer</button><p class="ol-msg" id="ol-m"></p></form>`}
   else if(user){
     left=`<p style="margin:12px 0 4px">Connecté en tant que <strong>${esc(pseudo||'…')}</strong></p><p style="margin:0 0 12px;color:var(--mute);font-size:13px">${esc(user.email||'')}</p>
       <form class="ol-form" id="ol-ren" style="margin:0 0 12px" novalidate><label>Changer de pseudo (une fois tous les 30 jours)<span class="row" style="flex-wrap:nowrap"><input name="ps" maxlength="16" value="${esc(pseudo)}" autocomplete="nickname" style="min-width:0"><button class="btn ghost" type="submit">Valider</button></span></label></form>
@@ -5909,7 +5909,7 @@ function draw(){
       <form class="ol-form" id="ol-f" novalidate>
         ${mode==='up'?`<label>Pseudo (3 à 16 caractères)<input name="pseudo" maxlength="16" autocomplete="nickname" required></label>`:''}
         <label>E-mail<input type="email" name="email" autocomplete="email" required></label>
-        <label>Mot de passe<input type="password" name="pw" autocomplete="${mode==='up'?'new-password':'current-password'}" minlength="${mode==='up'?8:6}" required></label>
+        <label>Mot de passe<input type="password" name="pw" autocomplete="${mode==='up'?'new-password':'current-password'}" required></label>
         <div id="ol-cap"></div>
         <button class="btn gold" type="submit">${mode==='up'?'Créer mon compte':'Me connecter'}</button>
         ${mode==='in'?`<button type="button" class="btn ghost" data-ol="forgot">Mot de passe oublié</button>`:''}
