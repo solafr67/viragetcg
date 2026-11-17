@@ -83,7 +83,7 @@ Ils sont regroupés dans la fonction `v_cfg` de `supabase-securite.sql` :
 | `match_cap` | 15 | matchs contre les clubs récompensés par jour |
 | `match_cooldown` | 6 | secondes minimum entre deux matchs |
 | `pvp_cap` / `pvp_same` | 10 / 3 | matchs entre joueurs récompensés par jour / contre le même joueur |
-| `trade_min_level` / `trade_min_days` | 5 / 2 | niveau et ancienneté requis pour vendre et échanger |
+| `trade_min_level` / `trade_min_days` | 5 / 0 | niveau et ancienneté (en jours, 0 = aucune) requis pour vendre et échanger |
 
 **Départ et niveaux.** Un nouveau compte commence avec 0 pièce et 10 boosters gratuits. Passer du niveau L au niveau L+1 demande 150 × L XP (niveau 5 = 1 500 XP, niveau 10 = 6 750 XP). Atteindre le niveau L rapporte 50 × L pièces (1 000 maximum). XP gagnée : nouvelle carte 10, doublon d'un booster payant 3, victoire 20, nul ou défaite 5, achat dans l’offre du jour 10. Ces valeurs sont dans `g_xp`, `v_level`, `open_pack` et `play_match`.
 
