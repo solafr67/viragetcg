@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-3+WTOrYEPg/BdQIaW9DidXkzTNonTQyiFrQYwFRDjJk=' 'sha256-gZvmvhJ3FOvKr76EHRYq6OpHU4jKVO3S9Em6zB+Tx20=' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; connect-src 'self' https://vjzrsnnpjofgveusbbcg.supabase.co https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><script>if(window.top!==window.self){document.documentElement.style.display='none';try{window.top.location.replace(window.location.href)}catch(e){}}</script>
+<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-Pmo4ghBu8H9UraKOb6sCfsc7NsNWWhD+iZx+DMjkv5Q=' 'sha256-gZvmvhJ3FOvKr76EHRYq6OpHU4jKVO3S9Em6zB+Tx20=' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; connect-src 'self' https://vjzrsnnpjofgveusbbcg.supabase.co https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><script>if(window.top!==window.self){document.documentElement.style.display='none';try{window.top.location.replace(window.location.href)}catch(e){}}</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -43,6 +43,16 @@ tr.pick{cursor:pointer}tr.pick:hover td{background:rgba(255,255,255,.04)}tr.on t
 .msg{font-size:13px;color:var(--mute);min-height:18px}.msg.err{color:#FF9AA5}.msg.ok{color:var(--ok)}
 .sub{color:var(--mute);font-size:13px}
 .split{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:14px}
+.cf{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:14px;align-items:end}
+#app,#login{min-width:0}
+.cf .wide{grid-column:1/-1}
+.cf input{min-width:0;max-width:100%}.cf label{min-width:0}
+.cres{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.cres button{font:inherit;font-size:13px;color:var(--fg);background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:99px;padding:5px 10px;cursor:pointer}
+.cres button:hover{border-color:var(--gold)}
+.chip{display:inline-flex;align-items:center;gap:8px;background:rgba(245,196,81,.12);border:1px solid rgba(245,196,81,.5);color:var(--gold);border-radius:99px;padding:5px 6px 5px 12px;font-size:13px;font-weight:700}
+.chip button{all:unset;cursor:pointer;width:22px;height:22px;display:grid;place-items:center;border-radius:50%;background:rgba(0,0,0,.25);color:var(--fg)}
+code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;color:var(--gold)}
 </style>
 </head>
 <body>
@@ -75,6 +85,22 @@ tr.pick{cursor:pointer}tr.pick:hover td{background:rgba(255,255,255,.04)}tr.on t
       <div class="tbl"><table id="flag"></table></div>
     </div>
 
+    <div class="panel" style="margin-top:20px" id="codes">
+      <div class="row" style="justify-content:space-between"><h2>Codes cadeaux</h2><span class="sub">Le joueur entre le code dans Profil → Code cadeau, ou ouvre le lien du code. Un code ne sert qu'une fois par compte.</span></div>
+      <form id="cf" class="cf" novalidate>
+        <label>Code<div class="row" style="flex-wrap:nowrap"><input name="code" maxlength="24" placeholder="TIKTOK2026" autocomplete="off" style="text-transform:uppercase;flex:1"><button class="btn" type="button" id="cgen" title="Générer un code au hasard">🎲</button></div></label>
+        <label>Pièces<input name="coins" type="number" min="0" max="100000" step="50" placeholder="0"></label>
+        <label>Boosters gratuits<input name="free" type="number" min="0" max="30" placeholder="0"></label>
+        <label>Utilisations max<input name="max" type="number" min="1" placeholder="Illimité"></label>
+        <label>Expire le<input name="exp" type="datetime-local"></label>
+        <label>Note (pour toi)<input name="note" maxlength="120" placeholder="Ex. post TikTok du 18/11"></label>
+        <div class="wide"><label>Carte offerte (facultatif)<input id="cq" placeholder="Cherche un joueur : Mbappé, Zidane…" autocomplete="off"></label><div class="cres" id="cres"></div><div id="ccard" style="margin-top:6px"></div></div>
+        <div class="wide row"><button class="btn gold" type="submit">Créer le code</button><span class="sub">Recréer un code existant le modifie et le réactive (les utilisations restent comptées).</span></div>
+      </form>
+      <p class="msg" id="cm"></p>
+      <div class="tbl" style="margin-top:8px"><table id="clist"></table></div>
+    </div>
+
     <div class="panel" style="margin-top:20px"><div class="row" style="justify-content:space-between"><h2>Avis des joueurs</h2><span class="sub">Un avis masqué disparaît de la page d'accueil et de la boutique.</span></div><div class="tbl" style="margin-top:12px"><table id="reviews"></table></div></div>
     <div class="grid2" style="margin-top:20px">
       <div class="panel">
@@ -100,7 +126,7 @@ const fmt=n=>Number(n||0).toLocaleString('fr-FR');
 const dt=t=>t?new Date(t).toLocaleString('fr-FR',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):'';
 const KIND={booster:'Booster acheté',mission:'Mission',niveau:'Niveau gagné',match:'Match (club)',match_joueur:'Match (joueur)',defi:'Défi',boutique:'Boutique',boutique_renouvellement:'Renouvellement boutique',
   vente_banque:'Vente rapide',achat_joueur:'Achat à un joueur',vente_joueur:'Vente à un joueur',echange_depot:'Échange : dépôt',echange_pieces:'Échange : pièces',echange_annule:'Échange annulé',
-  album:'Album',saison:'Saison',renommage:'Changement de pseudo',admin:'Ajustement admin',suspension:'Suspension',reactivation:'Réactivation'};
+  album:'Album',saison:'Saison',code:'Code cadeau',renommage:'Changement de pseudo',admin:'Ajustement admin',suspension:'Suspension',reactivation:'Réactivation'};
 let sb=null,cur=null;
 try{sb=window.supabase.createClient(SB_URL,SB_KEY)}catch(e){$('#gm').textContent='Service Supabase injoignable.';return}
 const call=async(n,a)=>{const r=await sb.rpc(n,a||{});if(r.error)throw r.error;return r.data};
@@ -113,7 +139,7 @@ async function boot(){
   let ok=false;try{ok=await call('am_admin')}catch(e){}
   if(!ok){$('#login').hidden=false;$('#app').hidden=true;$('#lm').textContent="Ce compte n'est pas administrateur.";$('#lm').className='msg err';return}
   $('#login').hidden=true;$('#app').hidden=false;
-  stats();find('');reviews();
+  stats();find('');reviews();codes();
 }
 async function stats(){
   try{
@@ -127,6 +153,47 @@ async function stats(){
   }catch(e){$('#gm').textContent=err(e);$('#gm').className='msg err'}
 }
 function rvShow(l){$('#reviews').innerHTML=l.length?l.map(r=>`<tr><td><b>${esc(r.pseudo)}</b><br><span class="sub">${'★'.repeat(r.stars)} · ${new Date(r.updated_at).toLocaleDateString('fr-FR')}</span></td><td>${esc(r.body)}</td><td><button class="btn" data-rvh="${esc(r.user_id)}" data-h="${r.hidden?0:1}">${r.hidden?'Réafficher':'Masquer'}</button></td></tr>`).join(''):'<tr><td class="sub">Aucun avis pour l\'instant.</td></tr>'}
+/* ---------- codes cadeaux ---------- */
+const RAR=['Commune','Peu commune','Rare','Épique','Légendaire','Mythique'];
+let CARD=null;const SITE='https://viragetcg.com/';
+const CERR={code_format:'Code : 3 à 24 caractères (lettres, chiffres, tirets).',code_vide:'Choisis au moins une récompense : pièces, boosters ou carte.',code_montant:'Pièces de 0 à 100 000, boosters de 0 à 30, au moins 1 utilisation.',carte_inconnue:'Carte introuvable.'};
+const cerr=e=>{const m=(e&&e.message)||'';return CERR[m]||err(e)};
+const cmsg=(t,k)=>{$('#cm').textContent=t;$('#cm').className='msg'+(k?' '+k:'')};
+const rew=c=>[c.coins?fmt(c.coins)+' pièces':'',c.free?c.free+' booster'+(c.free>1?'s':'')+' gratuit'+(c.free>1?'s':''):'',c.card?esc(c.card_name||c.card)+(c.card_r!=null?' ('+RAR[c.card_r]+')':''):''].filter(Boolean).join(' · ');
+function cShow(l){
+  $('#clist').innerHTML=l.length?`<tr><th>Code</th><th>Récompense</th><th>Utilisations</th><th>Expire</th><th>Statut</th><th></th></tr>`+l.map(c=>{
+    const dead=!c.active||(c.expires_at&&new Date(c.expires_at)<new Date())||(c.max_uses&&c.uses>=c.max_uses);
+    const st=!c.active?'<span class="tag bad">Désactivé</span>':c.expires_at&&new Date(c.expires_at)<new Date()?'<span class="tag bad">Expiré</span>':c.max_uses&&c.uses>=c.max_uses?'<span class="tag bad">Épuisé</span>':'<span class="tag ok">Actif</span>';
+    return `<tr><td><code>${esc(c.code)}</code>${c.note?`<br><span class="sub">${esc(c.note)}</span>`:''}</td><td style="white-space:normal">${rew(c)}</td><td>${fmt(c.uses)}${c.max_uses?' / '+fmt(c.max_uses):''}</td><td>${c.expires_at?dt(c.expires_at):'Jamais'}</td><td>${st}</td>
+      <td><div class="row" style="flex-wrap:nowrap"><button class="btn" data-clink="${esc(c.code)}">Copier le lien</button><button class="btn" data-cedit="${esc(c.code)}">Modifier</button><button class="btn${c.active?' bad':''}" data-con="${esc(c.code)}" data-v="${c.active?0:1}">${c.active?'Désactiver':'Réactiver'}</button></div></td></tr>`}).join('')
+   :'<tr><td class="sub">Aucun code pour l’instant. Crée le premier ci-dessus.</td></tr>';
+  window.__codes=l;
+}
+async function codes(){try{cShow(await call('admin_codes'))}catch(e){$('#clist').innerHTML=`<tr><td class="neg">${esc(cerr(e))}</td></tr>`}}
+function cCard(c){CARD=c;$('#ccard').innerHTML=c?`<span class="chip">${[esc(c.full_name),esc(c.club||''),c.ovr||'',c.r!=null?RAR[c.r]:''].filter(Boolean).join(' · ')}<button type="button" id="cnone" aria-label="Retirer la carte">✕</button></span>`:'';$('#cres').innerHTML='';if(c)$('#cq').value=''}
+let cqT=0;
+document.addEventListener('keydown',e=>{if(e.target.id==='cq'&&e.key==='Enter')e.preventDefault()});
+document.addEventListener('input',e=>{if(e.target.id!=='cq')return;clearTimeout(cqT);const v=e.target.value.trim();
+  cqT=setTimeout(async()=>{if(v.length<2){$('#cres').innerHTML='';return}
+    try{const l=await call('admin_cards',{p_q:v});window.__cres=l;$('#cres').innerHTML=l.length?l.map((c,i)=>`<button type="button" data-cpick="${i}">${esc(c.full_name)} · ${c.ovr} · ${RAR[c.r]}</button>`).join(''):'<span class="sub">Aucune carte.</span>'}catch(x){}},250)});
+document.addEventListener('click',async e=>{
+  const t=e.target;
+  if(t.id==='cgen'){const A='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';$('#cf').code.value='VIRAGE-'+Array.from({length:6},()=>A[Math.floor(Math.random()*A.length)]).join('');return}
+  if(t.id==='cnone'){cCard(null);return}
+  const pk=t.closest('[data-cpick]');if(pk){cCard(window.__cres[+pk.dataset.cpick]);return}
+  const ln=t.closest('[data-clink]');if(ln){const u=SITE+'#code/'+ln.dataset.clink;try{await navigator.clipboard.writeText(u);cmsg('Lien copié : '+u,'ok')}catch(x){cmsg('Lien : '+u,'ok')}return}
+  const ed=t.closest('[data-cedit]');if(ed){const c=(window.__codes||[]).find(x=>x.code===ed.dataset.cedit);if(!c)return;const f=$('#cf');
+    f.code.value=c.code;f.coins.value=c.coins||'';f.free.value=c.free||'';f.max.value=c.max_uses||'';f.note.value=c.note||'';
+    f.exp.value=c.expires_at?new Date(new Date(c.expires_at).getTime()-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,16):'';
+    cCard(c.card?{id:c.card,full_name:c.card_name,r:c.card_r}:null);f.querySelector('[type=submit]').textContent='Enregistrer les changements';f.scrollIntoView({behavior:'smooth',block:'start'});return}
+  const on=t.closest('[data-con]');if(on){on.disabled=true;try{cShow(await call('admin_code_active',{p_code:on.dataset.con,p_on:on.dataset.v==='1'}))}catch(x){cmsg(cerr(x),'err');on.disabled=false}}
+});
+async function cSave(f){
+  const n=v=>v===''?0:parseInt(v,10),code=f.code.value.trim().toUpperCase();
+  const a={p_code:code,p_coins:n(f.coins.value),p_free:n(f.free.value),p_card:CARD?CARD.id:null,p_max:f.max.value===''?null:parseInt(f.max.value,10),
+    p_expires:f.exp.value?new Date(f.exp.value).toISOString():null,p_note:f.note.value.trim()||null};
+  try{cShow(await call('admin_code_save',a));cmsg(`Code ${code} enregistré. Lien à partager : ${SITE}#code/${code}`,'ok');f.reset();cCard(null);f.querySelector('[type=submit]').textContent='Créer le code'}catch(x){cmsg(cerr(x),'err')}
+}
 async function reviews(){try{rvShow(await call('admin_reviews'))}catch(e){}}
 document.addEventListener('click',async e=>{const b=e.target.closest('[data-rvh]');if(!b)return;b.disabled=true;try{rvShow(await call('admin_review_hide',{p_user:b.dataset.rvh,p_hidden:b.dataset.h==='1'}))}catch(x){b.disabled=false}});
 async function find(q){
@@ -166,6 +233,7 @@ document.addEventListener('submit',async e=>{
   if(f.id==='lf'){const r=await sb.auth.signInWithPassword({email:f.email.value.trim(),password:f.pw.value});
     if(r.error){$('#lm').textContent='Identifiants incorrects.';$('#lm').className='msg err';return}boot()}
   else if(f.id==='sf')find($('#q').value.trim());
+  else if(f.id==='cf')cSave(f);
   else if(f.id==='af'){const dlt=parseInt(f.d.value,10),r=f.r.value.trim();if(!dlt||!r){$('#dm').textContent='Montant et motif obligatoires.';return}
     try{await call('admin_coins',{p_id:cur,p_delta:dlt,p_reason:r});await detail(cur);stats();find($('#q').value.trim());$('#dm').textContent='Ajustement appliqué.';$('#dm').className='msg ok'}catch(x){$('#dm').textContent=err(x);$('#dm').className='msg err'}}
   else if(f.id==='rf'){const np=f.p.value.trim(),r=f.r.value.trim();
@@ -177,7 +245,7 @@ document.addEventListener('submit',async e=>{
 });
 document.addEventListener('click',e=>{
   const tr=e.target.closest('tr.pick');if(tr)return detail(tr.dataset.id);
-  if(e.target.id==='reload'){stats();find($('#q').value.trim());if(cur)detail(cur)}
+  if(e.target.id==='reload'){stats();find($('#q').value.trim());codes();if(cur)detail(cur)}
   if(e.target.id==='out')sb.auth.signOut().then(boot);
 });
 boot();
