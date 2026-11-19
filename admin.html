@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-gZvmvhJ3FOvKr76EHRYq6OpHU4jKVO3S9Em6zB+Tx20=' 'sha256-w/fsbKBEI7sYInxDeUHHzph7dvkhnrgt8ORRxX3h5es=' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; connect-src 'self' https://vjzrsnnpjofgveusbbcg.supabase.co https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><script>if(window.top!==window.self){document.documentElement.style.display='none';try{window.top.location.replace(window.location.href)}catch(e){}}</script>
+<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-eKPqGVJH4GGryO/jKDH1JbV0z1Z6jcH8RCbbcEPmkR4=' 'sha256-gZvmvhJ3FOvKr76EHRYq6OpHU4jKVO3S9Em6zB+Tx20=' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; connect-src 'self' https://vjzrsnnpjofgveusbbcg.supabase.co https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><script>if(window.top!==window.self){document.documentElement.style.display='none';try{window.top.location.replace(window.location.href)}catch(e){}}</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -41,6 +41,9 @@ tr.pick{cursor:pointer}tr.pick:hover td{background:rgba(255,255,255,.04)}tr.on t
 .pos{color:var(--ok)}.neg{color:#FF9AA5}
 .tag{display:inline-block;padding:2px 8px;border-radius:99px;font-size:11px;font-weight:700;border:1px solid currentColor}
 .tag.bad{color:#FF9AA5}.tag.ok{color:var(--ok)}
+.psteps{margin:8px 0 0;padding-left:20px;display:grid;gap:6px}.psteps code,.pkey code{font-size:12px}
+.pkey{display:grid;grid-template-columns:130px minmax(0,1fr) auto;gap:8px;align-items:center;margin-top:8px}.pkey input{font-family:ui-monospace,monospace;font-size:12px}
+@media(max-width:640px){.pkey{grid-template-columns:1fr}}
 .msg{font-size:13px;color:var(--mute);min-height:18px}.msg.err{color:#FF9AA5}.msg.ok{color:var(--ok)}
 .sub{color:var(--mute);font-size:13px}
 .split{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:14px}
@@ -100,6 +103,37 @@ code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;color:var(
       <div id="twlist" style="margin-top:8px"></div>
     </div>
 
+    <div class="panel" style="margin-top:20px" id="push">
+      <div class="row" style="justify-content:space-between"><h2>Notifications push</h2><span class="sub">Envoyées aux joueurs qui les ont activées (Profil › Appli et notifications). Guide : LISEZMOI, section « Notifications push ».</span></div>
+      <div class="kpis" id="pk" style="margin-top:14px"></div>
+      <p class="msg" id="pst"></p>
+      <details id="pset" style="margin-top:6px"><summary><b>Installation et réglages</b></summary>
+        <ol class="sub psteps">
+          <li>Clique sur « Générer les clés », puis copie les trois valeurs dans Supabase › Edge Functions › Secrets (noms exacts : <code>VAPID_PUBLIC</code>, <code>VAPID_PRIVATE</code>, <code>PUSH_SECRET</code>). La clé privée n'est enregistrée nulle part ailleurs : ne la donne à personne.</li>
+          <li>Crée la fonction Edge <code>push</code> avec le fichier <code>supabase-fonction-push.ts</code> et désactive « Verify JWT ».</li>
+          <li>Coche « Activer l'envoi » et clique sur « Enregistrer ».</li>
+        </ol>
+        <div class="row" style="margin-top:10px"><button class="btn" type="button" id="pgen">Générer les clés</button><span class="sub" id="pgw"></span></div>
+        <div id="pkeys"></div>
+        <form id="pf" class="cf" novalidate>
+          <label class="wide">Adresse de la fonction<input name="url" autocomplete="off"></label>
+          <label class="wide" style="flex-direction:row;align-items:center;gap:8px;display:flex"><input type="checkbox" name="on" style="width:auto"> Activer l'envoi</label>
+          <div class="wide row"><button class="btn gold" type="submit">Enregistrer</button></div>
+        </form>
+      </details>
+      <h3 style="margin-top:16px">Tester et annoncer</h3>
+      <div class="row" style="margin-top:8px"><button class="btn" type="button" id="ptest">M'envoyer une notification de test</button><span class="sub" id="pmine"></span></div>
+      <form id="pa" class="cf" novalidate>
+        <label>Titre<input name="t" maxlength="60" placeholder="⭐ Nouvelle équipe de la semaine"></label>
+        <label>Texte<input name="b" maxlength="180" placeholder="Mbappé, Yamal, Kane… à tirer jusqu'à lundi !"></label>
+        <label>Titre anglais (facultatif)<input name="te" maxlength="60"></label>
+        <label>Texte anglais (facultatif)<input name="be" maxlength="180"></label>
+        <label>Ouvre<select name="u"><option value="./">Boutique</option><option value="#missions">Missions</option><option value="#marche">Marché</option><option value="#match">Matchs</option><option value="#collection">Collection</option><option value="#profil">Profil</option></select></label>
+        <div class="wide row"><button class="btn gold" type="submit" id="pago">Envoyer à tous les abonnés</button><span class="sub">Catégorie « Nouveautés » : seuls les joueurs qui l'ont gardée la reçoivent, jamais entre 22 h et 8 h s'ils l'ont demandé.</span></div>
+      </form>
+      <p class="msg" id="pm"></p>
+    </div>
+
     <div class="panel" style="margin-top:20px" id="codes">
       <div class="row" style="justify-content:space-between"><h2>Codes cadeaux</h2><span class="sub">Le joueur entre le code dans Profil → Code cadeau, ou ouvre le lien du code. Un code ne sert qu'une fois par compte.</span></div>
       <form id="cf" class="cf" novalidate>
@@ -154,7 +188,7 @@ async function boot(){
   let ok=false;try{ok=await call('am_admin')}catch(e){}
   if(!ok){$('#login').hidden=false;$('#app').hidden=true;$('#lm').textContent="Ce compte n'est pas administrateur.";$('#lm').className='msg err';return}
   $('#login').hidden=true;$('#app').hidden=false;
-  stats();find('');reviews();codes();twInit();
+  stats();find('');reviews();codes();twInit();pushLoad();
 }
 async function stats(){
   try{
@@ -298,6 +332,55 @@ document.addEventListener('click',e=>{
   if(e.target.id==='out')sb.auth.signOut().then(boot);
 });
 boot();
+
+/* ---------- notifications push ---------- */
+let PI=null,PG=null,parm=false;
+const PERR={url_invalide:'Adresse invalide (https://…).',secret_trop_court:'Secret trop court.',cle_invalide:'Clé publique invalide.',texte_invalide:'Titre de 2 à 60 caractères, texte de 180 au plus.',pas_abonne:"Active d'abord les notifications sur cet appareil (Profil du jeu › Appli et notifications).",trop_rapide:'Attends une minute entre deux tests.'};
+const perr=e=>PERR[(e&&e.message)||'']||err(e);
+const pmsg=(id,t,k)=>{$(id).textContent=t;$(id).className='msg'+(k?' '+k:'')};
+const ago2=t=>{if(!t)return 'jamais';const s=(Date.now()-new Date(t))/1000|0;return s<90?'il y a '+s+' s':s<5400?'il y a '+(s/60|0)+' min':dt(t)};
+const b64u=b=>btoa(String.fromCharCode(...new Uint8Array(b))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
+function pushShow(){
+  const i=PI;if(!i)return;const tickOk=i.tick_at&&(Date.now()-new Date(i.tick_at))<5*60e3;
+  $('#pk').innerHTML=[[i.enabled&&i.has_secret&&i.pub&&i.url?'Actif':'Inactif','État'],[fmt(i.users),'Joueurs abonnés'],[fmt(i.subs),'Appareils'],[fmt(i.queue),'En attente'],[fmt(i.sent),'Envoyées'],[fmt(i.dead),'Appareils expirés retirés'],[fmt(i.fails),'Échecs']]
+    .map(k=>`<div class="kpi"><b>${k[0]}</b><span>${k[1]}</span></div>`).join('');
+  const w=[];
+  if(!i.net)w.push("Extension pg_net absente : relance le script SQL (ou active pg_net dans Database › Extensions).");
+  if(!i.cron)w.push("Extension pg_cron absente : active-la dans Database › Extensions, puis relance le script SQL.");
+  else if(!tickOk)w.push("La tâche planifiée ne tourne pas (dernière exécution : "+ago2(i.tick_at)+"). Relance le script SQL.");
+  pmsg('#pst',(w.length?'⚠ '+w.join(' '):'Tâche planifiée : '+ago2(i.tick_at)+'.')+' Dernier envoi : '+ago2(i.last_at)+'.'+(i.last_err?' Dernière erreur : '+i.last_err:''),w.length||i.last_err?'err':'');
+  const f=$('#pf');if(!f.url.dataset.touched)f.url.value=i.url||(SB_URL+'/functions/v1/push');f.on.checked=!!i.enabled;
+  if(!(i.enabled&&i.has_secret&&i.pub))$('#pset').open=true;
+  $('#pmine').textContent=i.mine?`${i.mine} appareil${i.mine>1?'s':''} abonné${i.mine>1?'s':''} sur ton compte.`:"Aucun de tes appareils n'est abonné : active les notifications dans le jeu (Profil).";
+}
+async function pushLoad(){try{PI=await call('admin_push_info');pushShow()}catch(e){pmsg('#pst',perr(e),'err')}}
+document.addEventListener('input',e=>{if(e.target.name==='url'&&e.target.form&&e.target.form.id==='pf')e.target.dataset.touched='1'});
+document.addEventListener('click',async e=>{
+  const t=e.target;
+  if(t.id==='pgen'){
+    if(PI&&PI.subs>0&&!parm){parm=true;t.textContent='Confirmer : nouvelles clés';$('#pgw').textContent=`${PI.subs} appareil(s) déjà abonné(s) devront réactiver les notifications.`;return}
+    parm=false;t.textContent='Générer les clés';$('#pgw').textContent='';
+    const k=await crypto.subtle.generateKey({name:'ECDSA',namedCurve:'P-256'},true,['sign','verify']);
+    PG={pub:b64u(await crypto.subtle.exportKey('raw',k.publicKey)),priv:(await crypto.subtle.exportKey('jwk',k.privateKey)).d,secret:b64u(crypto.getRandomValues(new Uint8Array(32)))};
+    $('#pkeys').innerHTML=[['VAPID_PUBLIC',PG.pub],['VAPID_PRIVATE',PG.priv],['PUSH_SECRET',PG.secret]].map(([n,v])=>`<div class="pkey"><code>${n}</code><input readonly value="${esc(v)}" aria-label="${n}"><button class="btn" type="button" data-pcopy="${n}">Copier</button></div>`).join('')
+      +`<p class="msg err" style="margin-top:8px">Copie ces trois valeurs dans les secrets de la fonction, puis clique sur « Enregistrer » ci-dessous (seules la clé publique et le secret sont gardés par le jeu).</p>`;
+    $('#pf').on.checked=true;
+  }
+  else if(t.dataset&&t.dataset.pcopy){const i=t.previousElementSibling;try{await navigator.clipboard.writeText(i.value);t.textContent='Copié ✓'}catch(x){i.focus();i.select();t.textContent='Sélectionné'}setTimeout(()=>{t.textContent='Copier'},1600)}
+  else if(t.id==='ptest'){try{await call('push_test');pmsg('#pm','Notification de test en file : elle arrive dans la minute.','ok')}catch(x){pmsg('#pm',perr(x),'err')}}
+});
+document.addEventListener('submit',async e=>{
+  if(e.target.id==='pf'){e.preventDefault();const f=e.target;
+    try{PI=await call('admin_push_save',{p_url:f.url.value.trim()||null,p_secret:PG?PG.secret:null,p_pub:PG?PG.pub:null,p_enabled:f.on.checked});pushShow();
+      pmsg('#pm',PG?'Clés enregistrées. Pense à mettre les mêmes valeurs dans les secrets de la fonction.':'Réglages enregistrés.','ok');PG=null}
+    catch(x){pmsg('#pm',perr(x),'err')}}
+  else if(e.target.id==='pa'){e.preventDefault();const f=e.target,b=$('#pago');
+    if(!b.dataset.arm){b.dataset.arm='1';b.textContent=`Confirmer l'envoi à ${fmt(PI&&PI.users||0)} joueur(s)`;return}
+    delete b.dataset.arm;b.textContent='Envoyer à tous les abonnés';
+    try{const r=await call('admin_push_send',{p_title:f.t.value.trim(),p_body:f.b.value.trim(),p_url:f.u.value,p_title_en:f.te.value.trim()||null,p_body_en:f.be.value.trim()||null});PI=r.info;pushShow();
+      pmsg('#pm',`Annonce en file pour ${fmt(r.queued)} joueur(s) : envoi dans la minute.`,'ok');f.reset()}
+    catch(x){pmsg('#pm',perr(x),'err')}}
+});
 })();
 </script>
 </body>

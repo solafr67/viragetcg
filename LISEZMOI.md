@@ -8,11 +8,12 @@ admin.html            la page d'administration (réservée aux comptes admin)
 legal.html            mentions légales, confidentialité, conditions d'utilisation
 favicon.svg, apple-touch-icon.png, icon-192.png, icon-512.png   les icônes
 og.png, site.webmanifest                                       l'aperçu de partage et l'installation sur téléphone
+sw.js, offline.html, badge-72.png, icon-maskable-512.png       l'appli installable et les notifications
 assets/credits.js     tes crédits photo (déjà chez toi)
 assets/players/       tes photos de joueurs (déjà chez toi)
 ```
 
-Les fichiers `.sql` et ce guide ne sont pas à mettre en ligne : ils servent seulement à Supabase.
+Les fichiers `.sql`, `supabase-fonction-push.ts` et ce guide ne sont pas à mettre en ligne : ils servent seulement à Supabase.
 
 Le site doit être servi en **https** (Netlify, Cloudflare Pages ou GitHub Pages le font gratuitement). Un compte est obligatoire pour jouer : à l'arrivée, un écran demande de s'inscrire ou de se connecter. Il faut donc que Supabase soit joignable.
 
@@ -126,6 +127,30 @@ Ils sont regroupés dans la fonction `v_cfg` de `supabase-securite.sql` :
 **Parrainage.** Chaque joueur a un lien `viragetcg.com/?parrain=SonPseudo` (Profil). Un nouveau compte créé avec ce lien enregistre son parrain ; quand le filleul atteint le niveau 5, les deux reçoivent 1 500 pièces. Limites : parrain enregistré dans les 7 jours suivant l'inscription, 20 filleuls récompensés par parrain (fonctions `set_referrer` et `g_ref_pay`).
 
 Pour changer une valeur : modifie-la dans le script et relance-le. Regarde l'onglet « Pièces créées et détruites » de l'administration après quelques semaines. Si les créations dépassent nettement les retraits, baisse `bank_cap` ou monte `tax`.
+
+## 6 bis. Appli et notifications push
+
+**L'appli.** Le site s'installe comme une appli (icône sur l'écran d'accueil, plein écran, raccourcis Boutique / Missions / Marché) : sur Android et ordinateur, bouton « 📲 Installer l'appli » dans Profil › Appli et notifications (ou menu du navigateur) ; sur iPhone, Safari › Partager › « Sur l'écran d'accueil ». Le fichier `sw.js` (service worker) affiche une page « Pas de connexion » quand le réseau manque ; il ne garde jamais le jeu en cache, donc chaque mise en ligne est visible tout de suite. Fichiers : `sw.js`, `offline.html`, `badge-72.png`, `icon-maskable-512.png`, `site.webmanifest`.
+
+**Ce que reçoivent les joueurs** (chacun choisit ses catégories dans Profil) :
+- *Ventes, échanges, enchères* : carte vendue, échange accepté, surenchère, enchère gagnée ou vendue.
+- *Envies* : une carte de ses envies mise en vente, aux enchères ou en échange.
+- *Amis, défis, matchs* : demande d'ami, ami accepté, offre réservée, défi amical, match d'un joueur contre son onze, parrainage.
+- *Rappels* (entre 9 h et 21 h) : cadeau du jour pas pris à 18 h, boosters gratuits pleins (joueur absent depuis 3 h), dernier jour du parcours à 18 h s'il reste des paliers.
+- *Nouveautés* : nouvelle équipe de la semaine (automatique à la publication) et tes annonces.
+Par défaut, rien entre 22 h et 8 h (réglable), 15 notifications par jour au plus par joueur. Le texte suit la langue du jeu (FR/EN). Sur iPhone, les notifications ne marchent qu'une fois l'appli installée sur l'écran d'accueil (iOS 16.4 ou plus).
+
+**Comment ça marche.** Chaque notification du jeu (table `notices`) et chaque rappel passe par une file (`push_queue`). Chaque minute, une tâche planifiée (`pg_cron`, tâche `virage-push`, fonction `g_push_tick`) prépare les rappels puis envoie la file par lots à la fonction Edge `push` (extension `pg_net`). Cette fonction chiffre chaque message (standard Web Push) et l'envoie aux navigateurs. Les appareils désinstallés sont retirés tout seuls.
+
+**Installation (une seule fois, environ 10 minutes).**
+1. Relance `supabase-securite.sql`. Il active `pg_net` et `pg_cron` et crée la tâche. Si l'administration signale une extension absente : Supabase › Database › Extensions, active `pg_net` et `pg_cron`, puis relance le script.
+2. Page d'administration › Notifications push › Installation et réglages › **Générer les clés**. Trois valeurs apparaissent : `VAPID_PUBLIC`, `VAPID_PRIVATE`, `PUSH_SECRET`.
+3. Supabase › Edge Functions › **Secrets** : ajoute ces trois secrets avec exactement ces noms (bouton Copier). **Ne m'envoie jamais `VAPID_PRIVATE` ni `PUSH_SECRET`** : ils restent entre la page d'administration et Supabase.
+4. Supabase › Edge Functions › **Deploy a new function** › Via Editor : nom `push`, colle tout le contenu de `supabase-fonction-push.ts`, déploie. Dans les réglages de la fonction, désactive **Verify JWT** (la base s'authentifie avec `PUSH_SECRET`).
+5. Retour dans l'administration : vérifie l'adresse (`https://…supabase.co/functions/v1/push`), coche « Activer l'envoi », **Enregistrer**.
+6. Dans le jeu, sur ton téléphone : Profil › Appli et notifications › Activer, puis « Envoyer un test ». La notification arrive en moins d'une minute.
+
+**Suivi.** Le panneau affiche joueurs et appareils abonnés, file d'attente, envois, échecs, dernière erreur et l'heure de la dernière exécution de la tâche. Bouton « M'envoyer une notification de test » et formulaire **Annonce** (titre, texte, version anglaise facultative, écran à ouvrir) envoyé à tous les abonnés qui ont gardé « Nouveautés ». Régénérer les clés désabonne tous les appareils (une confirmation le rappelle) : à éviter une fois le jeu lancé. Tables `push_subs`, `push_queue`, `push_cfg` ; fonctions `push_subscribe`, `push_unsubscribe`, `push_prefs`, `push_test`, `admin_push_info`, `admin_push_save`, `admin_push_send` ; textes dans `g_push_msg`.
 
 ## 7. Mercato et mises à jour des cartes
 

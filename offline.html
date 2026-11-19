@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-N15InuntfSle+9BuADlYY8rdFb8SckBIrTCN61jYdIM=' 'sha256-gZvmvhJ3FOvKr76EHRYq6OpHU4jKVO3S9Em6zB+Tx20=' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; connect-src 'self' https://vjzrsnnpjofgveusbbcg.supabase.co https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; object-src 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><script>if(window.top!==window.self){document.documentElement.style.display='none';try{window.top.location.replace(window.location.href)}catch(e){}}</script><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Virage TCG · hors connexion</title><meta name="theme-color" content="#0F172A"><link rel="icon" href="favicon.svg">
+<style>
+:root{color-scheme:dark}
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:radial-gradient(120% 80% at 50% 0%,#1B2947,#0A1020 70%);color:#E8EEFB;font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;padding:24px;box-sizing:border-box;text-align:center}
+main{max-width:340px;display:grid;gap:14px;justify-items:center}
+img{width:84px;height:84px;border-radius:20px}
+h1{margin:6px 0 0;font-size:24px}p{margin:0;color:#8D9BBB}
+button{margin-top:6px;border:0;border-radius:12px;padding:12px 22px;font:700 16px system-ui,sans-serif;background:linear-gradient(180deg,#FFD978,#F5C451);color:#1A1203;cursor:pointer}
+</style></head><body>
+<main><img src="icon-192.png" alt=""><h1 id="h">Pas de connexion</h1><p id="p">Virage TCG a besoin d'internet pour charger ta partie. Vérifie ta connexion puis réessaie.</p><button type="button" id="r">Réessayer</button></main>
+<script>
+document.getElementById('r').onclick=function(){location.reload()};
+addEventListener('online',function(){location.reload()});
+try{if((localStorage.getItem('virage-lang')||navigator.language||'').slice(0,2)==='en'){document.documentElement.lang='en';document.getElementById('h').textContent='No connection';document.getElementById('p').textContent='Virage TCG needs the internet to load your game. Check your connection and try again.';document.getElementById('r').textContent='Try again'}}catch(e){}
+</script>
+</body></html>

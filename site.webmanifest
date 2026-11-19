@@ -1,15 +1,77 @@
 {
   "name": "Virage TCG",
   "short_name": "Virage",
-  "description": "Jeu de cartes à collectionner sur le football : les joueurs du Top 5 européen.",
-  "start_url": "index.html",
+  "description": "Jeu de cartes à collectionner sur le football : 8 championnats européens, boosters, marché, défis et matchs entre joueurs.",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#0F172A",
   "theme_color": "#0F172A",
   "lang": "fr",
   "icons": [
-    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
-    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
-    {"src": "favicon.svg", "sizes": "any", "type": "image/svg+xml"}
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "id": "./",
+  "scope": "./",
+  "orientation": "portrait",
+  "categories": [
+    "games",
+    "sports"
+  ],
+  "shortcuts": [
+    {
+      "name": "Boutique",
+      "short_name": "Boutique",
+      "url": "./#boutique",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Missions",
+      "short_name": "Missions",
+      "url": "./#missions",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Marché",
+      "short_name": "Marché",
+      "url": "./#marche",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
   ]
 }
